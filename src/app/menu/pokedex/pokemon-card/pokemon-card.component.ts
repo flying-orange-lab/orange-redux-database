@@ -15,7 +15,7 @@ export class PokemonCardComponent {
   isFront: boolean = true;
   isGenderFemale: boolean = false;
 
-  currentImageUrl: string = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/substitute.png';
+  currentImageUrl: string = "";
 
   constructor(
     private pokemonService: PokemonService,
@@ -91,7 +91,12 @@ export class PokemonCardComponent {
 
     const imageBlob = await this.pokemonImageService.getImage(urlKey);
     if (!imageBlob) {
-      this.currentImageUrl = "";
+      let altPath = this.pokemon.imageUrl;
+      if (!altPath && this.pokemon.form) {
+        altPath = this.pokemon.form[this.currentFormIndex].imageUrl;
+      }
+
+      this.currentImageUrl = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${altPath}`;
     } else {
       this.currentImageUrl = URL.createObjectURL(imageBlob);
     }

@@ -43,8 +43,8 @@ export class PokedexComponent implements OnInit {
     // Router.navigate()를 사용하여 쿼리 파라미터를 변경합니다.
     this.router.navigate([], {
       relativeTo: this.route, // 현재 라우트를 기준으로
-      queryParams: { search: this.pokemonSearchInput }, // 검색어를 'search' 파라미터로 추가
-      queryParamsHandling: 'merge' // 기존 파라미터를 유지하면서 'search'만 변경
+      queryParams: { search: this.pokemonSearchInput },
+      queryParamsHandling: 'merge'
     });
   }
 

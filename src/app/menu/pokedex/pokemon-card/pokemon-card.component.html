@@ -11,7 +11,6 @@
     </button>
     <img class="pokemon-image"
       [src]="currentImageUrl"
-      alt="{{ pokemon.koreanName || pokemon.name }}"
       (click)="toggleSprite()">
     <div class="pokemon-id">{{displayId}}</div>
     <div class="pokemon-name">{{ pokemon.koreanName || pokemon.name }}</div>
