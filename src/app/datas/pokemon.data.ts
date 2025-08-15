@@ -2728,17 +2728,17 @@ export const POKEMON_DATA_V3: Pokemon[] = [
             },
             {
                 formName: "어택",
-                imageUrl: "386.png",
+                imageUrl: "10001.png",
                 types: ["psychic"],
             },
             {
                 formName: "디펜스",
-                imageUrl: "386.png",
+                imageUrl: "10002.png",
                 types: ["psychic"],
             },
             {
                 formName: "스피드",
-                imageUrl: "386.png",
+                imageUrl: "10003.png",
                 types: ["psychic"],
             },
         ],
@@ -3510,7 +3510,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
             },
             {
                 formName: "오리진",
-                imageUrl: "487.png",
+                imageUrl: "10007.png",
                 types: ["ghost", "dragon"],
             },
         ]
@@ -3555,7 +3555,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
             },
             {
                 formName: "스카이",
-                imageUrl: "492.png",
+                imageUrl: "10006.png",
                 types: ["grass", "flying"],
             },
         ]
@@ -4016,7 +4016,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
             },
             {
                 formName: "달마모드",
-                imageUrl: "555.png",
+                imageUrl: "10017.png",
                 types: ["fire", "psychic"],
             },
         ]
