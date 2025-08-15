@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import { ActivatedRoute, Router } from '@angular/router';
-import { PokemonService } from '../../services/pokemon.service'; // 서비스를 만들었다고 가정
+import { PokemonService } from '../../services/pokemon.service';
 
 @Component({
   selector: 'app-pokedex',
@@ -26,6 +25,7 @@ export class PokedexComponent implements OnInit {
     // 실제로는 API 호출 등을 사용하게 될 것입니다.
     this.pokemonService.getAllPokemon().subscribe(data => {
       this.allPokemon = data;
+      this.searchResults = this.allPokemon.splice(0, 30);
 
       // URL 파라미터가 있다면 검색을 실행합니다.
       this.route.queryParams.subscribe(params => {
@@ -66,7 +66,12 @@ export class PokedexComponent implements OnInit {
     if (filtered.length === 0) {
       this.noResultsMessage = `'${searchTerm}'에 대한 검색 결과가 없습니다.`;
       this.searchResults = [];
-    } else {
+    } else if (filtered.length > 30) {
+      this.noResultsMessage = `총 ${filtered.length}개의 결과 중 30개만 표시되었습니다.`;
+      this.searchResults = filtered.splice(0, 30);
+    }
+
+    else {
       this.noResultsMessage = '';
       this.searchResults = filtered;
     }

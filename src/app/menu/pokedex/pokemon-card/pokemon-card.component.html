@@ -1,7 +1,19 @@
 <div class="pokemon-card-container">
   <div class="pokemon-card-content">
-    <img class="pokemon-image" [src]="currentImageUrl" alt="{{ pokemon.koreanName || pokemon.name }}">
-
+    <!-- 성별 표기-->
+    <button
+      class="gender-button"
+      [class.male-active]="!isGenderFemale" 
+      [class.female-active]="isGenderFemale" 
+      (click)="toggleGender()"
+      *ngIf="hasGender">
+      {{isGenderFemale ? '♀' : '♂'}}
+    </button>
+    <img class="pokemon-image"
+      [src]="currentImageUrl"
+      alt="{{ pokemon.koreanName || pokemon.name }}"
+      (click)="toggleSprite()">
+    <div class="pokemon-id">{{displayId}}</div>
     <div class="pokemon-name">{{ pokemon.koreanName || pokemon.name }}</div>
     <div class="pokemon-types-container" (click)="goToDefensePage(currentPokemon.types)">
       <span *ngFor="let type of currentPokemon.types" class="type-badge type-{{ type }}">

@@ -86,7 +86,7 @@ export class ImageProcessingService {
 
     throw new Error('Call error');
   }
-  
+
 
   async splitImage(img: HTMLImageElement, suffix_value: string): Promise<BlobObject[]> {
     const canvas = document.createElement("canvas");
@@ -111,13 +111,10 @@ export class ImageProcessingService {
           const sx = col * (this.tileWidth + this.separator) + this.separator;
           const sy_front = gen.startY + row * this.tileHeight + this.headerHeight;
           const sWidth = this.tileWidth;
-          const sHeight_full = (this.tileHeight - this.headerHeight);
-
-          if (this.isTileSolidColor(img, sx, sy_front, sWidth, sHeight_full, 144, 176, 176)) {
-            continue;
-          }
+          const sHeight_full = this.croppedHeight;
 
           count++;
+
           let suffix = null;
           if ([414, 415, 427, 554].includes(count)) {
             countMinus += 1;
@@ -134,6 +131,12 @@ export class ImageProcessingService {
                 break;
             }
           }
+
+          // 타일 전체가 배경색(#90b0b0)인지 확인합니다.
+          if (this.isTileSolidColor(img, sx, sy_front, sWidth, sHeight_full, 144, 176, 176)) {
+            continue;
+          }
+
           let imageKey = String(count - countMinus).padStart(3, "0");
           if (suffix != null) {
             imageKey = `${imageKey}-${String(suffix)}`;

@@ -7,18 +7,25 @@ import { PokemonService } from 'src/app/services/pokemon.service';
   templateUrl: './pokemon-card.component.html',
   styleUrls: ['./pokemon-card.component.less']
 })
-export class PokemonCardComponent implements OnChanges {
+export class PokemonCardComponent {
   @Input() pokemon: any;
   currentFormIndex: number = 0;
+  hasGender: boolean = false;
+
   isFront: boolean = true;
   isGenderFemale: boolean = false;
 
-  currentImageUrl: string = '';
+  currentImageUrl: string = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/substitute.png';
 
   constructor(
     private pokemonService: PokemonService,
     private pokemonImageService: PokemonImageService
   ) { }
+
+  async ngOnInit() {
+    const keyUrl = this.currentKeyname + "-female";
+    this.hasGender = await this.pokemonImageService.hasImage(keyUrl);
+  }
 
   ngOnChanges(changes: SimpleChanges): void {
     if (changes['pokemon'] && this.pokemon) {
@@ -31,6 +38,26 @@ export class PokemonCardComponent implements OnChanges {
   get currentPokemon(): any {
     // 폼이 있다면 현재 선택된 폼의 데이터를, 없다면 포켓몬 기본 데이터를 반환
     return this.pokemon.form?.[this.currentFormIndex] || this.pokemon;
+  }
+
+  get currentKeyname(){
+    let urlKey = String(this.pokemon.id).padStart(3, "0");
+
+    const prefix = this.isFront ? "front" : "back";
+    urlKey = `${prefix}-${urlKey}`;
+
+    if (this.currentFormIndex > 0) {
+      urlKey += `-${this.currentFormIndex}`;
+    }
+    return urlKey;
+  }
+
+  get displayId() {
+    return "#" + String(this.pokemon.id).padStart(3, "0")
+  }
+
+  displayType(typeName: string) {
+    return this.pokemonService.engToKorTypeMapper(typeName);
   }
 
   // 폼 선택
@@ -53,19 +80,9 @@ export class PokemonCardComponent implements OnChanges {
     this.updateImageUrl(); // 성별이 바뀌면 이미지 업데이트
   }
 
-  displayType(typeName: string) {
-    return this.pokemonService.engToKorTypeMapper(typeName);
-  }
-
   async updateImageUrl(): Promise<void> {
-    let urlKey = String(this.pokemon.id).padStart(3, "0");
-
-    const prefix = this.isFront ? "front" : "back";
-    urlKey = `${prefix}-${urlKey}`;
-
-    if (this.currentFormIndex > 0) {
-      urlKey += `-${this.currentFormIndex}`;
-    }
+    console.log("호출체크")
+    let urlKey = this.currentKeyname;
     if (this.isGenderFemale) {
       const genderKey = urlKey + "-female";
       if (await this.pokemonImageService.hasImage(genderKey)) {
@@ -75,7 +92,7 @@ export class PokemonCardComponent implements OnChanges {
 
     const imageBlob = await this.pokemonImageService.getImage(urlKey);
     if (!imageBlob) {
-      this.currentImageUrl = "hi";
+      this.currentImageUrl = "";
     } else {
       this.currentImageUrl = URL.createObjectURL(imageBlob);
     }
