@@ -54,7 +54,7 @@ export class ImageProcessingService {
 
   private isTileSolidColor(img: HTMLImageElement, sx: number, sy: number, sWidth: number, sHeight: number, r: number, g: number, b: number): boolean {
     const tempCanvas = document.createElement("canvas");
-    const tempCtx = tempCanvas.getContext("2d");
+    const tempCtx = tempCanvas.getContext("2d", { willReadFrequently: true });
     if (!tempCtx) throw new Error('2D context not available on canvas.');
 
     tempCanvas.width = sWidth;
@@ -90,7 +90,7 @@ export class ImageProcessingService {
 
   async splitImage(img: HTMLImageElement, suffix_value: string): Promise<BlobObject[]> {
     const canvas = document.createElement("canvas");
-    const ctx = canvas.getContext("2d");
+    const ctx = canvas.getContext("2d", { willReadFrequently: true });
     if (!ctx) throw new Error('2D context not available on canvas.');
 
     canvas.width = this.tileWidth;
