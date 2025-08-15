@@ -25,7 +25,8 @@ export class PokedexComponent implements OnInit {
     // 실제로는 API 호출 등을 사용하게 될 것입니다.
     this.pokemonService.getAllPokemon().subscribe(data => {
       this.allPokemon = data;
-      this.searchResults = this.allPokemon.splice(0, 30);
+      console.log(this.allPokemon)
+      this.searchResults = this.allPokemon.slice(0, 30);
 
       // URL 파라미터가 있다면 검색을 실행합니다.
       this.route.queryParams.subscribe(params => {
@@ -68,7 +69,7 @@ export class PokedexComponent implements OnInit {
       this.searchResults = [];
     } else if (filtered.length > 30) {
       this.noResultsMessage = `총 ${filtered.length}개의 결과 중 30개만 표시되었습니다.`;
-      this.searchResults = filtered.splice(0, 30);
+      this.searchResults = filtered.slice(0, 30);
     }
 
     else {
