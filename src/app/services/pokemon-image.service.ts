@@ -53,6 +53,10 @@ export class PokemonImageService extends Dexie {
     return count > 0;
   }
 
+  async deleteDatabase(): Promise<void> {
+    await this.delete(); // this는 Dexie 인스턴스입니다.
+    console.log('데이터베이스가 삭제되었습니다.');
+  }
 
   // 모든 이미지 분리 및 저장 로직을 서비스 메서드로 이동
   async splitAndStoreImage(img: HTMLImageElement, extra: string, onProgress: (progress: number) => void): Promise<void> {

@@ -47,4 +47,9 @@ export class SpriteCardComponent {
     };
     reader.readAsDataURL(file);
   }
+
+  async onDeleteDb() {
+    await this.pokemonImageService.deleteDatabase();
+    alert('데이터베이스가 성공적으로 삭제되었습니다.');
+  }
 }
