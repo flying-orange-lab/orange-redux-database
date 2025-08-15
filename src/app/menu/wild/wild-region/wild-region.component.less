@@ -1,0 +1,42 @@
+
+.region-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out; /* 부드러운 펼침/접힘 */
+}
+
+.region-content.expanded {
+  max-height: unset;
+  /* 실제 내용 높이에 따라 조절 필요, 또는 JavaScript로 동적 계산 */
+}
+
+
+.wild-encounter-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  font-size: 0.85em;
+}
+
+.wild-encounter-table th,
+.wild-encounter-table td {
+  border: 1px solid #ddd;
+  padding: 4px 6px;
+  text-align: left;
+}
+
+.wild-encounter-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wild-encounter-table td {
+  text-align: center;
+}
+
+.wild-encounter-table .area-header {
+  background-color: #e6f7ff; /* area 헤더 배경색 */
+  font-weight: bold;
+  text-align: center;
+}

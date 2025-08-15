@@ -1,0 +1,36 @@
+<div class="region-content" [class.expanded]="isExpanded" *ngIf="selectedRegion">
+  <div *ngIf="regionDatas.length > 1">
+  <button *ngFor="let region of regionDatas" (click)="selectRegion(region)"
+    [ngClass]="{'selected-button': region === selectedRegion}">
+    {{ region.locationStatus }}
+  </button>
+</div>
+  <table class="wild-encounter-table">
+    <thead>
+      <tr>
+        <th style="width: 6%;"></th>
+        <th style="width: 40%;">이름</th>
+        <th style="width: 20%;">최소 Lv</th>
+        <th style="width: 20%;">최대 Lv</th>
+        <th style="width: 20%;">출현율</th>
+      </tr>
+
+      <ng-container *ngFor="let areaData of selectedRegion.areaDatas">
+        <tr>
+          <td colspan="5" class="area-header">{{areaData.area}}</td>
+        </tr>
+        <tr *ngFor="let encounter of areaData.encounters">
+          <td
+            ngClass="caught-status-cell"
+            [attr.data-value]="getPokemonId(encounter.name)"></td>
+          <td>{{ encounter.name }}</td>
+          <td>{{ encounter.minLv }}</td>
+          <td>{{ encounter.maxLv }}</td>
+          <td>{{ encounter.rate }}%</td>
+        </tr>
+      </ng-container>
+    </thead>
+
+  </table>
+
+</div>
