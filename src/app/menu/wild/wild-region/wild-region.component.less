@@ -1,8 +1,8 @@
-
 .region-content {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.4s ease-out; /* 부드러운 펼침/접힘 */
+  transition: max-height 0.4s ease-out;
+  /* 부드러운 펼침/접힘 */
 }
 
 .region-content.expanded {
@@ -11,6 +11,41 @@
 }
 
 
+// 버튼
+.sub-condition-button-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  border-top: 1px dashed #eee;
+  margin-top: 15px;
+}
+
+.sub-condition-button {
+  padding: 8px 15px;
+  border: 1px solid #007bff;
+  background-color: #007bff;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.95em;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+.sub-condition-button:hover {
+  background-color: #0056b3;
+}
+
+.sub-condition-button.selected-button {
+  background-color: #004085;
+  border-color: #004085;
+  font-weight: bold;
+}
+
+// 야생
 .wild-encounter-table {
   width: 100%;
   border-collapse: collapse;
@@ -36,7 +71,8 @@
 }
 
 .wild-encounter-table .area-header {
-  background-color: #e6f7ff; /* area 헤더 배경색 */
+  background-color: #e6f7ff;
+  /* area 헤더 배경색 */
   font-weight: bold;
   text-align: center;
 }
