@@ -1,0 +1,28 @@
+# .github/workflows/deploy.yml
+name: Deploy Angular App to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # main 브랜치에 푸시될 때 워크플로 실행
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest  # Ubuntu 환경에서 실행
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22' # Node.js 버전 지정
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build and deploy
+        run: ng deploy --base-href=https://flying-orange-lab.github.io/orange-datasheet/
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
