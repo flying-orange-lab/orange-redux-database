@@ -1,0 +1,56 @@
+<section class="type-selection-section">
+  <h2>방어 상성 선택</h2>
+  <div class="type-buttons-grid" id="typeButtonsContainer">
+    <button *ngFor="let typeKey of selectLabel" class="type-button" [class.selected]="isSelected(typeKey)"
+      [ngClass]="'type-' + typeKey" (click)="selectType(typeKey)">
+      {{typeData[typeKey]}}
+    </button>
+  </div>
+  <button class="clear-button" id="clearSelectionButton" (click)="clearSelection()">초기화</button>
+</section>
+
+<section class="result-section">
+  <h2>방어 상성 결과</h2>
+  <ng-container *ngFor="let label of resultLabel">
+    <div class="type-category" *ngIf="calculatedResults[label]?.length">
+      <h3>{{label}}</h3>
+      <div class="type-grid">
+        <div *ngFor="let item of calculatedResults[label]" class="type-item selected" [ngClass]="'type-'+item.typeKey">{{item.type}}</div>
+      </div>
+
+    </div>
+  </ng-container>
+
+<!-- 
+  <div class="type-category hidden" id="weakness4x">
+    <h3>4배 약점</h3>
+    <div class="type-grid"></div>
+  </div>
+
+  <div class="type-category hidden" id="weakness2x">
+    <h3>2배 약점</h3>
+    <div class="type-grid"></div>
+  </div>
+
+  <div class="type-category hidden" id="normal1x">
+    <h3>1배 보통</h3>
+    <div class="type-grid"></div>
+  </div>
+
+  <div class="type-category hidden" id="resistance0_5x">
+    <h3>0.5배 저항</h3>
+    <div class="type-grid"></div>
+  </div>
+
+  <div class="type-category hidden" id="resistance0_25x">
+    <h3>0.25배 저항</h3>
+    <div class="type-grid"></div>
+  </div>
+
+  <div class="type-category hidden" id="immunity0x">
+    <h3>0배 무효</h3>
+    <div class="type-grid"></div>
+  </div> -->
+
+  <p class="empty-message" *ngIf="showInitialMessage">타입을 선택하면 방어 상성이 표시됩니다.</p>
+</section>

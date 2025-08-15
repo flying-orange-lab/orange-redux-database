@@ -102,7 +102,7 @@ export class PokemonCardComponent {
   goToDefensePage(types: string[]): void {
     console.log(types);
     const typeParams = types.map(type => `type=${type}`).join('&');
-    window.location.href = `defense.html?${typeParams}`;
+    window.location.href = `defense?${typeParams}`;
   }
 
   // 추가적인 폼, 성별 로직 등은 이 컴포넌트 내부에 구현됩니다.

@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { PokemonLocationComponent } from './menu/pokedex/pokemon-location/pokemon-location.component';
 import { PokemonCardComponent } from './menu/pokedex/pokemon-card/pokemon-card.component';
 import { SpriteCardComponent } from './home/sprite-card/sprite-card.component';
+import { DefenseComponent } from './menu/defense/defense.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { SpriteCardComponent } from './home/sprite-card/sprite-card.component';
     PokemonLocationComponent,
     PokemonCardComponent,
     SpriteCardComponent,
+    DefenseComponent,
   ],
   imports: [
     BrowserModule,

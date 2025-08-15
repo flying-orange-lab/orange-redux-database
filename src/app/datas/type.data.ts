@@ -1,10 +1,10 @@
 // 포켓몬 타입별 방어 상성 데이터
 // '공격 타입': { '방어 타입': 배율, ... }
 
-import { TypeDisplay } from "../models/type.model";
+import { TypeDisplay, TypeEffectiveData } from "../models/type.model";
 
 // 예: 'fire': { 'water': 2, ... } -> 물 타입 공격이 불꽃 타입 방어에 2배 데미지
-export const TYPE_EFFECTIVE_DATA = {
+export const TYPE_EFFECTIVE_DATA: TypeEffectiveData = {
     "normal": { "fighting": 2, "ghost": 0 },
     "fire": { "water": 2, "ground": 2, "rock": 2, "bug": 0.5, "steel": 0.5, "fire": 0.5, "grass": 0.5, "ice": 0.5, "fairy": 0.5 },
     "water": { "electric": 2, "grass": 2, "steel": 0.5, "fire": 0.5, "water": 0.5, "ice": 0.5 },
