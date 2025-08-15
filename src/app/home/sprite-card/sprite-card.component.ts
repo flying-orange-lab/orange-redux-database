@@ -20,14 +20,15 @@ export class SpriteCardComponent {
     const input = event.target as HTMLInputElement;
     if (!input.files || input.files.length === 0) return;
 
+    this.isSplitting = true;
+    this.progress = 0;
+
     const file = input.files[0];
     const reader = new FileReader();
 
     reader.onload = async (e: any) => {
       const img = new Image();
       img.onload = async () => {
-        this.isSplitting = true;
-        this.progress = 0;
         this.cdr.detectChanges(); // UI 업데이트
 
         try {
