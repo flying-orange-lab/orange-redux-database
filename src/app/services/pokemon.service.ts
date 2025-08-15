@@ -33,18 +33,20 @@ export class PokemonService {
     const lowerCasePokemonName = pokemonName.toLowerCase();
     const uniqueLocations = new Set<string>();
 
-    for (const regionName in POKEMON_WILDS_V3) {
-      const regionData = POKEMON_WILDS_V3[regionName];
+    for (const locationData of POKEMON_WILDS_V3) {
+      const locationName = locationData["locationName"];
+      const regionDatas = locationData["regionDatas"];
 
-      for (const conditionKey in regionData) {
-        const conditionAreas = regionData[conditionKey];
+      for (const regionData of regionDatas) {
+        const locationStatus = regionData["locationStatus"]
+        const areaDatas = regionData["areaDatas"];
 
-        const allEncounters = conditionAreas.flatMap(areaInfo =>
+        const allEncounters = areaDatas.flatMap(areaInfo =>
           areaInfo.encounters.map(encounter => ({
             ...encounter,
             area: areaInfo.area,
-            region: regionName,
-            condition: conditionKey
+            region: locationName,
+            condition: locationStatus
           }))
         );
 
@@ -52,15 +54,15 @@ export class PokemonService {
           const baseName = this.getBaseName(encounter.name);
 
           if (baseName.toLowerCase() === lowerCasePokemonName) {
-            const locationKey = `${regionName}|${conditionKey}|${encounter.area}`;
+            const locationKey = `${locationName}|${locationStatus}|${encounter.area}`;
 
             if (!uniqueLocations.has(locationKey)) {
               uniqueLocations.add(locationKey);
 
               const isDefaultCondition = Object.keys(regionData).length === 1;
               locations.push({
-                region: regionName,
-                condition: isDefaultCondition ? "" : conditionKey,
+                region: locationName,
+                condition: isDefaultCondition ? "" : locationStatus,
                 area: encounter.area,
                 minLv: encounter.minLv,
                 maxLv: encounter.maxLv,

@@ -1,9 +1,11 @@
 export interface WildArea {
-  [regionName: string]: RegionData;
+  locationName: string,
+  regionDatas: RegionData[]
 }
 
 export interface RegionData {
-  [conditionKey: string]: AreaInfo[];
+  locationStatus: string,
+  areaDatas: AreaInfo[];
 }
 
 export interface AreaInfo {
