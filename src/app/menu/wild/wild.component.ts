@@ -28,6 +28,7 @@ export class WildComponent {
     if (component) {
       component.toggleExpanded();
     }
+    this.scrollToSection(index);
   }
 
   async loadAllPokemonCatchStatus(): Promise<void> {
@@ -41,6 +42,13 @@ export class WildComponent {
   async handlePokemonCaught(event: { id: number, status: boolean }): Promise<void> {
     await this.pokemonCatchService.catchPokemon(event.id, event.status);
     this.pokemonCatchStatus[event.id] = event.status;
+  }
+
+  scrollToSection(index: number): void {
+    const element = document.getElementById(`location-section-${index}`);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   }
 
 

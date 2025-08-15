@@ -6,7 +6,7 @@
 @header-height: 60px;
 @hamburger-line-height: 3px;
 @hamburger-line-spacing: 9.5px;
-@menu-width: 70%;
+@menu-width: 50%;
 @menu-max-width: 300px;
 
 // 믹스인: Flexbox 중앙 정렬
@@ -36,8 +36,11 @@
   position: fixed;
   top: 0;
   left: 0;
+  height: 80px;
   width: 100%;
   z-index: 1000;
+
+
 
   .header-title {
     font-size: 1.2em;
@@ -89,6 +92,7 @@
 
   ul {
     list-style: none;
+    padding-inline-start: 0;
 
     li {
       margin-bottom: 20px;

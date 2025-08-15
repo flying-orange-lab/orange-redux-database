@@ -43,6 +43,11 @@ export class WildRegionComponent {
     if (!pokemonId) {
       return;
     }
+    if (status) {
+      console.log(`${name} 포켓몬을 잡았습니다.`)
+    } else {
+      console.log(`바이바이, ${name}`)
+    }
     this.pokemonCaught.emit({ id: pokemonId, status: status });
   }
 

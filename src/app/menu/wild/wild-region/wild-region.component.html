@@ -9,7 +9,7 @@
 
   <table class="wild-encounter-table">
     <thead>
-      <tr>
+      <tr class="wild-encounter-header">
         <th style="width: 6%;"></th>
         <th style="width: 40%;">이름</th>
         <th style="width: 20%;">최소 Lv</th>
@@ -23,8 +23,8 @@
         </tr>
         <tr *ngFor="let encounter of areaData.encounters">
           <td ngClass="caught-status-cell" [attr.data-value]="getPokemonId(encounter.name)"
-            (click)="onCatchPokemon(encounter.name, false)">
-            <svg *ngIf="pokemonCatchStatus && pokemonCatchStatus[getPokemonId(encounter.name)]" width="12" height="12"
+            >
+            <svg *ngIf="pokemonCatchStatus && pokemonCatchStatus[getPokemonId(encounter.name)]" (click)="onCatchPokemon(encounter.name, false)" width="12" height="12"
               viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M12 2C6.477 2 2 6.477 2 12C2 17.523 6.477 22 12 22C17.523 22 22 17.523 22 12C22 6.477 17.523 2 12 2Z"
