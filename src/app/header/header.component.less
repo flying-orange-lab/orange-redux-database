@@ -1,0 +1,110 @@
+// 변수 정의
+@primary-color: #333;
+@secondary-color: #444;
+@text-color: white;
+@transition-speed: 0.3s;
+@header-height: 60px;
+@hamburger-line-height: 3px;
+@hamburger-line-spacing: 9.5px;
+@menu-width: 70%;
+@menu-max-width: 300px;
+
+// 믹스인: Flexbox 중앙 정렬
+.flex-center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// 믹스인: 햄버거 줄 스타일
+.hamburger-line() {
+  display: block;
+  width: 100%;
+  height: @hamburger-line-height;
+  background-color: @text-color;
+  border-radius: 3px;
+  transition: all @transition-speed ease;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: @primary-color;
+  color: @text-color;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+
+  .header-title {
+    font-size: 1.2em;
+  }
+
+  .hamburger-button {
+    width: 30px;
+    height: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    z-index: 1001;
+
+    .line {
+      .hamburger-line();
+    }
+
+    &.active {
+      .line:nth-child(1) {
+        transform: translateY(@hamburger-line-spacing) rotate(45deg);
+      }
+      .line:nth-child(2) {
+        opacity: 0;
+      }
+      .line:nth-child(3) {
+        transform: translateY(-@hamburger-line-spacing) rotate(-45deg);
+      }
+    }
+  }
+}
+
+.nav-menu {
+  position: fixed;
+  top: @header-height;
+  right: -100%;
+  width: @menu-width;
+  max-width: @menu-max-width;
+  height: 100%;
+  background-color: @secondary-color;
+  padding: 20px;
+  transition: right 0.4s ease-in-out;
+  z-index: 999;
+
+  &.active {
+    right: 0;
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      margin-bottom: 20px;
+    }
+
+    a {
+      text-decoration: none;
+      color: @text-color;
+      font-size: 1.1em;
+      display: block;
+      padding: 10px;
+      border-radius: 5px;
+      transition: background-color 0.2s;
+
+      &:hover {
+        background-color: lighten(@secondary-color, 5%);
+      }
+    }
+  }
+}
