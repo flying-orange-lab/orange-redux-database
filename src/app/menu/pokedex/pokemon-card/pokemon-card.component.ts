@@ -81,7 +81,6 @@ export class PokemonCardComponent {
   }
 
   async updateImageUrl(): Promise<void> {
-    console.log("호출체크")
     let urlKey = this.currentKeyname;
     if (this.isGenderFemale) {
       const genderKey = urlKey + "-female";
@@ -100,7 +99,6 @@ export class PokemonCardComponent {
 
   // 방어 상성 페이지로 이동하는 함수
   goToDefensePage(types: string[]): void {
-    console.log(types);
     const typeParams = types.map(type => `type=${type}`).join('&');
     window.location.href = `defense?${typeParams}`;
   }

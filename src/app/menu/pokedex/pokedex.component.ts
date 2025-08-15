@@ -25,7 +25,6 @@ export class PokedexComponent implements OnInit {
     // 실제로는 API 호출 등을 사용하게 될 것입니다.
     this.pokemonService.getAllPokemon().subscribe(data => {
       this.allPokemon = data;
-      console.log(this.allPokemon)
       this.searchResults = this.allPokemon.slice(0, 30);
 
       // URL 파라미터가 있다면 검색을 실행합니다.
