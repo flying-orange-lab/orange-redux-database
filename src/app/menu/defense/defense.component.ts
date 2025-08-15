@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { TYPE_DISPLAY_DATA, TYPE_EFFECTIVE_DATA } from 'src/app/datas/type.data';
 
 @Component({
@@ -22,6 +23,21 @@ export class DefenseComponent {
   resultLabel = [
     "4배 약점", "2배 약점", "1배 보통", '0.5배 저항', '0.25배 저항', "0배 무효"
   ]
+
+  constructor(
+    private route: ActivatedRoute,
+  ) { }
+
+  ngOnInit(): void {
+    // URL 파라미터가 있다면 검색을 실행합니다.
+    this.route.queryParams.subscribe(params => {
+      if (params['type']) {
+        const queryTypes = Array.isArray(params['type']) ? params['type'] : [params['type']];
+        this.selectedTypes = queryTypes;
+        this.updateResults();
+      }
+    });
+  }
 
 
   selectType(typeKey: string): void {
@@ -89,10 +105,7 @@ export class DefenseComponent {
       this.calculatedResults[resultKey].push({
         type: this.typeData[attackTypeKey],
         typeKey: attackTypeKey,
-      })
+      });
     }
-
-
   }
-
 }
