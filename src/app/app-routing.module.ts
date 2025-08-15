@@ -1,9 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { PokedexComponent } from './menu/pokedex/pokedex.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent } // 기본 경로를 HomeComponent로 설정
+  { path: '', component: HomeComponent },
+  { path: 'pokedex', component: PokedexComponent },
 ];
 
 @NgModule({

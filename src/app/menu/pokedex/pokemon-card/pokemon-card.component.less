@@ -1,0 +1,210 @@
+/* 이미지와 기본 정보만 포함하는 컨테이너 */
+.pokemon-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  position: relative;
+  /* 성별 버튼의 absolute 위치 지정을 위해 */
+}
+
+.pokemon-card-content img.pokemon-image {
+  /* 이미지 선택자 변경 */
+  min-width: 100px;
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+  image-rendering: crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  cursor: pointer;
+  /* 이미지 클릭 가능함을 표시 */
+}
+
+.pokemon-card-content img.pokemon-image.disabled {
+  min-height: 100px;
+  opacity: 0;
+}
+
+/* 성별 버튼 스타일 */
+.gender-button {
+  position: absolute;
+  top: 5px;
+  /* 이미지 상단에 배치 */
+  right: 5px;
+  /* 이미지 오른쪽에 배치 */
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-size: 0.8em;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  /* 이미지 위에 오도록 */
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.gender-button:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
+}
+
+.gender-button.male-active {
+  color: #4caf50;
+  /* 남성 심볼 색상 (예: 초록) */
+  /* background-color: #e6ffe6; */
+}
+
+.gender-button.female-active {
+  color: #ff69b4;
+  /* 여성 심볼 색상 (예: 핑크) */
+  /* background-color: #ffe6f0; */
+}
+
+.pokemon-id {
+  font-size: 0.8em;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.pokemon-name {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+
+.pokemon-types-container {
+  /* 타입 컨테이너 */
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  width: 100%;
+  cursor: pointer;
+  /* 타입 클릭 가능함을 표시 */
+}
+
+.type-badge {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  color: white;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+/* 폼 선택 버튼 컨테이너 */
+.pokemon-form-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 10px 15px 5px;
+  border-top: 1px dashed #e0e0e0;
+}
+
+/* 개별 폼 버튼 */
+.form-button {
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 0.8em;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+  white-space: nowrap;
+}
+
+.form-button:hover {
+  background-color: #e0e0e0;
+}
+
+.form-button.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+  font-weight: bold;
+}
+
+
+/* 기존 타입별 배경색 (변경 없음) */
+.type-normal {
+  background-color: #a8a77a;
+}
+
+.type-fire {
+  background-color: #ee8130;
+}
+
+.type-water {
+  background-color: #6390f0;
+}
+
+.type-grass {
+  background-color: #7ac74c;
+}
+
+.type-electric {
+  background-color: #f7d02c;
+}
+
+.type-ice {
+  background-color: #96d9d6;
+}
+
+.type-fighting {
+  background-color: #c22e28;
+}
+
+.type-poison {
+  background-color: #a33ea1;
+}
+
+.type-ground {
+  background-color: #e2bf65;
+}
+
+.type-flying {
+  background-color: #a98ff3;
+}
+
+.type-psychic {
+  background-color: #f95587;
+}
+
+.type-bug {
+  background-color: #a6b91a;
+}
+
+.type-rock {
+  background-color: #b6a136;
+}
+
+.type-ghost {
+  background-color: #735797;
+}
+
+.type-dragon {
+  background-color: #6f35fc;
+}
+
+.type-steel {
+  background-color: #b7b7ce;
+}
+
+.type-dark {
+  background-color: #705746;
+}
+
+.type-fairy {
+  background-color: #d685ad;
+}

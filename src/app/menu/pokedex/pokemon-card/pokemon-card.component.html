@@ -1,0 +1,18 @@
+<div class="pokemon-card-container">
+  <div class="pokemon-card-content">
+    <img class="pokemon-image" [src]="currentImageUrl" alt="{{ pokemon.koreanName || pokemon.name }}">
+
+    <div class="pokemon-name">{{ pokemon.koreanName || pokemon.name }}</div>
+    <div class="pokemon-types-container" (click)="goToDefensePage(currentPokemon.types)">
+      <span *ngFor="let type of currentPokemon.types" class="type-badge type-{{ type }}">
+        {{ displayType(type) }} </span>
+    </div>
+  </div>
+
+  <div class="pokemon-form-buttons" *ngIf="pokemon.form && pokemon.form.length > 1">
+    <button *ngFor="let form of pokemon.form; let i = index" class="form-button" [class.active]="i === currentFormIndex"
+      (click)="selectForm(i)">
+      {{ form.formName }}
+    </button>
+  </div>
+</div>

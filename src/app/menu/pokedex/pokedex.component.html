@@ -1,0 +1,22 @@
+<main class="pokedex-page">
+  <section class="search-section">
+    <h2>포켓몬 검색</h2>
+    <div class="search-controls">
+      <input type="text" id="pokemonSearchInput" placeholder="포켓몬 이름을 검색하세요..." [(ngModel)]="pokemonSearchInput"
+        (keyup.enter)="onSearchButtonClick()" autocomplete="off" />
+      <button id="searchButton" (click)="onSearchButtonClick()">검색</button>
+    </div>
+
+    <p *ngIf="noResultsMessage" id="noResultsMessage">{{ noResultsMessage }}</p>
+
+    <div id="searchResults" class="pokemon-grid">
+      <div *ngFor="let pokemon of searchResults" class="pokemon-card-wrapper">
+        <app-pokemon-card [pokemon]="pokemon">
+        </app-pokemon-card>
+        <app-pokemon-location [pokemonName]="pokemon.koreanName"></app-pokemon-location>
+      </div>
+    </div>
+  </section>
+
+  <a routerLink="/">메인으로 돌아가기</a>
+</main>

@@ -1,0 +1,130 @@
+/* --- Pokedex Page Styles --- */
+main.pokedex-page {
+  padding-top: 80px; /* 고정된 헤더 높이만큼 패딩 추가 */
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 900px; /* 페이지 최대 너비 설정 */
+  margin: 0 auto; /* 중앙 정렬 */
+  padding-bottom: 40px; /* 하단 여백 */
+  text-align: center;
+}
+
+.search-section {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.search-section h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.search-controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#pokemonSearchInput {
+  width: 70%;
+  max-width: 400px;
+  padding: 12px 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1.1em;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+#pokemonSearchInput:focus {
+  border-color: #007bff;
+}
+
+#searchButton {
+  padding: 12px 25px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#searchButton:hover {
+  background-color: #0056b3;
+}
+
+.pokemon-grid {
+  display: grid;
+  /* 이전 minmax(300px, 1fr)에서 더 작은 카드를 허용하도록 조정 */
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: center;
+}
+/* ---------------------------------------------------- */
+/* 카드 전체를 감싸는 DIV (pokedex.js에서 `card` 변수가 됨) */
+.pokemon-card-wrapper {
+  background-color: #f8f8f8;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 100%; /* 그리드 아이템의 높이 꽉 채우기 */
+  display: flex;
+  flex-direction: column; /* 내부 요소를 세로로 정렬 */
+  overflow: hidden; /* 자식 요소의 튀어나오는 부분 방지 */
+  position: relative; /* 내부 요소 위치 지정을 위해 */
+  justify-content: start;
+  padding: 10px;
+}
+
+/* 호버 효과는 wrapper에 적용 */
+.pokemon-card-wrapper:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* 등장 위치 섹션 */
+.pokemon-location {
+  margin-top: 5px;
+  padding: 10px 0;
+  border-top: 1px dashed #e0e0e0;
+  font-size: 0.85em;
+  color: #555;
+  text-align: left;
+}
+.pokemon-location strong {
+  color: #007bff;
+}
+.location-entry {
+  margin-bottom: 3px;
+  line-height: 1.3;
+}
+
+.location-entry div:first-child::before {
+  content: "·";
+  display: inline-block;
+  width: 8px;
+}
+
+.location-entry div:not(:first-child) {
+  margin-left: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+#noResultsMessage {
+  color: #666;
+  font-size: 1.2em;
+  margin-top: 30px;
+}
