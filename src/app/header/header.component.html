@@ -1,6 +1,6 @@
 <header class="app-header">
-  <h1 class="header-title" routerLink="/" (click)="closeMenu()">
-    모에몬 리덕스 오렌지에디션 3.24
+  <h1 class="header-title" [routerLink]="['/', gameVersion]" (click)="closeMenu()">
+    {{getTitle()}}
   </h1>
   <div
     class="hamburger-button"
