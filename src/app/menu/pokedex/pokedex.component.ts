@@ -29,6 +29,10 @@ export class PokedexComponent implements OnInit {
 
       // URL 파라미터가 있다면 검색을 실행합니다.
       this.route.queryParams.subscribe(params => {
+        if (params['gte']) {
+          const gteValue = parseInt(params['gte']);
+          this.searchResults = this.allPokemon.slice(gteValue, gteValue + 30);
+        }
         if (params['search']) {
           const searchTerm = params['search'] || '';
           this.pokemonSearchInput = searchTerm;

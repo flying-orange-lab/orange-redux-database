@@ -13,6 +13,7 @@ import { SpriteCardComponent } from './home/sprite-card/sprite-card.component';
 import { DefenseComponent } from './menu/defense/defense.component';
 import { WildComponent } from './menu/wild/wild.component';
 import { WildRegionComponent } from './menu/wild/wild-region/wild-region.component';
+import { PokemonStatComponent } from './menu/pokedex/pokemon-stat/pokemon-stat.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { WildRegionComponent } from './menu/wild/wild-region/wild-region.compone
     DefenseComponent,
     WildComponent,
     WildRegionComponent,
+    PokemonStatComponent,
   ],
   imports: [
     BrowserModule,

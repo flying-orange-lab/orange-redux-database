@@ -2,8 +2,14 @@
   <section class="search-section">
     <h2>포켓몬 검색</h2>
     <div class="search-controls">
-      <input type="text" id="pokemonSearchInput" placeholder="포켓몬 이름을 검색하세요..." [(ngModel)]="pokemonSearchInput"
-        (keyup.enter)="onSearchButtonClick()" autocomplete="off" />
+      <input
+        type="text"
+        id="pokemonSearchInput"
+        placeholder="포켓몬 이름을 검색하세요..."
+        [(ngModel)]="pokemonSearchInput"
+        (keyup.enter)="onSearchButtonClick()"
+        autocomplete="off"
+      />
       <button id="searchButton" (click)="onSearchButtonClick()">검색</button>
     </div>
 
@@ -11,9 +17,14 @@
 
     <div id="searchResults" class="pokemon-grid">
       <div *ngFor="let pokemon of searchResults" class="pokemon-card-wrapper">
-        <app-pokemon-card [pokemon]="pokemon">
-        </app-pokemon-card>
-        <app-pokemon-location [pokemonName]="pokemon.koreanName"></app-pokemon-location>
+        <app-pokemon-card [pokemon]="pokemon"> </app-pokemon-card>
+        <app-pokemon-stat
+          *ngIf="pokemon.stats"
+          [pokemonStats]="pokemon.stats"
+        ></app-pokemon-stat>
+        <app-pokemon-location
+          [pokemonName]="pokemon.koreanName"
+        ></app-pokemon-location>
       </div>
     </div>
   </section>

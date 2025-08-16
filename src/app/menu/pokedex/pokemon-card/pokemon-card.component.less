@@ -16,7 +16,6 @@
   min-height: 128px;
   max-height: 128px;
   height: auto;
-  margin-bottom: 10px;
   image-rendering: crisp-edges;
   image-rendering: -webkit-optimize-contrast;
   cursor: pointer;
@@ -69,17 +68,21 @@
   /* background-color: #ffe6f0; */
 }
 
-.pokemon-id {
-  font-size: 0.8em;
-  color: #777;
+.pokemon-info {
+  display: flex;
+  gap: 10px;
   margin-bottom: 5px;
-}
+  align-items: baseline;
 
-.pokemon-name {
-  font-size: 1.2em;
-  font-weight: bold;
-  margin-bottom: 8px;
-  text-transform: capitalize;
+  .pokemon-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  .pokemon-id {
+    font-size: 0.8em;
+    color: #777;
+  }
 }
 
 .pokemon-types-container {
@@ -136,7 +139,6 @@
   border-color: #007bff;
   font-weight: bold;
 }
-
 
 /* 기존 타입별 배경색 (변경 없음) */
 .type-normal {

@@ -3,26 +3,45 @@
     <!-- 성별 표기-->
     <button
       class="gender-button"
-      [class.male-active]="!isGenderFemale" 
-      [class.female-active]="isGenderFemale" 
+      [class.male-active]="!isGenderFemale"
+      [class.female-active]="isGenderFemale"
       (click)="toggleGender()"
-      *ngIf="hasGender">
-      {{isGenderFemale ? '♀' : '♂'}}
+      *ngIf="hasGender"
+    >
+      {{ isGenderFemale ? "♀" : "♂" }}
     </button>
-    <img class="pokemon-image"
+    <img
+      class="pokemon-image"
       [src]="currentImageUrl"
-      (click)="toggleSprite()">
-    <div class="pokemon-id">{{displayId}}</div>
-    <div class="pokemon-name">{{ pokemon.koreanName || pokemon.name }}</div>
-    <div class="pokemon-types-container" (click)="goToDefensePage(currentPokemon.types)">
-      <span *ngFor="let type of currentPokemon.types" class="type-badge type-{{ type }}">
-        {{ displayType(type) }} </span>
+      (click)="toggleSprite()"
+    />
+    <div class="pokemon-info">
+      <div class="pokemon-name">{{ pokemon.koreanName || pokemon.name }}</div>
+      <div class="pokemon-id">{{ displayId }}</div>
+    </div>
+    <div
+      class="pokemon-types-container"
+      (click)="goToDefensePage(currentPokemon.types)"
+    >
+      <span
+        *ngFor="let type of currentPokemon.types"
+        class="type-badge type-{{ type }}"
+      >
+        {{ displayType(type) }}
+      </span>
     </div>
   </div>
 
-  <div class="pokemon-form-buttons" *ngIf="pokemon.form && pokemon.form.length > 1">
-    <button *ngFor="let form of pokemon.form; let i = index" class="form-button" [class.active]="i === currentFormIndex"
-      (click)="selectForm(i)">
+  <div
+    class="pokemon-form-buttons"
+    *ngIf="pokemon.form && pokemon.form.length > 1"
+  >
+    <button
+      *ngFor="let form of pokemon.form; let i = index"
+      class="form-button"
+      [class.active]="i === currentFormIndex"
+      (click)="selectForm(i)"
+    >
       {{ form.formName }}
     </button>
   </div>
