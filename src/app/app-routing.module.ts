@@ -7,11 +7,11 @@ import { WildComponent } from './menu/wild/wild.component';
 import { ItemsComponent } from './menu/items/items.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'pokedex', component: PokedexComponent },
-  { path: 'defense', component: DefenseComponent },
-  { path: 'wild', component: WildComponent },
-  { path: 'item', component: ItemsComponent },
+  { path: ':gameVersion', component: HomeComponent },
+  { path: ':gameVersion/pokedex', component: PokedexComponent },
+  { path: ':gameVersion/defense', component: DefenseComponent },
+  { path: ':gameVersion/wild', component: WildComponent },
+  { path: ':gameVersion/item', component: ItemsComponent },
 ];
 
 @NgModule({

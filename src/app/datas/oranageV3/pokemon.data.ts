@@ -1,4 +1,5 @@
-import { Pokemon } from "../models/pokemon.model";
+import { Pokemon } from "src/app/models/pokemon.model";
+
 
 export const POKEMON_DATA_V3: Pokemon[] = [
     {

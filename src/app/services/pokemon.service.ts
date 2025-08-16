@@ -1,17 +1,16 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { Pokemon } from '../models/pokemon.model';
-import { POKEMON_DATA_V3 } from '../datas/pokemon.data';
-import { POKEMON_WILDS_V3 } from '../datas/wilds.data';
 import { PokemonLocation } from '../models/wilds.model';
 import { TYPE_DISPLAY_DATA } from '../datas/type.data';
+import { DataHandleService } from './data-handle.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class PokemonService {
 
-  constructor() { }
+  constructor(private dataHandleService: DataHandleService) { }
 
   private getBaseName(pokemonName: string): string {
     if (pokemonName.startsWith("대쓰여너")) {
@@ -24,12 +23,12 @@ export class PokemonService {
   }
 
   getAllPokemon(): Observable<Pokemon[]> {
-    return of(POKEMON_DATA_V3);
+    return of(this.dataHandleService.pokemonDatas);
   }
 
   findPokemon(pokemonName:string) {
     const baseName = this.getBaseName(pokemonName);
-    return POKEMON_DATA_V3.find((pokemon: Pokemon) => pokemon.koreanName === baseName);
+    return this.dataHandleService.pokemonDatas.find((pokemon: Pokemon) => pokemon.koreanName === baseName);
   }
 
   findPokemonLocations(pokemonName: string) {
@@ -38,7 +37,7 @@ export class PokemonService {
     const lowerCasePokemonName = pokemonName.toLowerCase();
     const uniqueLocations = new Set<string>();
 
-    for (const locationData of POKEMON_WILDS_V3) {
+    for (const locationData of this.dataHandleService.wildDatas) {
       const locationName = locationData["locationName"];
       const regionDatas = locationData["regionDatas"];
 

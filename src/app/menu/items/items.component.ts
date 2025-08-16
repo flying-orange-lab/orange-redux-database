@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-import { ITEM_DATA_V3 } from 'src/app/datas/item.data';
+import { ActivatedRoute } from '@angular/router';
+import { PokeItem } from 'src/app/models/item.model';
+import { DataHandleService } from 'src/app/services/data-handle.service';
 import { ItemService } from 'src/app/services/item.service';
 
 @Component({
@@ -8,14 +10,26 @@ import { ItemService } from 'src/app/services/item.service';
   styleUrls: ['./items.component.less'],
 })
 export class ItemsComponent {
-  itemDatas = ITEM_DATA_V3;
+  itemDatas: PokeItem[] = [];
   expandedLocation: number | null = null;
   private takenItemsMap: Map<string, boolean> = new Map();
 
-  constructor(private itemService: ItemService) {}
+  constructor(
+    private route: ActivatedRoute,
+    private itemService: ItemService,
+    private dataHandleService: DataHandleService
+  ) {}
 
   ngOnInit(): void {
-    this.loadAllTakenItems();
+    // 데이터 처리
+    const gameVersion = this.route.snapshot.paramMap.get('gameVersion')!;
+    this.dataHandleService.setGameVersion(gameVersion);
+    this.itemDatas = this.dataHandleService.itemDatas;
+
+    if (this.itemDatas) {
+      // 포켓몬 포획 정보
+      this.loadAllTakenItems();
+    }
   }
 
   async loadAllTakenItems(): Promise<void> {

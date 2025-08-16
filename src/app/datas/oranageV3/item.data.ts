@@ -1,4 +1,6 @@
-export const ITEM_DATA_V3 = [
+import { PokeItem } from "src/app/models/item.model";
+
+export const ITEM_DATA_V3: PokeItem[] = [
     {
         "location": "부채시티",
         "itemList": [

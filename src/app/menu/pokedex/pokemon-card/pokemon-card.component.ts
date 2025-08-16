@@ -1,11 +1,13 @@
 import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { Router } from '@angular/router';
+import { DataHandleService } from 'src/app/services/data-handle.service';
 import { PokemonImageService } from 'src/app/services/pokemon-image.service';
 import { PokemonService } from 'src/app/services/pokemon.service';
 
 @Component({
   selector: 'app-pokemon-card',
   templateUrl: './pokemon-card.component.html',
-  styleUrls: ['./pokemon-card.component.less']
+  styleUrls: ['./pokemon-card.component.less'],
 })
 export class PokemonCardComponent {
   @Input() pokemon: any;
@@ -15,15 +17,17 @@ export class PokemonCardComponent {
   isFront: boolean = true;
   isGenderFemale: boolean = false;
 
-  currentImageUrl: string = "";
+  currentImageUrl: string = '';
 
   constructor(
+    private router: Router,
+    private dataHandleService: DataHandleService,
     private pokemonService: PokemonService,
     private pokemonImageService: PokemonImageService
-  ) { }
+  ) {}
 
   async ngOnInit() {
-    const keyUrl = this.currentKeyname + "-female";
+    const keyUrl = this.currentKeyname + '-female';
     this.hasGender = await this.pokemonImageService.hasImage(keyUrl);
   }
 
@@ -32,18 +36,17 @@ export class PokemonCardComponent {
       this.currentFormIndex = 0; // 새로운 포켓몬이 로드되면 폼을 초기화
       this.updateImageUrl();
     }
-  };
-
+  }
 
   get currentPokemon(): any {
     // 폼이 있다면 현재 선택된 폼의 데이터를, 없다면 포켓몬 기본 데이터를 반환
     return this.pokemon.form?.[this.currentFormIndex] || this.pokemon;
   }
 
-  get currentKeyname(){
-    let urlKey = String(this.pokemon.id).padStart(3, "0");
+  get currentKeyname() {
+    let urlKey = String(this.pokemon.id).padStart(3, '0');
 
-    const prefix = this.isFront ? "front" : "back";
+    const prefix = this.isFront ? 'front' : 'back';
     urlKey = `${prefix}-${urlKey}`;
 
     if (this.currentFormIndex > 0) {
@@ -53,7 +56,7 @@ export class PokemonCardComponent {
   }
 
   get displayId() {
-    return "#" + String(this.pokemon.id).padStart(3, "0")
+    return '#' + String(this.pokemon.id).padStart(3, '0');
   }
 
   displayType(typeName: string) {
@@ -83,7 +86,7 @@ export class PokemonCardComponent {
   async updateImageUrl(): Promise<void> {
     let urlKey = this.currentKeyname;
     if (this.isGenderFemale) {
-      const genderKey = urlKey + "-female";
+      const genderKey = urlKey + '-female';
       if (await this.pokemonImageService.hasImage(genderKey)) {
         urlKey = genderKey;
       }
@@ -104,8 +107,10 @@ export class PokemonCardComponent {
 
   // 방어 상성 페이지로 이동하는 함수
   goToDefensePage(types: string[]): void {
-    const typeParams = types.map(type => `type=${type}`).join('&');
-    window.location.href = `defense?${typeParams}`;
+    const gameVersion = this.dataHandleService.getGameVersion();
+    this.router.navigate([gameVersion, 'defense'], {
+      queryParams: { type: types },
+    });
   }
 
   // 추가적인 폼, 성별 로직 등은 이 컴포넌트 내부에 구현됩니다.
@@ -115,5 +120,4 @@ export class PokemonCardComponent {
       URL.revokeObjectURL(this.currentImageUrl);
     }
   }
-
 }

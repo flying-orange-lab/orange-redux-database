@@ -1,7 +1,9 @@
 import { Component, QueryList, ViewChildren } from '@angular/core';
-import { POKEMON_WILDS_V3 } from 'src/app/datas/wilds.data';
 import { WildRegionComponent } from './wild-region/wild-region.component';
 import { PokemonCatchService } from 'src/app/services/pokemon-catch.service';
+import { DataHandleService } from 'src/app/services/data-handle.service';
+import { ActivatedRoute } from '@angular/router';
+import { WildArea } from 'src/app/models/wilds.model';
 
 @Component({
   selector: 'app-wild',
@@ -9,14 +11,21 @@ import { PokemonCatchService } from 'src/app/services/pokemon-catch.service';
   styleUrls: ['./wild.component.less']
 })
 export class WildComponent {
-  wildData = POKEMON_WILDS_V3
+  wildData?: WildArea[];
   pokemonCatchStatus: { [id: number]: boolean } = {};
 
   @ViewChildren(WildRegionComponent) wildRegionComponents!: QueryList<WildRegionComponent>;
 
-  constructor(private pokemonCatchService: PokemonCatchService) { }
+  constructor(
+    private route: ActivatedRoute,
+    private pokemonCatchService: PokemonCatchService,
+    private dataHandleService: DataHandleService,
+  ) {}
 
   ngOnInit(): void {
+    // 데이터 처리
+    this.wildData = this.dataHandleService.wildDatas;
+
     // 모든 포켓몬의 포획 상태를 한 번에 불러옴
     this.loadAllPokemonCatchStatus();
   }

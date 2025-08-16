@@ -1,4 +1,4 @@
-import { WildArea } from "../models/wilds.model";
+import { WildArea } from "../../models/wilds.model";
 
 export const POKEMON_WILDS_V3: WildArea[] = [
     {
