@@ -29,7 +29,7 @@ export class PokemonService {
 
   findPokemon(pokemonName:string) {
     const baseName = this.getBaseName(pokemonName);
-    return POKEMON_DATA_V3.find((pokemon) => pokemon.koreanName === baseName);
+    return POKEMON_DATA_V3.find((pokemon: Pokemon) => pokemon.koreanName === baseName);
   }
 
   findPokemonLocations(pokemonName: string) {
