@@ -1,7 +1,5 @@
 /* --- Pokedex Page Styles --- */
 main.pokedex-page {
-  padding-left: 20px;
-  padding-right: 20px;
   max-width: 900px; /* 페이지 최대 너비 설정 */
   margin: 0 auto; /* 중앙 정렬 */
   padding-bottom: 40px; /* 하단 여백 */
@@ -14,6 +12,7 @@ main.pokedex-page {
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
+  min-width: 300px;
 }
 
 .search-section h2 {
@@ -63,11 +62,24 @@ main.pokedex-page {
 .pokemon-grid {
   display: grid;
   /* 이전 minmax(300px, 1fr)에서 더 작은 카드를 허용하도록 조정 */
-  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  grid-template-columns: 1fr;
   gap: 20px;
   margin-top: 20px;
   justify-content: center;
 }
+@media (min-width: 680px) {
+  .pokemon-grid {
+    grid-template-columns: repeat(2, 1fr)
+  }
+}
+
+@media (min-width: 900px) {
+  .pokemon-grid {
+    grid-template-columns: repeat(3, 1fr); /* 900px 이상이면 3개 */
+  }
+}
+
+
 /* ---------------------------------------------------- */
 /* 카드 전체를 감싸는 DIV (pokedex.js에서 `card` 변수가 됨) */
 .pokemon-card-wrapper {
