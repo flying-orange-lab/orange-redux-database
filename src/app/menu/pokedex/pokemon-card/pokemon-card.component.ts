@@ -11,6 +11,7 @@ import { PokemonService } from 'src/app/services/pokemon.service';
 })
 export class PokemonCardComponent {
   @Input() pokemon: any;
+  currentPokemonStats: number[] = [0, 0, 0, 0, 0, 0, 0];
   currentFormIndex: number = 0;
   hasGender: boolean = false;
 
@@ -34,7 +35,7 @@ export class PokemonCardComponent {
   ngOnChanges(changes: SimpleChanges): void {
     if (changes['pokemon'] && this.pokemon) {
       this.currentFormIndex = 0; // 새로운 포켓몬이 로드되면 폼을 초기화
-      this.updateImageUrl();
+      this.updatePokemonInfo();
     }
   }
 
@@ -67,20 +68,31 @@ export class PokemonCardComponent {
   selectForm(index: number): void {
     if (this.currentFormIndex !== index) {
       this.currentFormIndex = index;
-      this.updateImageUrl(); // 폼이 바뀌면 이미지 업데이트
+      this.updatePokemonInfo(); // 폼이 바뀌면 이미지 업데이트
     }
   }
 
   // 앞/뒷면 토글
   toggleSprite(): void {
     this.isFront = !this.isFront;
-    this.updateImageUrl(); // 앞/뒷면이 바뀌면 이미지 업데이트
+    this.updatePokemonInfo(); // 앞/뒷면이 바뀌면 이미지 업데이트
   }
 
   // 성별 토글
   toggleGender(): void {
     this.isGenderFemale = !this.isGenderFemale;
-    this.updateImageUrl(); // 성별이 바뀌면 이미지 업데이트
+    this.updatePokemonInfo(); // 성별이 바뀌면 이미지 업데이트
+  }
+
+  // 포켓몬 정보 업데이트
+  async updatePokemonInfo() {
+    let stats = this.pokemon.stats;
+    if (stats === undefined) {
+      stats = this.pokemon.form[this.currentFormIndex].stats;
+    }
+    this.currentPokemonStats = stats;
+
+    await this.updateImageUrl();
   }
 
   async updateImageUrl(): Promise<void> {

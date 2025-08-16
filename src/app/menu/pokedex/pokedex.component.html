@@ -17,11 +17,7 @@
 
     <div id="searchResults" class="pokemon-grid">
       <div *ngFor="let pokemon of searchResults" class="pokemon-card-wrapper">
-        <app-pokemon-card [pokemon]="pokemon"> </app-pokemon-card>
-        <app-pokemon-stat
-          *ngIf="pokemon.stats"
-          [pokemonStats]="pokemon.stats"
-        ></app-pokemon-stat>
+        <app-pokemon-card [pokemon]="pokemon"> </app-pokemon-card>        
         <app-pokemon-location
           [pokemonName]="pokemon.koreanName"
         ></app-pokemon-location>

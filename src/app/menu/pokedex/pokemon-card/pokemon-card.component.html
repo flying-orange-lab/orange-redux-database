@@ -45,4 +45,9 @@
       {{ form.formName }}
     </button>
   </div>
+
+  <app-pokemon-stat
+    *ngIf="currentPokemonStats"
+    [pokemonStats]="currentPokemonStats"
+  ></app-pokemon-stat>
 </div>
