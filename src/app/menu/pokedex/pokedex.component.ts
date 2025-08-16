@@ -70,8 +70,6 @@ export class PokedexComponent implements OnInit {
       number = Math.max(0, number - 30);
     }
 
-    console.log(number);
-
     this.router.navigate([], {
       relativeTo: this.route,
       queryParams: { gte: number }, // 페이지 번호 쿼리 파라미터 추가
@@ -85,15 +83,14 @@ export class PokedexComponent implements OnInit {
     // 이름 또는 한국어 이름으로 필터링합니다.
     const filtered = this.allPokemon.filter((pokemon) => {
       if (this.pokemonSearchAttr && !pokemon.form) {
-        console.log()
         return false;
       }
 
-      if (lowerCaseSearchTerm.length === 0) {        
+      if (lowerCaseSearchTerm.length > 0) {
         if (pokemon.name.toLowerCase().includes(lowerCaseSearchTerm)) {
           return true;
         }
-        
+
         if (
           pokemon.koreanName &&
           pokemon.koreanName.toLowerCase().includes(lowerCaseSearchTerm)
@@ -103,8 +100,6 @@ export class PokedexComponent implements OnInit {
 
         return false;
       }
-
-
       return true;
     });
 
@@ -113,7 +108,10 @@ export class PokedexComponent implements OnInit {
       this.searchResults = [];
     } else if (filtered.length > 30) {
       this.noResultsMessage = `총 ${filtered.length}개의 결과 중 30개만 표시되었습니다.`;
-      this.searchResults = filtered.slice(0, 30);
+      this.searchResults = filtered.slice(
+        this.pokemonSearchOffset,
+        this.pokemonSearchOffset + 30
+      );
     } else {
       this.noResultsMessage = '';
       this.searchResults = filtered;

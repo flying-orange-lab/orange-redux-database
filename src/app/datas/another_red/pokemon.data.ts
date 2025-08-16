@@ -694,7 +694,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "알로라의 모습",
+        "formName": "알로라",
         "imageUrl": "10091.png",
         "types": [
           "dark",
@@ -747,7 +747,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "알로라의 모습",
+        "formName": "알로라",
         "imageUrl": "10092.png",
         "types": [
           "dark",
@@ -941,7 +941,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "알로라의 모습",
+        "formName": "알로라",
         "imageUrl": "10100.png",
         "types": [
           "electric",
@@ -991,7 +991,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "알로라의 모습",
+        "formName": "알로라",
         "imageUrl": "10101.png",
         "types": [
           "ice",
@@ -1042,7 +1042,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "알로라의 모습",
+        "formName": "알로라",
         "imageUrl": "10102.png",
         "types": [
           "ice",
@@ -1279,7 +1279,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "알로라의 모습",
+        "formName": "알로라",
         "imageUrl": "10103.png",
         "types": [
           "ice"
@@ -1329,7 +1329,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "알로라의 모습",
+        "formName": "알로라",
         "imageUrl": "10104.png",
         "types": [
           "ice",
@@ -1640,7 +1640,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "알로라의 모습",
+        "formName": "알로라",
         "imageUrl": "10105.png",
         "types": [
           "ground",
@@ -1693,7 +1693,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "알로라의 모습",
+        "formName": "알로라",
         "imageUrl": "10106.png",
         "types": [
           "ground",
@@ -1746,7 +1746,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "알로라의 모습",
+        "formName": "알로라",
         "imageUrl": "10107.png",
         "types": [
           "dark"
@@ -1767,7 +1767,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "가라르의 모습",
+        "formName": "가라르",
         "imageUrl": "10161.png",
         "types": [
           "steel"
@@ -1840,7 +1840,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "알로라의 모습",
+        "formName": "알로라",
         "imageUrl": "10108.png",
         "types": [
           "dark"
@@ -1984,7 +1984,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "growlithe-hisui",
+        "formName": "히스이",
         "imageUrl": "10229.png",
         "types": [
           "fire",
@@ -2037,7 +2037,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "arcanine-hisui",
+        "formName": "히스이",
         "imageUrl": "10230.png",
         "types": [
           "fire",
@@ -2473,7 +2473,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "알로라의 모습",
+        "formName": "알로라",
         "imageUrl": "10109.png",
         "types": [
           "rock",
@@ -2528,7 +2528,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "알로라의 모습",
+        "formName": "알로라",
         "imageUrl": "10110.png",
         "types": [
           "rock",
@@ -2583,7 +2583,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "알로라의 모습",
+        "formName": "알로라",
         "imageUrl": "10111.png",
         "types": [
           "rock",
@@ -2636,7 +2636,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "가라르의 모습",
+        "formName": "가라르",
         "imageUrl": "10162.png",
         "types": [
           "psychic"
@@ -2688,7 +2688,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "가라르의 모습",
+        "formName": "가라르",
         "imageUrl": "10163.png",
         "types": [
           "psychic",
@@ -2743,7 +2743,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "가라르의 모습",
+        "formName": "가라르",
         "imageUrl": "10164.png",
         "types": [
           "psychic"
@@ -2817,7 +2817,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "가라르의 모습",
+        "formName": "가라르",
         "imageUrl": "10165.png",
         "types": [
           "poison",
@@ -2920,7 +2920,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "가라르의 모습",
+        "formName": "가라르",
         "imageUrl": "10166.png",
         "types": [
           "fighting"
@@ -3066,7 +3066,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "알로라의 모습",
+        "formName": "알로라",
         "imageUrl": "10112.png",
         "types": [
           "poison",
@@ -3119,7 +3119,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "알로라의 모습",
+        "formName": "알로라",
         "imageUrl": "10113.png",
         "types": [
           "poison",
@@ -3479,7 +3479,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "voltorb-hisui",
+        "formName": "히스이",
         "imageUrl": "10231.png",
         "types": [
           "electric",
@@ -3532,7 +3532,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "electrode-hisui",
+        "formName": "히스이",
         "imageUrl": "10232.png",
         "types": [
           "electric",
@@ -3609,7 +3609,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "알로라의 모습",
+        "formName": "알로라",
         "imageUrl": "10114.png",
         "types": [
           "grass",
@@ -3684,7 +3684,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "알로라의 모습",
+        "formName": "알로라",
         "imageUrl": "10115.png",
         "types": [
           "fire",
@@ -3829,7 +3829,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "가라르의 모습",
+        "formName": "가라르",
         "imageUrl": "10167.png",
         "types": [
           "poison",
@@ -4167,7 +4167,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "가라르의 모습",
+        "formName": "가라르",
         "imageUrl": "10168.png",
         "types": [
           "ice",
@@ -4363,7 +4363,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "tauros-paldea-combat-breed",
+        "formName": "팔데아-컴뱃",
         "imageUrl": "10250.png",
         "types": [
           "fighting"
@@ -4384,7 +4384,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "tauros-paldea-blaze-breed",
+        "formName": "팔데아-블레이즈",
         "imageUrl": "10251.png",
         "types": [
           "fighting",
@@ -4406,7 +4406,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "tauros-paldea-aqua-breed",
+        "formName": "팔데아-워터",
         "imageUrl": "10252.png",
         "types": [
           "fighting",
@@ -4953,7 +4953,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "가라르의 모습",
+        "formName": "가라르",
         "imageUrl": "10169.png",
         "types": [
           "psychic",
@@ -5005,7 +5005,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "가라르의 모습",
+        "formName": "가라르",
         "imageUrl": "10170.png",
         "types": [
           "fighting",
@@ -5057,7 +5057,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "가라르의 모습",
+        "formName": "가라르",
         "imageUrl": "10171.png",
         "types": [
           "dark",
@@ -5374,7 +5374,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "typhlosion-hisui",
+        "formName": "히스이",
         "imageUrl": "10233.png",
         "types": [
           "fire",
@@ -6294,7 +6294,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "wooper-paldea",
+        "formName": "팔데아",
         "imageUrl": "10253.png",
         "types": [
           "poison",
@@ -6441,7 +6441,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "가라르의 모습",
+        "formName": "가라르",
         "imageUrl": "10172.png",
         "types": [
           "poison",
@@ -6775,7 +6775,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "qwilfish-hisui",
+        "formName": "히스이",
         "imageUrl": "10234.png",
         "types": [
           "dark",
@@ -6960,7 +6960,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "sneasel-hisui",
+        "formName": "히스이",
         "imageUrl": "10235.png",
         "types": [
           "fighting",
@@ -7156,7 +7156,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "가라르의 모습",
+        "formName": "가라르",
         "imageUrl": "10173.png",
         "types": [
           "ghost"
@@ -8264,7 +8264,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "가라르의 모습",
+        "formName": "가라르",
         "imageUrl": "10174.png",
         "types": [
           "dark",
@@ -8317,7 +8317,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "가라르의 모습",
+        "formName": "가라르",
         "imageUrl": "10175.png",
         "types": [
           "dark",
@@ -10582,7 +10582,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     ],
     "form": [
       {
-        "formName": "캐스퐁의 모습",
+        "formName": "일반",
         "imageUrl": "351.png",
         "types": [
           "normal"
@@ -10601,7 +10601,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "태양의 모습",
+        "formName": "태양",
         "imageUrl": "10013.png",
         "types": [
           "fire"
@@ -10620,7 +10620,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "빗방울의 모습",
+        "formName": "빗방울",
         "imageUrl": "10014.png",
         "types": [
           "water"
@@ -10639,7 +10639,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "설운의 모습",
+        "formName": "설운",
         "imageUrl": "10015.png",
         "types": [
           "ice"
@@ -11543,7 +11543,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     ],
     "form": [
       {
-        "formName": "가이오가의 모습",
+        "formName": "일반",
         "imageUrl": "382.png",
         "types": [
           "water"
@@ -11562,7 +11562,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "원시회귀의 모습",
+        "formName": "원시회귀",
         "imageUrl": "10077.png",
         "types": [
           "water"
@@ -11591,7 +11591,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     ],
     "form": [
       {
-        "formName": "그란돈의 모습",
+        "formName": "일반",
         "imageUrl": "383.png",
         "types": [
           "ground"
@@ -11610,7 +11610,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "원시회귀의 모습",
+        "formName": "원시회귀",
         "imageUrl": "10078.png",
         "types": [
           "ground",
@@ -14109,7 +14109,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     ],
     "form": [
       {
-        "formName": "로토무의 모습",
+        "formName": "일반",
         "imageUrl": "479.png",
         "types": [
           "electric",
@@ -14129,7 +14129,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "히트로토무",
+        "formName": "히트",
         "imageUrl": "10008.png",
         "types": [
           "electric",
@@ -14149,7 +14149,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "워시로토무",
+        "formName": "워시",
         "imageUrl": "10009.png",
         "types": [
           "electric",
@@ -14169,7 +14169,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "프로스트로토무",
+        "formName": "프로스트",
         "imageUrl": "10010.png",
         "types": [
           "electric",
@@ -14189,7 +14189,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "스핀로토무",
+        "formName": "스핀",
         "imageUrl": "10011.png",
         "types": [
           "electric",
@@ -14209,7 +14209,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "커트로토무",
+        "formName": "커트",
         "imageUrl": "10012.png",
         "types": [
           "electric",
@@ -14324,7 +14324,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "dialga-origin",
+        "formName": "오리진폼",
         "imageUrl": "10245.png",
         "types": [
           "steel",
@@ -14377,7 +14377,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "palkia-origin",
+        "formName": "오리진폼",
         "imageUrl": "10246.png",
         "types": [
           "water",
@@ -14878,7 +14878,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "samurott-hisui",
+        "formName": "히스이",
         "imageUrl": "10236.png",
         "types": [
           "water",
@@ -16003,7 +16003,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "lilligant-hisui",
+        "formName": "히스이",
         "imageUrl": "10237.png",
         "types": [
           "grass",
@@ -16035,7 +16035,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     ],
     "form": [
       {
-        "formName": "적색근의 모습",
+        "formName": "적색근",
         "imageUrl": "550.png",
         "types": [
           "water"
@@ -16056,7 +16056,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "청색근의 모습",
+        "formName": "청색근",
         "imageUrl": "10016.png",
         "types": [
           "water"
@@ -16077,7 +16077,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "basculin-white-striped",
+        "formName": "백색근",
         "imageUrl": "10247.png",
         "types": [
           "water"
@@ -16200,7 +16200,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "가라르의 모습",
+        "formName": "가라르",
         "imageUrl": "10176.png",
         "types": [
           "ice"
@@ -16230,7 +16230,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     ],
     "form": [
       {
-        "formName": "노말모드",
+        "formName": "노말",
         "imageUrl": "555.png",
         "types": [
           "fire"
@@ -16271,7 +16271,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "가라르의 모습",
+        "formName": "가라르",
         "imageUrl": "10177.png",
         "types": [
           "ice"
@@ -16291,7 +16291,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "달마모드",
+        "formName": "가라르-달마모드",
         "imageUrl": "10178.png",
         "types": [
           "ice",
@@ -16484,7 +16484,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "가라르의 모습",
+        "formName": "가라르",
         "imageUrl": "10179.png",
         "types": [
           "ground",
@@ -16721,7 +16721,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "zorua-hisui",
+        "formName": "히스이",
         "imageUrl": "10238.png",
         "types": [
           "normal",
@@ -16770,7 +16770,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "zoroark-hisui",
+        "formName": "히스이",
         "imageUrl": "10239.png",
         "types": [
           "normal",
@@ -17884,7 +17884,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "가라르의 모습",
+        "formName": "가라르",
         "imageUrl": "10180.png",
         "types": [
           "ground",
@@ -18149,7 +18149,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "braviary-hisui",
+        "formName": "히스이",
         "imageUrl": "10240.png",
         "types": [
           "psychic",
@@ -18652,7 +18652,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     ],
     "form": [
       {
-        "formName": "큐레무의 모습",
+        "formName": "일반",
         "imageUrl": "646.png",
         "types": [
           "dragon",
@@ -18672,7 +18672,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "블랙큐레무",
+        "formName": "블랙",
         "imageUrl": "10022.png",
         "types": [
           "dragon",
@@ -18692,7 +18692,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "화이트큐레무",
+        "formName": "화이트",
         "imageUrl": "10023.png",
         "types": [
           "dragon",
@@ -19046,28 +19046,8 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "greninja-battle-bond",
-        "imageUrl": "10116.png",
-        "types": [
-          "water",
-          "dark"
-        ],
-        "abilities": [
-          "유대변화"
-        ],
-        "stats": [
-          72,
-          95,
-          67,
-          103,
-          71,
-          122,
-          530
-        ]
-      },
-      {
         "formName": "지우개굴닌자",
-        "imageUrl": "10117.png",
+        "imageUrl": "10116.png",
         "types": [
           "water",
           "dark"
@@ -19558,7 +19538,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     ],
     "form": [
       {
-        "formName": "수컷의 모습",
+        "formName": "수컷",
         "imageUrl": "678.png",
         "types": [
           "psychic"
@@ -19579,7 +19559,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "암컷의 모습",
+        "formName": "암컷",
         "imageUrl": "10025.png",
         "types": [
           "psychic"
@@ -20256,7 +20236,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "sliggoo-hisui",
+        "formName": "히스이",
         "imageUrl": "10241.png",
         "types": [
           "steel",
@@ -20309,7 +20289,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "goodra-hisui",
+        "formName": "히스이",
         "imageUrl": "10242.png",
         "types": [
           "steel",
@@ -20654,7 +20634,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "avalugg-hisui",
+        "formName": "히스이",
         "imageUrl": "10243.png",
         "types": [
           "ice",
@@ -20778,7 +20758,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     ],
     "form": [
       {
-        "formName": "50%폼",
+        "formName": "일반",
         "imageUrl": "718.png",
         "types": [
           "dragon",
@@ -20855,26 +20835,6 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           95,
           85,
           708
-        ]
-      },
-      {
-        "formName": "10%폼",
-        "imageUrl": "10181.png",
-        "types": [
-          "dragon",
-          "ground"
-        ],
-        "abilities": [
-          "오라브레이크"
-        ],
-        "stats": [
-          54,
-          100,
-          71,
-          61,
-          85,
-          115,
-          486
         ]
       }
     ]
@@ -21080,7 +21040,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "decidueye-hisui",
+        "formName": "히스이",
         "imageUrl": "10244.png",
         "types": [
           "grass",
@@ -21633,25 +21593,6 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           60,
           280
         ]
-      },
-      {
-        "formName": "rockruff-own-tempo",
-        "imageUrl": "10151.png",
-        "types": [
-          "rock"
-        ],
-        "abilities": [
-          "마이페이스"
-        ],
-        "stats": [
-          45,
-          65,
-          40,
-          30,
-          40,
-          60,
-          280
-        ]
       }
     ]
   },
@@ -21664,7 +21605,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     ],
     "form": [
       {
-        "formName": "한낮의 모습",
+        "formName": "한낮",
         "imageUrl": "745.png",
         "types": [
           "rock"
@@ -21685,7 +21626,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "한밤중의 모습",
+        "formName": "한밤중",
         "imageUrl": "10126.png",
         "types": [
           "rock"
@@ -21706,7 +21647,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "황혼의 모습",
+        "formName": "황혼",
         "imageUrl": "10152.png",
         "types": [
           "rock"
@@ -21735,7 +21676,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     ],
     "form": [
       {
-        "formName": "단독의 모습",
+        "formName": "단독",
         "imageUrl": "746.png",
         "types": [
           "water"
@@ -21754,7 +21695,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "군집의 모습",
+        "formName": "군집",
         "imageUrl": "10127.png",
         "types": [
           "water"
@@ -22402,7 +22343,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     ],
     "form": [
       {
-        "formName": "유성의 모습",
+        "formName": "유성",
         "imageUrl": "774.png",
         "types": [
           "rock",
@@ -22422,248 +22363,8 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "유성의 모습",
-        "imageUrl": "10130.png",
-        "types": [
-          "rock",
-          "flying"
-        ],
-        "abilities": [
-          "리밋실드"
-        ],
-        "stats": [
-          60,
-          60,
-          100,
-          60,
-          100,
-          60,
-          440
-        ]
-      },
-      {
-        "formName": "유성의 모습",
-        "imageUrl": "10131.png",
-        "types": [
-          "rock",
-          "flying"
-        ],
-        "abilities": [
-          "리밋실드"
-        ],
-        "stats": [
-          60,
-          60,
-          100,
-          60,
-          100,
-          60,
-          440
-        ]
-      },
-      {
-        "formName": "유성의 모습",
-        "imageUrl": "10132.png",
-        "types": [
-          "rock",
-          "flying"
-        ],
-        "abilities": [
-          "리밋실드"
-        ],
-        "stats": [
-          60,
-          60,
-          100,
-          60,
-          100,
-          60,
-          440
-        ]
-      },
-      {
-        "formName": "유성의 모습",
-        "imageUrl": "10133.png",
-        "types": [
-          "rock",
-          "flying"
-        ],
-        "abilities": [
-          "리밋실드"
-        ],
-        "stats": [
-          60,
-          60,
-          100,
-          60,
-          100,
-          60,
-          440
-        ]
-      },
-      {
-        "formName": "유성의 모습",
-        "imageUrl": "10134.png",
-        "types": [
-          "rock",
-          "flying"
-        ],
-        "abilities": [
-          "리밋실드"
-        ],
-        "stats": [
-          60,
-          60,
-          100,
-          60,
-          100,
-          60,
-          440
-        ]
-      },
-      {
-        "formName": "유성의 모습",
-        "imageUrl": "10135.png",
-        "types": [
-          "rock",
-          "flying"
-        ],
-        "abilities": [
-          "리밋실드"
-        ],
-        "stats": [
-          60,
-          60,
-          100,
-          60,
-          100,
-          60,
-          440
-        ]
-      },
-      {
-        "formName": "빨간색 코어",
+        "formName": "코어",
         "imageUrl": "10136.png",
-        "types": [
-          "rock",
-          "flying"
-        ],
-        "abilities": [
-          "리밋실드"
-        ],
-        "stats": [
-          60,
-          100,
-          60,
-          100,
-          60,
-          120,
-          500
-        ]
-      },
-      {
-        "formName": "주황색 코어",
-        "imageUrl": "10137.png",
-        "types": [
-          "rock",
-          "flying"
-        ],
-        "abilities": [
-          "리밋실드"
-        ],
-        "stats": [
-          60,
-          100,
-          60,
-          100,
-          60,
-          120,
-          500
-        ]
-      },
-      {
-        "formName": "노란색 코어",
-        "imageUrl": "10138.png",
-        "types": [
-          "rock",
-          "flying"
-        ],
-        "abilities": [
-          "리밋실드"
-        ],
-        "stats": [
-          60,
-          100,
-          60,
-          100,
-          60,
-          120,
-          500
-        ]
-      },
-      {
-        "formName": "초록색 코어",
-        "imageUrl": "10139.png",
-        "types": [
-          "rock",
-          "flying"
-        ],
-        "abilities": [
-          "리밋실드"
-        ],
-        "stats": [
-          60,
-          100,
-          60,
-          100,
-          60,
-          120,
-          500
-        ]
-      },
-      {
-        "formName": "옥색 코어",
-        "imageUrl": "10140.png",
-        "types": [
-          "rock",
-          "flying"
-        ],
-        "abilities": [
-          "리밋실드"
-        ],
-        "stats": [
-          60,
-          100,
-          60,
-          100,
-          60,
-          120,
-          500
-        ]
-      },
-      {
-        "formName": "파란색 코어",
-        "imageUrl": "10141.png",
-        "types": [
-          "rock",
-          "flying"
-        ],
-        "abilities": [
-          "리밋실드"
-        ],
-        "stats": [
-          60,
-          100,
-          60,
-          100,
-          60,
-          120,
-          500
-        ]
-      },
-      {
-        "formName": "보라색 코어",
-        "imageUrl": "10142.png",
         "types": [
           "rock",
           "flying"
@@ -24740,46 +24441,6 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           85,
           475
         ]
-      },
-      {
-        "formName": "그대로 삼킨 모습",
-        "imageUrl": "10182.png",
-        "types": [
-          "flying",
-          "water"
-        ],
-        "abilities": [
-          "그대로꿀꺽미사일"
-        ],
-        "stats": [
-          70,
-          85,
-          55,
-          85,
-          95,
-          85,
-          475
-        ]
-      },
-      {
-        "formName": "통째로 삼킨 모습",
-        "imageUrl": "10183.png",
-        "types": [
-          "flying",
-          "water"
-        ],
-        "abilities": [
-          "그대로꿀꺽미사일"
-        ],
-        "stats": [
-          70,
-          85,
-          55,
-          85,
-          95,
-          85,
-          475
-        ]
       }
     ]
   },
@@ -24861,7 +24522,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     ],
     "form": [
       {
-        "formName": "하이한 모습",
+        "formName": "하이",
         "imageUrl": "849.png",
         "types": [
           "electric",
@@ -24883,7 +24544,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "로우한 모습",
+        "formName": "로우",
         "imageUrl": "10184.png",
         "types": [
           "electric",
@@ -24914,28 +24575,6 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         "abilities": [
           "펑크록",
           "플러스",
-          "테크니션"
-        ],
-        "stats": [
-          75,
-          98,
-          70,
-          114,
-          70,
-          75,
-          502
-        ]
-      },
-      {
-        "formName": "거다이맥스",
-        "imageUrl": "10228.png",
-        "types": [
-          "electric",
-          "poison"
-        ],
-        "abilities": [
-          "펑크록",
-          "마이너스",
           "테크니션"
         ],
         "stats": [
@@ -26310,7 +25949,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "거다이맥스",
+        "formName": "일격 거다이맥스",
         "imageUrl": "10226.png",
         "types": [
           "fighting",
@@ -26330,7 +25969,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "거다이맥스",
+        "formName": "연격 거다이맥스",
         "imageUrl": "10227.png",
         "types": [
           "fighting",
@@ -26668,7 +26307,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     ],
     "form": [
       {
-        "formName": "일반",
+        "formName": "적색근",
         "imageUrl": "902.png",
         "types": [
           "water",
@@ -26690,7 +26329,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "basculegion-female",
+        "formName": "청색근",
         "imageUrl": "10248.png",
         "types": [
           "water",
@@ -26792,7 +26431,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "enamorus-therian",
+        "formName": "영물폼",
         "imageUrl": "10249.png",
         "types": [
           "fairy",
@@ -27046,7 +26685,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     ],
     "form": [
       {
-        "formName": "일반",
+        "formName": "수컷",
         "imageUrl": "916.png",
         "types": [
           "normal"
@@ -27067,7 +26706,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "oinkologne-female",
+        "formName": "암컷",
         "imageUrl": "10254.png",
         "types": [
           "normal"
@@ -27281,7 +26920,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     ],
     "form": [
       {
-        "formName": "일반",
+        "formName": "네 식구",
         "imageUrl": "925.png",
         "types": [
           "normal"
@@ -27302,7 +26941,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "maushold-family-of-three",
+        "formName": "세 식구",
         "imageUrl": "10257.png",
         "types": [
           "normal"
@@ -27447,7 +27086,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     ],
     "form": [
       {
-        "formName": "일반",
+        "formName": "그린페더",
         "imageUrl": "931.png",
         "types": [
           "normal",
@@ -27469,7 +27108,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "squawkabilly-blue-plumage",
+        "formName": "블루페더",
         "imageUrl": "10260.png",
         "types": [
           "normal",
@@ -27491,7 +27130,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "squawkabilly-yellow-plumage",
+        "formName": "옐로페더",
         "imageUrl": "10261.png",
         "types": [
           "normal",
@@ -27513,7 +27152,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "squawkabilly-white-plumage",
+        "formName": "화이트페더",
         "imageUrl": "10262.png",
         "types": [
           "normal",
@@ -28293,8 +27932,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           "water"
         ],
         "abilities": [
-          "zero-to-hero",
-          "zero-to-hero"
+          "마이티체인지",
         ],
         "stats": [
           100,
@@ -28307,14 +27945,13 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "palafin-hero",
+        "formName": "마이티폼",
         "imageUrl": "10256.png",
         "types": [
           "water"
         ],
         "abilities": [
-          "zero-to-hero",
-          "zero-to-hero"
+          "마이티체인지",
         ],
         "stats": [
           100,
@@ -28635,7 +28272,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     ],
     "form": [
       {
-        "formName": "일반",
+        "formName": "젖힌",
         "imageUrl": "978.png",
         "types": [
           "dragon",
@@ -28656,7 +28293,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "tatsugiri-droopy",
+        "formName": "늘어진",
         "imageUrl": "10258.png",
         "types": [
           "dragon",
@@ -28677,7 +28314,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "tatsugiri-stretchy",
+        "formName": "뻗은",
         "imageUrl": "10259.png",
         "types": [
           "dragon",
@@ -28780,7 +28417,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     ],
     "form": [
       {
-        "formName": "일반",
+        "formName": "두 마디 폼",
         "imageUrl": "982.png",
         "types": [
           "normal"
@@ -28801,7 +28438,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "dudunsparce-three-segment",
+        "formName": "세 마디 폼",
         "imageUrl": "10255.png",
         "types": [
           "normal"
@@ -29189,7 +28826,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     ],
     "form": [
       {
-        "formName": "gimmighoul-chest",
+        "formName": "상자폼",
         "imageUrl": "999.png",
         "types": [
           "ghost"
@@ -29208,7 +28845,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "gimmighoul-roaming",
+        "formName": "도보폼",
         "imageUrl": "10263.png",
         "types": [
           "ghost"
@@ -29387,230 +29024,44 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     "id": 1007,
     "name": "koraidon",
     "koreanName": "코라이돈",
+    "imageUrl": "1007.png",
     "types": [
       "fighting",
       "dragon"
     ],
-    "form": [
-      {
-        "formName": "koraidon-apex-build",
-        "imageUrl": "1007.png",
-        "types": [
-          "fighting",
-          "dragon"
-        ],
-        "abilities": [
-          "orichalcum-pulse"
-        ],
-        "stats": [
-          100,
-          135,
-          115,
-          85,
-          100,
-          135,
-          670
-        ]
-      },
-      {
-        "formName": "koraidon-limited-build",
-        "imageUrl": "10264.png",
-        "types": [
-          "fighting",
-          "dragon"
-        ],
-        "abilities": [
-          "orichalcum-pulse",
-          "orichalcum-pulse"
-        ],
-        "stats": [
-          100,
-          135,
-          115,
-          85,
-          100,
-          135,
-          670
-        ]
-      },
-      {
-        "formName": "koraidon-sprinting-build",
-        "imageUrl": "10265.png",
-        "types": [
-          "fighting",
-          "dragon"
-        ],
-        "abilities": [
-          "orichalcum-pulse",
-          "orichalcum-pulse"
-        ],
-        "stats": [
-          100,
-          135,
-          115,
-          85,
-          100,
-          135,
-          670
-        ]
-      },
-      {
-        "formName": "koraidon-swimming-build",
-        "imageUrl": "10266.png",
-        "types": [
-          "fighting",
-          "dragon"
-        ],
-        "abilities": [
-          "orichalcum-pulse",
-          "orichalcum-pulse"
-        ],
-        "stats": [
-          100,
-          135,
-          115,
-          85,
-          100,
-          135,
-          670
-        ]
-      },
-      {
-        "formName": "koraidon-gliding-build",
-        "imageUrl": "10267.png",
-        "types": [
-          "fighting",
-          "dragon"
-        ],
-        "abilities": [
-          "orichalcum-pulse",
-          "orichalcum-pulse"
-        ],
-        "stats": [
-          100,
-          135,
-          115,
-          85,
-          100,
-          135,
-          670
-        ]
-      }
+    "abilities": [
+      "orichalcum-pulse"
+    ],
+    "stats": [
+      100,
+      135,
+      115,
+      85,
+      100,
+      135,
+      670
     ]
   },
   {
     "id": 1008,
     "name": "miraidon",
     "koreanName": "미라이돈",
+    "imageUrl": "1008.png",
     "types": [
       "electric",
       "dragon"
     ],
-    "form": [
-      {
-        "formName": "miraidon-ultimate-mode",
-        "imageUrl": "1008.png",
-        "types": [
-          "electric",
-          "dragon"
-        ],
-        "abilities": [
-          "hadron-engine"
-        ],
-        "stats": [
-          100,
-          85,
-          100,
-          135,
-          115,
-          135,
-          670
-        ]
-      },
-      {
-        "formName": "miraidon-low-power-mode",
-        "imageUrl": "10268.png",
-        "types": [
-          "electric",
-          "dragon"
-        ],
-        "abilities": [
-          "hadron-engine",
-          "hadron-engine"
-        ],
-        "stats": [
-          100,
-          85,
-          100,
-          135,
-          115,
-          135,
-          670
-        ]
-      },
-      {
-        "formName": "miraidon-drive-mode",
-        "imageUrl": "10269.png",
-        "types": [
-          "electric",
-          "dragon"
-        ],
-        "abilities": [
-          "hadron-engine",
-          "hadron-engine"
-        ],
-        "stats": [
-          100,
-          85,
-          100,
-          135,
-          115,
-          135,
-          670
-        ]
-      },
-      {
-        "formName": "miraidon-aquatic-mode",
-        "imageUrl": "10270.png",
-        "types": [
-          "electric",
-          "dragon"
-        ],
-        "abilities": [
-          "hadron-engine",
-          "hadron-engine"
-        ],
-        "stats": [
-          100,
-          85,
-          100,
-          135,
-          115,
-          135,
-          670
-        ]
-      },
-      {
-        "formName": "miraidon-glide-mode",
-        "imageUrl": "10271.png",
-        "types": [
-          "electric",
-          "dragon"
-        ],
-        "abilities": [
-          "hadron-engine",
-          "hadron-engine"
-        ],
-        "stats": [
-          100,
-          85,
-          100,
-          135,
-          115,
-          135,
-          670
-        ]
-      }
+    "abilities": [
+      "hadron-engine"
+    ],
+    "stats": [
+      100,
+      85,
+      100,
+      135,
+      115,
+      135,
+      670
     ]
   },
   {
@@ -30049,7 +29500,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "terapagos-terastal",
+        "formName": "테라스탈폼",
         "imageUrl": "10276.png",
         "types": [
           "normal"
@@ -30068,7 +29519,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         ]
       },
       {
-        "formName": "terapagos-stellar",
+        "formName": "스텔라폼",
         "imageUrl": "10277.png",
         "types": [
           "normal"
