@@ -1,0 +1,25 @@
+<div *ngFor="let itemData of itemDatas; let locationIndex = index" class="location-section">
+      <div class="location-header" (click)="toggleExpand(locationIndex)">
+        <h2>{{ itemData.location }}</h2>
+        <!-- <span class="expand-icon">{{ expandedLocation === locationIndex ? '▼' : '▶' }}</span> -->
+      </div>
+      
+      <div *ngIf="expandedLocation === locationIndex" class="item-list-container">
+        <table>
+          <thead>
+            <tr>
+              <th>아이템 목록</th>
+              <th>상태</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of itemData.itemList; let itemIndex = index"
+                (click)="toggleItemStatus(locationIndex, itemIndex)"
+                [ngClass]="{ 'strike-through': isItemTaken(locationIndex, itemIndex) }">
+              <td>{{ item }}</td>
+              <td>{{ isItemTaken(locationIndex, itemIndex) ? '획득' : '미획득' }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>

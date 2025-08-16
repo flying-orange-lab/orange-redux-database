@@ -14,6 +14,7 @@ import { DefenseComponent } from './menu/defense/defense.component';
 import { WildComponent } from './menu/wild/wild.component';
 import { WildRegionComponent } from './menu/wild/wild-region/wild-region.component';
 import { PokemonStatComponent } from './menu/pokedex/pokemon-stat/pokemon-stat.component';
+import { ItemsComponent } from './menu/items/items.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { PokemonStatComponent } from './menu/pokedex/pokemon-stat/pokemon-stat.c
     WildComponent,
     WildRegionComponent,
     PokemonStatComponent,
+    ItemsComponent,
   ],
   imports: [
     BrowserModule,
