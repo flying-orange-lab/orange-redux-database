@@ -2,6 +2,12 @@ export interface PokemonForm {
     formName: string;
     imageUrl: string;
     types: string[];
+    abilities?: string[];
+    stats?: number[];
+    statsOrigin?: number[];
+    evolutionCondition?: string;
+    wildItems?: string;
+    extra?: string;
 }
 
 export interface Pokemon {
@@ -10,5 +16,11 @@ export interface Pokemon {
     koreanName: string;
     imageUrl?: string;
     types?: string[];
+    abilities?: string[];
+    stats?: number[];
+    statsOrigin?: number[];
+    evolutionCondition?: string;
+    wildItems?: string;
+    extra?: string;
     form?: PokemonForm[];
 }
