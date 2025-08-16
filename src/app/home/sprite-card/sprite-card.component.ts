@@ -1,5 +1,6 @@
 // src/app/sprite-card/sprite-card.component.ts
 import { Component, ChangeDetectorRef } from '@angular/core';
+import { DataHandleService } from 'src/app/services/data-handle.service';
 import { PokemonImageService } from 'src/app/services/pokemon-image.service';
 
 @Component({
@@ -8,13 +9,23 @@ import { PokemonImageService } from 'src/app/services/pokemon-image.service';
   styleUrls: ['./sprite-card.component.less']
 })
 export class SpriteCardComponent {
+  gameVersion: string | null = null;
   isSplitting: boolean = false;
   progress: number = 0;
 
   constructor(
+    public dataHandleService: DataHandleService,
     private pokemonImageService: PokemonImageService,
     private cdr: ChangeDetectorRef // ChangeDetectorRef 주입
   ) { }
+
+  
+  ngOnInit(): void {
+    // 데이터 처리
+    this.dataHandleService.gameVersion$.subscribe((version) => {
+      this.gameVersion = version;
+    });
+  }
 
   onFileSelected(event: Event, extra: string): void {
     const input = event.target as HTMLInputElement;
