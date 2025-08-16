@@ -23,7 +23,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       318
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 16",
     "wildItems": "",
     "extra": ""
   },
@@ -49,7 +49,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       405
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 32",
     "wildItems": "",
     "extra": ""
   },
@@ -181,7 +181,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       405
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 36",
     "wildItems": "",
     "extra": ""
   },
@@ -311,7 +311,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       43,
       314
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 16",
     "wildItems": "",
     "extra": ""
   },
@@ -336,7 +336,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       58,
       405
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 36",
     "wildItems": "",
     "extra": ""
   },
@@ -439,7 +439,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       195
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 7",
     "wildItems": "",
     "extra": ""
   },
@@ -463,7 +463,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       205
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 10",
     "wildItems": "",
     "extra": ""
   },
@@ -548,7 +548,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       195
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 7",
     "wildItems": "",
     "extra": ""
   },
@@ -573,7 +573,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       205
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 10",
     "wildItems": "",
     "extra": ""
   },
@@ -658,7 +658,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       56,
       251
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 18",
     "wildItems": "",
     "extra": ""
   },
@@ -685,7 +685,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       71,
       349
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 36",
     "wildItems": "",
     "extra": ""
   },
@@ -801,11 +801,12 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           72,
           253
         ],
-        "evolutionCondition": "",
+        "evolutionCondition": "밤에 LV. 20",
         "wildItems": "",
         "extra": "갈색시티 애호가 클럽에서 교환"
       }
-    ]
+    ],
+    "evolutionCondition": "LV. 20"
   },
   {
     "id": 20,
@@ -888,7 +889,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       262
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 20",
     "wildItems": "",
     "extra": ""
   },
@@ -940,7 +941,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       288
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 22",
     "wildItems": "",
     "extra": ""
   },
@@ -1024,7 +1025,8 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         "wildItems": "",
         "extra": ""
       }
-    ]
+    ],
+    "evolutionCondition": "천둥의돌(라이츄), 알로라의 가면을 지니고 천둥의돌(알로라라이츄)"
   },
   {
     "id": 26,
@@ -1133,11 +1135,12 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           40,
           300
         ],
-        "evolutionCondition": "",
+        "evolutionCondition": "얼음의돌",
         "wildItems": "",
         "extra": ""
       }
-    ]
+    ],
+    "evolutionCondition": "LV. 22"
   },
   {
     "id": 28,
@@ -1218,7 +1221,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       41,
       275
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 16",
     "wildItems": "",
     "extra": ""
   },
@@ -1244,7 +1247,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       56,
       365
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "달의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -1297,7 +1300,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       273
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 16",
     "wildItems": "",
     "extra": ""
   },
@@ -1323,7 +1326,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       365
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "달의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -1376,7 +1379,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       323
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "달의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -1456,11 +1459,12 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           65,
           299
         ],
-        "evolutionCondition": "",
+        "evolutionCondition": "얼음의돌",
         "wildItems": "",
         "extra": "갈색시티 애호가 클럽에서 교환"
       }
-    ]
+    ],
+    "evolutionCondition": "불꽃의돌"
   },
   {
     "id": 38,
@@ -1542,7 +1546,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       20,
       270
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "달의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -1595,7 +1599,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       245
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 22",
     "wildItems": "",
     "extra": ""
   },
@@ -1621,7 +1625,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       455
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "친밀도",
     "wildItems": "",
     "extra": ""
   },
@@ -1647,7 +1651,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       320
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 21",
     "wildItems": "",
     "extra": ""
   },
@@ -1673,7 +1677,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       395
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "리프의돌(라플레시아), 태양의돌(아르코)",
     "wildItems": "",
     "extra": ""
   },
@@ -1726,7 +1730,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       25,
       285
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 24",
     "wildItems": "",
     "extra": ""
   },
@@ -1780,7 +1784,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       305
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 31",
     "wildItems": "",
     "extra": ""
   },
@@ -1864,11 +1868,12 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           90,
           265
         ],
-        "evolutionCondition": "",
+        "evolutionCondition": "LV. 26",
         "wildItems": "",
         "extra": "갈색시티 애호가 클럽에서 교환"
       }
-    ]
+    ],
+    "evolutionCondition": "LV. 26"
   },
   {
     "id": 51,
@@ -1981,7 +1986,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           90,
           290
         ],
-        "evolutionCondition": "",
+        "evolutionCondition": "친밀도",
         "wildItems": "",
         "extra": "갈색시티 애호가 클럽에서 교환"
       },
@@ -2005,7 +2010,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           40,
           290
         ],
-        "evolutionCondition": "",
+        "evolutionCondition": "LV. 28",
         "wildItems": "",
         "extra": "갈색시티 애호가 클럽에서 교환"
       },
@@ -2033,7 +2038,8 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         "wildItems": "",
         "extra": ""
       }
-    ]
+    ],
+    "evolutionCondition": "LV. 28"
   },
   {
     "id": 53,
@@ -2115,7 +2121,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       320
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 33",
     "wildItems": "",
     "extra": ""
   },
@@ -2167,7 +2173,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       305
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 28",
     "wildItems": "",
     "extra": ""
   },
@@ -2193,7 +2199,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       95,
       455
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "본노의 주먹을 20번 사용 후 레벨업",
     "wildItems": "",
     "extra": ""
   },
@@ -2250,11 +2256,12 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           55,
           350
         ],
-        "evolutionCondition": "",
+        "evolutionCondition": "불꽃의돌",
         "wildItems": "",
         "extra": "갈색시티 애호가 클럽에서 교환"
       }
-    ]
+    ],
+    "evolutionCondition": "불꽃의돌"
   },
   {
     "id": 59,
@@ -2337,7 +2344,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       300
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 25",
     "wildItems": "",
     "extra": ""
   },
@@ -2363,7 +2370,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       385
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "물의돌(강챙이), 왕의징표석을 지니고 레벨업(왕구리)",
     "wildItems": "",
     "extra": ""
   },
@@ -2416,7 +2423,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       310
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 16",
     "wildItems": "",
     "extra": ""
   },
@@ -2442,7 +2449,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       105,
       400
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "연결의끈",
     "wildItems": "",
     "extra": ""
   },
@@ -2524,7 +2531,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       305
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 28",
     "wildItems": "",
     "extra": ""
   },
@@ -2550,7 +2557,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       405
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "연결의끈",
     "wildItems": "",
     "extra": ""
   },
@@ -2634,7 +2641,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       300
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 21",
     "wildItems": "",
     "extra": ""
   },
@@ -2660,7 +2667,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       390
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "리프의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -2713,7 +2720,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       335
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 30",
     "wildItems": "",
     "extra": ""
   },
@@ -2799,11 +2806,12 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           20,
           300
         ],
-        "evolutionCondition": "",
+        "evolutionCondition": "LV. 25",
         "wildItems": "",
         "extra": "갈색시티 애호가 클럽에서 교환"
       }
-    ]
+    ],
+    "evolutionCondition": "LV. 25"
   },
   {
     "id": 75,
@@ -2860,11 +2868,12 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           35,
           390
         ],
-        "evolutionCondition": "",
+        "evolutionCondition": "연결의끈",
         "wildItems": "",
         "extra": ""
       }
-    ]
+    ],
+    "evolutionCondition": "연결의끈"
   },
   {
     "id": 76,
@@ -2979,11 +2988,12 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           90,
           410
         ],
-        "evolutionCondition": "",
+        "evolutionCondition": " LV. 40",
         "wildItems": "",
         "extra": "갈색시티 애호가 클럽에서 교환"
       }
-    ]
+    ],
+    "evolutionCondition": "LV. 40"
   },
   {
     "id": 78,
@@ -3098,11 +3108,12 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           15,
           315
         ],
-        "evolutionCondition": "",
+        "evolutionCondition": "가라두구팔찌(야도란), 가라두구머리장식(야도킹)",
         "wildItems": "",
         "extra": "갈색시티 애호가 클럽에서 교환"
       }
-    ]
+    ],
+    "evolutionCondition": "LV. 37(야도란), 왕의 징표석을 지니고 레벨업(야도킹)"
   },
   {
     "id": 80,
@@ -3211,7 +3222,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       325
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 30",
     "wildItems": "",
     "extra": "갈색체육관"
   },
@@ -3238,7 +3249,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       465
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "천둥의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -3295,7 +3306,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           55,
           377
         ],
-        "evolutionCondition": "",
+        "evolutionCondition": "한 배틀에서 급소를 3회 이상 맞춘 후 레벨업",
         "wildItems": "",
         "extra": "갈색시티 애호가 클럽에서 교환"
       }
@@ -3324,7 +3335,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       310
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 31",
     "wildItems": "",
     "extra": ""
   },
@@ -3377,7 +3388,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       325
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 34",
     "wildItems": "",
     "extra": ""
   },
@@ -3461,11 +3472,12 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           25,
           325
         ],
-        "evolutionCondition": "",
+        "evolutionCondition": "LV. 38",
         "wildItems": "",
         "extra": "갈색시티 애호가 클럽에서 교환"
       }
-    ]
+    ],
+    "evolutionCondition": "LV. 38"
   },
   {
     "id": 89,
@@ -3548,7 +3560,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       305
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "물의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -3600,7 +3612,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       310
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 25",
     "wildItems": "",
     "extra": ""
   },
@@ -3625,7 +3637,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       95,
       405
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "연결의끈",
     "wildItems": "",
     "extra": ""
   },
@@ -3732,7 +3744,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       385
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "메탈코트를 지니고 레벨업",
     "wildItems": "",
     "extra": ""
   },
@@ -3758,7 +3770,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       42,
       328
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 26",
     "wildItems": "",
     "extra": ""
   },
@@ -3810,7 +3822,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       325
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 28",
     "wildItems": "",
     "extra": ""
   },
@@ -3925,11 +3937,12 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           100,
           330
         ],
-        "evolutionCondition": "",
+        "evolutionCondition": "리프의돌",
         "wildItems": "",
         "extra": "갈색시티 애호가 클럽에서 교환"
       }
-    ]
+    ],
+    "evolutionCondition": "LV. 30"
   },
   {
     "id": 101,
@@ -4012,7 +4025,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       325
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "리프스톤(나시), 알로라의 가면을 지니고 리프스톤(알로라나시)",
     "wildItems": "",
     "extra": ""
   },
@@ -4097,7 +4110,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       320
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 28(텅구리), 알로라의 가면을 지니고 LV. 28(알로라텅구리)",
     "wildItems": "",
     "extra": ""
   },
@@ -4234,7 +4247,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       385
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "구르기를 배운 후 레벨업",
     "wildItems": "",
     "extra": ""
   },
@@ -4260,7 +4273,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       340
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 35(또도가스), 가라르의 차를 지니고 LV. 35(가라르또도가스)",
     "wildItems": "",
     "extra": ""
   },
@@ -4346,7 +4359,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       25,
       345
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 42",
     "wildItems": "",
     "extra": ""
   },
@@ -4373,7 +4386,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       485
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "프로텍터를 지니고 레벨업",
     "wildItems": "",
     "extra": ""
   },
@@ -4399,7 +4412,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       450
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "친밀도",
     "wildItems": "",
     "extra": ""
   },
@@ -4425,7 +4438,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       435
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "원시의힘을 배운 후 레벨업",
     "wildItems": "",
     "extra": ""
   },
@@ -4507,7 +4520,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       295
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 32",
     "wildItems": "",
     "extra": ""
   },
@@ -4533,7 +4546,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       440
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "용의비늘을 지니고 레벨업",
     "wildItems": "",
     "extra": ""
   },
@@ -4559,7 +4572,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       63,
       320
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 33",
     "wildItems": "",
     "extra": ""
   },
@@ -4611,7 +4624,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       340
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "물의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -4697,7 +4710,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           100,
           460
         ],
-        "evolutionCondition": "",
+        "evolutionCondition": "LV. 42",
         "wildItems": "",
         "extra": "갈색시티 애호가 클럽에서 교환"
       }
@@ -4726,7 +4739,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       105,
       500
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "메탈코트를 지니고 레벨업(핫삼), 검은휘석(사마자르)",
     "wildItems": "",
     "extra": ""
   },
@@ -4778,7 +4791,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       105,
       490
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "에레키부스터를 지니고 레벨업",
     "wildItems": "",
     "extra": ""
   },
@@ -4803,7 +4816,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       93,
       495
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "마그마부스터를 지니고 레벨업",
     "wildItems": "",
     "extra": ""
   },
@@ -4993,7 +5006,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       200
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 20",
     "wildItems": "",
     "extra": ""
   },
@@ -5197,7 +5210,8 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         "wildItems": "",
         "extra": ""
       }
-    ]
+    ],
+    "evolutionCondition": "불꽃의돌(부스터), 물의돌(샤미드), 천둥의돌(쥬피썬더), 친밀도낮(에브이), 친밀도밤(블래키), 리프의돌(리피아), 얼음의돌(글레이시아), 페어리기술을 배우고 친밀도(님피아)"
   },
   {
     "id": 134,
@@ -5296,7 +5310,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       395
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "업그레이드를 지니고 레벨업",
     "wildItems": "",
     "extra": "연분홍시티 연구소"
   },
@@ -5323,7 +5337,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       355
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 40",
     "wildItems": "",
     "extra": "화석 복원"
   },
@@ -5377,7 +5391,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       355
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 40",
     "wildItems": "",
     "extra": "화석 복원"
   },
@@ -5720,7 +5734,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       300
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 30",
     "wildItems": "",
     "extra": ""
   },
@@ -5745,7 +5759,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       420
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 55",
     "wildItems": "",
     "extra": ""
   },
@@ -5898,7 +5912,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       318
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 16",
     "wildItems": "",
     "extra": ""
   },
@@ -5923,7 +5937,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       405
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 32",
     "wildItems": "",
     "extra": ""
   },
@@ -5973,7 +5987,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       309
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 14",
     "wildItems": "",
     "extra": ""
   },
@@ -5998,7 +6012,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       405
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 36(블레이범), 히스이의골동품을 지니고 LV. 36(히스이블레이범)",
     "wildItems": "",
     "extra": ""
   },
@@ -6080,7 +6094,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       43,
       314
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 18",
     "wildItems": "",
     "extra": ""
   },
@@ -6105,7 +6119,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       58,
       405
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 30",
     "wildItems": "",
     "extra": ""
   },
@@ -6156,7 +6170,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       20,
       215
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 15",
     "wildItems": "",
     "extra": ""
   },
@@ -6209,7 +6223,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       262
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 20",
     "wildItems": "",
     "extra": ""
   },
@@ -6263,7 +6277,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       265
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 18",
     "wildItems": "",
     "extra": ""
   },
@@ -6317,7 +6331,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       250
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 22",
     "wildItems": "",
     "extra": ""
   },
@@ -6424,7 +6438,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       67,
       460
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 27",
     "wildItems": "",
     "extra": ""
   },
@@ -6449,7 +6463,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       205
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "친밀도",
     "wildItems": "",
     "extra": ""
   },
@@ -6475,7 +6489,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       15,
       218
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "친밀도",
     "wildItems": "",
     "extra": ""
   },
@@ -6502,7 +6516,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       15,
       210
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "친밀도",
     "wildItems": "",
     "extra": ""
   },
@@ -6528,7 +6542,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       20,
       245
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "친밀도",
     "wildItems": "",
     "extra": ""
   },
@@ -6555,7 +6569,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       405
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "빛의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -6582,7 +6596,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       320
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 25",
     "wildItems": "",
     "extra": ""
   },
@@ -6634,7 +6648,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       280
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 15",
     "wildItems": "",
     "extra": ""
   },
@@ -6659,7 +6673,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       365
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 30",
     "wildItems": "",
     "extra": ""
   },
@@ -6767,7 +6781,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       250
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 18",
     "wildItems": "",
     "extra": ""
   },
@@ -6873,7 +6887,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       250
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 18",
     "wildItems": "",
     "extra": ""
   },
@@ -6900,7 +6914,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       340
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 27",
     "wildItems": "",
     "extra": ""
   },
@@ -6953,7 +6967,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       360
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "더블어택을 배운 후 레벨업",
     "wildItems": "",
     "extra": ""
   },
@@ -6979,7 +6993,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       180
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "태양의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -7032,7 +7046,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       95,
       390
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "원시의힘을 배운 후 레벨업",
     "wildItems": "",
     "extra": ""
   },
@@ -7091,11 +7105,12 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           15,
           210
         ],
-        "evolutionCondition": "",
+        "evolutionCondition": "LV. 20",
         "wildItems": "",
         "extra": "갈색시티 애호가 클럽에서 교환"
       }
-    ]
+    ],
+    "evolutionCondition": "LV. 20"
   },
   {
     "id": 195,
@@ -7197,7 +7212,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       91,
       405
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "어둠의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -7282,7 +7297,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       435
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "어둠의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -7358,7 +7373,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       455
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "트윈빔을 배운 후 레벨업",
     "wildItems": "",
     "extra": ""
   },
@@ -7383,7 +7398,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       15,
       290
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 31",
     "wildItems": "",
     "extra": ""
   },
@@ -7435,7 +7450,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       415
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "하이퍼드릴을 배운 후 레벨업",
     "wildItems": "",
     "extra": ""
   },
@@ -7462,7 +7477,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       430
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "예리한이빨을 지니고 레벨업",
     "wildItems": "",
     "extra": ""
   },
@@ -7547,7 +7562,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       300
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 23",
     "wildItems": "",
     "extra": ""
   },
@@ -7632,7 +7647,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           85,
           440
         ],
-        "evolutionCondition": "",
+        "evolutionCondition": "독침천발을 20번 사용 후 레벨업",
         "wildItems": "",
         "extra": "갈색시티 애호가 클럽에서 교환"
       }
@@ -7838,11 +7853,12 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           115,
           430
         ],
-        "evolutionCondition": "",
+        "evolutionCondition": "예리한손톱을 지니고 낮에 레벨업",
         "wildItems": "",
         "extra": "갈색시티 애호가 클럽에서 교환"
       }
-    ]
+    ],
+    "evolutionCondition": "예리한손톱을 지니고 밤에 레벨업"
   },
   {
     "id": 216,
@@ -7866,7 +7882,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       330
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 30",
     "wildItems": "",
     "extra": ""
   },
@@ -7892,7 +7908,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       500
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "피트블록(밤)",
     "wildItems": "",
     "extra": ""
   },
@@ -7918,7 +7934,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       20,
       250
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 38",
     "wildItems": "",
     "extra": ""
   },
@@ -7972,7 +7988,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       250
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 33",
     "wildItems": "",
     "extra": ""
   },
@@ -7999,7 +8015,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       450
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "원시의힘을 배운 후 레벨업",
     "wildItems": "",
     "extra": ""
   },
@@ -8056,7 +8072,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           30,
           410
         ],
-        "evolutionCondition": "",
+        "evolutionCondition": "LV. 38",
         "wildItems": "",
         "extra": "갈색시티 애호가 클럽에서 교환"
       }
@@ -8084,7 +8100,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       300
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 25",
     "wildItems": "",
     "extra": ""
   },
@@ -8218,7 +8234,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       330
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 24",
     "wildItems": "",
     "extra": ""
   },
@@ -8329,7 +8345,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       330
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 25",
     "wildItems": "",
     "extra": ""
   },
@@ -8380,7 +8396,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       515
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "괴상한패치를 지니고 레벨업",
     "wildItems": "",
     "extra": ""
   },
@@ -8406,7 +8422,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       465
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "배리어러시를 20번 사용 후 레벨업 ",
     "wildItems": "",
     "extra": ""
   },
@@ -8458,7 +8474,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       210
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "공>방 LV.  20(시라소몬), 공<방 LV. 20(홍수몬), 공=방 LV. 20(카포에라)",
     "wildItems": "",
     "extra": ""
   },
@@ -8511,7 +8527,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       305
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 30",
     "wildItems": "",
     "extra": ""
   },
@@ -8536,7 +8552,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       95,
       360
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 30",
     "wildItems": "",
     "extra": ""
   },
@@ -8561,7 +8577,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       83,
       365
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 30",
     "wildItems": "",
     "extra": ""
   },
@@ -8714,7 +8730,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       41,
       300
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 30",
     "wildItems": "",
     "extra": ""
   },
@@ -8739,7 +8755,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       51,
       410
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 55",
     "wildItems": "",
     "extra": ""
   },
@@ -8899,7 +8915,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       310
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 16",
     "wildItems": "",
     "extra": ""
   },
@@ -8924,7 +8940,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       95,
       405
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 36",
     "wildItems": "",
     "extra": ""
   },
@@ -9005,7 +9021,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       310
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 16",
     "wildItems": "",
     "extra": ""
   },
@@ -9031,7 +9047,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       405
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 36",
     "wildItems": "",
     "extra": ""
   },
@@ -9114,7 +9130,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       310
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 16",
     "wildItems": "",
     "extra": ""
   },
@@ -9140,7 +9156,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       405
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 36",
     "wildItems": "",
     "extra": ""
   },
@@ -9224,7 +9240,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       220
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 18",
     "wildItems": "",
     "extra": ""
   },
@@ -9307,11 +9323,12 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           60,
           240
         ],
-        "evolutionCondition": "",
+        "evolutionCondition": "LV. 20",
         "wildItems": "",
         "extra": "갈색시티 애호가 클럽에서 교환"
       }
-    ]
+    ],
+    "evolutionCondition": "LV. 20"
   },
   {
     "id": 264,
@@ -9366,7 +9383,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           100,
           420
         ],
-        "evolutionCondition": "",
+        "evolutionCondition": "밤에 LV. 35",
         "wildItems": "",
         "extra": ""
       }
@@ -9393,7 +9410,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       20,
       195
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 7",
     "wildItems": "",
     "extra": ""
   },
@@ -9417,7 +9434,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       15,
       205
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 10",
     "wildItems": "",
     "extra": ""
   },
@@ -9467,7 +9484,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       15,
       205
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 10",
     "wildItems": "",
     "extra": ""
   },
@@ -9520,7 +9537,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       220
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 14",
     "wildItems": "",
     "extra": ""
   },
@@ -9547,7 +9564,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       340
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "물의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -9600,7 +9617,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       220
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 14",
     "wildItems": "",
     "extra": ""
   },
@@ -9627,7 +9644,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       340
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "리프의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -9680,7 +9697,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       270
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 22",
     "wildItems": "",
     "extra": ""
   },
@@ -9733,7 +9750,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       270
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 25",
     "wildItems": "",
     "extra": ""
   },
@@ -9787,7 +9804,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       198
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 20",
     "wildItems": "",
     "extra": ""
   },
@@ -9814,7 +9831,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       278
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 30(가디안), 수컷에게 각성의돌(엘레이드)",
     "wildItems": "",
     "extra": ""
   },
@@ -9899,7 +9916,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       269
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 22",
     "wildItems": "",
     "extra": ""
   },
@@ -9951,7 +9968,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       295
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 23",
     "wildItems": "",
     "extra": ""
   },
@@ -10002,7 +10019,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       280
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 18",
     "wildItems": "",
     "extra": ""
   },
@@ -10026,7 +10043,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       440
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 36",
     "wildItems": "",
     "extra": ""
   },
@@ -10076,7 +10093,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       266
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 20(아이스크), 진화 시 볼과 파티에 여유가 있을 때(껍질몬)",
     "wildItems": "",
     "extra": ""
   },
@@ -10152,7 +10169,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       28,
       240
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 20",
     "wildItems": "",
     "extra": ""
   },
@@ -10177,7 +10194,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       48,
       360
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 40",
     "wildItems": "",
     "extra": ""
   },
@@ -10228,7 +10245,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       25,
       237
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 24",
     "wildItems": "",
     "extra": ""
   },
@@ -10281,7 +10298,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       20,
       190
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "친밀도",
     "wildItems": "",
     "extra": ""
   },
@@ -10307,7 +10324,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       375
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "천둥의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -10333,7 +10350,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       260
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "달의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -10504,7 +10521,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       330
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 32",
     "wildItems": "",
     "extra": ""
   },
@@ -10531,7 +10548,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       430
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 42",
     "wildItems": "",
     "extra": ""
   },
@@ -10615,7 +10632,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       280
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 37",
     "wildItems": "",
     "extra": ""
   },
@@ -10699,7 +10716,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       295
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 26",
     "wildItems": "",
     "extra": ""
   },
@@ -10884,7 +10901,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       400
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "빛의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -10910,7 +10927,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       302
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 26",
     "wildItems": "",
     "extra": ""
   },
@@ -10962,7 +10979,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       305
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 30",
     "wildItems": "",
     "extra": ""
   },
@@ -11046,7 +11063,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       400
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 40",
     "wildItems": "",
     "extra": ""
   },
@@ -11099,7 +11116,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       305
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 33",
     "wildItems": "",
     "extra": ""
   },
@@ -11210,7 +11227,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       330
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 32",
     "wildItems": "",
     "extra": ""
   },
@@ -11288,7 +11305,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       10,
       290
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 35",
     "wildItems": "",
     "extra": ""
   },
@@ -11313,7 +11330,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       340
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 45",
     "wildItems": "",
     "extra": ""
   },
@@ -11363,7 +11380,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       335
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 32",
     "wildItems": "",
     "extra": ""
   },
@@ -11415,7 +11432,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       310
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 35",
     "wildItems": "",
     "extra": ""
   },
@@ -11600,7 +11617,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       288
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 30",
     "wildItems": "",
     "extra": ""
   },
@@ -11653,7 +11670,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       308
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 30",
     "wildItems": "",
     "extra": ""
   },
@@ -11705,7 +11722,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       300
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 36",
     "wildItems": "",
     "extra": ""
   },
@@ -11756,7 +11773,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       23,
       355
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 40",
     "wildItems": "",
     "extra": "화석 복원"
   },
@@ -11808,7 +11825,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       355
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 40",
     "wildItems": "",
     "extra": "화석 복원"
   },
@@ -11860,7 +11877,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       200
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "고운비늘을 지니고 레벨업",
     "wildItems": "",
     "extra": ""
   },
@@ -12035,7 +12052,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       295
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 37",
     "wildItems": "",
     "extra": ""
   },
@@ -12116,7 +12133,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       25,
       295
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 37",
     "wildItems": "",
     "extra": ""
   },
@@ -12141,7 +12158,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       25,
       455
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "영계의천을 지니고 레벨업",
     "wildItems": "",
     "extra": ""
   },
@@ -12273,7 +12290,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       23,
       260
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 15",
     "wildItems": "",
     "extra": ""
   },
@@ -12299,7 +12316,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       300
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 42, 암컷에게 각성의돌(눈여아)",
     "wildItems": "",
     "extra": ""
   },
@@ -12382,7 +12399,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       25,
       290
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 32",
     "wildItems": "",
     "extra": ""
   },
@@ -12409,7 +12426,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       410
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 44",
     "wildItems": "",
     "extra": ""
   },
@@ -12461,7 +12478,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       32,
       345
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "심해의이빨을 지니고 레벨업(헌테일), 심해의비늘을 지니고 레벨업(분홍장이)",
     "wildItems": "",
     "extra": ""
   },
@@ -12588,7 +12605,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       300
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 30",
     "wildItems": "",
     "extra": ""
   },
@@ -12613,7 +12630,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       420
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 50",
     "wildItems": "",
     "extra": ""
   },
@@ -12697,7 +12714,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       300
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 20",
     "wildItems": "",
     "extra": ""
   },
@@ -12723,7 +12740,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       420
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 45",
     "wildItems": "",
     "extra": ""
   },
@@ -13284,7 +13301,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       31,
       318
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 18",
     "wildItems": "",
     "extra": ""
   },
@@ -13309,7 +13326,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       36,
       405
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 32",
     "wildItems": "",
     "extra": ""
   },
@@ -13360,7 +13377,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       61,
       309
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 14",
     "wildItems": "",
     "extra": ""
   },
@@ -13386,7 +13403,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       81,
       405
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 16",
     "wildItems": "",
     "extra": ""
   },
@@ -13437,7 +13454,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       314
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 16",
     "wildItems": "",
     "extra": ""
   },
@@ -13462,7 +13479,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       405
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 36",
     "wildItems": "",
     "extra": ""
   },
@@ -13514,7 +13531,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       245
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 14",
     "wildItems": "",
     "extra": ""
   },
@@ -13540,7 +13557,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       340
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 34",
     "wildItems": "",
     "extra": ""
   },
@@ -13592,7 +13609,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       31,
       250
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 15",
     "wildItems": "",
     "extra": ""
   },
@@ -13644,7 +13661,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       25,
       194
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 10",
     "wildItems": "",
     "extra": ""
   },
@@ -13695,7 +13712,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       263
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 15",
     "wildItems": "",
     "extra": ""
   },
@@ -13721,7 +13738,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       363
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 30",
     "wildItems": "",
     "extra": ""
   },
@@ -13774,7 +13791,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       280
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "친밀도(낮)",
     "wildItems": "",
     "extra": ""
   },
@@ -13826,7 +13843,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       58,
       350
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 30",
     "wildItems": "",
     "extra": "화석 복원"
   },
@@ -13877,7 +13894,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       350
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 30",
     "wildItems": "",
     "extra": ""
   },
@@ -13928,7 +13945,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       36,
       224
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 20(도롱마담, 나메일)",
     "wildItems": "",
     "extra": ""
   },
@@ -14063,7 +14080,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       244
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "암컷 LV. 21",
     "wildItems": "",
     "extra": ""
   },
@@ -14140,7 +14157,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       330
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 26",
     "wildItems": "",
     "extra": ""
   },
@@ -14189,7 +14206,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       275
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 25",
     "wildItems": "",
     "extra": ""
   },
@@ -14239,7 +14256,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       34,
       325
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 30",
     "wildItems": "",
     "extra": ""
   },
@@ -14319,7 +14336,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       348
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 28",
     "wildItems": "",
     "extra": ""
   },
@@ -14372,7 +14389,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       350
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "친밀도",
     "wildItems": "",
     "extra": ""
   },
@@ -14506,7 +14523,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       310
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 38",
     "wildItems": "",
     "extra": ""
   },
@@ -14556,7 +14573,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       285
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "친밀도(밤)",
     "wildItems": "",
     "extra": ""
   },
@@ -14583,7 +14600,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       74,
       329
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 34",
     "wildItems": "",
     "extra": ""
   },
@@ -14637,7 +14654,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       23,
       300
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 33",
     "wildItems": "",
     "extra": ""
   },
@@ -14690,7 +14707,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       10,
       290
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "흉내내기를 배운 후 레벨업",
     "wildItems": "",
     "extra": "2번도로(이벤트)"
   },
@@ -14717,7 +14734,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       310
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "흉내내기를 배운 후 레벨업(마임맨), 가라르의 차 지니고 흉내내기를 배운 후 레벨업(가라르마임맨)",
     "wildItems": "",
     "extra": ""
   },
@@ -14743,7 +14760,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       220
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "둥글둥글돌을 지니고 낮에 레벨업",
     "wildItems": "",
     "extra": ""
   },
@@ -14822,7 +14839,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       42,
       300
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 24",
     "wildItems": "",
     "extra": ""
   },
@@ -14848,7 +14865,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       82,
       410
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 48",
     "wildItems": "",
     "extra": ""
   },
@@ -14932,7 +14949,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       5,
       390
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "친밀도",
     "wildItems": "",
     "extra": ""
   },
@@ -14958,7 +14975,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       285
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "친밀도(낮)",
     "wildItems": "",
     "extra": ""
   },
@@ -15042,7 +15059,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       32,
       330
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 34",
     "wildItems": "",
     "extra": ""
   },
@@ -15094,7 +15111,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       330
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 40",
     "wildItems": "",
     "extra": ""
   },
@@ -15148,7 +15165,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       300
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 37",
     "wildItems": "",
     "extra": ""
   },
@@ -15225,7 +15242,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       66,
       330
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 31",
     "wildItems": "",
     "extra": ""
   },
@@ -15278,7 +15295,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       345
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "파티에 총어가 있을 때 레벨업",
     "wildItems": "",
     "extra": ""
   },
@@ -15304,7 +15321,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       334
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 40",
     "wildItems": "",
     "extra": ""
   },
@@ -16537,7 +16554,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       63,
       308
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 17",
     "wildItems": "",
     "extra": ""
   },
@@ -16562,7 +16579,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       83,
       413
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 36",
     "wildItems": "",
     "extra": ""
   },
@@ -16612,7 +16629,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       308
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 17",
     "wildItems": "",
     "extra": ""
   },
@@ -16638,7 +16655,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       418
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 36",
     "wildItems": "",
     "extra": ""
   },
@@ -16689,7 +16706,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       308
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 17",
     "wildItems": "",
     "extra": ""
   },
@@ -16714,7 +16731,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       413
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 36(대검귀), 히스이의골동품을 지니고 LV.36(히스이대검귀)",
     "wildItems": "",
     "extra": ""
   },
@@ -16797,7 +16814,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       42,
       255
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 20",
     "wildItems": "",
     "extra": ""
   },
@@ -16849,7 +16866,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       275
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 16",
     "wildItems": "",
     "extra": ""
   },
@@ -16875,7 +16892,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       370
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 32",
     "wildItems": "",
     "extra": ""
   },
@@ -16927,7 +16944,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       66,
       281
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 20",
     "wildItems": "",
     "extra": ""
   },
@@ -16978,7 +16995,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       64,
       316
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "리프의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -17028,7 +17045,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       64,
       316
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "불꽃의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -17078,7 +17095,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       64,
       316
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "물의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -17129,7 +17146,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       24,
       292
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "달의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -17182,7 +17199,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       43,
       264
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 21",
     "wildItems": "",
     "extra": ""
   },
@@ -17209,7 +17226,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       358
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 32",
     "wildItems": "",
     "extra": ""
   },
@@ -17262,7 +17279,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       76,
       295
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 27",
     "wildItems": "",
     "extra": ""
   },
@@ -17314,7 +17331,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       15,
       280
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 25",
     "wildItems": "",
     "extra": ""
   },
@@ -17340,7 +17357,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       20,
       390
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "연결의끈",
     "wildItems": "",
     "extra": ""
   },
@@ -17393,7 +17410,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       72,
       323
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "친밀도",
     "wildItems": "",
     "extra": ""
   },
@@ -17446,7 +17463,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       68,
       328
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 31",
     "wildItems": "",
     "extra": ""
   },
@@ -17556,7 +17573,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       305
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 25",
     "wildItems": "",
     "extra": ""
   },
@@ -17582,7 +17599,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       405
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "연결의끈",
     "wildItems": "",
     "extra": ""
   },
@@ -17634,7 +17651,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       64,
       294
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 25",
     "wildItems": "",
     "extra": ""
   },
@@ -17661,7 +17678,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       69,
       384
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 36",
     "wildItems": "",
     "extra": ""
   },
@@ -17767,7 +17784,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       42,
       310
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 20",
     "wildItems": "",
     "extra": ""
   },
@@ -17794,7 +17811,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       42,
       380
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "친밀도",
     "wildItems": "",
     "extra": ""
   },
@@ -17848,7 +17865,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       57,
       260
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 22",
     "wildItems": "",
     "extra": ""
   },
@@ -17875,7 +17892,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       47,
       360
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 30",
     "wildItems": "",
     "extra": ""
   },
@@ -17929,7 +17946,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       66,
       280
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "태양의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -17982,7 +17999,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       280
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "태양의돌(드레디어), 히스이의골동품을 지니고 태양의돌(히스이드레디어)",
     "wildItems": "",
     "extra": ""
   },
@@ -18121,7 +18138,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           98,
           460
         ],
-        "evolutionCondition": "",
+        "evolutionCondition": "누적 반동 데미지가 294만큼 쌓이고 레벨업",
         "wildItems": "",
         "extra": "갈색시티 애호가 클럽에서 교환"
       }
@@ -18150,7 +18167,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       292
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 29",
     "wildItems": "",
     "extra": ""
   },
@@ -18177,7 +18194,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       74,
       351
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 40",
     "wildItems": "",
     "extra": ""
   },
@@ -18258,11 +18275,12 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           50,
           315
         ],
-        "evolutionCondition": "",
+        "evolutionCondition": "얼음의돌",
         "wildItems": "",
         "extra": ""
       }
-    ]
+    ],
+    "evolutionCondition": "LV. 35"
   },
   {
     "id": 555,
@@ -18417,7 +18435,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       325
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 34",
     "wildItems": "",
     "extra": ""
   },
@@ -18471,7 +18489,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       48,
       348
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 39",
     "wildItems": "",
     "extra": ""
   },
@@ -18578,11 +18596,12 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           30,
           303
         ],
-        "evolutionCondition": "",
+        "evolutionCondition": "LV. 34",
         "wildItems": "",
         "extra": "갈색시티 애호가 클럽에서 교환"
       }
-    ]
+    ],
+    "evolutionCondition": "LV. 34"
   },
   {
     "id": 563,
@@ -18631,7 +18650,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       22,
       355
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 37",
     "wildItems": "",
     "extra": "화석 복원"
   },
@@ -18683,7 +18702,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       401
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 37",
     "wildItems": "",
     "extra": "화석 복원"
   },
@@ -18734,7 +18753,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       329
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 36",
     "wildItems": "",
     "extra": ""
   },
@@ -18845,11 +18864,12 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           330
         ],
-        "evolutionCondition": "",
+        "evolutionCondition": "LV. 30",
         "wildItems": "",
         "extra": "갈색시티 애호가 클럽에서 교환"
       }
-    ]
+    ],
+    "evolutionCondition": "LV. 30"
   },
   {
     "id": 571,
@@ -18928,7 +18948,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       300
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "빛의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -18980,7 +19000,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       290
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 32",
     "wildItems": "",
     "extra": ""
   },
@@ -19006,7 +19026,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       390
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 41",
     "wildItems": "",
     "extra": ""
   },
@@ -19058,7 +19078,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       20,
       290
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 32",
     "wildItems": "",
     "extra": ""
   },
@@ -19084,7 +19104,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       370
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 41",
     "wildItems": "",
     "extra": ""
   },
@@ -19137,7 +19157,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       305
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 35",
     "wildItems": "",
     "extra": ""
   },
@@ -19190,7 +19210,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       44,
       305
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 35",
     "wildItems": "",
     "extra": ""
   },
@@ -19216,7 +19236,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       59,
       395
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 47",
     "wildItems": "",
     "extra": ""
   },
@@ -19269,7 +19289,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       335
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 34",
     "wildItems": "",
     "extra": ""
   },
@@ -19348,7 +19368,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       315
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "연결의끈",
     "wildItems": "",
     "extra": ""
   },
@@ -19401,7 +19421,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       15,
       294
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 39",
     "wildItems": "",
     "extra": ""
   },
@@ -19454,7 +19474,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       335
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 40",
     "wildItems": "",
     "extra": ""
   },
@@ -19534,7 +19554,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       319
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 36",
     "wildItems": "",
     "extra": ""
   },
@@ -19586,7 +19606,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       10,
       305
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 40",
     "wildItems": "",
     "extra": ""
   },
@@ -19638,7 +19658,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       300
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 38",
     "wildItems": "",
     "extra": ""
   },
@@ -19664,7 +19684,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       440
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 49",
     "wildItems": "",
     "extra": ""
   },
@@ -19714,7 +19734,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       275
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 39",
     "wildItems": "",
     "extra": ""
   },
@@ -19738,7 +19758,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       405
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "천둥의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -19788,7 +19808,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       335
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 42",
     "wildItems": "",
     "extra": ""
   },
@@ -19841,7 +19861,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       20,
       275
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 41",
     "wildItems": "",
     "extra": ""
   },
@@ -19868,7 +19888,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       370
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "어둠의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -19921,7 +19941,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       57,
       320
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 38",
     "wildItems": "",
     "extra": ""
   },
@@ -19947,7 +19967,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       67,
       410
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 48",
     "wildItems": "",
     "extra": ""
   },
@@ -19999,7 +20019,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       305
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 37",
     "wildItems": "",
     "extra": ""
   },
@@ -20075,7 +20095,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       25,
       305
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "연결의끈",
     "wildItems": "",
     "extra": ""
   },
@@ -20186,7 +20206,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       350
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 50",
     "wildItems": "",
     "extra": ""
   },
@@ -20265,7 +20285,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       303
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 43",
     "wildItems": "",
     "extra": ""
   },
@@ -20319,7 +20339,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       340
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 52",
     "wildItems": "",
     "extra": ""
   },
@@ -20346,7 +20366,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       490
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "대장의징표",
     "wildItems": "",
     "extra": ""
   },
@@ -20399,7 +20419,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       350
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 54(워글), 히스이의골동품을 지니고 LV. 54(히스이워글)",
     "wildItems": "",
     "extra": ""
   },
@@ -20487,7 +20507,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       370
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 54",
     "wildItems": "",
     "extra": ""
   },
@@ -20592,7 +20612,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       38,
       300
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 50",
     "wildItems": "",
     "extra": ""
   },
@@ -20617,7 +20637,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       58,
       420
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 64",
     "wildItems": "",
     "extra": ""
   },
@@ -20668,7 +20688,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       360
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 59",
     "wildItems": "",
     "extra": ""
   },
@@ -21234,7 +21254,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       38,
       313
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 16",
     "wildItems": "",
     "extra": "무인발전소"
   },
@@ -21259,7 +21279,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       57,
       405
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 36",
     "wildItems": "",
     "extra": ""
   },
@@ -21310,7 +21330,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       307
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 16",
     "wildItems": "",
     "extra": ""
   },
@@ -21335,7 +21355,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       73,
       409
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 36",
     "wildItems": "",
     "extra": ""
   },
@@ -21386,7 +21406,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       71,
       314
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 16",
     "wildItems": "",
     "extra": ""
   },
@@ -21411,7 +21431,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       97,
       405
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 36",
     "wildItems": "",
     "extra": ""
   },
@@ -21495,7 +21515,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       57,
       237
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 20",
     "wildItems": "",
     "extra": ""
   },
@@ -21548,7 +21568,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       62,
       278
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 17",
     "wildItems": "",
     "extra": ""
   },
@@ -21574,7 +21594,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       84,
       382
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 35",
     "wildItems": "",
     "extra": ""
   },
@@ -21626,7 +21646,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       200
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 9",
     "wildItems": "",
     "extra": ""
   },
@@ -21651,7 +21671,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       29,
       213
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 12",
     "wildItems": "",
     "extra": ""
   },
@@ -21705,7 +21725,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       72,
       369
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 35",
     "wildItems": "",
     "extra": ""
   },
@@ -21757,7 +21777,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       42,
       303
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 19",
     "wildItems": "",
     "extra": ""
   },
@@ -21815,7 +21835,8 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         "wildItems": "",
         "extra": ""
       }
-    ]
+    ],
+    "evolutionCondition": "빛의돌"
   },
   {
     "id": 671,
@@ -21863,7 +21884,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       52,
       350
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 32",
     "wildItems": "",
     "extra": ""
   },
@@ -21914,7 +21935,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       43,
       348
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "파티에 악 타입 포켓몬이 있을 때 LV. 32",
     "wildItems": "",
     "extra": ""
   },
@@ -21991,7 +22012,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       68,
       355
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 25",
     "wildItems": "",
     "extra": ""
   },
@@ -22074,7 +22095,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       28,
       325
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 35",
     "wildItems": "",
     "extra": ""
   },
@@ -22099,7 +22120,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       448
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "어둠의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -22181,7 +22202,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       23,
       341
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "향기주머니를 지니고 레벨업",
     "wildItems": "",
     "extra": ""
   },
@@ -22231,7 +22252,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       49,
       341
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "휘핑팝을 지니고 레벨업",
     "wildItems": "",
     "extra": ""
   },
@@ -22283,7 +22304,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       288
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 30",
     "wildItems": "",
     "extra": ""
   },
@@ -22337,7 +22358,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       306
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 39",
     "wildItems": "",
     "extra": ""
   },
@@ -22391,7 +22412,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       320
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 48",
     "wildItems": "",
     "extra": ""
   },
@@ -22442,7 +22463,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       44,
       330
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 37",
     "wildItems": "",
     "extra": ""
   },
@@ -22493,7 +22514,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       289
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "태양의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -22546,7 +22567,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       48,
       362
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "낮에 LV. 39",
     "wildItems": "",
     "extra": "화석 복원"
   },
@@ -22598,7 +22619,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       46,
       362
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "밤에 LV. 39",
     "wildItems": "",
     "extra": "화석 복원"
   },
@@ -22755,7 +22776,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       300
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 40(미끄네일), 히스이의골동품을 지니고 LV. (히스이미끄네일)",
     "wildItems": "",
     "extra": ""
   },
@@ -22812,11 +22833,12 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           40,
           452
         ],
-        "evolutionCondition": "",
+        "evolutionCondition": "비가 오는 곳에서 LV.50\n (15번 도로에서 LV.50)",
         "wildItems": "",
         "extra": ""
       }
-    ]
+    ],
+    "evolutionCondition": "비가 오는 곳에서 LV.50\n (15번 도로에서 LV.50)"
   },
   {
     "id": 706,
@@ -22926,7 +22948,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       38,
       309
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "연결의끈",
     "wildItems": "",
     "extra": ""
   },
@@ -23066,7 +23088,8 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         "wildItems": "",
         "extra": ""
       }
-    ]
+    ],
+    "evolutionCondition": "연결의끈"
   },
   {
     "id": 711,
@@ -23201,7 +23224,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       28,
       304
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 37(크레베이스), 히스이의골동품을 지니고 LV.37(히스이크레베이스)",
     "wildItems": "",
     "extra": ""
   },
@@ -23287,7 +23310,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       245
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 48",
     "wildItems": "",
     "extra": ""
   },
@@ -23631,7 +23654,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       42,
       320
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 17",
     "wildItems": "",
     "extra": ""
   },
@@ -23657,7 +23680,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       52,
       420
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 34(모크나이퍼), 히스이의골동품을 지니고 LV. 34(모크나이퍼)",
     "wildItems": "",
     "extra": ""
   },
@@ -23741,7 +23764,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       320
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 17",
     "wildItems": "",
     "extra": ""
   },
@@ -23766,7 +23789,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       420
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 34",
     "wildItems": "",
     "extra": ""
   },
@@ -23817,7 +23840,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       320
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 17",
     "wildItems": "",
     "extra": ""
   },
@@ -23842,7 +23865,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       420
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 34",
     "wildItems": "",
     "extra": ""
   },
@@ -23895,7 +23918,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       265
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 14",
     "wildItems": "",
     "extra": ""
   },
@@ -23922,7 +23945,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       355
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 28",
     "wildItems": "",
     "extra": ""
   },
@@ -23975,7 +23998,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       253
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "낮에 LV. 20",
     "wildItems": "",
     "extra": ""
   },
@@ -24025,7 +24048,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       46,
       300
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 20",
     "wildItems": "",
     "extra": ""
   },
@@ -24050,7 +24073,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       36,
       400
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "천둥의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -24101,7 +24124,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       63,
       338
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "얼음의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -24258,7 +24281,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       84,
       304
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 25",
     "wildItems": "",
     "extra": ""
   },
@@ -24317,11 +24340,11 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           60,
           280
         ],
-        "evolutionCondition": "",
+        "evolutionCondition": "LV. 25(황혼폼은 저녁시간에만)",
         "wildItems": "",
         "extra": "황혼폼은 무지개시티에서 교환"
       }
-    ]
+    ],
   },
   {
     "id": 745,
@@ -24480,7 +24503,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       305
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 38",
     "wildItems": "",
     "extra": ""
   },
@@ -24533,7 +24556,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       385
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 30",
     "wildItems": "",
     "extra": ""
   },
@@ -24585,7 +24608,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       27,
       269
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 22",
     "wildItems": "",
     "extra": ""
   },
@@ -24636,7 +24659,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       250
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "낮에 LV. 34",
     "wildItems": "",
     "extra": ""
   },
@@ -24688,7 +24711,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       15,
       285
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 24",
     "wildItems": "",
     "extra": ""
   },
@@ -24741,7 +24764,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       77,
       320
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "암컷 LV. 33",
     "wildItems": "",
     "extra": ""
   },
@@ -24794,7 +24817,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       340
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 27",
     "wildItems": "",
     "extra": ""
   },
@@ -24847,7 +24870,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       32,
       210
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 18",
     "wildItems": "",
     "extra": ""
   },
@@ -24873,7 +24896,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       62,
       290
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "짓밟기를 배운 후 레벨업",
     "wildItems": "",
     "extra": ""
   },
@@ -25002,7 +25025,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       230
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 30",
     "wildItems": "",
     "extra": ""
   },
@@ -25053,7 +25076,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       15,
       320
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 42",
     "wildItems": "",
     "extra": ""
   },
@@ -25128,7 +25151,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       59,
       534
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "친밀도",
     "wildItems": "",
     "extra": "5번도로(집)"
   },
@@ -25447,7 +25470,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       300
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 35",
     "wildItems": "",
     "extra": ""
   },
@@ -25474,7 +25497,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       420
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 45",
     "wildItems": "",
     "extra": ""
   },
@@ -25629,7 +25652,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       37,
       200
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 43",
     "wildItems": "",
     "extra": ""
   },
@@ -25653,7 +25676,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       37,
       400
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "낮에 LV. 53(솔가레오), 밤에 LV. 53(루나아라)",
     "wildItems": "",
     "extra": ""
   },
@@ -26084,7 +26107,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       73,
       420
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "용의파동을 배운 후 레벨업",
     "wildItems": "",
     "extra": ""
   },
@@ -26207,7 +26230,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       34,
       300
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 45",
     "wildItems": "",
     "extra": "회색시티 박물관"
   },
@@ -26286,7 +26309,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       310
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 16",
     "wildItems": "",
     "extra": ""
   },
@@ -26311,7 +26334,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       420
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 35",
     "wildItems": "",
     "extra": ""
   },
@@ -26392,7 +26415,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       69,
       310
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 16",
     "wildItems": "",
     "extra": ""
   },
@@ -26417,7 +26440,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       94,
       420
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 35",
     "wildItems": "",
     "extra": ""
   },
@@ -26498,7 +26521,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       310
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 16",
     "wildItems": "",
     "extra": ""
   },
@@ -26523,7 +26546,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       420
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 35",
     "wildItems": "",
     "extra": ""
   },
@@ -26604,7 +26627,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       25,
       275
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 24",
     "wildItems": "",
     "extra": ""
   },
@@ -26655,7 +26678,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       57,
       245
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 18",
     "wildItems": "",
     "extra": ""
   },
@@ -26681,7 +26704,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       77,
       365
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 38",
     "wildItems": "",
     "extra": ""
   },
@@ -26768,7 +26791,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       180
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 10",
     "wildItems": "",
     "extra": ""
   },
@@ -26795,7 +26818,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       335
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 30",
     "wildItems": "",
     "extra": ""
   },
@@ -26882,7 +26905,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       245
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 18",
     "wildItems": "",
     "extra": ""
   },
@@ -26934,7 +26957,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       10,
       250
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 20",
     "wildItems": "",
     "extra": ""
   },
@@ -26986,7 +27009,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       48,
       270
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 24",
     "wildItems": "",
     "extra": ""
   },
@@ -27038,7 +27061,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       44,
       284
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 22",
     "wildItems": "",
     "extra": ""
   },
@@ -27124,7 +27147,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       26,
       270
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 25",
     "wildItems": "",
     "extra": ""
   },
@@ -27175,7 +27198,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       240
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 18",
     "wildItems": "",
     "extra": ""
   },
@@ -27202,7 +27225,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       410
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 34",
     "wildItems": "",
     "extra": ""
   },
@@ -27290,7 +27313,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       20,
       260
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "새콤한사과(애프룡), 달콤한사과(단지래플), 꿀맛사과(과미르)",
     "wildItems": "",
     "extra": ""
   },
@@ -27438,7 +27461,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       46,
       315
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 36",
     "wildItems": "",
     "extra": ""
   },
@@ -27555,7 +27578,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       66,
       280
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 26",
     "wildItems": "",
     "extra": ""
   },
@@ -27607,7 +27630,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       242
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 30",
     "wildItems": "",
     "extra": ""
   },
@@ -27720,7 +27743,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       305
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 28",
     "wildItems": "",
     "extra": ""
   },
@@ -27806,7 +27829,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       32,
       310
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "도발을 배운 후 레벨업",
     "wildItems": "",
     "extra": ""
   },
@@ -27856,7 +27879,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       308
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "깨진 포트 / 이빠진포트",
     "wildItems": "",
     "extra": ""
   },
@@ -27907,7 +27930,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       39,
       265
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 32",
     "wildItems": "",
     "extra": ""
   },
@@ -27933,7 +27956,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       49,
       370
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 42",
     "wildItems": "",
     "extra": ""
   },
@@ -28021,7 +28044,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       265
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 32",
     "wildItems": "",
     "extra": ""
   },
@@ -28048,7 +28071,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       370
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 42",
     "wildItems": "",
     "extra": ""
   },
@@ -28289,7 +28312,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       34,
       270
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "사탕공예를 지닌 후 레벨업",
     "wildItems": "",
     "extra": ""
   },
@@ -28421,7 +28444,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       20,
       185
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "친밀도(밤)",
     "wildItems": "",
     "extra": ""
   },
@@ -28668,7 +28691,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       330
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 34",
     "wildItems": "",
     "extra": ""
   },
@@ -28895,7 +28918,8 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         "wildItems": "",
         "extra": ""
       }
-    ]
+    ],
+    "evolutionCondition": "복합금속"
   },
   {
     "id": 885,
@@ -28920,7 +28944,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       82,
       270
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 50",
     "wildItems": "",
     "extra": ""
   },
@@ -28947,7 +28971,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       102,
       410
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 60",
     "wildItems": "",
     "extra": ""
   },
@@ -29165,7 +29189,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       72,
       385
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "물의 족자(연격), 악의 족자(일격)",
     "wildItems": "",
     "extra": "마스타드와 배틀 후, 포켓몬할아버지"
   },
@@ -29812,7 +29836,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       310
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 16",
     "wildItems": "",
     "extra": ""
   },
@@ -29837,7 +29861,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       83,
       410
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 36",
     "wildItems": "",
     "extra": ""
   },
@@ -29888,7 +29912,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       36,
       310
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 16",
     "wildItems": "",
     "extra": ""
   },
@@ -29913,7 +29937,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       49,
       411
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 36",
     "wildItems": "",
     "extra": ""
   },
@@ -29964,7 +29988,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       310
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 16",
     "wildItems": "",
     "extra": ""
   },
@@ -29989,7 +30013,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       410
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 36",
     "wildItems": "",
     "extra": ""
   },
@@ -30041,7 +30065,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       254
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 18",
     "wildItems": "",
     "extra": ""
   },
@@ -30124,7 +30148,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       20,
       210
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 15",
     "wildItems": "",
     "extra": ""
   },
@@ -30174,7 +30198,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       210
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 24",
     "wildItems": "",
     "extra": ""
   },
@@ -30226,7 +30250,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       240
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 18",
     "wildItems": "",
     "extra": ""
   },
@@ -30253,7 +30277,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       350
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "1000보 걸은 후 레벨업",
     "wildItems": "",
     "extra": ""
   },
@@ -30306,7 +30330,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       305
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 25",
     "wildItems": "",
     "extra": ""
   },
@@ -30389,7 +30413,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       312
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 26",
     "wildItems": "",
     "extra": ""
   },
@@ -30440,7 +30464,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       260
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 25",
     "wildItems": "",
     "extra": ""
   },
@@ -30466,7 +30490,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       33,
       354
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 35",
     "wildItems": "",
     "extra": ""
   },
@@ -30629,7 +30653,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       25,
       280
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 24",
     "wildItems": "",
     "extra": ""
   },
@@ -30655,7 +30679,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       355
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 38",
     "wildItems": "",
     "extra": ""
   },
@@ -30706,7 +30730,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       255
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "축복받은갑옷(카디나르마), 저주받은갑옷(파라블레이즈)",
     "wildItems": "",
     "extra": ""
   },
@@ -30784,7 +30808,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       272
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "천둥의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -30837,7 +30861,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       280
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 25",
     "wildItems": "",
     "extra": ""
   },
@@ -30890,7 +30914,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       51,
       340
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 30",
     "wildItems": "",
     "extra": ""
   },
@@ -30943,7 +30967,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       290
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 28",
     "wildItems": "",
     "extra": ""
   },
@@ -30996,7 +31020,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       275
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "1000보 걸은 후 레벨업",
     "wildItems": "",
     "extra": ""
   },
@@ -31048,7 +31072,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       335
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 30",
     "wildItems": "",
     "extra": "갈색시티 애호가 클럽에서 교환"
   },
@@ -31126,7 +31150,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       304
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "불꽃의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -31178,7 +31202,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       270
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "1000보 걸은 후 레벨업",
     "wildItems": "",
     "extra": ""
   },
@@ -31230,7 +31254,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       255
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 35",
     "wildItems": "",
     "extra": ""
   },
@@ -31283,7 +31307,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       58,
       297
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 24",
     "wildItems": "",
     "extra": ""
   },
@@ -31310,7 +31334,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       78,
       380
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 38",
     "wildItems": "",
     "extra": ""
   },
@@ -31363,7 +31387,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       95,
       245
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 26",
     "wildItems": "",
     "extra": ""
   },
@@ -31441,7 +31465,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       315
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 38",
     "wildItems": "",
     "extra": ""
   },
@@ -31521,7 +31545,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       47,
       300
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 40",
     "wildItems": "",
     "extra": ""
   },
@@ -31624,7 +31648,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       350
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 35",
     "wildItems": "",
     "extra": ""
   },
@@ -31675,7 +31699,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       34,
       290
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "밤에 LV. 30",
     "wildItems": "",
     "extra": ""
   },
@@ -31753,7 +31777,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       43,
       334
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "얼음의돌",
     "wildItems": "",
     "extra": ""
   },
@@ -32406,7 +32430,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       320
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 35",
     "wildItems": "",
     "extra": ""
   },
@@ -32432,7 +32456,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       62,
       423
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "LV. 54",
     "wildItems": "",
     "extra": ""
   },
@@ -32515,7 +32539,8 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         "wildItems": "",
         "extra": ""
       }
-    ]
+    ],
+    "evolutionCondition": "모으령코인을 999개 모은 후 레벨업"
   },
   {
     "id": 1000,
@@ -32815,7 +32840,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       485
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "드래곤옐을 배운 후 레벨업",
     "wildItems": "",
     "extra": ""
   },
@@ -32841,7 +32866,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       308
     ],
-    "evolutionCondition": "",
+    "evolutionCondition": "범작찻잔 / 걸작찻잔",
     "wildItems": "",
     "extra": ""
   },
