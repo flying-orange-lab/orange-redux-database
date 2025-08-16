@@ -143,6 +143,18 @@
   font-weight: bold;
 }
 
+.pokemon-card-extra {
+  font-size: 0.85em;
+  color: #555;
+  text-align: left;
+
+  > :not(:first-child)::before {
+  content: "·";
+  display: inline-block;
+  width: 8px;
+}
+}
+
 /* 기존 타입별 배경색 (변경 없음) */
 .type-normal {
   background-color: #a8a77a;

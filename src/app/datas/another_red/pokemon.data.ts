@@ -22,7 +22,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       45,
       318
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 2,
@@ -45,7 +48,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       60,
       405
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 3,
@@ -75,7 +81,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           100,
           80,
           525
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가이상해꽃",
@@ -95,7 +104,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           120,
           80,
           625
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -116,7 +128,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           100,
           80,
           525
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -140,7 +155,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       65,
       309
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 5,
@@ -162,7 +180,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       80,
       405
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 6,
@@ -192,7 +213,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           85,
           100,
           534
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가리자몽X",
@@ -212,7 +236,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           85,
           100,
           634
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가리자몽Y",
@@ -232,7 +259,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           115,
           100,
           634
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -253,7 +283,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           85,
           100,
           534
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -277,7 +310,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       64,
       43,
       314
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 8,
@@ -299,7 +335,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       58,
       405
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 9,
@@ -327,7 +366,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           105,
           78,
           530
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가거북왕",
@@ -346,7 +388,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           115,
           78,
           630
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -366,7 +411,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           105,
           78,
           530
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -390,7 +438,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       20,
       45,
       195
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 11,
@@ -411,7 +462,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       25,
       30,
       205
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 12,
@@ -441,7 +495,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           70,
           395
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -462,7 +519,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           70,
           395
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -487,7 +547,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       20,
       50,
       195
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 14,
@@ -509,7 +572,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       25,
       35,
       205
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 15,
@@ -539,7 +605,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           75,
           395
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가독침붕",
@@ -559,7 +628,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           145,
           495
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -585,7 +657,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       56,
       251
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 17,
@@ -609,7 +684,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       71,
       349
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 18,
@@ -640,7 +718,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           101,
           479
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가피죤투",
@@ -660,7 +741,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           121,
           579
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -691,7 +775,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           35,
           72,
           253
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "알로라",
@@ -713,7 +800,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           35,
           72,
           253
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "갈색시티 애호가 클럽에서 교환"
       }
     ]
   },
@@ -744,7 +834,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           97,
           413
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "알로라",
@@ -766,7 +859,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           77,
           413
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -791,7 +887,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       31,
       70,
       262
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 22,
@@ -814,7 +913,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       61,
       100,
       442
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 23,
@@ -837,7 +939,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       54,
       55,
       288
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 24,
@@ -860,7 +965,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       79,
       80,
       448
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 25,
@@ -888,7 +996,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           50,
           90,
           320
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -908,7 +1019,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           50,
           90,
           320
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -938,7 +1052,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           110,
           485
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "알로라",
@@ -958,7 +1075,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           85,
           110,
           485
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -988,7 +1108,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           30,
           40,
           300
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "갈색시티 애호가 클럽에서 교환"
       },
       {
         "formName": "알로라",
@@ -1009,7 +1132,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           35,
           40,
           300
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -1039,7 +1165,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           55,
           65,
           450
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "알로라",
@@ -1060,7 +1189,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           65,
           65,
           450
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -1085,7 +1217,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       41,
       275
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 30,
@@ -1108,7 +1243,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       56,
       365
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 31,
@@ -1132,7 +1270,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       76,
       505
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 32,
@@ -1155,7 +1296,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       50,
       273
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 33,
@@ -1178,7 +1322,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       65,
       365
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 34,
@@ -1202,7 +1349,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       85,
       505
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 35,
@@ -1225,7 +1375,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       35,
       323
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 36,
@@ -1248,7 +1401,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       60,
       483
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 37,
@@ -1276,7 +1432,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           65,
           65,
           299
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "알로라",
@@ -1296,7 +1455,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           65,
           65,
           299
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "갈색시티 애호가 클럽에서 교환"
       }
     ]
   },
@@ -1326,7 +1488,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           100,
           100,
           505
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "알로라",
@@ -1347,7 +1512,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           100,
           109,
           505
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -1373,7 +1541,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       25,
       20,
       270
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 40,
@@ -1397,7 +1568,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       45,
       435
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 41,
@@ -1420,7 +1594,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       55,
       245
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 42,
@@ -1443,7 +1620,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       90,
       455
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 43,
@@ -1466,7 +1646,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       30,
       320
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 44,
@@ -1489,7 +1672,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       40,
       395
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 45,
@@ -1512,7 +1698,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       50,
       490
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 46,
@@ -1536,7 +1725,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       25,
       285
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 47,
@@ -1560,7 +1752,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       30,
       405
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 48,
@@ -1584,7 +1779,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       45,
       305
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 49,
@@ -1608,7 +1806,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       90,
       450
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 50,
@@ -1637,7 +1838,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           45,
           95,
           265
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "알로라",
@@ -1659,7 +1863,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           45,
           90,
           265
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "갈색시티 애호가 클럽에서 교환"
       }
     ]
   },
@@ -1690,7 +1897,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           120,
           425
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "알로라",
@@ -1712,7 +1922,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           110,
           425
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -1743,7 +1956,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           40,
           90,
           290
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "알로라",
@@ -1764,7 +1980,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           40,
           90,
           290
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "갈색시티 애호가 클럽에서 교환"
       },
       {
         "formName": "가라르",
@@ -1785,7 +2004,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           40,
           40,
           290
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "갈색시티 애호가 클럽에서 교환"
       },
       {
         "formName": "거다이맥스",
@@ -1806,7 +2028,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           40,
           90,
           290
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -1837,7 +2062,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           65,
           115,
           440
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "알로라",
@@ -1858,7 +2086,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           65,
           115,
           440
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -1883,7 +2114,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       55,
       320
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 55,
@@ -1906,7 +2140,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       85,
       500
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 56,
@@ -1929,7 +2166,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       70,
       305
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 57,
@@ -1952,7 +2192,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       95,
       455
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 58,
@@ -1981,7 +2224,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           50,
           60,
           350
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "히스이",
@@ -2003,7 +2249,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           50,
           55,
           350
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "갈색시티 애호가 클럽에서 교환"
       }
     ]
   },
@@ -2034,7 +2283,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           95,
           555
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "히스이",
@@ -2056,7 +2308,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           90,
           555
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -2081,7 +2336,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       90,
       300
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 61,
@@ -2104,7 +2362,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       90,
       385
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 62,
@@ -2128,7 +2389,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       70,
       510
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 63,
@@ -2151,7 +2415,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       90,
       310
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 64,
@@ -2174,7 +2441,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       105,
       400
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 65,
@@ -2203,7 +2473,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           95,
           120,
           500
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가후딘",
@@ -2222,7 +2495,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           105,
           150,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -2247,7 +2523,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       35,
       305
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 67,
@@ -2270,7 +2549,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       45,
       405
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 68,
@@ -2299,7 +2581,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           85,
           55,
           505
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -2320,7 +2605,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           85,
           55,
           505
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -2345,7 +2633,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       40,
       300
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 70,
@@ -2368,7 +2659,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       55,
       390
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 71,
@@ -2391,7 +2685,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       70,
       490
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 72,
@@ -2415,7 +2712,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       100,
       70,
       335
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 73,
@@ -2439,7 +2739,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       120,
       100,
       515
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 74,
@@ -2470,7 +2773,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           30,
           20,
           300
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "알로라",
@@ -2492,7 +2798,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           30,
           20,
           300
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "갈색시티 애호가 클럽에서 교환"
       }
     ]
   },
@@ -2525,7 +2834,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           45,
           35,
           390
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "알로라",
@@ -2547,7 +2859,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           45,
           35,
           390
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -2580,7 +2895,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           65,
           45,
           495
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "알로라",
@@ -2602,7 +2920,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           65,
           45,
           495
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -2633,7 +2954,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           65,
           90,
           410
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "가라르",
@@ -2654,7 +2978,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           65,
           90,
           410
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "갈색시티 애호가 클럽에서 교환"
       }
     ]
   },
@@ -2685,7 +3012,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           105,
           500
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "가라르",
@@ -2707,7 +3037,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           105,
           500
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -2740,7 +3073,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           40,
           15,
           315
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "가라르",
@@ -2761,7 +3097,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           40,
           15,
           315
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "갈색시티 애호가 클럽에서 교환"
       }
     ]
   },
@@ -2794,7 +3133,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           30,
           490
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가야도란",
@@ -2814,7 +3156,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           30,
           590
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "가라르",
@@ -2836,7 +3181,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           30,
           490
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -2862,7 +3210,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       45,
       325
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "갈색체육관"
   },
   {
     "id": 82,
@@ -2886,7 +3237,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       70,
       465
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 83,
@@ -2917,7 +3271,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           62,
           60,
           377
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "가라르",
@@ -2937,7 +3294,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           62,
           55,
           377
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "갈색시티 애호가 클럽에서 교환"
       }
     ]
   },
@@ -2963,7 +3323,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       75,
       310
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 85,
@@ -2987,7 +3350,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       110,
       470
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 86,
@@ -3010,7 +3376,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       45,
       325
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 87,
@@ -3034,7 +3403,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       95,
       70,
       475
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 88,
@@ -3063,7 +3435,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           50,
           25,
           325
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "알로라",
@@ -3085,7 +3460,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           50,
           25,
           325
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "갈색시티 애호가 클럽에서 교환"
       }
     ]
   },
@@ -3116,7 +3494,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           100,
           50,
           500
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "알로라",
@@ -3138,7 +3519,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           100,
           50,
           500
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -3163,7 +3547,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       25,
       40,
       305
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 91,
@@ -3187,7 +3574,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       70,
       525
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 92,
@@ -3209,7 +3599,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       80,
       310
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 93,
@@ -3231,7 +3624,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       95,
       405
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 94,
@@ -3260,7 +3656,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           75,
           110,
           500
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가팬텀",
@@ -3280,7 +3679,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           95,
           130,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -3300,7 +3702,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           75,
           110,
           500
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -3326,7 +3731,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       70,
       385
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 96,
@@ -3349,7 +3757,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       42,
       328
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 97,
@@ -3372,7 +3783,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       115,
       67,
       483
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 98,
@@ -3395,7 +3809,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       25,
       50,
       325
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 99,
@@ -3424,7 +3841,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           50,
           75,
           475
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -3445,7 +3865,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           50,
           75,
           475
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -3476,7 +3899,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           55,
           100,
           330
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "갈색체육관"
       },
       {
         "formName": "히스이",
@@ -3498,7 +3924,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           55,
           100,
           330
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "갈색시티 애호가 클럽에서 교환"
       }
     ]
   },
@@ -3529,7 +3958,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           150,
           490
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "히스이",
@@ -3551,7 +3983,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           150,
           490
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -3576,7 +4011,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       40,
       325
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 103,
@@ -3606,7 +4044,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           75,
           55,
           530
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "알로라",
@@ -3627,7 +4068,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           75,
           45,
           530
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -3652,7 +4096,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       35,
       320
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 105,
@@ -3681,7 +4128,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           45,
           425
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "알로라",
@@ -3703,7 +4153,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           45,
           425
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -3728,7 +4181,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       110,
       87,
       455
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 107,
@@ -3751,7 +4207,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       110,
       76,
       455
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 108,
@@ -3774,7 +4233,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       30,
       385
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 109,
@@ -3797,7 +4259,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       35,
       340
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 110,
@@ -3826,7 +4291,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           60,
           490
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "가라르",
@@ -3848,7 +4316,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           60,
           490
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -3874,7 +4345,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       25,
       345
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 112,
@@ -3898,7 +4372,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       40,
       485
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 113,
@@ -3921,7 +4398,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       105,
       50,
       450
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 114,
@@ -3944,7 +4424,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       60,
       435
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 115,
@@ -3973,7 +4456,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           90,
           490
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가캥카",
@@ -3992,7 +4478,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           100,
           100,
           590
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -4017,7 +4506,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       25,
       60,
       295
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 117,
@@ -4040,7 +4532,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       85,
       440
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 118,
@@ -4063,7 +4558,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       63,
       320
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 119,
@@ -4086,7 +4584,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       68,
       450
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 120,
@@ -4109,7 +4610,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       85,
       340
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 121,
@@ -4133,7 +4637,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       115,
       520
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 122,
@@ -4164,7 +4671,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           120,
           90,
           460
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "가라르",
@@ -4186,7 +4696,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           90,
           100,
           460
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "갈색시티 애호가 클럽에서 교환"
       }
     ]
   },
@@ -4212,7 +4725,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       105,
       500
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 124,
@@ -4236,7 +4752,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       95,
       95,
       455
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 125,
@@ -4258,7 +4777,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       105,
       490
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 126,
@@ -4280,7 +4802,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       93,
       495
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 127,
@@ -4309,7 +4834,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           85,
           500
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가쁘사이저",
@@ -4329,7 +4857,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           90,
           105,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -4360,10 +4891,13 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           110,
           490
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "갈색시티 애호가 클럽에서 교환(폼랜덤)"
       },
       {
-        "formName": "팔데아-컴뱃",
+        "formName": "팔데아 컴뱃",
         "imageUrl": "10250.png",
         "types": [
           "fighting"
@@ -4381,10 +4915,13 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           100,
           490
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "갈색시티 애호가 클럽에서 교환(폼랜덤)"
       },
       {
-        "formName": "팔데아-블레이즈",
+        "formName": "팔데아 블레이즈",
         "imageUrl": "10251.png",
         "types": [
           "fighting",
@@ -4403,10 +4940,13 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           100,
           490
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
-        "formName": "팔데아-워터",
+        "formName": "팔데아 워터",
         "imageUrl": "10252.png",
         "types": [
           "fighting",
@@ -4425,7 +4965,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           100,
           490
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "갈색시티 애호가 클럽에서 교환(폼랜덤)"
       }
     ]
   },
@@ -4449,7 +4992,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       20,
       80,
       200
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 130,
@@ -4479,7 +5025,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           100,
           81,
           540
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가갸라도스",
@@ -4499,7 +5048,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           130,
           81,
           640
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -4532,7 +5084,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           95,
           60,
           535
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -4554,7 +5109,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           95,
           60,
           535
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -4578,7 +5136,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       48,
       48,
       288
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 133,
@@ -4607,7 +5168,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           65,
           55,
           325
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -4628,7 +5192,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           65,
           55,
           325
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -4652,7 +5219,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       95,
       65,
       525
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 135,
@@ -4674,7 +5244,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       95,
       130,
       525
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 136,
@@ -4696,7 +5269,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       110,
       65,
       525
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 137,
@@ -4719,7 +5295,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       40,
       395
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "연분홍시티 연구소"
   },
   {
     "id": 138,
@@ -4743,7 +5322,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       35,
       355
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "화석 복원"
   },
   {
     "id": 139,
@@ -4767,7 +5349,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       55,
       495
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 140,
@@ -4791,7 +5376,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       55,
       355
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "화석 복원"
   },
   {
     "id": 141,
@@ -4815,7 +5403,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       80,
       495
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 142,
@@ -4846,7 +5437,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           75,
           130,
           515
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "화석 복원"
       },
       {
         "formName": "메가프테라",
@@ -4866,7 +5460,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           95,
           150,
           615
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -4897,7 +5494,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           110,
           30,
           540
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -4918,7 +5518,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           110,
           30,
           540
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -4950,7 +5553,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           125,
           85,
           580
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "가라르",
@@ -4970,7 +5576,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           100,
           95,
           580
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "전설의 새를 모두 잡은 후 갈색시티"
       }
     ]
   },
@@ -5002,7 +5611,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           90,
           100,
           580
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "가라르",
@@ -5022,7 +5634,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           90,
           100,
           580
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "전설의 새를 모두 잡은 후 갈색시티"
       }
     ]
   },
@@ -5054,7 +5669,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           85,
           90,
           580
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "가라르",
@@ -5074,7 +5692,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           125,
           90,
           580
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "전설의 새를 모두 잡은 후 갈색시티"
       }
     ]
   },
@@ -5098,7 +5719,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       50,
       300
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 148,
@@ -5120,7 +5744,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       70,
       420
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 149,
@@ -5143,7 +5770,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       100,
       80,
       600
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 150,
@@ -5171,7 +5801,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           90,
           130,
           680
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "해안폐광"
       },
       {
         "formName": "메가뮤츠X",
@@ -5191,7 +5824,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           100,
           130,
           780
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "머나먼고도"
       },
       {
         "formName": "메가뮤츠Y",
@@ -5210,7 +5846,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           120,
           140,
           780
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -5233,7 +5872,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       100,
       100,
       600
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 152,
@@ -5255,7 +5897,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       45,
       318
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 153,
@@ -5277,7 +5922,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       60,
       405
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 154,
@@ -5299,7 +5947,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       100,
       80,
       525
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 155,
@@ -5321,7 +5972,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       65,
       309
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 156,
@@ -5343,7 +5997,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       80,
       405
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 157,
@@ -5371,7 +6028,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           85,
           100,
           534
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "히스이",
@@ -5392,7 +6052,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           85,
           95,
           534
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -5416,7 +6079,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       48,
       43,
       314
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 159,
@@ -5438,7 +6104,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       63,
       58,
       405
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 160,
@@ -5460,7 +6129,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       83,
       78,
       530
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 161,
@@ -5483,7 +6155,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       20,
       215
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 162,
@@ -5506,7 +6181,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       90,
       415
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 163,
@@ -5530,7 +6208,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       56,
       50,
       262
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 164,
@@ -5554,7 +6235,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       96,
       70,
       452
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 165,
@@ -5578,7 +6262,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       55,
       265
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 166,
@@ -5602,7 +6289,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       110,
       85,
       390
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 167,
@@ -5626,7 +6316,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       30,
       250
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 168,
@@ -5650,7 +6343,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       40,
       400
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 169,
@@ -5673,7 +6369,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       130,
       535
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 170,
@@ -5697,7 +6396,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       56,
       67,
       330
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 171,
@@ -5721,7 +6423,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       76,
       67,
       460
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 172,
@@ -5743,7 +6448,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       60,
       205
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 173,
@@ -5766,7 +6474,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       15,
       218
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 174,
@@ -5790,7 +6501,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       20,
       15,
       210
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 175,
@@ -5813,7 +6527,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       20,
       245
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 176,
@@ -5837,7 +6554,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       105,
       40,
       405
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 177,
@@ -5861,7 +6581,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       70,
       320
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 178,
@@ -5885,7 +6608,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       95,
       470
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 179,
@@ -5907,7 +6633,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       35,
       280
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 180,
@@ -5929,7 +6658,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       45,
       365
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 181,
@@ -5957,7 +6689,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           90,
           55,
           510
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가전룡",
@@ -5977,7 +6712,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           110,
           45,
           610
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -6001,7 +6739,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       100,
       50,
       490
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 183,
@@ -6025,7 +6766,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       40,
       250
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 184,
@@ -6049,7 +6793,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       50,
       420
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 185,
@@ -6072,7 +6819,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       30,
       410
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 186,
@@ -6095,7 +6845,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       100,
       70,
       500
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 187,
@@ -6119,7 +6872,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       50,
       250
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 188,
@@ -6143,7 +6899,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       80,
       340
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 189,
@@ -6167,7 +6926,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       95,
       110,
       460
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 190,
@@ -6190,7 +6952,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       85,
       360
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 191,
@@ -6213,7 +6978,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       30,
       180
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 192,
@@ -6236,7 +7004,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       30,
       425
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 193,
@@ -6260,7 +7031,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       95,
       390
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 194,
@@ -6291,7 +7065,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           25,
           15,
           210
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "팔데아",
@@ -6313,7 +7090,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           25,
           15,
           210
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "갈색시티 애호가 클럽에서 교환"
       }
     ]
   },
@@ -6339,7 +7119,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       35,
       430
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 196,
@@ -6361,7 +7144,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       95,
       110,
       525
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 197,
@@ -6383,7 +7169,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       130,
       65,
       525
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 198,
@@ -6407,7 +7196,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       42,
       91,
       405
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 199,
@@ -6438,7 +7230,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           110,
           30,
           490
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "가라르",
@@ -6460,7 +7255,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           110,
           30,
           490
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -6483,7 +7281,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       85,
       435
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 201,
@@ -6504,7 +7305,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       48,
       48,
       336
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 202,
@@ -6526,7 +7330,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       58,
       33,
       405
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 203,
@@ -6550,7 +7357,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       85,
       455
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 204,
@@ -6572,7 +7382,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       15,
       290
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 205,
@@ -6595,7 +7408,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       40,
       465
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 206,
@@ -6618,7 +7434,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       45,
       415
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 207,
@@ -6642,7 +7461,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       85,
       430
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 208,
@@ -6673,7 +7495,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           65,
           30,
           510
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가강철톤",
@@ -6693,7 +7518,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           95,
           30,
           610
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -6718,7 +7546,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       30,
       300
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 210,
@@ -6741,7 +7572,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       45,
       450
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 211,
@@ -6772,7 +7606,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           55,
           85,
           440
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "히스이",
@@ -6794,7 +7631,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           55,
           85,
           440
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "갈색시티 애호가 클럽에서 교환"
       }
     ]
   },
@@ -6827,7 +7667,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           65,
           500
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가핫삼",
@@ -6847,7 +7690,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           100,
           75,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -6873,7 +7719,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       230,
       5,
       505
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 214,
@@ -6904,7 +7753,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           95,
           85,
           500
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가헤라크로스",
@@ -6924,7 +7776,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           105,
           75,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -6957,7 +7812,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           75,
           115,
           430
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "히스이",
@@ -6979,7 +7837,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           75,
           115,
           430
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "갈색시티 애호가 클럽에서 교환"
       }
     ]
   },
@@ -7004,7 +7865,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       40,
       330
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 217,
@@ -7027,7 +7891,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       55,
       500
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 218,
@@ -7050,7 +7917,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       20,
       250
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 219,
@@ -7074,7 +7944,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       30,
       430
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 220,
@@ -7098,7 +7971,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       50,
       250
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 221,
@@ -7122,7 +7998,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       50,
       450
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 222,
@@ -7153,7 +8032,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           95,
           35,
           410
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "가라르",
@@ -7173,7 +8055,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           100,
           30,
           410
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "갈색시티 애호가 클럽에서 교환"
       }
     ]
   },
@@ -7198,7 +8083,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       65,
       300
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 224,
@@ -7221,7 +8109,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       45,
       480
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 225,
@@ -7245,7 +8136,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       75,
       330
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 226,
@@ -7269,7 +8163,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       140,
       70,
       485
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 227,
@@ -7293,7 +8190,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       70,
       465
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 228,
@@ -7317,7 +8217,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       65,
       330
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 229,
@@ -7348,7 +8251,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           95,
           500
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가헬가",
@@ -7368,7 +8274,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           90,
           115,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -7394,7 +8303,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       95,
       85,
       540
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 231,
@@ -7416,7 +8328,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       40,
       330
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 232,
@@ -7438,7 +8353,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       50,
       500
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 233,
@@ -7461,7 +8379,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       95,
       60,
       515
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 234,
@@ -7484,7 +8405,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       85,
       465
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 235,
@@ -7507,7 +8431,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       75,
       250
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 236,
@@ -7530,7 +8457,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       35,
       210
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 237,
@@ -7553,7 +8483,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       110,
       70,
       455
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 238,
@@ -7577,7 +8510,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       65,
       305
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 239,
@@ -7599,7 +8535,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       95,
       360
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 240,
@@ -7621,7 +8560,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       83,
       365
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 241,
@@ -7644,7 +8586,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       100,
       490
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 242,
@@ -7667,7 +8612,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       135,
       55,
       540
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 243,
@@ -7689,7 +8637,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       100,
       115,
       580
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "무궁시티 or 34번도로"
   },
   {
     "id": 244,
@@ -7711,7 +8662,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       100,
       580
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "분노의호수 or 고동마을"
   },
   {
     "id": 245,
@@ -7733,7 +8687,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       115,
       85,
       580
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "42번도로 or 금빛수로"
   },
   {
     "id": 246,
@@ -7756,7 +8713,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       41,
       300
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 247,
@@ -7778,7 +8738,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       51,
       410
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 248,
@@ -7808,7 +8771,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           100,
           61,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가마기라스",
@@ -7828,7 +8794,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           120,
           71,
           700
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -7853,7 +8822,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       154,
       110,
       680
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 250,
@@ -7876,7 +8848,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       154,
       90,
       680
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "방울탑"
   },
   {
     "id": 251,
@@ -7898,7 +8873,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       100,
       100,
       600
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 252,
@@ -7920,7 +8898,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       70,
       310
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 253,
@@ -7942,7 +8923,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       95,
       405
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 254,
@@ -7970,7 +8954,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           85,
           120,
           530
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가나무킹",
@@ -7990,7 +8977,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           85,
           145,
           630
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -8014,7 +9004,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       45,
       310
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 256,
@@ -8037,7 +9030,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       55,
       405
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 257,
@@ -8067,7 +9063,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           80,
           530
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가번치코",
@@ -8087,7 +9086,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           100,
           630
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -8111,7 +9113,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       40,
       310
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 259,
@@ -8134,7 +9139,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       50,
       405
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 260,
@@ -8164,7 +9172,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           90,
           60,
           535
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가대짱이",
@@ -8184,7 +9195,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           110,
           70,
           635
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -8209,7 +9223,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       35,
       220
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 262,
@@ -8232,7 +9249,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       70,
       420
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 263,
@@ -8261,7 +9281,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           41,
           60,
           240
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "가라르",
@@ -8283,7 +9306,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           41,
           60,
           240
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "갈색시티 애호가 클럽에서 교환"
       }
     ]
   },
@@ -8314,7 +9340,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           61,
           100,
           420
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "가라르",
@@ -8336,7 +9365,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           61,
           100,
           420
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -8360,7 +9392,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       20,
       195
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 266,
@@ -8381,7 +9416,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       25,
       15,
       205
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 267,
@@ -8404,7 +9442,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       65,
       395
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 268,
@@ -8425,7 +9466,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       25,
       15,
       205
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 269,
@@ -8448,7 +9492,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       65,
       385
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 270,
@@ -8472,7 +9519,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       30,
       220
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 271,
@@ -8496,7 +9546,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       50,
       340
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 272,
@@ -8520,7 +9573,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       100,
       70,
       480
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 273,
@@ -8543,7 +9599,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       30,
       220
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 274,
@@ -8567,7 +9626,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       60,
       340
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 275,
@@ -8591,7 +9653,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       80,
       480
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 276,
@@ -8614,7 +9679,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       85,
       270
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 277,
@@ -8637,7 +9705,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       125,
       455
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 278,
@@ -8661,7 +9732,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       85,
       270
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 279,
@@ -8685,7 +9759,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       65,
       440
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 280,
@@ -8709,7 +9786,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       40,
       198
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 281,
@@ -8733,7 +9813,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       50,
       278
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 282,
@@ -8764,7 +9847,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           115,
           80,
           518
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가가디안",
@@ -8784,7 +9870,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           135,
           100,
           618
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -8809,7 +9898,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       52,
       65,
       269
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 284,
@@ -8832,7 +9924,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       82,
       80,
       454
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 285,
@@ -8855,7 +9950,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       35,
       295
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 286,
@@ -8879,7 +9977,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       70,
       460
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 287,
@@ -8900,7 +10001,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       30,
       280
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 288,
@@ -8921,7 +10025,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       90,
       440
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 289,
@@ -8942,7 +10049,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       100,
       670
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 290,
@@ -8965,7 +10075,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       40,
       266
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 291,
@@ -8988,7 +10101,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       160,
       456
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 292,
@@ -9010,7 +10126,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       40,
       236
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 293,
@@ -9032,7 +10151,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       23,
       28,
       240
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 294,
@@ -9054,7 +10176,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       43,
       48,
       360
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 295,
@@ -9076,7 +10201,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       73,
       68,
       490
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 296,
@@ -9099,7 +10227,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       25,
       237
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 297,
@@ -9122,7 +10253,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       50,
       474
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 298,
@@ -9146,7 +10280,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       20,
       190
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 299,
@@ -9169,7 +10306,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       30,
       375
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 300,
@@ -9192,7 +10332,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       50,
       260
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 301,
@@ -9215,7 +10358,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       90,
       400
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 302,
@@ -9246,7 +10392,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           65,
           50,
           380
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가깜까미",
@@ -9266,7 +10415,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           115,
           20,
           480
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -9299,7 +10451,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           55,
           50,
           380
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가입치트",
@@ -9319,7 +10474,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           95,
           50,
           480
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -9345,7 +10503,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       30,
       330
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 305,
@@ -9369,7 +10530,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       40,
       430
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 306,
@@ -9400,7 +10564,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           60,
           50,
           530
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가보스로라",
@@ -9419,7 +10586,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           50,
           630
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -9444,7 +10614,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       60,
       280
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 308,
@@ -9474,7 +10647,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           75,
           80,
           410
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가요가램",
@@ -9494,7 +10670,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           85,
           100,
           510
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -9519,7 +10698,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       65,
       295
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 310,
@@ -9548,7 +10730,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           60,
           105,
           475
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가썬더볼트",
@@ -9567,7 +10752,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           135,
           575
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -9591,7 +10779,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       95,
       405
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 312,
@@ -9613,7 +10804,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       95,
       405
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 313,
@@ -9636,7 +10830,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       85,
       430
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 314,
@@ -9659,7 +10856,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       85,
       430
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 315,
@@ -9683,7 +10883,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       65,
       400
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 316,
@@ -9706,7 +10909,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       53,
       40,
       302
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 317,
@@ -9729,7 +10935,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       83,
       55,
       467
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 318,
@@ -9752,7 +10961,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       20,
       65,
       305
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 319,
@@ -9782,7 +10994,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           40,
           95,
           460
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가샤크니아",
@@ -9802,7 +11017,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           65,
           105,
           560
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -9827,7 +11045,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       60,
       400
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 321,
@@ -9850,7 +11071,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       60,
       500
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 322,
@@ -9874,7 +11098,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       35,
       305
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 323,
@@ -9905,7 +11132,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           75,
           40,
           460
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가폭타",
@@ -9925,7 +11155,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           105,
           20,
           560
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -9950,7 +11183,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       20,
       470
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 325,
@@ -9973,7 +11209,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       60,
       330
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 326,
@@ -9996,7 +11235,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       110,
       80,
       470
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 327,
@@ -10019,7 +11261,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       60,
       360
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 328,
@@ -10042,7 +11287,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       10,
       290
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 329,
@@ -10064,7 +11312,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       70,
       340
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 330,
@@ -10086,7 +11337,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       100,
       520
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 331,
@@ -10108,7 +11362,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       35,
       335
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 332,
@@ -10131,7 +11388,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       55,
       475
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 333,
@@ -10154,7 +11414,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       50,
       310
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 334,
@@ -10184,7 +11447,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           105,
           80,
           490
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가파비코리",
@@ -10204,7 +11470,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           105,
           80,
           590
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -10228,7 +11497,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       90,
       458
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 336,
@@ -10250,7 +11522,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       65,
       458
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 337,
@@ -10272,7 +11547,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       70,
       460
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 338,
@@ -10294,7 +11572,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       70,
       460
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 339,
@@ -10318,7 +11599,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       41,
       60,
       288
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 340,
@@ -10342,7 +11626,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       71,
       60,
       468
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 341,
@@ -10365,7 +11652,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       35,
       308
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 342,
@@ -10389,7 +11679,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       55,
       468
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 343,
@@ -10411,7 +11704,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       55,
       300
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 344,
@@ -10433,7 +11729,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       120,
       75,
       500
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 345,
@@ -10456,7 +11755,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       87,
       23,
       355
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "화석 복원"
   },
   {
     "id": 346,
@@ -10479,7 +11781,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       107,
       43,
       495
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 347,
@@ -10502,7 +11807,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       75,
       355
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "화석 복원"
   },
   {
     "id": 348,
@@ -10525,7 +11833,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       45,
       495
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 349,
@@ -10548,7 +11859,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       80,
       200
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 350,
@@ -10571,7 +11885,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       125,
       81,
       540
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 351,
@@ -10598,7 +11915,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           70,
           420
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "태양",
@@ -10617,7 +11937,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           70,
           420
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "빗방울",
@@ -10636,7 +11959,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           70,
           420
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "설운",
@@ -10655,7 +11981,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           70,
           420
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -10679,7 +12008,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       120,
       40,
       440
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 353,
@@ -10702,7 +12034,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       33,
       45,
       295
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 354,
@@ -10731,7 +12066,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           63,
           65,
           455
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가다크펫",
@@ -10750,7 +12088,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           83,
           75,
           555
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -10774,7 +12115,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       25,
       295
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 356,
@@ -10796,7 +12140,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       130,
       25,
       455
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 357,
@@ -10820,7 +12167,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       87,
       51,
       460
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 358,
@@ -10841,7 +12191,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       65,
       455
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 359,
@@ -10870,7 +12223,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           60,
           75,
           465
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가앱솔",
@@ -10889,7 +12245,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           60,
           115,
           565
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -10913,7 +12272,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       48,
       23,
       260
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 361,
@@ -10936,7 +12298,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       50,
       300
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 362,
@@ -10965,7 +12330,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           80,
           480
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가얼음귀신",
@@ -10984,7 +12352,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           100,
           580
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -11010,7 +12381,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       25,
       290
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 364,
@@ -11034,7 +12408,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       45,
       410
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 365,
@@ -11058,7 +12435,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       65,
       530
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 366,
@@ -11080,7 +12460,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       32,
       345
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 367,
@@ -11102,7 +12485,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       52,
       485
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 368,
@@ -11124,7 +12510,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       52,
       485
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 369,
@@ -11148,7 +12537,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       55,
       485
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 370,
@@ -11170,7 +12562,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       97,
       330
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 371,
@@ -11192,7 +12587,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       50,
       300
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 372,
@@ -11214,7 +12612,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       50,
       420
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 373,
@@ -11244,7 +12645,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           100,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가보만다",
@@ -11264,7 +12668,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           90,
           120,
           700
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -11289,7 +12696,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       30,
       300
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 375,
@@ -11312,7 +12722,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       50,
       420
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 376,
@@ -11342,7 +12755,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           90,
           70,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가메타그로스",
@@ -11362,7 +12778,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           110,
           110,
           700
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -11386,7 +12805,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       100,
       50,
       580
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "해안폐광"
   },
   {
     "id": 378,
@@ -11408,7 +12830,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       200,
       50,
       580
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "쌍둥이섬"
   },
   {
     "id": 379,
@@ -11430,7 +12855,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       150,
       50,
       580
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "무인발전소"
   },
   {
     "id": 380,
@@ -11459,7 +12887,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           130,
           110,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "깊은바다동굴"
       },
       {
         "formName": "메가라티아스",
@@ -11479,7 +12910,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           150,
           110,
           700
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -11510,7 +12944,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           110,
           110,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "용의굴"
       },
       {
         "formName": "메가라티오스",
@@ -11530,7 +12967,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           120,
           110,
           700
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -11559,7 +12999,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           140,
           90,
           670
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "깊은바다동굴"
       },
       {
         "formName": "원시회귀",
@@ -11578,7 +13021,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           160,
           90,
           770
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -11607,7 +13053,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           90,
           90,
           670
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "뜨거운동굴"
       },
       {
         "formName": "원시회귀",
@@ -11627,7 +13076,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           90,
           90,
           770
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -11658,7 +13110,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           90,
           95,
           680
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "방울탑"
       },
       {
         "formName": "메가레쿠쟈",
@@ -11678,7 +13133,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           100,
           115,
           780
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -11702,7 +13160,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       100,
       100,
       600
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "머나먼고도"
   },
   {
     "id": 386,
@@ -11729,7 +13190,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           50,
           150,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "머나먼고도"
       },
       {
         "formName": "어택폼",
@@ -11748,7 +13212,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           20,
           150,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "디펜스폼",
@@ -11767,7 +13234,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           160,
           90,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "스피드폼",
@@ -11786,7 +13256,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           90,
           180,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -11810,7 +13283,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       31,
       318
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 388,
@@ -11832,7 +13308,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       36,
       405
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 389,
@@ -11855,7 +13334,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       56,
       525
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 390,
@@ -11877,7 +13359,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       44,
       61,
       309
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 391,
@@ -11900,7 +13385,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       52,
       81,
       405
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 392,
@@ -11923,7 +13411,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       71,
       108,
       534
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 393,
@@ -11945,7 +13436,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       56,
       40,
       314
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 394,
@@ -11967,7 +13461,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       76,
       50,
       405
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 395,
@@ -11990,7 +13487,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       101,
       60,
       530
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 396,
@@ -12013,7 +13513,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       60,
       245
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 397,
@@ -12036,7 +13539,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       80,
       340
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 398,
@@ -12059,7 +13565,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       100,
       485
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 399,
@@ -12082,7 +13591,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       31,
       250
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 400,
@@ -12106,7 +13618,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       71,
       410
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 401,
@@ -12128,7 +13643,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       41,
       25,
       194
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 402,
@@ -12150,7 +13668,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       51,
       65,
       384
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 403,
@@ -12173,7 +13694,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       34,
       45,
       263
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 404,
@@ -12196,7 +13720,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       49,
       60,
       363
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 405,
@@ -12219,7 +13746,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       79,
       70,
       523
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 406,
@@ -12243,7 +13773,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       55,
       280
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 407,
@@ -12267,7 +13800,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       105,
       90,
       515
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 408,
@@ -12289,7 +13825,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       58,
       350
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "화석 복원"
   },
   {
     "id": 409,
@@ -12311,7 +13850,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       58,
       495
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "화석 복원"
   },
   {
     "id": 410,
@@ -12334,7 +13876,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       88,
       30,
       350
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 411,
@@ -12357,7 +13902,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       138,
       30,
       495
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 412,
@@ -12379,7 +13927,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       36,
       224
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 413,
@@ -12409,7 +13960,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           105,
           36,
           424
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "모래땅도롱",
@@ -12430,7 +13984,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           85,
           36,
           424
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "슈레도롱",
@@ -12451,7 +14008,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           95,
           36,
           424
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -12476,7 +14036,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       66,
       424
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 415,
@@ -12499,7 +14062,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       42,
       70,
       244
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 416,
@@ -12522,7 +14088,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       102,
       40,
       474
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 417,
@@ -12545,7 +14114,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       95,
       405
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 418,
@@ -12567,7 +14139,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       85,
       330
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 419,
@@ -12589,7 +14164,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       115,
       495
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 420,
@@ -12610,7 +14188,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       53,
       35,
       275
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 421,
@@ -12631,7 +14212,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       78,
       85,
       450
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 422,
@@ -12654,7 +14238,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       62,
       34,
       325
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 423,
@@ -12678,7 +14265,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       82,
       39,
       475
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 424,
@@ -12701,7 +14291,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       66,
       115,
       482
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 425,
@@ -12725,7 +14318,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       44,
       70,
       348
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 426,
@@ -12749,7 +14345,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       54,
       80,
       498
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 427,
@@ -12772,7 +14371,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       56,
       85,
       350
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 428,
@@ -12801,7 +14403,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           96,
           105,
           480
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가이어롭",
@@ -12821,7 +14426,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           96,
           135,
           580
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -12844,7 +14452,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       105,
       105,
       495
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 430,
@@ -12868,7 +14479,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       52,
       71,
       505
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 431,
@@ -12891,7 +14505,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       37,
       85,
       310
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 432,
@@ -12914,7 +14531,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       59,
       112,
       452
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 433,
@@ -12935,7 +14555,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       45,
       285
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 434,
@@ -12959,7 +14582,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       41,
       74,
       329
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 435,
@@ -12983,7 +14609,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       61,
       84,
       479
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 436,
@@ -13007,7 +14636,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       86,
       23,
       300
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 437,
@@ -13031,7 +14663,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       116,
       33,
       500
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 438,
@@ -13054,7 +14689,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       10,
       290
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "2번도로(이벤트)"
   },
   {
     "id": 439,
@@ -13078,7 +14716,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       60,
       310
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 440,
@@ -13101,7 +14742,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       30,
       220
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 441,
@@ -13125,7 +14769,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       42,
       91,
       411
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 442,
@@ -13148,7 +14795,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       108,
       35,
       485
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 443,
@@ -13171,7 +14821,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       42,
       300
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 444,
@@ -13194,7 +14847,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       82,
       410
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 445,
@@ -13224,7 +14880,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           85,
           102,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가한카리아스",
@@ -13244,7 +14903,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           95,
           92,
           700
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -13269,7 +14931,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       5,
       390
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 447,
@@ -13292,7 +14957,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       60,
       285
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 448,
@@ -13323,7 +14991,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           90,
           525
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가루카리오",
@@ -13343,7 +15014,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           112,
           625
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -13367,7 +15041,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       42,
       32,
       330
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 450,
@@ -13389,7 +15066,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       72,
       47,
       525
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 451,
@@ -13413,7 +15093,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       65,
       330
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 452,
@@ -13437,7 +15120,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       95,
       500
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 453,
@@ -13461,7 +15147,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       50,
       300
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 454,
@@ -13485,7 +15174,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       85,
       490
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 455,
@@ -13506,7 +15198,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       72,
       46,
       454
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 456,
@@ -13529,7 +15224,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       61,
       66,
       330
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 457,
@@ -13552,7 +15250,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       86,
       91,
       460
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 458,
@@ -13576,7 +15277,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       120,
       50,
       345
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 459,
@@ -13599,7 +15303,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       40,
       334
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 460,
@@ -13629,7 +15336,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           85,
           60,
           494
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가눈설왕",
@@ -13649,7 +15359,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           105,
           30,
           594
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -13674,7 +15387,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       125,
       510
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 462,
@@ -13698,7 +15414,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       60,
       535
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 463,
@@ -13721,7 +15440,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       95,
       50,
       515
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 464,
@@ -13745,7 +15467,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       40,
       535
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 465,
@@ -13768,7 +15493,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       50,
       535
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 466,
@@ -13790,7 +15518,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       95,
       540
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 467,
@@ -13812,7 +15543,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       95,
       83,
       540
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 468,
@@ -13836,7 +15570,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       115,
       80,
       545
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 469,
@@ -13860,7 +15597,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       56,
       95,
       515
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 470,
@@ -13882,7 +15622,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       95,
       525
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 471,
@@ -13904,7 +15647,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       95,
       65,
       525
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 472,
@@ -13928,7 +15674,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       95,
       510
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 473,
@@ -13952,7 +15701,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       80,
       530
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 474,
@@ -13975,7 +15727,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       90,
       535
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 475,
@@ -14006,7 +15761,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           115,
           80,
           518
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가엘레이드",
@@ -14026,7 +15784,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           115,
           110,
           618
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -14052,7 +15813,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       150,
       40,
       525
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 477,
@@ -14074,7 +15838,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       135,
       45,
       525
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 478,
@@ -14097,7 +15864,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       110,
       480
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 479,
@@ -14126,7 +15896,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           77,
           91,
           440
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "연분홍시티 연구소"
       },
       {
         "formName": "히트",
@@ -14146,7 +15919,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           107,
           86,
           520
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "워시",
@@ -14166,7 +15942,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           107,
           86,
           520
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "프로스트",
@@ -14186,7 +15965,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           107,
           86,
           520
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "스핀",
@@ -14206,7 +15988,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           107,
           86,
           520
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "커트",
@@ -14226,7 +16011,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           107,
           86,
           520
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -14249,7 +16037,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       130,
       95,
       580
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 481,
@@ -14270,7 +16061,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       105,
       80,
       580
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 482,
@@ -14291,7 +16085,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       115,
       580
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 483,
@@ -14321,7 +16118,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           100,
           90,
           680
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "깨어진세계 깊은곳"
       },
       {
         "formName": "오리진폼",
@@ -14342,7 +16142,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           120,
           90,
           680
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -14374,7 +16177,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           120,
           100,
           680
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "깨어진세계 깊은곳"
       },
       {
         "formName": "오리진폼",
@@ -14395,7 +16201,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           120,
           120,
           680
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -14420,7 +16229,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       106,
       77,
       600
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "뜨거운동굴"
   },
   {
     "id": 486,
@@ -14441,7 +16253,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       110,
       100,
       670
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "머나먼고도"
   },
   {
     "id": 487,
@@ -14471,7 +16286,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           120,
           90,
           680
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "깨어진세계 깊은곳"
       },
       {
         "formName": "오리진폼",
@@ -14491,7 +16309,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           100,
           90,
           680
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -14514,7 +16335,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       120,
       85,
       580
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "포켓몬의쉼터"
   },
   {
     "id": 489,
@@ -14535,7 +16359,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       80,
       480
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "깊은바다동굴"
   },
   {
     "id": 490,
@@ -14556,7 +16383,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       100,
       100,
       600
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "소용돌이섬"
   },
   {
     "id": 491,
@@ -14577,7 +16407,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       125,
       600
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "포켓몬의쉼터"
   },
   {
     "id": 492,
@@ -14604,7 +16437,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           100,
           100,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "숨겨진정원"
       },
       {
         "formName": "스카이폼",
@@ -14624,7 +16460,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           75,
           127,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -14647,7 +16486,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       120,
       120,
       720
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "신도유적(플레이트 모두 모은 후)"
   },
   {
     "id": 494,
@@ -14669,7 +16511,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       100,
       100,
       600
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "해안폐광"
   },
   {
     "id": 495,
@@ -14691,7 +16536,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       63,
       308
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 496,
@@ -14713,7 +16561,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       83,
       413
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 497,
@@ -14735,7 +16586,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       95,
       113,
       528
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 498,
@@ -14757,7 +16611,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       45,
       308
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 499,
@@ -14780,7 +16637,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       55,
       418
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 500,
@@ -14803,7 +16663,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       65,
       528
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 501,
@@ -14825,7 +16688,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       45,
       308
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 502,
@@ -14847,7 +16713,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       60,
       413
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 503,
@@ -14875,7 +16744,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           70,
           528
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "히스이",
@@ -14896,7 +16768,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           65,
           85,
           528
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -14921,7 +16796,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       39,
       42,
       255
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 505,
@@ -14944,7 +16822,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       69,
       77,
       420
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 506,
@@ -14967,7 +16848,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       55,
       275
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 507,
@@ -14990,7 +16874,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       60,
       370
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 508,
@@ -15013,7 +16900,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       80,
       500
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 509,
@@ -15036,7 +16926,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       37,
       66,
       281
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 510,
@@ -15059,7 +16952,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       106,
       446
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 511,
@@ -15081,7 +16977,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       48,
       64,
       316
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 512,
@@ -15103,7 +17002,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       63,
       101,
       498
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 513,
@@ -15125,7 +17027,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       48,
       64,
       316
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 514,
@@ -15147,7 +17052,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       63,
       101,
       498
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 515,
@@ -15169,7 +17077,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       48,
       64,
       316
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 516,
@@ -15191,7 +17102,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       63,
       101,
       498
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 517,
@@ -15214,7 +17128,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       24,
       292
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 518,
@@ -15237,7 +17154,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       95,
       29,
       487
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 519,
@@ -15261,7 +17181,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       43,
       264
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 520,
@@ -15285,7 +17208,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       42,
       65,
       358
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 521,
@@ -15309,7 +17235,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       93,
       488
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 522,
@@ -15332,7 +17261,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       32,
       76,
       295
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 523,
@@ -15355,7 +17287,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       63,
       116,
       497
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 524,
@@ -15378,7 +17313,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       25,
       15,
       280
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 525,
@@ -15401,7 +17339,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       20,
       390
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 526,
@@ -15424,7 +17365,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       25,
       515
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 527,
@@ -15448,7 +17392,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       43,
       72,
       323
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 528,
@@ -15472,7 +17419,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       114,
       425
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 529,
@@ -15495,7 +17445,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       68,
       328
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 530,
@@ -15519,7 +17472,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       88,
       508
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 531,
@@ -15548,7 +17504,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           86,
           50,
           445
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "메가다부니",
@@ -15568,7 +17527,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           126,
           50,
           545
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -15593,7 +17555,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       35,
       305
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 533,
@@ -15616,7 +17581,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       40,
       405
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 534,
@@ -15639,7 +17607,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       45,
       505
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 535,
@@ -15662,7 +17633,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       64,
       294
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 536,
@@ -15686,7 +17660,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       69,
       384
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 537,
@@ -15710,7 +17687,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       74,
       509
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 538,
@@ -15733,7 +17713,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       45,
       465
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 539,
@@ -15756,7 +17739,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       85,
       465
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 540,
@@ -15780,7 +17766,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       42,
       310
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 541,
@@ -15804,7 +17793,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       42,
       380
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 542,
@@ -15828,7 +17820,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       92,
       500
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 543,
@@ -15852,7 +17847,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       39,
       57,
       260
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 544,
@@ -15876,7 +17874,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       79,
       47,
       360
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 545,
@@ -15900,7 +17901,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       69,
       112,
       485
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 546,
@@ -15924,7 +17928,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       66,
       280
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 547,
@@ -15948,7 +17955,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       116,
       480
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 548,
@@ -15971,7 +17981,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       30,
       280
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 549,
@@ -16000,7 +18013,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           75,
           90,
           480
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "히스이",
@@ -16022,7 +18038,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           75,
           105,
           480
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -16053,7 +18072,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           55,
           98,
           460
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "청색근",
@@ -16074,7 +18096,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           55,
           98,
           460
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "백색근",
@@ -16095,7 +18120,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           55,
           98,
           460
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "갈색시티 애호가 클럽에서 교환"
       }
     ]
   },
@@ -16121,7 +18149,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       65,
       292
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 552,
@@ -16145,7 +18176,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       74,
       351
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 553,
@@ -16169,7 +18203,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       92,
       519
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 554,
@@ -16197,7 +18234,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           45,
           50,
           315
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "갈색시티 애호가 클럽에서 교환"
       },
       {
         "formName": "가라르",
@@ -16217,7 +18257,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           45,
           50,
           315
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -16247,7 +18290,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           55,
           95,
           480
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "달마모드",
@@ -16268,7 +18314,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           105,
           55,
           540
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "가라르",
@@ -16288,7 +18337,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           55,
           95,
           480
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "가라르-달마모드",
@@ -16309,7 +18361,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           55,
           135,
           540
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -16334,7 +18389,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       67,
       60,
       461
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 557,
@@ -16358,7 +18416,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       55,
       325
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 558,
@@ -16382,7 +18443,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       45,
       485
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 559,
@@ -16406,7 +18470,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       48,
       348
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 560,
@@ -16430,7 +18497,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       115,
       58,
       488
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 561,
@@ -16454,7 +18524,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       97,
       490
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 562,
@@ -16481,7 +18554,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           65,
           30,
           303
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "가라르",
@@ -16501,7 +18577,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           65,
           30,
           303
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "갈색시티 애호가 클럽에서 교환"
       }
     ]
   },
@@ -16524,7 +18603,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       105,
       30,
       483
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 564,
@@ -16548,7 +18630,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       22,
       355
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "화석 복원"
   },
   {
     "id": 565,
@@ -16572,7 +18657,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       32,
       495
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 566,
@@ -16594,7 +18682,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       70,
       401
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "화석 복원"
   },
   {
     "id": 567,
@@ -16616,7 +18707,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       110,
       567
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 568,
@@ -16639,7 +18733,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       62,
       65,
       329
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 569,
@@ -16668,7 +18765,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           82,
           75,
           474
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -16689,7 +18789,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           82,
           75,
           474
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -16718,7 +18821,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           40,
           65,
           330
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "히스이",
@@ -16738,7 +18844,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           40,
           70,
           330
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "갈색시티 애호가 클럽에서 교환"
       }
     ]
   },
@@ -16767,7 +18876,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           60,
           105,
           510
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "히스이",
@@ -16787,7 +18899,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           60,
           110,
           510
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -16812,7 +18927,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       75,
       300
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 573,
@@ -16835,7 +18953,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       115,
       470
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 574,
@@ -16858,7 +18979,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       45,
       290
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 575,
@@ -16881,7 +19005,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       55,
       390
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 576,
@@ -16904,7 +19031,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       110,
       65,
       490
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 577,
@@ -16927,7 +19057,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       20,
       290
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 578,
@@ -16950,7 +19083,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       30,
       370
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 579,
@@ -16973,7 +19109,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       30,
       490
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 580,
@@ -16997,7 +19136,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       55,
       305
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 581,
@@ -17021,7 +19163,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       63,
       98,
       473
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 582,
@@ -17044,7 +19189,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       44,
       305
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 583,
@@ -17067,7 +19215,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       59,
       395
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 584,
@@ -17090,7 +19241,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       95,
       79,
       535
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 585,
@@ -17114,7 +19268,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       75,
       335
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 586,
@@ -17138,7 +19295,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       95,
       475
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 587,
@@ -17161,7 +19321,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       103,
       428
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 588,
@@ -17184,7 +19347,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       60,
       315
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 589,
@@ -17208,7 +19374,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       105,
       20,
       495
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 590,
@@ -17231,7 +19400,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       15,
       294
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 591,
@@ -17254,7 +19426,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       30,
       464
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 592,
@@ -17278,7 +19453,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       40,
       335
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 593,
@@ -17302,7 +19480,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       105,
       60,
       480
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 594,
@@ -17325,7 +19506,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       65,
       470
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 595,
@@ -17349,7 +19533,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       65,
       319
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 596,
@@ -17373,7 +19560,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       108,
       472
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 597,
@@ -17395,7 +19585,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       86,
       10,
       305
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 598,
@@ -17418,7 +19611,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       116,
       20,
       489
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 599,
@@ -17441,7 +19637,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       30,
       300
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 600,
@@ -17464,7 +19663,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       50,
       440
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 601,
@@ -17487,7 +19689,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       90,
       520
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 602,
@@ -17508,7 +19713,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       60,
       275
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 603,
@@ -17529,7 +19737,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       40,
       405
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 604,
@@ -17550,7 +19761,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       50,
       515
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 605,
@@ -17573,7 +19787,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       30,
       335
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 606,
@@ -17596,7 +19813,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       95,
       40,
       485
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 607,
@@ -17620,7 +19840,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       20,
       275
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 608,
@@ -17644,7 +19867,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       55,
       370
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 609,
@@ -17668,7 +19894,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       80,
       520
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 610,
@@ -17691,7 +19920,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       57,
       320
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 611,
@@ -17714,7 +19946,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       67,
       410
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 612,
@@ -17737,7 +19972,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       97,
       540
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 613,
@@ -17760,7 +19998,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       40,
       305
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 614,
@@ -17783,7 +20024,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       50,
       505
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 615,
@@ -17804,7 +20048,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       135,
       105,
       515
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 616,
@@ -17827,7 +20074,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       25,
       305
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 617,
@@ -17850,7 +20100,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       145,
       495
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 618,
@@ -17881,7 +20134,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           99,
           32,
           471
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "가라르",
@@ -17901,7 +20157,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           84,
           32,
           471
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "갈색시티 애호가 클럽에서 교환"
       }
     ]
   },
@@ -17926,7 +20185,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       65,
       350
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 620,
@@ -17949,7 +20211,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       105,
       510
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 621,
@@ -17972,7 +20237,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       48,
       485
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 622,
@@ -17996,7 +20264,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       35,
       303
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 623,
@@ -18020,7 +20291,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       55,
       483
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 624,
@@ -18044,7 +20318,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       60,
       340
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 625,
@@ -18068,7 +20345,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       70,
       490
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 626,
@@ -18091,7 +20371,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       95,
       55,
       490
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 627,
@@ -18115,7 +20398,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       60,
       350
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 628,
@@ -18146,7 +20432,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           75,
           80,
           510
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "히스이",
@@ -18168,7 +20457,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           65,
           510
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -18194,7 +20486,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       60,
       370
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 630,
@@ -18218,7 +20513,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       95,
       80,
       510
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 631,
@@ -18241,7 +20539,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       66,
       65,
       484
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 632,
@@ -18265,7 +20566,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       48,
       109,
       484
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 633,
@@ -18287,7 +20591,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       38,
       300
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 634,
@@ -18309,7 +20616,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       58,
       420
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 635,
@@ -18331,7 +20641,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       98,
       600
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 636,
@@ -18354,7 +20667,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       60,
       360
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 637,
@@ -18377,7 +20693,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       105,
       100,
       550
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 638,
@@ -18399,7 +20718,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       72,
       108,
       580
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "절구산"
   },
   {
     "id": 639,
@@ -18421,7 +20743,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       108,
       580
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "해안폐광"
   },
   {
     "id": 640,
@@ -18443,7 +20768,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       129,
       108,
       580
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "숨겨진 정원"
   },
   {
     "id": 641,
@@ -18471,7 +20799,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           111,
           580
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "방울탑"
       },
       {
         "formName": "영물폼",
@@ -18490,7 +20821,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           90,
           121,
           580
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -18522,7 +20856,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           111,
           580
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "방울탑"
       },
       {
         "formName": "영물폼",
@@ -18542,7 +20879,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           101,
           580
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -18566,7 +20906,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       120,
       90,
       680
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "용의굴"
   },
   {
     "id": 644,
@@ -18588,7 +20931,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       100,
       90,
       680
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "용의굴"
   },
   {
     "id": 645,
@@ -18618,7 +20964,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           101,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "영물폼",
@@ -18638,7 +20987,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           91,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "절구산"
       }
     ]
   },
@@ -18669,7 +21021,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           90,
           95,
           660
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "쌍둥이섬"
       },
       {
         "formName": "블랙",
@@ -18689,7 +21044,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           90,
           95,
           700
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "화이트",
@@ -18709,7 +21067,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           100,
           95,
           700
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -18740,7 +21101,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           90,
           108,
           580
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "소용돌이섬"
       },
       {
         "formName": "각오의 모습",
@@ -18760,7 +21124,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           90,
           108,
           580
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -18791,7 +21158,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           128,
           90,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "숨겨진 정원"
       },
       {
         "formName": "스텝폼",
@@ -18811,7 +21181,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           77,
           128,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -18835,7 +21208,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       95,
       99,
       600
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 650,
@@ -18857,7 +21233,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       38,
       313
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "무인발전소"
   },
   {
     "id": 651,
@@ -18879,7 +21258,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       58,
       57,
       405
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 652,
@@ -18902,7 +21284,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       64,
       530
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 653,
@@ -18924,7 +21309,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       60,
       307
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 654,
@@ -18946,7 +21334,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       73,
       409
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 655,
@@ -18969,7 +21360,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       100,
       104,
       534
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 656,
@@ -18991,7 +21385,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       44,
       71,
       314
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 657,
@@ -19013,7 +21410,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       56,
       97,
       405
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 658,
@@ -19043,7 +21443,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           71,
           122,
           530
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "지우개굴닌자",
@@ -19063,7 +21466,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           71,
           132,
           640
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -19088,7 +21494,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       36,
       57,
       237
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 660,
@@ -19112,7 +21521,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       77,
       78,
       423
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 661,
@@ -19135,7 +21547,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       38,
       62,
       278
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 662,
@@ -19158,7 +21573,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       52,
       84,
       382
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 663,
@@ -19181,7 +21599,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       69,
       126,
       499
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 664,
@@ -19204,7 +21625,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       25,
       35,
       200
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 665,
@@ -19226,7 +21650,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       29,
       213
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 666,
@@ -19250,7 +21677,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       89,
       411
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 667,
@@ -19274,7 +21704,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       54,
       72,
       369
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 668,
@@ -19298,7 +21731,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       66,
       106,
       507
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 669,
@@ -19320,7 +21756,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       79,
       42,
       303
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 670,
@@ -19348,7 +21787,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           98,
           52,
           371
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "영원의 꽃",
@@ -19368,7 +21810,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           128,
           92,
           551
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -19392,7 +21837,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       154,
       75,
       552
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 672,
@@ -19414,7 +21862,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       57,
       52,
       350
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 673,
@@ -19436,7 +21887,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       81,
       68,
       531
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 674,
@@ -19459,7 +21913,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       48,
       43,
       348
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 675,
@@ -19483,7 +21940,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       71,
       58,
       495
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 676,
@@ -19504,7 +21964,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       102,
       472
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 677,
@@ -19527,7 +21990,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       68,
       355
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 678,
@@ -19556,7 +22022,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           81,
           104,
           466
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "암컷",
@@ -19577,7 +22046,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           81,
           104,
           466
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -19601,7 +22073,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       37,
       28,
       325
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 680,
@@ -19623,7 +22098,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       49,
       35,
       448
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 681,
@@ -19652,7 +22130,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           140,
           60,
           500
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "블레이드폼",
@@ -19672,7 +22153,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           50,
           60,
           500
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -19696,7 +22180,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       23,
       341
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 683,
@@ -19718,7 +22205,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       89,
       29,
       462
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 684,
@@ -19740,7 +22230,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       57,
       49,
       341
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 685,
@@ -19762,7 +22255,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       72,
       480
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 686,
@@ -19786,7 +22282,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       46,
       45,
       288
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 687,
@@ -19810,7 +22309,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       73,
       482
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 688,
@@ -19834,7 +22336,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       56,
       50,
       306
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 689,
@@ -19858,7 +22363,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       86,
       68,
       500
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 690,
@@ -19882,7 +22390,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       30,
       320
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 691,
@@ -19906,7 +22417,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       123,
       44,
       494
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 692,
@@ -19927,7 +22441,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       63,
       44,
       330
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 693,
@@ -19948,7 +22465,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       89,
       59,
       500
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 694,
@@ -19972,7 +22492,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       43,
       70,
       289
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 695,
@@ -19996,7 +22519,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       94,
       109,
       481
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 696,
@@ -20019,7 +22545,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       48,
       362
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "화석 복원"
   },
   {
     "id": 697,
@@ -20042,7 +22571,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       59,
       71,
       521
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 698,
@@ -20065,7 +22597,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       63,
       46,
       362
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "화석 복원"
   },
   {
     "id": 699,
@@ -20088,7 +22623,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       92,
       58,
       521
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 700,
@@ -20110,7 +22648,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       130,
       60,
       525
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 701,
@@ -20134,7 +22675,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       63,
       118,
       500
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 702,
@@ -20158,7 +22702,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       67,
       101,
       431
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 703,
@@ -20181,7 +22728,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       150,
       50,
       500
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 704,
@@ -20204,7 +22754,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       40,
       300
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 705,
@@ -20233,7 +22786,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           113,
           60,
           452
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "히스이",
@@ -20255,7 +22811,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           113,
           40,
           452
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -20286,7 +22845,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           150,
           80,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "히스이",
@@ -20308,7 +22870,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           150,
           60,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -20333,7 +22898,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       87,
       75,
       470
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 708,
@@ -20357,7 +22925,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       38,
       309
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 709,
@@ -20381,7 +22952,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       82,
       56,
       474
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 710,
@@ -20412,7 +22986,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           55,
           51,
           335
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "작은 사이즈",
@@ -20434,7 +23011,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           55,
           56,
           335
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "큰 사이즈",
@@ -20456,7 +23036,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           55,
           46,
           335
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "특대 사이즈",
@@ -20478,7 +23061,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           55,
           41,
           335
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -20511,7 +23097,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           75,
           84,
           494
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "작은 사이즈",
@@ -20533,7 +23122,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           75,
           99,
           494
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "큰 사이즈",
@@ -20555,7 +23147,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           75,
           69,
           494
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "특대 사이즈",
@@ -20577,7 +23172,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           75,
           54,
           494
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -20602,7 +23200,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       28,
       304
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 713,
@@ -20631,7 +23232,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           46,
           28,
           514
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "히스이",
@@ -20653,7 +23257,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           36,
           38,
           514
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -20679,7 +23286,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       55,
       245
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 715,
@@ -20703,7 +23313,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       123,
       535
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 716,
@@ -20724,7 +23337,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       98,
       99,
       680
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "숨겨진 정원"
   },
   {
     "id": 717,
@@ -20746,7 +23362,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       98,
       99,
       680
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "방울탑"
   },
   {
     "id": 718,
@@ -20775,7 +23394,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           95,
           95,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "리틀알로라"
       },
       {
         "formName": "10%폼",
@@ -20795,7 +23417,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           85,
           115,
           486
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "50%폼",
@@ -20815,7 +23440,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           95,
           95,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "퍼펙트폼",
@@ -20835,7 +23463,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           95,
           85,
           708
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -20866,7 +23497,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           150,
           50,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "절구산"
       },
       {
         "formName": "메가디안시",
@@ -20886,7 +23520,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           110,
           110,
           700
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -20917,7 +23554,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           130,
           70,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "깨어진세계 깊은곳"
       },
       {
         "formName": "굴레를 벗어난 후파",
@@ -20937,7 +23577,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           130,
           80,
           680
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -20961,7 +23604,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       70,
       600
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "뜨거운동굴"
   },
   {
     "id": 722,
@@ -20984,7 +23630,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       42,
       320
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 723,
@@ -21007,7 +23656,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       52,
       420
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 724,
@@ -21037,7 +23689,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           100,
           70,
           530
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "히스이",
@@ -21058,7 +23713,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           95,
           60,
           530
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -21082,7 +23740,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       70,
       320
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 726,
@@ -21104,7 +23765,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       90,
       420
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 727,
@@ -21127,7 +23791,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       60,
       530
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 728,
@@ -21149,7 +23816,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       56,
       40,
       320
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 729,
@@ -21171,7 +23841,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       81,
       50,
       420
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 730,
@@ -21194,7 +23867,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       116,
       60,
       530
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 731,
@@ -21218,7 +23894,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       65,
       265
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 732,
@@ -21242,7 +23921,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       75,
       355
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 733,
@@ -21266,7 +23948,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       60,
       485
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 734,
@@ -21289,7 +23974,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       45,
       253
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 735,
@@ -21312,7 +24000,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       45,
       418
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 736,
@@ -21333,7 +24024,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       46,
       300
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 737,
@@ -21355,7 +24049,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       36,
       400
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 738,
@@ -21377,7 +24074,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       43,
       500
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 739,
@@ -21400,7 +24100,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       47,
       63,
       338
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 740,
@@ -21424,7 +24127,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       67,
       43,
       478
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 741,
@@ -21453,7 +24159,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           93,
           476
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "파칙파칙스타일",
@@ -21473,7 +24182,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           93,
           476
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "훌라훌라스타일",
@@ -21493,7 +24205,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           93,
           476
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "하늘하늘스타일",
@@ -21513,7 +24228,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           93,
           476
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -21539,7 +24257,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       84,
       304
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 743,
@@ -21563,7 +24284,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       124,
       464
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 744,
@@ -21592,7 +24316,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           40,
           60,
           280
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "황혼폼은 무지개시티에서 교환"
       }
     ]
   },
@@ -21623,7 +24350,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           65,
           112,
           487
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "한밤중",
@@ -21644,7 +24374,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           75,
           82,
           487
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "황혼",
@@ -21663,7 +24396,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           65,
           110,
           487
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -21692,7 +24428,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           25,
           40,
           175
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "군집",
@@ -21711,7 +24450,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           135,
           30,
           620
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -21737,7 +24479,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       52,
       45,
       305
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 748,
@@ -21761,7 +24506,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       142,
       35,
       495
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 749,
@@ -21784,7 +24532,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       45,
       385
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 750,
@@ -21807,7 +24558,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       35,
       500
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 751,
@@ -21830,7 +24584,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       72,
       27,
       269
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 752,
@@ -21853,7 +24610,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       132,
       42,
       454
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 753,
@@ -21875,7 +24635,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       35,
       250
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 754,
@@ -21897,7 +24660,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       45,
       480
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 755,
@@ -21921,7 +24687,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       15,
       285
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 756,
@@ -21945,7 +24714,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       100,
       30,
       405
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 757,
@@ -21968,7 +24740,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       77,
       320
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 758,
@@ -21991,7 +24766,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       117,
       480
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 759,
@@ -22015,7 +24793,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       50,
       340
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 760,
@@ -22039,7 +24820,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       60,
       500
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 761,
@@ -22062,7 +24846,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       38,
       32,
       210
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 762,
@@ -22085,7 +24872,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       48,
       62,
       290
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 763,
@@ -22108,7 +24898,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       98,
       72,
       510
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 764,
@@ -22131,7 +24924,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       110,
       100,
       485
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 765,
@@ -22155,7 +24951,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       110,
       60,
       490
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 766,
@@ -22177,7 +24976,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       80,
       490
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 767,
@@ -22199,7 +25001,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       80,
       230
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 768,
@@ -22221,7 +25026,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       40,
       530
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 769,
@@ -22244,7 +25052,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       15,
       320
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 770,
@@ -22267,7 +25078,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       35,
       480
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 771,
@@ -22289,7 +25103,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       130,
       5,
       410
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 772,
@@ -22310,7 +25127,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       95,
       59,
       534
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "5번도로(집)"
   },
   {
     "id": 773,
@@ -22331,7 +25151,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       95,
       95,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 774,
@@ -22360,7 +25183,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           100,
           60,
           440
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "코어",
@@ -22380,7 +25206,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           60,
           120,
           500
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -22403,7 +25232,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       95,
       65,
       480
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 776,
@@ -22425,7 +25257,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       36,
       485
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 777,
@@ -22449,7 +25284,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       73,
       96,
       435
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 778,
@@ -22478,7 +25316,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           105,
           96,
           476
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "들킨 모습",
@@ -22498,7 +25339,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           105,
           96,
           476
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -22524,7 +25368,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       92,
       475
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 780,
@@ -22548,7 +25395,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       91,
       36,
       485
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 781,
@@ -22570,7 +25420,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       40,
       517
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 782,
@@ -22593,7 +25446,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       45,
       300
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 783,
@@ -22617,7 +25473,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       65,
       420
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 784,
@@ -22641,7 +25500,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       105,
       85,
       600
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 785,
@@ -22664,7 +25526,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       130,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 786,
@@ -22687,7 +25552,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       115,
       95,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 787,
@@ -22710,7 +25578,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       95,
       75,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 788,
@@ -22733,7 +25604,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       130,
       85,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 789,
@@ -22754,7 +25628,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       31,
       37,
       200
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 790,
@@ -22775,7 +25652,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       131,
       37,
       400
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 791,
@@ -22797,7 +25677,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       89,
       97,
       680
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 792,
@@ -22819,7 +25702,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       107,
       97,
       680
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 793,
@@ -22841,7 +25727,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       131,
       103,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 794,
@@ -22863,7 +25752,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       53,
       79,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 795,
@@ -22885,7 +25777,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       37,
       151,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 796,
@@ -22906,7 +25801,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       71,
       83,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 797,
@@ -22928,7 +25826,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       101,
       61,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 798,
@@ -22950,7 +25851,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       31,
       109,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 799,
@@ -22972,7 +25876,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       53,
       43,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 800,
@@ -22999,7 +25906,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           89,
           79,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "황혼의 갈기",
@@ -23019,7 +25929,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           109,
           77,
           680
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "새벽의 날개",
@@ -23039,7 +25952,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           127,
           77,
           680
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "울트라네크로즈마",
@@ -23059,7 +25975,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           97,
           129,
           754
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -23090,7 +26009,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           115,
           65,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "500년 전의 색",
@@ -23110,7 +26032,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           115,
           65,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -23134,7 +26059,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       125,
       600
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "포켓몬의쉼터"
   },
   {
     "id": 803,
@@ -23155,7 +26083,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       67,
       73,
       420
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 804,
@@ -23177,7 +26108,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       73,
       121,
       540
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 805,
@@ -23199,7 +26133,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       101,
       13,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 806,
@@ -23221,7 +26158,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       79,
       107,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 807,
@@ -23242,7 +26182,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       143,
       600
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 808,
@@ -23263,7 +26206,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       34,
       300
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "회색시티 박물관"
   },
   {
     "id": 809,
@@ -23290,7 +26236,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           65,
           34,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -23309,7 +26258,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           65,
           34,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -23333,7 +26285,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       65,
       310
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 811,
@@ -23355,7 +26310,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       80,
       420
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 812,
@@ -23383,7 +26341,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           85,
           530
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -23403,7 +26364,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           85,
           530
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -23427,7 +26391,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       69,
       310
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 814,
@@ -23449,7 +26416,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       94,
       420
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 815,
@@ -23477,7 +26447,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           75,
           119,
           530
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -23497,7 +26470,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           75,
           119,
           530
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -23521,7 +26497,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       70,
       310
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 817,
@@ -23543,7 +26522,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       90,
       420
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 818,
@@ -23571,7 +26553,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           65,
           120,
           530
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -23591,7 +26576,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           65,
           120,
           530
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -23615,7 +26603,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       25,
       275
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 820,
@@ -23637,7 +26628,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       20,
       460
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 821,
@@ -23660,7 +26654,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       57,
       245
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 822,
@@ -23683,7 +26680,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       77,
       365
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 823,
@@ -23714,7 +26714,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           85,
           67,
           495
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -23736,7 +26739,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           85,
           67,
           495
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -23761,7 +26767,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       45,
       180
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 825,
@@ -23785,7 +26794,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       30,
       335
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 826,
@@ -23816,7 +26828,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           120,
           90,
           505
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -23838,7 +26853,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           120,
           90,
           505
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -23863,7 +26881,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       52,
       50,
       245
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 828,
@@ -23886,7 +26907,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       92,
       90,
       455
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 829,
@@ -23909,7 +26933,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       10,
       250
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 830,
@@ -23932,7 +26959,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       120,
       60,
       460
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 831,
@@ -23955,7 +26985,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       48,
       270
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 832,
@@ -23978,7 +27011,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       88,
       490
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 833,
@@ -24001,7 +27037,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       38,
       44,
       284
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 834,
@@ -24032,7 +27071,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           68,
           74,
           485
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -24054,7 +27096,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           68,
           74,
           485
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -24078,7 +27123,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       26,
       270
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 836,
@@ -24100,7 +27148,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       121,
       490
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 837,
@@ -24123,7 +27174,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       30,
       240
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 838,
@@ -24147,7 +27201,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       50,
       410
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 839,
@@ -24178,7 +27235,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           90,
           30,
           510
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -24200,7 +27260,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           90,
           30,
           510
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -24226,7 +27289,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       20,
       260
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 841,
@@ -24257,7 +27323,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           60,
           70,
           485
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -24279,7 +27348,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           60,
           70,
           485
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -24312,7 +27384,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           30,
           485
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -24334,7 +27409,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           30,
           485
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -24359,7 +27437,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       46,
       315
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 844,
@@ -24388,7 +27469,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           71,
           510
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -24409,7 +27493,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           71,
           510
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -24440,7 +27527,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           95,
           85,
           475
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -24464,7 +27554,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       66,
       280
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 847,
@@ -24486,7 +27579,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       136,
       490
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 848,
@@ -24510,7 +27606,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       40,
       242
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 849,
@@ -24541,7 +27640,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           75,
           502
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "로우",
@@ -24563,7 +27665,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           75,
           502
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -24585,7 +27690,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           75,
           502
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -24611,7 +27719,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       45,
       305
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 851,
@@ -24642,7 +27753,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           90,
           65,
           525
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -24664,7 +27778,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           90,
           65,
           525
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -24688,7 +27805,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       32,
       310
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 853,
@@ -24710,7 +27830,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       42,
       480
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 854,
@@ -24732,7 +27855,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       54,
       50,
       308
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 855,
@@ -24754,7 +27880,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       114,
       70,
       508
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 856,
@@ -24777,7 +27906,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       53,
       39,
       265
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 857,
@@ -24800,7 +27932,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       73,
       49,
       370
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 858,
@@ -24831,7 +27966,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           103,
           29,
           510
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -24853,7 +27991,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           103,
           29,
           510
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -24879,7 +28020,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       50,
       265
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 860,
@@ -24903,7 +28047,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       70,
       370
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 861,
@@ -24934,7 +28081,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           75,
           60,
           510
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -24956,7 +28106,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           75,
           60,
           510
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -24982,7 +28135,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       81,
       95,
       520
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 863,
@@ -25005,7 +28161,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       50,
       440
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 864,
@@ -25027,7 +28186,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       130,
       30,
       510
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 865,
@@ -25049,7 +28211,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       82,
       65,
       507
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 866,
@@ -25073,7 +28238,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       100,
       70,
       520
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 867,
@@ -25095,7 +28263,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       105,
       30,
       483
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 868,
@@ -25117,7 +28288,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       61,
       34,
       270
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 869,
@@ -25145,7 +28319,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           121,
           64,
           495
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -25165,7 +28342,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           121,
           64,
           495
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -25189,7 +28369,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       75,
       470
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 871,
@@ -25211,7 +28394,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       15,
       435
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 872,
@@ -25234,7 +28420,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       20,
       185
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 873,
@@ -25257,7 +28446,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       65,
       475
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 874,
@@ -25278,7 +28470,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       20,
       70,
       470
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 875,
@@ -25305,7 +28500,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           90,
           50,
           470
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "나이스페이스",
@@ -25324,7 +28522,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           50,
           130,
           470
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -25357,7 +28558,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           95,
           95,
           475
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "암컷의 모습",
@@ -25379,7 +28583,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           105,
           85,
           475
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -25410,7 +28617,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           58,
           97,
           436
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "배고픈 모양",
@@ -25430,7 +28640,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           58,
           97,
           436
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -25454,7 +28667,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       49,
       40,
       330
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 879,
@@ -25482,7 +28698,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           69,
           30,
           500
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -25502,7 +28721,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           69,
           30,
           500
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -25528,7 +28750,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       75,
       505
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "화석 복원"
   },
   {
     "id": 881,
@@ -25552,7 +28777,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       55,
       505
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "화석 복원"
   },
   {
     "id": 882,
@@ -25576,7 +28804,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       75,
       505
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "화석 복원"
   },
   {
     "id": 883,
@@ -25600,7 +28831,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       55,
       505
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "화석 복원"
   },
   {
     "id": 884,
@@ -25631,7 +28865,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           50,
           85,
           535
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "거다이맥스",
@@ -25653,7 +28890,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           50,
           85,
           535
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -25679,7 +28919,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       82,
       270
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 886,
@@ -25703,7 +28946,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       102,
       410
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 887,
@@ -25727,7 +28973,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       142,
       600
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 888,
@@ -25754,7 +29003,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           115,
           138,
           660
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "해안폐광"
       },
       {
         "formName": "검왕",
@@ -25774,7 +29026,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           115,
           148,
           700
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -25803,7 +29058,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           115,
           138,
           660
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "절구산"
       },
       {
         "formName": "방패왕",
@@ -25823,7 +29081,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           140,
           128,
           700
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -25854,7 +29115,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           95,
           130,
           690
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "깨어진세계 깊은곳"
       },
       {
         "formName": "무한다이맥스",
@@ -25874,7 +29138,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           250,
           130,
           1125
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -25897,7 +29164,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       72,
       385
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "마스타드와 배틀 후, 포켓몬할아버지"
   },
   {
     "id": 892,
@@ -25926,7 +29196,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           60,
           97,
           550
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "연격의 태세",
@@ -25946,7 +29219,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           60,
           97,
           550
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "일격 거다이맥스",
@@ -25966,7 +29242,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           60,
           97,
           550
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "연격 거다이맥스",
@@ -25986,7 +29265,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           60,
           97,
           550
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -26017,7 +29299,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           95,
           105,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "리틀알로라"
       },
       {
         "formName": "아빠",
@@ -26037,7 +29322,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           95,
           105,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -26060,7 +29348,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       200,
       580
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "무인발전소"
   },
   {
     "id": 895,
@@ -26081,7 +29372,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       50,
       80,
       580
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "용의굴"
   },
   {
     "id": 896,
@@ -26102,7 +29396,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       110,
       30,
       580
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "쌍둥이섬"
   },
   {
     "id": 897,
@@ -26123,7 +29420,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       130,
       580
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "포켓몬의쉼터"
   },
   {
     "id": 898,
@@ -26152,7 +29452,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           80,
           500
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "머나먼고도"
       },
       {
         "formName": "백마 탄 모습",
@@ -26172,7 +29475,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           130,
           50,
           680
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "흑마 탄 모습",
@@ -26192,7 +29498,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           100,
           150,
           680
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -26218,7 +29527,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       65,
       525
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 900,
@@ -26242,7 +29554,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       85,
       500
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 901,
@@ -26273,7 +29588,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           50,
           550
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "붉은 달",
@@ -26293,7 +29611,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           65,
           52,
           555
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -26326,7 +29647,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           75,
           78,
           530
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "청색근",
@@ -26348,7 +29672,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           75,
           78,
           530
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -26374,7 +29701,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       120,
       510
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 904,
@@ -26398,7 +29728,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       85,
       510
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 905,
@@ -26428,7 +29761,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           106,
           580
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": "숨겨진정원"
       },
       {
         "formName": "영물폼",
@@ -26448,7 +29784,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           100,
           46,
           580
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -26472,7 +29811,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       65,
       310
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 907,
@@ -26494,7 +29836,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       63,
       83,
       410
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 908,
@@ -26517,7 +29862,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       123,
       530
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 909,
@@ -26539,7 +29887,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       36,
       310
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 910,
@@ -26561,7 +29912,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       58,
       49,
       411
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 911,
@@ -26584,7 +29938,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       66,
       530
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 912,
@@ -26606,7 +29963,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       50,
       310
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 913,
@@ -26628,7 +29988,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       65,
       410
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 914,
@@ -26651,7 +30014,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       75,
       85,
       530
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 915,
@@ -26674,7 +30040,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       35,
       254
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 916,
@@ -26703,7 +30072,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           80,
           65,
           489
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "암컷",
@@ -26724,7 +30096,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           90,
           65,
           489
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -26748,7 +30123,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       20,
       210
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 918,
@@ -26770,7 +30148,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       86,
       35,
       404
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 919,
@@ -26792,7 +30173,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       25,
       45,
       210
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 920,
@@ -26815,7 +30199,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       92,
       450
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 921,
@@ -26838,7 +30225,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       25,
       60,
       240
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 922,
@@ -26862,7 +30252,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       85,
       350
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 923,
@@ -26886,7 +30279,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       105,
       490
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 924,
@@ -26909,7 +30305,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       75,
       305
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 925,
@@ -26938,7 +30337,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           75,
           111,
           470
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "세 식구",
@@ -26959,7 +30361,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           75,
           111,
           470
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -26983,7 +30388,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       65,
       312
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 927,
@@ -27005,7 +30413,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       95,
       477
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 928,
@@ -27028,7 +30439,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       51,
       30,
       260
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 929,
@@ -27051,7 +30465,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       78,
       33,
       354
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 930,
@@ -27074,7 +30491,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       109,
       39,
       510
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 931,
@@ -27105,7 +30525,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           51,
           92,
           417
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "블루페더",
@@ -27127,7 +30550,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           51,
           92,
           417
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "옐로페더",
@@ -27149,7 +30575,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           51,
           92,
           417
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "화이트페더",
@@ -27171,7 +30600,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           51,
           92,
           417
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -27196,7 +30628,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       25,
       280
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 933,
@@ -27219,7 +30654,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       35,
       355
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 934,
@@ -27242,7 +30680,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       35,
       500
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 935,
@@ -27264,7 +30705,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       35,
       255
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 936,
@@ -27287,7 +30731,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       75,
       525
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 937,
@@ -27310,7 +30757,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       100,
       85,
       525
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 938,
@@ -27333,7 +30783,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       45,
       272
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 939,
@@ -27356,7 +30809,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       83,
       45,
       495
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 940,
@@ -27380,7 +30836,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       70,
       280
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 941,
@@ -27404,7 +30863,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       125,
       490
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 942,
@@ -27427,7 +30889,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       51,
       51,
       340
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 943,
@@ -27450,7 +30915,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       85,
       505
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 944,
@@ -27474,7 +30942,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       75,
       290
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 945,
@@ -27498,7 +30969,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       72,
       110,
       485
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 946,
@@ -27521,7 +30995,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       35,
       60,
       275
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 947,
@@ -27544,7 +31021,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       90,
       480
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 948,
@@ -27567,7 +31047,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       100,
       70,
       335
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "갈색시티 애호가 클럽에서 교환"
   },
   {
     "id": 949,
@@ -27590,7 +31073,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       120,
       100,
       515
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "갈색시티 애호가 클럽에서 교환"
   },
   {
     "id": 950,
@@ -27613,7 +31099,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       75,
       450
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 951,
@@ -27636,7 +31125,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       50,
       304
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 952,
@@ -27660,7 +31152,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       75,
       486
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 953,
@@ -27682,7 +31177,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       58,
       30,
       270
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 954,
@@ -27705,7 +31203,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       100,
       45,
       470
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 955,
@@ -27728,7 +31229,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       30,
       75,
       255
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 956,
@@ -27751,7 +31255,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       105,
       481
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 957,
@@ -27775,7 +31282,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       64,
       58,
       297
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 958,
@@ -27799,7 +31309,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       82,
       78,
       380
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 959,
@@ -27823,7 +31336,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       105,
       94,
       506
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 960,
@@ -27846,7 +31362,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       25,
       95,
       245
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 961,
@@ -27869,7 +31388,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       120,
       425
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 962,
@@ -27893,7 +31415,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       82,
       485
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 963,
@@ -27915,7 +31440,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       75,
       315
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 964,
@@ -27932,7 +31460,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           "water"
         ],
         "abilities": [
-          "마이티체인지",
+          "마이티체인지"
         ],
         "stats": [
           100,
@@ -27942,7 +31470,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           62,
           100,
           457
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "마이티폼",
@@ -27951,7 +31482,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           "water"
         ],
         "abilities": [
-          "마이티체인지",
+          "마이티체인지"
         ],
         "stats": [
           100,
@@ -27961,7 +31492,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           87,
           100,
           650
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -27986,7 +31520,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       47,
       300
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 966,
@@ -28009,7 +31546,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       67,
       90,
       500
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 967,
@@ -28032,7 +31572,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       121,
       501
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 968,
@@ -28054,7 +31597,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       65,
       480
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 969,
@@ -28077,7 +31623,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       60,
       350
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 970,
@@ -28100,7 +31649,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       81,
       86,
       525
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 971,
@@ -28122,7 +31674,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       34,
       290
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 972,
@@ -28144,7 +31699,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       97,
       68,
       488
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 973,
@@ -28168,7 +31726,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       64,
       90,
       500
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 974,
@@ -28191,7 +31752,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       40,
       43,
       334
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 975,
@@ -28214,7 +31778,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       55,
       73,
       521
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 976,
@@ -28237,7 +31804,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       70,
       478
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 977,
@@ -28260,7 +31830,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       35,
       530
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 978,
@@ -28290,7 +31863,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           95,
           82,
           475
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "늘어진",
@@ -28311,7 +31887,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           95,
           82,
           475
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "뻗은",
@@ -28332,7 +31911,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           95,
           82,
           475
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -28358,7 +31940,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       90,
       535
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 980,
@@ -28382,7 +31967,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       100,
       20,
       430
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 981,
@@ -28406,7 +31994,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       60,
       520
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 982,
@@ -28435,7 +32026,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           75,
           55,
           520
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "세 마디 폼",
@@ -28456,7 +32050,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           75,
           55,
           520
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -28482,7 +32079,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       50,
       550
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 984,
@@ -28504,7 +32104,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       53,
       87,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 985,
@@ -28526,7 +32129,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       115,
       111,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 986,
@@ -28548,7 +32154,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       99,
       55,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 987,
@@ -28570,7 +32179,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       135,
       135,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 988,
@@ -28592,7 +32204,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       105,
       81,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 989,
@@ -28614,7 +32229,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       85,
       101,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 990,
@@ -28636,7 +32254,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       70,
       106,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 991,
@@ -28658,7 +32279,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       136,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 992,
@@ -28680,7 +32304,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       68,
       50,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 993,
@@ -28702,7 +32329,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       108,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 994,
@@ -28724,7 +32354,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       110,
       110,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 995,
@@ -28746,7 +32379,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       84,
       72,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 996,
@@ -28769,7 +32405,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       45,
       55,
       320
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 997,
@@ -28792,7 +32431,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       62,
       423
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 998,
@@ -28815,7 +32457,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       86,
       87,
       600
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 999,
@@ -28842,7 +32487,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           70,
           10,
           300
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "도보폼",
@@ -28862,7 +32510,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           45,
           80,
           300
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -28886,7 +32537,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       91,
       84,
       550
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 1001,
@@ -28908,7 +32562,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       135,
       70,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "리틀알로라"
   },
   {
     "id": 1002,
@@ -28930,7 +32587,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       135,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "쌍둥이섬"
   },
   {
     "id": 1003,
@@ -28952,7 +32612,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       45,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "절구산"
   },
   {
     "id": 1004,
@@ -28974,7 +32637,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       120,
       100,
       570
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": "뜨거운동굴"
   },
   {
     "id": 1005,
@@ -28996,7 +32662,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       101,
       119,
       590
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 1006,
@@ -29018,7 +32687,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       60,
       116,
       590
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 1007,
@@ -29040,7 +32712,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       100,
       135,
       670
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 1008,
@@ -29062,7 +32737,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       115,
       135,
       670
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 1009,
@@ -29084,7 +32762,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       83,
       109,
       590
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 1010,
@@ -29106,7 +32787,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       108,
       104,
       590
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 1011,
@@ -29130,7 +32814,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       40,
       485
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 1012,
@@ -29153,7 +32840,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       54,
       50,
       308
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 1013,
@@ -29176,7 +32866,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       70,
       508
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 1014,
@@ -29199,7 +32892,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       86,
       80,
       555
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 1015,
@@ -29222,7 +32918,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       90,
       106,
       555
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 1016,
@@ -29245,7 +32944,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       125,
       99,
       555
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 1017,
@@ -29272,7 +32974,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           96,
           110,
           550
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "우물의가면",
@@ -29292,7 +32997,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           96,
           110,
           550
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "화덕의가면",
@@ -29312,7 +33020,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           96,
           110,
           550
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "주춧돌의가면",
@@ -29332,7 +33043,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           96,
           110,
           550
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -29358,7 +33072,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       65,
       85,
       600
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 1019,
@@ -29382,7 +33099,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       80,
       44,
       540
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 1020,
@@ -29404,7 +33124,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       93,
       91,
       590
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 1021,
@@ -29426,7 +33149,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       89,
       75,
       590
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 1022,
@@ -29448,7 +33174,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       108,
       124,
       590
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 1023,
@@ -29470,7 +33199,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       108,
       98,
       590
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   },
   {
     "id": 1024,
@@ -29497,7 +33229,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           85,
           60,
           450
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "테라스탈폼",
@@ -29516,7 +33251,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           110,
           85,
           600
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       },
       {
         "formName": "스텔라폼",
@@ -29535,7 +33273,10 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
           110,
           85,
           700
-        ]
+        ],
+        "evolutionCondition": "",
+        "wildItems": "",
+        "extra": ""
       }
     ]
   },
@@ -29559,6 +33300,9 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
       88,
       88,
       600
-    ]
+    ],
+    "evolutionCondition": "",
+    "wildItems": "",
+    "extra": ""
   }
 ]

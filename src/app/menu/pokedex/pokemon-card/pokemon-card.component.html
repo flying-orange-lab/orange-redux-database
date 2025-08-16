@@ -50,4 +50,9 @@
     *ngIf="currentPokemonStats"
     [pokemonStats]="currentPokemonStats"
   ></app-pokemon-stat>
+
+  <div class="pokemon-card-extra" *ngIf="currentPokemon.extra">
+    <div>추가 서식 정보</div>
+    <div>{{currentPokemon.extra}}</div>
+  </div>
 </div>

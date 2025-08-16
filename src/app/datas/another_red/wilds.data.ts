@@ -12486,7 +12486,7 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
     ]
   },
   {
-    "locationName": "페 건설장",
+    "locationName": "폐 건설장",
     "regionDatas": [
       {
         "locationStatus": "기본",
