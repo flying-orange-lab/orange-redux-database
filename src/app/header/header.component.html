@@ -1,9 +1,11 @@
 <header class="app-header">
-  <h1 class="header-title" routerLink="/">모에몬 리덕스 오렌지에디션 3.24</h1>
-  <div 
-    class="hamburger-button" 
+  <h1 class="header-title" routerLink="/" (click)="closeMenu()">
+    모에몬 리덕스 오렌지에디션 3.24
+  </h1>
+  <div
+    class="hamburger-button"
     (click)="toggleMenu()"
-    [ngClass]="{ 'active': isMenuOpen }"
+    [ngClass]="{ active: isMenuOpen }"
   >
     <span class="line"></span>
     <span class="line"></span>
@@ -11,10 +13,7 @@
   </div>
 </header>
 
-<nav 
-  class="nav-menu" 
-  [ngClass]="{ 'active': isMenuOpen }"
->
+<nav class="nav-menu" [ngClass]="{ active: isMenuOpen }">
   <ul>
     <li><a routerLink="/pokedex" (click)="toggleMenu()">포켓몬 도감</a></li>
     <li><a routerLink="/defense" (click)="toggleMenu()">방어상성</a></li>
