@@ -1,4 +1,4 @@
-<section class="card-box" *ngIf="gameVersion=='orange_v3'">
+<section class="card-box" *ngIf="gameVersion == 'orange_v3'">
   <app-sprite-card></app-sprite-card>
 </section>
 
@@ -10,5 +10,11 @@
       포켓볼 클릭으로 포획 관리
     </div>
     <div>- 아이템 획득 정보 페이지: 클릭을 통해 획득/미획득 관리</div>
+    <div>- 진화 조건 및 기타 서식 정보 추가</div>
+    <div>- 이슈 제보 링크 추가</div>
   </div>
+</section>
+
+<section class="issue-send">
+  <a [href]="contactFormUrl" target="_blank">이슈 제보 링크</a>
 </section>
