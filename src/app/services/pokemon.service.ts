@@ -6,19 +6,37 @@ import { TYPE_DISPLAY_DATA } from '../datas/type.data';
 import { DataHandleService } from './data-handle.service';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class PokemonService {
+  filterExtra = [
+    '대쓰여너',
+    '안농',
+    '플라베베',
+    '도롱충이',
+    '시비꼬',
+    '배쓰나이',
+    '깝질무',
+    '트리토돈',
+    '싸리용',
+    '춤추새',
+    '야도란',
+    '야도킹',
+    '야돈',
+    '루가루암',
+  ];
 
-  constructor(private dataHandleService: DataHandleService) { }
+  constructor(private dataHandleService: DataHandleService) {}
 
   private getBaseName(pokemonName: string): string {
-    if (pokemonName.startsWith("대쓰여너")) {
-      return "대쓰여너";
+    // 폼 이름이 있는 포켓몬 처리
+          
+    for (const extraName of this.filterExtra) {
+      if (pokemonName.startsWith(extraName)) {
+        return extraName;
+      }
     }
-    if (pokemonName.startsWith("안농")) {
-      return "안농";
-    }
+
     return pokemonName;
   }
 
@@ -26,9 +44,11 @@ export class PokemonService {
     return of(this.dataHandleService.pokemonDatas);
   }
 
-  findPokemon(pokemonName:string) {
+  findPokemon(pokemonName: string) {
     const baseName = this.getBaseName(pokemonName);
-    return this.dataHandleService.pokemonDatas.find((pokemon: Pokemon) => pokemon.koreanName === baseName);
+    return this.dataHandleService.pokemonDatas.find(
+      (pokemon: Pokemon) => pokemon.koreanName === baseName
+    );
   }
 
   findPokemonLocations(pokemonName: string) {
@@ -38,23 +58,23 @@ export class PokemonService {
     const uniqueLocations = new Set<string>();
 
     for (const locationData of this.dataHandleService.wildDatas) {
-      const locationName = locationData["locationName"];
-      const regionDatas = locationData["regionDatas"];
+      const locationName = locationData['locationName'];
+      const regionDatas = locationData['regionDatas'];
 
       for (const regionData of regionDatas) {
-        const locationStatus = regionData["locationStatus"]
-        const areaDatas = regionData["areaDatas"];
+        const locationStatus = regionData['locationStatus'];
+        const areaDatas = regionData['areaDatas'];
 
-        const allEncounters = areaDatas.flatMap(areaInfo =>
-          areaInfo.encounters.map(encounter => ({
+        const allEncounters = areaDatas.flatMap((areaInfo) =>
+          areaInfo.encounters.map((encounter) => ({
             ...encounter,
             area: areaInfo.area,
             region: locationName,
-            condition: locationStatus
+            condition: locationStatus,
           }))
         );
 
-        for (const encounter of allEncounters) {
+        for (const encounter of allEncounters) {          
           const baseName = this.getBaseName(encounter.name);
 
           if (baseName.toLowerCase() === lowerCasePokemonName) {
@@ -66,7 +86,7 @@ export class PokemonService {
               const isDefaultCondition = Object.keys(regionData).length === 1;
               locations.push({
                 region: locationName,
-                condition: isDefaultCondition ? "" : locationStatus,
+                condition: isDefaultCondition ? '' : locationStatus,
                 area: encounter.area,
                 minLv: encounter.minLv,
                 maxLv: encounter.maxLv,
@@ -84,5 +104,4 @@ export class PokemonService {
   engToKorTypeMapper(type: string) {
     return TYPE_DISPLAY_DATA[type];
   }
-
 }
