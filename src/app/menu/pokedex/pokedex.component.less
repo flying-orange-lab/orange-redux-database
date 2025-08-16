@@ -88,7 +88,7 @@ main.pokedex-page {
 .pokemon-card-wrapper > *:not(:last-child)::after {
   content: "";
   display: inline-block;
-  width: 100%;       /* 세로 점선이면 width */
+  width: 100%; /* 세로 점선이면 width */
   height: 1px;
   margin-bottom: 5px;
   border-top: 1px dashed #e0e0e0;
@@ -108,4 +108,61 @@ main.pokedex-page {
   color: #666;
   font-size: 1.2em;
   margin-top: 30px;
+}
+
+.pagination-container {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.pagination-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.pagination-item {
+  display: block;
+  border: 1px solid #ddd;
+  min-width: 100px;
+  min-height: 30px;
+  cursor: pointer;
+}
+
+.pagination-item:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.pagination-item:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.pagination-link {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #007bff;
+  background-color: #f8f9fa;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.pagination-link:hover {
+  background-color: #e9ecef;
+}
+
+/* 이전/다음 버튼의 비활성화 상태 */
+.pagination-item.disabled {
+  color: #6c757d;
+  background-color: #f1f3f5;
+  cursor: not-allowed;
+}
+
+.pagination-item.disabled:hover {
+  background-color: #f1f3f5;
 }
