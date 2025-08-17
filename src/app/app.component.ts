@@ -1,21 +1,20 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 import { filter } from 'rxjs/operators';
 import { DataHandleService } from './services/data-handle.service';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.less'],
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.less'],
+    standalone: false
 })
 export class AppComponent implements OnInit {
-  title = 'datasheet';
+  private router = inject(Router);
+  private route = inject(ActivatedRoute);
+  private dataHandleService = inject(DataHandleService);
 
-  constructor(
-    private router: Router,
-    private route: ActivatedRoute,
-    private dataHandleService: DataHandleService
-  ) {}
+  title = 'datasheet';
 
   ngOnInit(): void {
     // 라우터 이벤트 구독 → 페이지 이동할 때마다 gameVersion 갱신

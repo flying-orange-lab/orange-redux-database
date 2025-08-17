@@ -1,4 +1,4 @@
-import { Component, QueryList, ViewChildren, OnInit } from '@angular/core';
+import { Component, QueryList, ViewChildren, OnInit, inject } from '@angular/core';
 import { WildRegionComponent } from './wild-region/wild-region.component';
 import { PokemonCatchService } from 'src/app/services/pokemon-catch.service';
 import { DataHandleService } from 'src/app/services/data-handle.service';
@@ -6,21 +6,20 @@ import { ActivatedRoute } from '@angular/router';
 import { WildArea } from 'src/app/models/wilds.model';
 
 @Component({
-  selector: 'app-wild',
-  templateUrl: './wild.component.html',
-  styleUrls: ['./wild.component.less']
+    selector: 'app-wild',
+    templateUrl: './wild.component.html',
+    styleUrls: ['./wild.component.less'],
+    standalone: false
 })
 export class WildComponent implements OnInit {
+  private route = inject(ActivatedRoute);
+  private pokemonCatchService = inject(PokemonCatchService);
+  private dataHandleService = inject(DataHandleService);
+
   wildData?: WildArea[];
   pokemonCatchStatus: Record<number, boolean> = {};
 
   @ViewChildren(WildRegionComponent) wildRegionComponents!: QueryList<WildRegionComponent>;
-
-  constructor(
-    private route: ActivatedRoute,
-    private pokemonCatchService: PokemonCatchService,
-    private dataHandleService: DataHandleService,
-  ) {}
 
   ngOnInit(): void {
     // 데이터 처리

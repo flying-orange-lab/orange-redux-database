@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, inject } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { Pokemon } from '../models/pokemon.model';
 import { PokemonLocation } from '../models/wilds.model';
@@ -9,6 +9,8 @@ import { DataHandleService } from './data-handle.service';
   providedIn: 'root',
 })
 export class PokemonService {
+  private dataHandleService = inject(DataHandleService);
+
   filterExtra = [
     '대쓰여너',
     '안농',
@@ -25,8 +27,6 @@ export class PokemonService {
     '야돈',
     '루가루암',
   ];
-
-  constructor(private dataHandleService: DataHandleService) {}
 
   private getBaseName(pokemonName: string): string {
     // 폼 이름이 있는 포켓몬 처리

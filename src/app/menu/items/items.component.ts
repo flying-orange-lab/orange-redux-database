@@ -1,24 +1,23 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { PokeItem } from 'src/app/models/item.model';
 import { DataHandleService } from 'src/app/services/data-handle.service';
 import { ItemService } from 'src/app/services/item.service';
 
 @Component({
-  selector: 'app-items',
-  templateUrl: './items.component.html',
-  styleUrls: ['./items.component.less'],
+    selector: 'app-items',
+    templateUrl: './items.component.html',
+    styleUrls: ['./items.component.less'],
+    standalone: false
 })
 export class ItemsComponent implements OnInit {
+  private route = inject(ActivatedRoute);
+  private itemService = inject(ItemService);
+  private dataHandleService = inject(DataHandleService);
+
   itemDatas: PokeItem[] = [];
   expandedLocation: number | null = null;
   private takenItemsMap = new Map<string, boolean>();
-
-  constructor(
-    private route: ActivatedRoute,
-    private itemService: ItemService,
-    private dataHandleService: DataHandleService
-  ) {}
 
   ngOnInit(): void {
     // 데이터 처리

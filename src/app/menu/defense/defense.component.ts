@@ -1,13 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { TYPE_DISPLAY_DATA, TYPE_EFFECTIVE_DATA } from 'src/app/datas/type.data';
 
 @Component({
-  selector: 'app-defense',
-  templateUrl: './defense.component.html',
-  styleUrls: ['./defense.component.less']
+    selector: 'app-defense',
+    templateUrl: './defense.component.html',
+    styleUrls: ['./defense.component.less'],
+    standalone: false
 })
 export class DefenseComponent implements OnInit {
+  private route = inject(ActivatedRoute);
+
   typeData = TYPE_DISPLAY_DATA;
   showInitialMessage = true;
   selectedTypes: string[] = [];
@@ -23,10 +26,6 @@ export class DefenseComponent implements OnInit {
   resultLabel = [
     "4배 약점", "2배 약점", "1배 보통", '0.5배 저항', '0.25배 저항', "0배 무효"
   ]
-
-  constructor(
-    private route: ActivatedRoute,
-  ) { }
 
   ngOnInit(): void {
     // URL 파라미터가 있다면 검색을 실행합니다.

@@ -1,13 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { PokemonService } from '../../services/pokemon.service';
 
 @Component({
-  selector: 'app-pokedex',
-  templateUrl: './pokedex.component.html',
-  styleUrls: ['./pokedex.component.less'],
+    selector: 'app-pokedex',
+    templateUrl: './pokedex.component.html',
+    styleUrls: ['./pokedex.component.less'],
+    standalone: false
 })
 export class PokedexComponent implements OnInit {
+  private pokemonService = inject(PokemonService);
+  private route = inject(ActivatedRoute);
+  private router = inject(Router);
+
   pokemonSearchInput = '';
   pokemonSearchOffset = 0;
   pokemonSearchAttr?: string;
@@ -15,13 +20,7 @@ export class PokedexComponent implements OnInit {
   searchResults: any[] = [];
   noResultsMessage = '';
 
-  private allPokemon: any[] = []; // 모든 포켓몬 데이터를 저장할 배열
-
-  constructor(
-    private pokemonService: PokemonService,
-    private route: ActivatedRoute,
-    private router: Router // Router 서비스 주입
-  ) {}
+  private allPokemon: any[] = [];
 
   ngOnInit(): void {
     // 페이지 로딩 시 모든 포켓몬 데이터를 가져온다고 가정합니다.

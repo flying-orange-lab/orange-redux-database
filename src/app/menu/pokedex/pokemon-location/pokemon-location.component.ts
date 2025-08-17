@@ -1,17 +1,18 @@
-import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges, inject } from '@angular/core';
 import { PokemonService } from 'src/app/services/pokemon.service';
 
 @Component({
-  selector: 'app-pokemon-location',
-  templateUrl: './pokemon-location.component.html',
-  styleUrls: ['./pokemon-location.component.less']
+    selector: 'app-pokemon-location',
+    templateUrl: './pokemon-location.component.html',
+    styleUrls: ['./pokemon-location.component.less'],
+    standalone: false
 })
 export class PokemonLocationComponent implements OnChanges {
+  private pokemonService = inject(PokemonService);
+
   @Input() pokemonName = ''; // 포켓몬 이름을 입력으로 받음
   
-  pokemonLocations: any[] = []; // 조회된 위치 정보를 저장할 배열
-
-  constructor(private pokemonService: PokemonService) { }
+  pokemonLocations: any[] = [];
 
   ngOnChanges(changes: SimpleChanges): void {
     // pokemonName 입력 값이 변경될 때마다 위치 정보를 다시 조회합니다.

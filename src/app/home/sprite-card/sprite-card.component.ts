@@ -1,23 +1,22 @@
 // src/app/sprite-card/sprite-card.component.ts
-import { Component, ChangeDetectorRef, OnInit } from '@angular/core';
+import { Component, ChangeDetectorRef, OnInit, inject } from '@angular/core';
 import { DataHandleService } from 'src/app/services/data-handle.service';
 import { PokemonImageService } from 'src/app/services/pokemon-image.service';
 
 @Component({
-  selector: 'app-sprite-card',
-  templateUrl: './sprite-card.component.html',
-  styleUrls: ['./sprite-card.component.less']
+    selector: 'app-sprite-card',
+    templateUrl: './sprite-card.component.html',
+    styleUrls: ['./sprite-card.component.less'],
+    standalone: false
 })
 export class SpriteCardComponent implements OnInit {
+  private dataHandleService = inject(DataHandleService);
+  private pokemonImageService = inject(PokemonImageService);
+  private cdr = inject(ChangeDetectorRef);
+
   gameVersion: string | null = null;
   isSplitting = false;
   progress = 0;
-
-  constructor(
-    public dataHandleService: DataHandleService,
-    private pokemonImageService: PokemonImageService,
-    private cdr: ChangeDetectorRef // ChangeDetectorRef 주입
-  ) { }
 
   
   ngOnInit(): void {

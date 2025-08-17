@@ -1,16 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import { DataHandleService } from '../services/data-handle.service';
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.less'],
+    selector: 'app-header',
+    templateUrl: './header.component.html',
+    styleUrls: ['./header.component.less'],
+    standalone: false
 })
 export class HeaderComponent implements OnInit {
-  gameVersion: string | null = null;
-  isMenuOpen = false; // 메뉴가 열려있는지 닫혀있는지 상태를 저장하는 변수
+  dataHandleService = inject(DataHandleService);
 
-  constructor(public dataHandleService: DataHandleService) {}
+  gameVersion: string | null = null;
+  isMenuOpen = false;
 
   ngOnInit(): void {
     // 데이터 처리

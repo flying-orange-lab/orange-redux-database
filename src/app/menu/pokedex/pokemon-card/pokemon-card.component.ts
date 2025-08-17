@@ -1,15 +1,21 @@
-import { Component, Input, OnChanges, SimpleChanges, OnInit, OnDestroy } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges, OnInit, OnDestroy, inject } from '@angular/core';
 import { Router } from '@angular/router';
 import { DataHandleService } from 'src/app/services/data-handle.service';
 import { PokemonImageService } from 'src/app/services/pokemon-image.service';
 import { PokemonService } from 'src/app/services/pokemon.service';
 
 @Component({
-  selector: 'app-pokemon-card',
-  templateUrl: './pokemon-card.component.html',
-  styleUrls: ['./pokemon-card.component.less'],
+    selector: 'app-pokemon-card',
+    templateUrl: './pokemon-card.component.html',
+    styleUrls: ['./pokemon-card.component.less'],
+    standalone: false
 })
 export class PokemonCardComponent implements OnInit, OnDestroy, OnChanges {
+  private router = inject(Router);
+  private dataHandleService = inject(DataHandleService);
+  private pokemonService = inject(PokemonService);
+  private pokemonImageService = inject(PokemonImageService);
+
   @Input() pokemon: any;
   currentPokemonStats: number[] = [0, 0, 0, 0, 0, 0, 0];
   currentFormIndex = 0;
@@ -19,13 +25,6 @@ export class PokemonCardComponent implements OnInit, OnDestroy, OnChanges {
   isGenderFemale = false;
 
   currentImageUrl = '';
-
-  constructor(
-    private router: Router,
-    private dataHandleService: DataHandleService,
-    private pokemonService: PokemonService,
-    private pokemonImageService: PokemonImageService
-  ) {}
 
   async ngOnInit() {
     const keyUrl = this.currentKeyname + '-female';

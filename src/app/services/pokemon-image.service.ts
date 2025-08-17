@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, inject } from '@angular/core';
 import Dexie from 'dexie';
 import { ImageProcessingService } from './image-process.service';
 
@@ -12,9 +12,11 @@ interface ImageBlob {
   providedIn: 'root'
 })
 export class PokemonImageService extends Dexie {
+  private imageProcessingService = inject(ImageProcessingService);
+
   pokemonImages: Dexie.Table<ImageBlob, string>;
 
-  constructor(private imageProcessingService: ImageProcessingService) {
+  constructor() {
     super('PokemonImageDB');
     this.version(1).stores({
       images: 'id' // 'id'가 프라이머리 키(primary key)
