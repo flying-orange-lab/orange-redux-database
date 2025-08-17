@@ -102,7 +102,8 @@
           "builder": "angular-cli-ghpages:deploy",
           "options": {
             "repo": "https://github.com/flying-orange-lab/orange-redux-database.git",
-            "branch": "gh-pages"
+            "branch": "gh-pages",
+            "dir": "dist/orange-datasheet/browser"
           }
         },
         "lint": {
