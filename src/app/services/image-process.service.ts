@@ -168,15 +168,15 @@ export class ImageProcessingService {
           count++;
 
           let suffix = null;
-          if ([414, 415, 427, 554].includes(count)) {
+          if ([414, 415, 426, 554].includes(count)) {
             countMinus += 1;
             switch (count) {
               case 414: // 루가루암 한밤
               case 415: // 루가루암 황혼
                 suffix = count - 413;
                 break;
-              case 427: // 스트린더 로우폼
-                suffix = count - 426;
+              case 426: // 스트린더 로우폼
+                suffix = count - 425;
                 break;
               case 554: // 대쓰여너 청색근
                 suffix = count - 553;
