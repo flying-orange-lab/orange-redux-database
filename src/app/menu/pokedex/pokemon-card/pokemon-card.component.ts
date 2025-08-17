@@ -1,14 +1,22 @@
-import { Component, Input, OnChanges, SimpleChanges, OnInit, OnDestroy, inject } from '@angular/core';
+import {
+  Component,
+  Input,
+  OnChanges,
+  SimpleChanges,
+  OnInit,
+  OnDestroy,
+  inject,
+} from '@angular/core';
 import { Router } from '@angular/router';
 import { DataHandleService } from 'src/app/services/data-handle.service';
 import { PokemonImageService } from 'src/app/services/pokemon-image.service';
 import { PokemonService } from 'src/app/services/pokemon.service';
 
 @Component({
-    selector: 'app-pokemon-card',
-    templateUrl: './pokemon-card.component.html',
-    styleUrls: ['./pokemon-card.component.less'],
-    standalone: false
+  selector: 'app-pokemon-card',
+  templateUrl: './pokemon-card.component.html',
+  styleUrls: ['./pokemon-card.component.less'],
+  standalone: false,
 })
 export class PokemonCardComponent implements OnInit, OnDestroy, OnChanges {
   private router = inject(Router);
@@ -41,6 +49,22 @@ export class PokemonCardComponent implements OnInit, OnDestroy, OnChanges {
   get currentPokemon(): any {
     // 폼이 있다면 현재 선택된 폼의 데이터를, 없다면 포켓몬 기본 데이터를 반환
     return this.pokemon.form?.[this.currentFormIndex] || this.pokemon;
+  }
+
+  get currentImageAltPath() {
+    let altPath = this.pokemon.imageUrl;
+    if (!altPath && this.pokemon.form) {
+      altPath = this.pokemon.form[this.currentFormIndex].imageUrl;
+    }
+    return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${altPath}`;
+  }
+
+  get currentStats() {
+    let stats = this.pokemon.stats;
+    if (!stats && this.pokemon.form) {
+      return this.pokemon.form[this.currentFormIndex].stats;
+    }
+    return stats;
   }
 
   get currentKeyname() {
@@ -85,16 +109,17 @@ export class PokemonCardComponent implements OnInit, OnDestroy, OnChanges {
 
   // 포켓몬 정보 업데이트
   async updatePokemonInfo() {
-    let stats = this.pokemon.stats;
-    if (!stats && this.pokemon.form) {
-      stats = this.pokemon.form[this.currentFormIndex].stats;
-    }
-    this.currentPokemonStats = stats;
+    this.currentPokemonStats = this.currentStats;
 
     await this.updateImageUrl();
   }
 
   async updateImageUrl(): Promise<void> {
+    if (this.dataHandleService.getGameVersion() == 'another_red') {
+      this.currentImageUrl = this.currentImageAltPath;
+      return;
+    }
+
     let urlKey = this.currentKeyname;
     if (this.isGenderFemale) {
       const genderKey = urlKey + '-female';
@@ -105,12 +130,7 @@ export class PokemonCardComponent implements OnInit, OnDestroy, OnChanges {
 
     const imageBlob = await this.pokemonImageService.getImage(urlKey);
     if (!imageBlob) {
-      let altPath = this.pokemon.imageUrl;
-      if (!altPath && this.pokemon.form) {
-        altPath = this.pokemon.form[this.currentFormIndex].imageUrl;
-      }
-
-      this.currentImageUrl = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${altPath}`;
+      this.currentImageUrl = this.currentImageAltPath;
     } else {
       this.currentImageUrl = URL.createObjectURL(imageBlob);
     }
