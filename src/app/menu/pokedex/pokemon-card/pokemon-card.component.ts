@@ -87,7 +87,7 @@ export class PokemonCardComponent {
   // 포켓몬 정보 업데이트
   async updatePokemonInfo() {
     let stats = this.pokemon.stats;
-    if (stats === undefined) {
+    if (!stats && this.pokemon.form) {
       stats = this.pokemon.form[this.currentFormIndex].stats;
     }
     this.currentPokemonStats = stats;
