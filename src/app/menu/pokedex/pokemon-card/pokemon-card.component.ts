@@ -25,18 +25,21 @@ export class PokemonCardComponent implements OnInit, OnDestroy, OnChanges {
   private pokemonImageService = inject(PokemonImageService);
 
   @Input() pokemon: any;
+  @Input() useSprite: boolean = false;
   currentPokemonStats: number[] = [0, 0, 0, 0, 0, 0, 0];
-  currentFormIndex = 0;
   hasGender = false;
-
   isFront = true;
   isGenderFemale = false;
 
+  currentFormIndex = 0;
   currentImageUrl = '';
 
   async ngOnInit() {
-    const keyUrl = this.currentKeyname + '-female';
-    this.hasGender = await this.pokemonImageService.hasImage(keyUrl);
+    // sprite 출력이 필요한 경우에만 처리
+    if (this.useSprite) {
+      const keyUrl = this.currentKeyname + '-female';
+      this.hasGender = await this.pokemonImageService.hasImage(keyUrl);
+    }
   }
 
   ngOnChanges(changes: SimpleChanges): void {
@@ -110,12 +113,12 @@ export class PokemonCardComponent implements OnInit, OnDestroy, OnChanges {
   // 포켓몬 정보 업데이트
   async updatePokemonInfo() {
     this.currentPokemonStats = this.currentStats;
-
     await this.updateImageUrl();
   }
 
   async updateImageUrl(): Promise<void> {
-    if (this.dataHandleService.getGameVersion() != 'orange_v3') {
+    // sprite 출력이 필요한 경우에만 처리
+    if (!this.useSprite) {
       this.currentImageUrl = this.currentImageAltPath;
       return;
     }

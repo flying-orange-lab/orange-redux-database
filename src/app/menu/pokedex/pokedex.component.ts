@@ -1,6 +1,8 @@
 import { Component, OnInit, inject } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { PokemonService } from '../../services/pokemon.service';
+import { DataHandleService } from 'src/app/services/data-handle.service';
+import { Pokemon } from 'src/app/models/pokemon.model';
 
 @Component({
   selector: 'app-pokedex',
@@ -9,22 +11,26 @@ import { PokemonService } from '../../services/pokemon.service';
   standalone: false,
 })
 export class PokedexComponent implements OnInit {
+  private dataHandleService = inject(DataHandleService);
   private pokemonService = inject(PokemonService);
   private route = inject(ActivatedRoute);
   private router = inject(Router);
+
+  pokemonUseSprite = false;
 
   pokemonSearchInput = '';
   pokemonSearchOffset = 0;
   pokemonSearchAttr?: string;
 
-  searchResults: any[] = [];
+  searchResults: Pokemon[] = [];
   noResultsMessage = '';
 
-  private allPokemon: any[] = [];
+  private allPokemon: Pokemon[] = [];
 
   ngOnInit(): void {
-    // 페이지 로딩 시 모든 포켓몬 데이터를 가져온다고 가정합니다.
-    // 실제로는 API 호출 등을 사용하게 될 것입니다.
+    this.pokemonUseSprite =
+      this.dataHandleService.getGameVersion() == 'orange_v3';
+    // 페이지 로딩 시 모든 포켓몬 데이터 가져옴
     this.pokemonService.getAllPokemon().subscribe((data) => {
       this.allPokemon = data;
 
@@ -53,11 +59,11 @@ export class PokedexComponent implements OnInit {
     if (this.pokemonSearchInput.length == 0) {
       return;
     }
-    // Router.navigate()를 사용하여 쿼리 파라미터를 변경합니다.
+    this.pokemonSearchOffset = 0;
     this.router.navigate([], {
       relativeTo: this.route, // 현재 라우트를 기준으로
       queryParams: { search: this.pokemonSearchInput },
-      queryParamsHandling: 'merge',
+      // queryParamsHandling: 'merge',
     });
   }
 
