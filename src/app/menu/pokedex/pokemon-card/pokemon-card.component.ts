@@ -115,7 +115,7 @@ export class PokemonCardComponent implements OnInit, OnDestroy, OnChanges {
   }
 
   async updateImageUrl(): Promise<void> {
-    if (this.dataHandleService.getGameVersion() == 'another_red') {
+    if (this.dataHandleService.getGameVersion() != 'orange_v3') {
       this.currentImageUrl = this.currentImageAltPath;
       return;
     }
