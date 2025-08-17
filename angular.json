@@ -103,11 +103,23 @@
           "options": {
             "dir": "dist/orange-datasheet"
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
+          }
         }
       }
     }
   },
   "cli": {
-    "analytics": "ec285419-b502-4061-ae30-f7cd0d6e85b7"
+    "analytics": "ec285419-b502-4061-ae30-f7cd0d6e85b7",
+    "schematicCollections": [
+      "angular-eslint"
+    ]
   }
 }
