@@ -7,7 +7,7 @@ import { Component, Input } from '@angular/core';
 })
 export class PokemonStatComponent {
   @Input() pokemonStats?: number[];
-  maxStatValue: number = 255;
+  maxStatValue = 255;
   statLabels = ['HP', '공격', '방어', '특공', '특방', '스피드', '총합'];
   statColors = [
     '#58BD5D',

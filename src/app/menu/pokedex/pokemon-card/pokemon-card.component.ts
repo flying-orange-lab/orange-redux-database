@@ -1,4 +1,4 @@
-import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges, OnInit, OnDestroy } from '@angular/core';
 import { Router } from '@angular/router';
 import { DataHandleService } from 'src/app/services/data-handle.service';
 import { PokemonImageService } from 'src/app/services/pokemon-image.service';
@@ -9,16 +9,16 @@ import { PokemonService } from 'src/app/services/pokemon.service';
   templateUrl: './pokemon-card.component.html',
   styleUrls: ['./pokemon-card.component.less'],
 })
-export class PokemonCardComponent {
+export class PokemonCardComponent implements OnInit, OnDestroy, OnChanges {
   @Input() pokemon: any;
   currentPokemonStats: number[] = [0, 0, 0, 0, 0, 0, 0];
-  currentFormIndex: number = 0;
-  hasGender: boolean = false;
+  currentFormIndex = 0;
+  hasGender = false;
 
-  isFront: boolean = true;
-  isGenderFemale: boolean = false;
+  isFront = true;
+  isGenderFemale = false;
 
-  currentImageUrl: string = '';
+  currentImageUrl = '';
 
   constructor(
     private router: Router,

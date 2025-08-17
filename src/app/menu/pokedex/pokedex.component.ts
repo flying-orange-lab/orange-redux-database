@@ -8,12 +8,12 @@ import { PokemonService } from '../../services/pokemon.service';
   styleUrls: ['./pokedex.component.less'],
 })
 export class PokedexComponent implements OnInit {
-  pokemonSearchInput: string = '';
-  pokemonSearchOffset: number = 0;
+  pokemonSearchInput = '';
+  pokemonSearchOffset = 0;
   pokemonSearchAttr?: string;
 
   searchResults: any[] = [];
-  noResultsMessage: string = '';
+  noResultsMessage = '';
 
   private allPokemon: any[] = []; // 모든 포켓몬 데이터를 저장할 배열
 

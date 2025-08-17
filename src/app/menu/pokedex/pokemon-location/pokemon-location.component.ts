@@ -7,7 +7,7 @@ import { PokemonService } from 'src/app/services/pokemon.service';
   styleUrls: ['./pokemon-location.component.less']
 })
 export class PokemonLocationComponent implements OnChanges {
-  @Input() pokemonName: string = ''; // 포켓몬 이름을 입력으로 받음
+  @Input() pokemonName = ''; // 포켓몬 이름을 입력으로 받음
   
   pokemonLocations: any[] = []; // 조회된 위치 정보를 저장할 배열
 

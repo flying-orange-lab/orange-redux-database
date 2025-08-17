@@ -1,7 +1,3 @@
-export interface TypeEffectiveData {
-    [engName: string]: any;
-}
+export type TypeEffectiveData = Record<string, any>;
 
-export interface TypeDisplay {
-    [engName: string]: string;
-}
+export type TypeDisplay = Record<string, string>;

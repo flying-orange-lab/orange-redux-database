@@ -1,5 +1,5 @@
 // src/app/sprite-card/sprite-card.component.ts
-import { Component, ChangeDetectorRef } from '@angular/core';
+import { Component, ChangeDetectorRef, OnInit } from '@angular/core';
 import { DataHandleService } from 'src/app/services/data-handle.service';
 import { PokemonImageService } from 'src/app/services/pokemon-image.service';
 
@@ -8,10 +8,10 @@ import { PokemonImageService } from 'src/app/services/pokemon-image.service';
   templateUrl: './sprite-card.component.html',
   styleUrls: ['./sprite-card.component.less']
 })
-export class SpriteCardComponent {
+export class SpriteCardComponent implements OnInit {
   gameVersion: string | null = null;
-  isSplitting: boolean = false;
-  progress: number = 0;
+  isSplitting = false;
+  progress = 0;
 
   constructor(
     public dataHandleService: DataHandleService,

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { DataHandleService } from '../services/data-handle.service';
 
 @Component({
@@ -6,7 +6,7 @@ import { DataHandleService } from '../services/data-handle.service';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.less'],
 })
-export class HeaderComponent {
+export class HeaderComponent implements OnInit {
   gameVersion: string | null = null;
   isMenuOpen = false; // 메뉴가 열려있는지 닫혀있는지 상태를 저장하는 변수
 

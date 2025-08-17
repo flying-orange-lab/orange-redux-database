@@ -233,7 +233,7 @@ export class ImageProcessingService {
           continue;
         }
 
-        let imageKey = String(keyNum) + "-" + String(count - suffix_value);
+        const imageKey = String(keyNum) + "-" + String(count - suffix_value);
 
 
         const startY = 33;

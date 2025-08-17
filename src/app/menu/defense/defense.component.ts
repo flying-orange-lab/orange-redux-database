@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { TYPE_DISPLAY_DATA, TYPE_EFFECTIVE_DATA } from 'src/app/datas/type.data';
 
@@ -7,11 +7,11 @@ import { TYPE_DISPLAY_DATA, TYPE_EFFECTIVE_DATA } from 'src/app/datas/type.data'
   templateUrl: './defense.component.html',
   styleUrls: ['./defense.component.less']
 })
-export class DefenseComponent {
+export class DefenseComponent implements OnInit {
   typeData = TYPE_DISPLAY_DATA;
   showInitialMessage = true;
   selectedTypes: string[] = [];
-  calculatedResults: { [key: string]: { type: string, typeKey: string }[] } = {};
+  calculatedResults: Record<string, { type: string, typeKey: string }[]> = {};
 
   selectLabel = [
     "normal", "fire", "water", "grass",
@@ -87,7 +87,7 @@ export class DefenseComponent {
       });
 
       // 결과 분류
-      let resultKey: string = "";
+      let resultKey = "";
       if (finalMultiplier === 4) {
         resultKey = "4배 약점";
       } else if (finalMultiplier === 2) {

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { PokeItem } from 'src/app/models/item.model';
 import { DataHandleService } from 'src/app/services/data-handle.service';
@@ -9,10 +9,10 @@ import { ItemService } from 'src/app/services/item.service';
   templateUrl: './items.component.html',
   styleUrls: ['./items.component.less'],
 })
-export class ItemsComponent {
+export class ItemsComponent implements OnInit {
   itemDatas: PokeItem[] = [];
   expandedLocation: number | null = null;
-  private takenItemsMap: Map<string, boolean> = new Map();
+  private takenItemsMap = new Map<string, boolean>();
 
   constructor(
     private route: ActivatedRoute,

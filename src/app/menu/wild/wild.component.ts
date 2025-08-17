@@ -1,4 +1,4 @@
-import { Component, QueryList, ViewChildren } from '@angular/core';
+import { Component, QueryList, ViewChildren, OnInit } from '@angular/core';
 import { WildRegionComponent } from './wild-region/wild-region.component';
 import { PokemonCatchService } from 'src/app/services/pokemon-catch.service';
 import { DataHandleService } from 'src/app/services/data-handle.service';
@@ -10,9 +10,9 @@ import { WildArea } from 'src/app/models/wilds.model';
   templateUrl: './wild.component.html',
   styleUrls: ['./wild.component.less']
 })
-export class WildComponent {
+export class WildComponent implements OnInit {
   wildData?: WildArea[];
-  pokemonCatchStatus: { [id: number]: boolean } = {};
+  pokemonCatchStatus: Record<number, boolean> = {};
 
   @ViewChildren(WildRegionComponent) wildRegionComponents!: QueryList<WildRegionComponent>;
 

@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, EventEmitter, Input, Output, OnInit } from '@angular/core';
 import { PokemonService } from 'src/app/services/pokemon.service';
 
 @Component({
@@ -6,12 +6,12 @@ import { PokemonService } from 'src/app/services/pokemon.service';
   templateUrl: './wild-region.component.html',
   styleUrls: ['./wild-region.component.less']
 })
-export class WildRegionComponent {
+export class WildRegionComponent implements OnInit {
   @Input() regionDatas!: any[];
-  @Input() pokemonCatchStatus!: { [id: number]: boolean };
+  @Input() pokemonCatchStatus!: Record<number, boolean>;
   @Output() pokemonCaught = new EventEmitter<{ id: number, status: boolean }>();
 
-  isExpanded: boolean = false;
+  isExpanded = false;
   selectedRegion: any;
 
   constructor(
