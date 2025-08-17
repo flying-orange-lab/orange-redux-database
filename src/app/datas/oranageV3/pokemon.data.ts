@@ -460,14 +460,14 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     id: 66,
     name: 'machop',
     koreanName: '치고마',
-    imageUrl: '66.png',
+    imageUrl: '891.png',
     types: ['fighting'],
   },
   {
     id: 67,
     name: 'machoke',
     koreanName: '우라오스(일격)',
-    imageUrl: '891.png',
+    imageUrl: '892.png',
     types: ['fighting', 'dark'],
   },
   {
