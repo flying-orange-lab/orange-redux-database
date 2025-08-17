@@ -1,10 +1,10 @@
 export interface WildArea {
-  locationName: string,
-  regionDatas: RegionData[]
+  locationName: string;
+  regionDatas: RegionData[];
 }
 
 export interface RegionData {
-  locationStatus: string,
+  locationStatus: string;
   areaDatas: AreaInfo[];
 }
 
@@ -19,7 +19,6 @@ export interface Encounter {
   maxLv: number;
   rate: number;
 }
-
 
 export interface PokemonLocation {
   region: string;

@@ -21,7 +21,7 @@
             *ngFor="let item of itemData.itemList; let itemIndex = index"
             (click)="toggleItemStatus(locationIndex, itemIndex)"
             [ngClass]="{
-              'strike-through': isItemTaken(locationIndex, itemIndex)
+              'strike-through': isItemTaken(locationIndex, itemIndex),
             }"
           >
             <td>{{ item }}</td>

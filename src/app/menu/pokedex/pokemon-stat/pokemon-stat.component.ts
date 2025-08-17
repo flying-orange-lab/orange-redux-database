@@ -1,10 +1,10 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-    selector: 'app-pokemon-stat',
-    templateUrl: './pokemon-stat.component.html',
-    styleUrls: ['./pokemon-stat.component.less'],
-    standalone: false
+  selector: 'app-pokemon-stat',
+  templateUrl: './pokemon-stat.component.html',
+  styleUrls: ['./pokemon-stat.component.less'],
+  standalone: false,
 })
 export class PokemonStatComponent {
   @Input() pokemonStats?: number[];
@@ -19,5 +19,4 @@ export class PokemonStatComponent {
     '#FF5D5D',
     '#6A6A6A',
   ];
-
 }

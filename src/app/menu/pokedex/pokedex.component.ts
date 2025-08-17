@@ -3,10 +3,10 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { PokemonService } from '../../services/pokemon.service';
 
 @Component({
-    selector: 'app-pokedex',
-    templateUrl: './pokedex.component.html',
-    styleUrls: ['./pokedex.component.less'],
-    standalone: false
+  selector: 'app-pokedex',
+  templateUrl: './pokedex.component.html',
+  styleUrls: ['./pokedex.component.less'],
+  standalone: false,
 })
 export class PokedexComponent implements OnInit {
   private pokemonService = inject(PokemonService);
@@ -109,7 +109,7 @@ export class PokedexComponent implements OnInit {
       this.noResultsMessage = `총 ${filtered.length}개의 결과 중 30개만 표시되었습니다.`;
       this.searchResults = filtered.slice(
         this.pokemonSearchOffset,
-        this.pokemonSearchOffset + 30
+        this.pokemonSearchOffset + 30,
       );
     } else {
       this.noResultsMessage = '';

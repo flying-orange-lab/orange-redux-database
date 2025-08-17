@@ -1,12 +1,11 @@
-<div class="pokemon-location" *ngIf="pokemonLocations.length > 0; else noLocation">
-  <strong>등장 위치:</strong><br>
+<div
+  class="pokemon-location"
+  *ngIf="pokemonLocations.length > 0; else noLocation"
+>
+  <strong>등장 위치:</strong><br />
   <div class="location-entry" *ngFor="let loc of pokemonLocations">
-    <div>
-      {{ loc.region }}{{ loc.condition ? ' - ' + loc.condition : '' }}
-    </div>
-    <div>
-      {{ loc.area }} (Lv. {{ loc.minLv }}~{{ loc.maxLv }})
-    </div>
+    <div>{{ loc.region }}{{ loc.condition ? " - " + loc.condition : "" }}</div>
+    <div>{{ loc.area }} (Lv. {{ loc.minLv }}~{{ loc.maxLv }})</div>
   </div>
 </div>
 

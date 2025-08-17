@@ -30,7 +30,7 @@ export class PokemonService {
 
   private getBaseName(pokemonName: string): string {
     // 폼 이름이 있는 포켓몬 처리
-          
+
     for (const extraName of this.filterExtra) {
       if (pokemonName.startsWith(extraName)) {
         return extraName;
@@ -47,7 +47,7 @@ export class PokemonService {
   findPokemon(pokemonName: string) {
     const baseName = this.getBaseName(pokemonName);
     return this.dataHandleService.pokemonDatas.find(
-      (pokemon: Pokemon) => pokemon.koreanName === baseName
+      (pokemon: Pokemon) => pokemon.koreanName === baseName,
     );
   }
 
@@ -71,10 +71,10 @@ export class PokemonService {
             area: areaInfo.area,
             region: locationName,
             condition: locationStatus,
-          }))
+          })),
         );
 
-        for (const encounter of allEncounters) {          
+        for (const encounter of allEncounters) {
           const baseName = this.getBaseName(encounter.name);
 
           if (baseName.toLowerCase() === lowerCasePokemonName) {

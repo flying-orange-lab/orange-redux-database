@@ -4,10 +4,10 @@ import { filter } from 'rxjs/operators';
 import { DataHandleService } from './services/data-handle.service';
 
 @Component({
-    selector: 'app-root',
-    templateUrl: './app.component.html',
-    styleUrls: ['./app.component.less'],
-    standalone: false
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.less'],
+  standalone: false,
 })
 export class AppComponent implements OnInit {
   private router = inject(Router);

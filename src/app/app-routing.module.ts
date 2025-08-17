@@ -16,11 +16,11 @@ const routes: Routes = [
 
 const routerOptions: ExtraOptions = {
   scrollPositionRestoration: 'enabled', // 라우팅 시 스크롤 위치 복원 활성화
-  anchorScrolling: 'enabled',          // 앵커 링크 (#) 스크롤 활성화
+  anchorScrolling: 'enabled', // 앵커 링크 (#) 스크롤 활성화
 };
 
 @NgModule({
   imports: [RouterModule.forRoot(routes, routerOptions)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

@@ -7,15 +7,45 @@ export interface BlobObject {
 }
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class ImageProcessingService {
   private generationData = [
-    { gen: 1, limit: 151, startY: 31, height: 1145, numRows: Math.floor(1145 / 143) },
-    { gen: 2, limit: 100, startY: 1207, height: 716, numRows: Math.floor(716 / 143) },
-    { gen: 3, limit: 135, startY: 1954, height: 1002, numRows: Math.floor(1002 / 143) },
-    { gen: 4, limit: 110, startY: 2987, height: 859, numRows: Math.floor(859 / 143) },
-    { gen: 5, limit: 157, startY: 3877, height: 1150, numRows: Math.floor(1150 / 143) },
+    {
+      gen: 1,
+      limit: 151,
+      startY: 31,
+      height: 1145,
+      numRows: Math.floor(1145 / 143),
+    },
+    {
+      gen: 2,
+      limit: 100,
+      startY: 1207,
+      height: 716,
+      numRows: Math.floor(716 / 143),
+    },
+    {
+      gen: 3,
+      limit: 135,
+      startY: 1954,
+      height: 1002,
+      numRows: Math.floor(1002 / 143),
+    },
+    {
+      gen: 4,
+      limit: 110,
+      startY: 2987,
+      height: 859,
+      numRows: Math.floor(859 / 143),
+    },
+    {
+      gen: 5,
+      limit: 157,
+      startY: 3877,
+      height: 1150,
+      numRows: Math.floor(1150 / 143),
+    },
   ];
 
   private tileWidth = 64;
@@ -25,8 +55,6 @@ export class ImageProcessingService {
   private halfHeight = this.croppedHeight / 2;
   private separator = 1;
 
-
-
   private toBlobAsync(canvas: HTMLCanvasElement): Promise<Blob> {
     return new Promise((resolve, reject) => {
       canvas.toBlob((blob) => {
@@ -35,13 +63,22 @@ export class ImageProcessingService {
         } else {
           reject(new Error('Failed to create blob from canvas.'));
         }
-      }, "image/png");
+      }, 'image/png');
     });
   }
 
-
-  private makeColorTransparent(ctx: CanvasRenderingContext2D, r: number, g: number, b: number): void {
-    const imageData = ctx.getImageData(0, 0, ctx.canvas.width, ctx.canvas.height);
+  private makeColorTransparent(
+    ctx: CanvasRenderingContext2D,
+    r: number,
+    g: number,
+    b: number,
+  ): void {
+    const imageData = ctx.getImageData(
+      0,
+      0,
+      ctx.canvas.width,
+      ctx.canvas.height,
+    );
     const data = imageData.data;
 
     for (let i = 0; i < data.length; i += 4) {
@@ -52,9 +89,18 @@ export class ImageProcessingService {
     ctx.putImageData(imageData, 0, 0);
   }
 
-  private isTileSolidColor(img: HTMLImageElement, sx: number, sy: number, sWidth: number, sHeight: number, r: number, g: number, b: number): boolean {
-    const tempCanvas = document.createElement("canvas");
-    const tempCtx = tempCanvas.getContext("2d", { willReadFrequently: true });
+  private isTileSolidColor(
+    img: HTMLImageElement,
+    sx: number,
+    sy: number,
+    sWidth: number,
+    sHeight: number,
+    r: number,
+    g: number,
+    b: number,
+  ): boolean {
+    const tempCanvas = document.createElement('canvas');
+    const tempCtx = tempCanvas.getContext('2d', { willReadFrequently: true });
     if (!tempCtx) throw new Error('2D context not available on canvas.');
 
     tempCanvas.width = sWidth;
@@ -72,25 +118,30 @@ export class ImageProcessingService {
     return true;
   }
 
-  async splitImageBySwitch(img: HTMLImageElement, extra: string): Promise<BlobObject[]> {
+  async splitImageBySwitch(
+    img: HTMLImageElement,
+    extra: string,
+  ): Promise<BlobObject[]> {
     console.log(`분리시작(${extra})`);
 
     switch (extra) {
-      case "pink":
-        return await this.splitImage(img, "");
-      case "red":
-        return await this.splitImage(img, "-female");
-      case "forms":
+      case 'pink':
+        return await this.splitImage(img, '');
+      case 'red':
+        return await this.splitImage(img, '-female');
+      case 'forms':
         return await this.splitImageForm(img);
     }
 
     throw new Error('Call error');
   }
 
-
-  async splitImage(img: HTMLImageElement, suffix_value: string): Promise<BlobObject[]> {
-    const canvas = document.createElement("canvas");
-    const ctx = canvas.getContext("2d", { willReadFrequently: true });
+  async splitImage(
+    img: HTMLImageElement,
+    suffix_value: string,
+  ): Promise<BlobObject[]> {
+    const canvas = document.createElement('canvas');
+    const ctx = canvas.getContext('2d', { willReadFrequently: true });
     if (!ctx) throw new Error('2D context not available on canvas.');
 
     canvas.width = this.tileWidth;
@@ -109,7 +160,8 @@ export class ImageProcessingService {
           if (genCount > limit) continue;
 
           const sx = col * (this.tileWidth + this.separator) + this.separator;
-          const sy_front = gen.startY + row * this.tileHeight + this.headerHeight;
+          const sy_front =
+            gen.startY + row * this.tileHeight + this.headerHeight;
           const sWidth = this.tileWidth;
           const sHeight_full = this.croppedHeight;
 
@@ -133,11 +185,22 @@ export class ImageProcessingService {
           }
 
           // 타일 전체가 배경색(#90b0b0)인지 확인합니다.
-          if (this.isTileSolidColor(img, sx, sy_front, sWidth, sHeight_full, 144, 176, 176)) {
+          if (
+            this.isTileSolidColor(
+              img,
+              sx,
+              sy_front,
+              sWidth,
+              sHeight_full,
+              144,
+              176,
+              176,
+            )
+          ) {
             continue;
           }
 
-          let imageKey = String(count - countMinus).padStart(3, "0");
+          let imageKey = String(count - countMinus).padStart(3, '0');
           if (suffix != null) {
             imageKey = `${imageKey}-${String(suffix)}`;
           }
@@ -145,24 +208,46 @@ export class ImageProcessingService {
           // --- 앞면 스프라이트 (상단 절반) ---
           const sHeight_front = this.halfHeight;
           ctx.clearRect(0, 0, canvas.width, canvas.height);
-          ctx.drawImage(img, sx, sy_front, sWidth, sHeight_front, 0, 0, canvas.width, canvas.height);
+          ctx.drawImage(
+            img,
+            sx,
+            sy_front,
+            sWidth,
+            sHeight_front,
+            0,
+            0,
+            canvas.width,
+            canvas.height,
+          );
           this.makeColorTransparent(ctx, 144, 176, 176);
           allBlobPromises.push(
-            this.toBlobAsync(canvas).then((blob) => (
-              { key: "front-" + imageKey + suffix_value, blob: blob }
-            ))
+            this.toBlobAsync(canvas).then((blob) => ({
+              key: 'front-' + imageKey + suffix_value,
+              blob: blob,
+            })),
           );
 
           // --- 뒷면 스프라이트 (하단 절반) ---
           const sy_back = sy_front + this.halfHeight;
           const sHeight_back = this.halfHeight;
           ctx.clearRect(0, 0, canvas.width, canvas.height);
-          ctx.drawImage(img, sx, sy_back, sWidth, sHeight_back, 0, 0, canvas.width, canvas.height);
+          ctx.drawImage(
+            img,
+            sx,
+            sy_back,
+            sWidth,
+            sHeight_back,
+            0,
+            0,
+            canvas.width,
+            canvas.height,
+          );
           this.makeColorTransparent(ctx, 144, 176, 176);
           allBlobPromises.push(
-            this.toBlobAsync(canvas).then((blob) => (
-              { key: "back-" + imageKey + suffix_value, blob: blob }
-            ))
+            this.toBlobAsync(canvas).then((blob) => ({
+              key: 'back-' + imageKey + suffix_value,
+              blob: blob,
+            })),
           );
         }
       }
@@ -173,10 +258,10 @@ export class ImageProcessingService {
   }
 
   async splitImageForm(img: HTMLImageElement): Promise<BlobObject[]> {
-    console.log("분리 시작(Form)");
+    console.log('분리 시작(Form)');
 
-    const canvas = document.createElement("canvas");
-    const ctx = canvas.getContext("2d");
+    const canvas = document.createElement('canvas');
+    const ctx = canvas.getContext('2d');
     if (!ctx) throw new Error('2D context not available on canvas.');
 
     canvas.width = this.tileWidth;
@@ -233,8 +318,7 @@ export class ImageProcessingService {
           continue;
         }
 
-        const imageKey = String(keyNum) + "-" + String(count - suffix_value);
-
+        const imageKey = String(keyNum) + '-' + String(count - suffix_value);
 
         const startY = 33;
 
@@ -245,23 +329,46 @@ export class ImageProcessingService {
         // --- 앞면 스프라이트 (상단 절반) ---
         const sHeight_front = this.halfHeight;
         ctx.clearRect(0, 0, canvas.width, canvas.height);
-        ctx.drawImage(img, sx, sy_front, sWidth, sHeight_front, 0, 0, canvas.width, canvas.height); this.makeColorTransparent(ctx, 144, 176, 176);
+        ctx.drawImage(
+          img,
+          sx,
+          sy_front,
+          sWidth,
+          sHeight_front,
+          0,
+          0,
+          canvas.width,
+          canvas.height,
+        );
+        this.makeColorTransparent(ctx, 144, 176, 176);
         allBlobPromises.push(
-          this.toBlobAsync(canvas).then((blob) => (
-            { key: "front-" + imageKey, blob: blob }
-          ))
+          this.toBlobAsync(canvas).then((blob) => ({
+            key: 'front-' + imageKey,
+            blob: blob,
+          })),
         );
 
         // --- 뒷면 스프라이트 (하단 절반) ---
         const sy_back = sy_front + this.halfHeight;
         const sHeight_back = this.halfHeight;
         ctx.clearRect(0, 0, canvas.width, canvas.height);
-        ctx.drawImage(img, sx, sy_back, sWidth, sHeight_back, 0, 0, canvas.width, canvas.height);
+        ctx.drawImage(
+          img,
+          sx,
+          sy_back,
+          sWidth,
+          sHeight_back,
+          0,
+          0,
+          canvas.width,
+          canvas.height,
+        );
         this.makeColorTransparent(ctx, 144, 176, 176);
         allBlobPromises.push(
-          this.toBlobAsync(canvas).then((blob) => (
-            { key: "back-" + imageKey, blob: blob }
-          ))
+          this.toBlobAsync(canvas).then((blob) => ({
+            key: 'back-' + imageKey,
+            blob: blob,
+          })),
         );
       }
     }

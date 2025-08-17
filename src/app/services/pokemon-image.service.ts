@@ -7,9 +7,8 @@ interface ImageBlob {
   data: Blob;
 }
 
-
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class PokemonImageService extends Dexie {
   private imageProcessingService = inject(ImageProcessingService);
@@ -19,10 +18,9 @@ export class PokemonImageService extends Dexie {
   constructor() {
     super('PokemonImageDB');
     this.version(1).stores({
-      images: 'id' // 'id'가 프라이머리 키(primary key)
-    })
+      images: 'id', // 'id'가 프라이머리 키(primary key)
+    });
     this.pokemonImages = this.table('images');
-
   }
 
   /**
@@ -61,8 +59,15 @@ export class PokemonImageService extends Dexie {
   }
 
   // 모든 이미지 분리 및 저장 로직을 서비스 메서드로 이동
-  async splitAndStoreImage(img: HTMLImageElement, extra: string, onProgress: (progress: number) => void): Promise<void> {
-    const blobObjects = await this.imageProcessingService.splitImageBySwitch(img, extra);
+  async splitAndStoreImage(
+    img: HTMLImageElement,
+    extra: string,
+    onProgress: (progress: number) => void,
+  ): Promise<void> {
+    const blobObjects = await this.imageProcessingService.splitImageBySwitch(
+      img,
+      extra,
+    );
     let putCount = 0;
 
     // 이 부분을 트랜잭션으로 수정하여 성능을 개선합니다.
@@ -75,6 +80,6 @@ export class PokemonImageService extends Dexie {
       }
     });
 
-    console.log("분리 및 저장 완료");
+    console.log('분리 및 저장 완료');
   }
 }

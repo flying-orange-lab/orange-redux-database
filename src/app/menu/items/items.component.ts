@@ -5,10 +5,10 @@ import { DataHandleService } from 'src/app/services/data-handle.service';
 import { ItemService } from 'src/app/services/item.service';
 
 @Component({
-    selector: 'app-items',
-    templateUrl: './items.component.html',
-    styleUrls: ['./items.component.less'],
-    standalone: false
+  selector: 'app-items',
+  templateUrl: './items.component.html',
+  styleUrls: ['./items.component.less'],
+  standalone: false,
 })
 export class ItemsComponent implements OnInit {
   private route = inject(ActivatedRoute);
@@ -48,7 +48,7 @@ export class ItemsComponent implements OnInit {
 
   async toggleItemStatus(
     locationIndex: number,
-    itemIndex: number
+    itemIndex: number,
   ): Promise<void> {
     const key = `${locationIndex}-${itemIndex}`;
     const isCurrentlyTaken = this.isItemTaken(locationIndex, itemIndex);

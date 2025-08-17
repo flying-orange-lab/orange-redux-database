@@ -1,12 +1,15 @@
 import { Component, OnInit, inject } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { TYPE_DISPLAY_DATA, TYPE_EFFECTIVE_DATA } from 'src/app/datas/type.data';
+import {
+  TYPE_DISPLAY_DATA,
+  TYPE_EFFECTIVE_DATA,
+} from 'src/app/datas/type.data';
 
 @Component({
-    selector: 'app-defense',
-    templateUrl: './defense.component.html',
-    styleUrls: ['./defense.component.less'],
-    standalone: false
+  selector: 'app-defense',
+  templateUrl: './defense.component.html',
+  styleUrls: ['./defense.component.less'],
+  standalone: false,
 })
 export class DefenseComponent implements OnInit {
   private route = inject(ActivatedRoute);
@@ -14,30 +17,49 @@ export class DefenseComponent implements OnInit {
   typeData = TYPE_DISPLAY_DATA;
   showInitialMessage = true;
   selectedTypes: string[] = [];
-  calculatedResults: Record<string, { type: string, typeKey: string }[]> = {};
+  calculatedResults: Record<string, { type: string; typeKey: string }[]> = {};
 
   selectLabel = [
-    "normal", "fire", "water", "grass",
-    "electric", "ice", "fighting", "poison",
-    "ground", "flying", "psychic", "bug",
-    "rock", "ghost", "dark", "dragon",
-    "steel", "fairy"
-  ]
+    'normal',
+    'fire',
+    'water',
+    'grass',
+    'electric',
+    'ice',
+    'fighting',
+    'poison',
+    'ground',
+    'flying',
+    'psychic',
+    'bug',
+    'rock',
+    'ghost',
+    'dark',
+    'dragon',
+    'steel',
+    'fairy',
+  ];
   resultLabel = [
-    "4배 약점", "2배 약점", "1배 보통", '0.5배 저항', '0.25배 저항', "0배 무효"
-  ]
+    '4배 약점',
+    '2배 약점',
+    '1배 보통',
+    '0.5배 저항',
+    '0.25배 저항',
+    '0배 무효',
+  ];
 
   ngOnInit(): void {
     // URL 파라미터가 있다면 검색을 실행합니다.
-    this.route.queryParams.subscribe(params => {
+    this.route.queryParams.subscribe((params) => {
       if (params['type']) {
-        const queryTypes = Array.isArray(params['type']) ? params['type'] : [params['type']];
+        const queryTypes = Array.isArray(params['type'])
+          ? params['type']
+          : [params['type']];
         this.selectedTypes = queryTypes;
         this.updateResults();
       }
     });
   }
-
 
   selectType(typeKey: string): void {
     const index = this.selectedTypes.indexOf(typeKey);
@@ -65,8 +87,13 @@ export class DefenseComponent implements OnInit {
 
   updateResults() {
     this.calculatedResults = {
-      "4배 약점": [], "2배 약점": [], "1배 보통": [], '0.5배 저항': [], '0.25배 저항': [], "0배 무효": []
-    }
+      '4배 약점': [],
+      '2배 약점': [],
+      '1배 보통': [],
+      '0.5배 저항': [],
+      '0.25배 저항': [],
+      '0배 무효': [],
+    };
     if (this.selectedTypes.length === 0) {
       this.showInitialMessage = true;
       return;
@@ -78,7 +105,7 @@ export class DefenseComponent implements OnInit {
       this.selectedTypes.forEach((defenseTypeKey) => {
         const currentRatios = TYPE_EFFECTIVE_DATA[defenseTypeKey];
         if (currentRatios) {
-          const attackRatio = currentRatios[attackTypeKey]
+          const attackRatio = currentRatios[attackTypeKey];
           if (attackRatio !== undefined) {
             finalMultiplier *= attackRatio;
           }
@@ -86,19 +113,19 @@ export class DefenseComponent implements OnInit {
       });
 
       // 결과 분류
-      let resultKey = "";
+      let resultKey = '';
       if (finalMultiplier === 4) {
-        resultKey = "4배 약점";
+        resultKey = '4배 약점';
       } else if (finalMultiplier === 2) {
-        resultKey = "2배 약점"
+        resultKey = '2배 약점';
       } else if (finalMultiplier === 1) {
-        resultKey = "1배 보통"
+        resultKey = '1배 보통';
       } else if (finalMultiplier === 0.5) {
-        resultKey = "0.5배 저항"
+        resultKey = '0.5배 저항';
       } else if (finalMultiplier === 0.25) {
-        resultKey = "0.25배 저항"
+        resultKey = '0.25배 저항';
       } else if (finalMultiplier === 0) {
-        resultKey = "0배 무효"
+        resultKey = '0배 무효';
       }
 
       this.calculatedResults[resultKey].push({

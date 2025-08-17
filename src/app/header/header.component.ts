@@ -2,10 +2,10 @@ import { Component, OnInit, inject } from '@angular/core';
 import { DataHandleService } from '../services/data-handle.service';
 
 @Component({
-    selector: 'app-header',
-    templateUrl: './header.component.html',
-    styleUrls: ['./header.component.less'],
-    standalone: false
+  selector: 'app-header',
+  templateUrl: './header.component.html',
+  styleUrls: ['./header.component.less'],
+  standalone: false,
 })
 export class HeaderComponent implements OnInit {
   dataHandleService = inject(DataHandleService);

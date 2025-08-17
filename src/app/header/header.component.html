@@ -1,6 +1,10 @@
 <header class="app-header">
-  <h1 class="header-title" [routerLink]="['/', gameVersion]" (click)="closeMenu()">
-    {{getTitle()}}
+  <h1
+    class="header-title"
+    [routerLink]="['/', gameVersion]"
+    (click)="closeMenu()"
+  >
+    {{ getTitle() }}
   </h1>
   <div
     class="hamburger-button"

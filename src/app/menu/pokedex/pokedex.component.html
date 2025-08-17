@@ -17,21 +17,24 @@
 
     <div id="searchResults" class="pokemon-grid">
       <div *ngFor="let pokemon of searchResults" class="pokemon-card-wrapper">
-        <app-pokemon-card [pokemon]="pokemon"> </app-pokemon-card>        
+        <app-pokemon-card [pokemon]="pokemon"> </app-pokemon-card>
         <app-pokemon-location
           [pokemonName]="pokemon.koreanName"
         ></app-pokemon-location>
       </div>
-    </div>    
+    </div>
   </section>
   <nav class="pagination-container">
     <ul class="pagination-list">
-        <li class="pagination-item prev" [class.disabled]="pokemonSearchOffset == 0">
-            <div (click)="onPageButtonClick(false)"><</div>
-        </li>
-        <li class="pagination-item next">
-            <div (click)="onPageButtonClick(true)">></div>
-        </li>
+      <li
+        class="pagination-item prev"
+        [class.disabled]="pokemonSearchOffset == 0"
+      >
+        <div (click)="onPageButtonClick(false)"><</div>
+      </li>
+      <li class="pagination-item next">
+        <div (click)="onPageButtonClick(true)">></div>
+      </li>
     </ul>
-</nav>
+  </nav>
 </main>

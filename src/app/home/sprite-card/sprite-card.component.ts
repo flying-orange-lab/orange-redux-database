@@ -4,10 +4,10 @@ import { DataHandleService } from 'src/app/services/data-handle.service';
 import { PokemonImageService } from 'src/app/services/pokemon-image.service';
 
 @Component({
-    selector: 'app-sprite-card',
-    templateUrl: './sprite-card.component.html',
-    styleUrls: ['./sprite-card.component.less'],
-    standalone: false
+  selector: 'app-sprite-card',
+  templateUrl: './sprite-card.component.html',
+  styleUrls: ['./sprite-card.component.less'],
+  standalone: false,
 })
 export class SpriteCardComponent implements OnInit {
   private dataHandleService = inject(DataHandleService);
@@ -18,7 +18,6 @@ export class SpriteCardComponent implements OnInit {
   isSplitting = false;
   progress = 0;
 
-  
   ngOnInit(): void {
     // 데이터 처리
     this.dataHandleService.gameVersion$.subscribe((version) => {
@@ -42,10 +41,14 @@ export class SpriteCardComponent implements OnInit {
         this.cdr.detectChanges(); // UI 업데이트
 
         try {
-          await this.pokemonImageService.splitAndStoreImage(img, extra, (progress) => {
-            this.progress = progress;
-            this.cdr.detectChanges(); // 진행률 업데이트마다 UI 갱신
-          });
+          await this.pokemonImageService.splitAndStoreImage(
+            img,
+            extra,
+            (progress) => {
+              this.progress = progress;
+              this.cdr.detectChanges(); // 진행률 업데이트마다 UI 갱신
+            },
+          );
           console.log(`이미지 저장 완료`);
         } catch (error) {
           console.error('이미지 처리 중 오류 발생', error);

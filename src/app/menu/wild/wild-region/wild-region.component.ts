@@ -1,22 +1,28 @@
-import { Component, EventEmitter, Input, Output, OnInit, inject } from '@angular/core';
+import {
+  Component,
+  EventEmitter,
+  Input,
+  Output,
+  OnInit,
+  inject,
+} from '@angular/core';
 import { PokemonService } from 'src/app/services/pokemon.service';
 
 @Component({
-    selector: 'app-wild-region',
-    templateUrl: './wild-region.component.html',
-    styleUrls: ['./wild-region.component.less'],
-    standalone: false
+  selector: 'app-wild-region',
+  templateUrl: './wild-region.component.html',
+  styleUrls: ['./wild-region.component.less'],
+  standalone: false,
 })
 export class WildRegionComponent implements OnInit {
   private pokemonService = inject(PokemonService);
 
   @Input() regionDatas!: any[];
   @Input() pokemonCatchStatus!: Record<number, boolean>;
-  @Output() pokemonCaught = new EventEmitter<{ id: number, status: boolean }>();
+  @Output() pokemonCaught = new EventEmitter<{ id: number; status: boolean }>();
 
   isExpanded = false;
   selectedRegion: any;
-
 
   ngOnInit(): void {
     if (this.regionDatas && this.regionDatas.length > 0) {
@@ -43,14 +49,10 @@ export class WildRegionComponent implements OnInit {
       return;
     }
     if (status) {
-      console.log(`${name} 포켓몬을 잡았습니다.`)
+      console.log(`${name} 포켓몬을 잡았습니다.`);
     } else {
-      console.log(`바이바이, ${name}`)
+      console.log(`바이바이, ${name}`);
     }
     this.pokemonCaught.emit({ id: pokemonId, status: status });
   }
-
-
-
-
 }
