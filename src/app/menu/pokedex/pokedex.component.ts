@@ -19,7 +19,7 @@ export class PokedexComponent implements OnInit {
   pokemonUseSprite = false;
 
   pokemonSearchInput = '';
-  pokemonSearchOffset = 0;
+  pokemonSearchOffset = 1;
   pokemonSearchAttr?: string;
 
   searchResults: Pokemon[] = [];
@@ -59,12 +59,23 @@ export class PokedexComponent implements OnInit {
     if (this.pokemonSearchInput.length == 0) {
       return;
     }
-    this.pokemonSearchOffset = 0;
-    this.router.navigate([], {
-      relativeTo: this.route, // 현재 라우트를 기준으로
-      queryParams: { search: this.pokemonSearchInput },
-      // queryParamsHandling: 'merge',
-    });
+
+    const isNumericString = /^\d+$/.test(this.pokemonSearchInput);
+    if (isNumericString) {
+      this.pokemonSearchOffset = parseInt(this.pokemonSearchInput);
+      this.pokemonSearchInput = '';
+      this.router.navigate([], {
+        relativeTo: this.route,
+        queryParams: { gte: this.pokemonSearchOffset }, // 페이지 번호 쿼리 파라미터 추가
+        // queryParamsHandling: 'merge', // 기존 파라미터(search) 유지
+      });
+    } else {
+      this.pokemonSearchOffset = 1;
+      this.router.navigate([], {
+        relativeTo: this.route, // 현재 라우트를 기준으로
+        queryParams: { search: this.pokemonSearchInput },
+      });
+    }
   }
 
   onPageButtonClick(status: boolean): void {
@@ -74,7 +85,7 @@ export class PokedexComponent implements OnInit {
     } else {
       number = Math.max(0, number - 30);
     }
-
+    this.pokemonSearchOffset = number;
     this.router.navigate([], {
       relativeTo: this.route,
       queryParams: { gte: number }, // 페이지 번호 쿼리 파라미터 추가
@@ -114,8 +125,8 @@ export class PokedexComponent implements OnInit {
     } else if (filtered.length > 30) {
       this.noResultsMessage = `총 ${filtered.length}개의 결과 중 30개만 표시되었습니다.`;
       this.searchResults = filtered.slice(
-        this.pokemonSearchOffset,
-        this.pokemonSearchOffset + 30,
+        this.pokemonSearchOffset - 1,
+        this.pokemonSearchOffset - 1 + 30,
       );
     } else {
       this.noResultsMessage = '';
