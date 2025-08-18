@@ -46,6 +46,15 @@ export class ItemsComponent implements OnInit {
     return this.takenItemsMap.has(`${locationIndex}-${itemIndex}`);
   }
 
+  isLocationItemTaken(locationIndex: number, itemList: string[]) {
+    for (let i = 0; i < itemList.length; i++) {
+      if (!this.takenItemsMap.has(`${locationIndex}-${i}`)) {
+        return false;
+      }
+    }
+    return true;
+  }
+
   async toggleItemStatus(
     locationIndex: number,
     itemIndex: number,

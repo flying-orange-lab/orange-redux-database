@@ -4,7 +4,16 @@
     class="location-section"
   >
     <div class="location-header" (click)="toggleExpand(locationIndex)">
-      <h2>{{ itemData.location }}</h2>
+      <h2
+        [ngClass]="{
+          'strike-through': isLocationItemTaken(
+            locationIndex,
+            itemData.itemList
+          ),
+        }"
+      >
+        {{ itemData.location }}
+      </h2>
       <!-- <span class="expand-icon">{{ expandedLocation === locationIndex ? '▼' : '▶' }}</span> -->
     </div>
 
