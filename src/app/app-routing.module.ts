@@ -7,11 +7,27 @@ import { WildComponent } from './menu/wild/wild.component';
 import { ItemsComponent } from './menu/items/items.component';
 
 const routes: Routes = [
-  { path: ':gameVersion', component: HomeComponent },
-  { path: ':gameVersion/pokedex', component: PokedexComponent },
-  { path: ':gameVersion/defense', component: DefenseComponent },
-  { path: ':gameVersion/wild', component: WildComponent },
-  { path: ':gameVersion/item', component: ItemsComponent },
+  { path: ':gameVersion', component: HomeComponent, data: { title: '홈' } },
+  {
+    path: ':gameVersion/pokedex',
+    component: PokedexComponent,
+    data: { title: '도감' },
+  },
+  {
+    path: ':gameVersion/defense',
+    component: DefenseComponent,
+    data: { title: '방어상성' },
+  },
+  {
+    path: ':gameVersion/wild',
+    component: WildComponent,
+    data: { title: '서식지' },
+  },
+  {
+    path: ':gameVersion/item',
+    component: ItemsComponent,
+    data: { title: '아이템' },
+  },
 ];
 
 const routerOptions: ExtraOptions = {

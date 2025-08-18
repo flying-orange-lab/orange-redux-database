@@ -21,6 +21,17 @@ export class DataHandleService {
     return this.gameVersionSubject.value;
   }
 
+  get gameTitle() {
+    switch (this.gameVersionSubject.value) {
+      case 'orange_v3':
+        return '오렌지 V3';
+      case 'another_red':
+        return '어나더레드';
+    }
+
+    return undefined;
+  }
+
   get wildDatas() {
     switch (this.gameVersionSubject.value) {
       case 'orange_v3':
