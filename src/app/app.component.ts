@@ -3,6 +3,8 @@ import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 import { filter } from 'rxjs/operators';
 import { DataHandleService } from './services/data-handle.service';
 
+declare let gtag: Function;
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -15,6 +17,16 @@ export class AppComponent implements OnInit {
   private dataHandleService = inject(DataHandleService);
 
   title = 'datasheet';
+
+  constructor() {
+    this.router.events.subscribe((event) => {
+      if (event instanceof NavigationEnd) {
+        gtag('config', 'G-XXXXXXXXXX', {
+          page_path: event.urlAfterRedirects,
+        });
+      }
+    });
+  }
 
   ngOnInit(): void {
     // 라우터 이벤트 구독 → 페이지 이동할 때마다 gameVersion 갱신
