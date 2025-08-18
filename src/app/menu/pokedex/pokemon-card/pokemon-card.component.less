@@ -53,7 +53,9 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   z-index: 10;
   /* 이미지 위에 오도록 */
-  transition: background-color 0.2s, transform 0.2s;
+  transition:
+    background-color 0.2s,
+    transform 0.2s;
 }
 
 .gender-button:hover {
@@ -96,7 +98,6 @@
   justify-content: center;
   gap: 5px;
   flex-wrap: wrap;
-  width: 100%;
   cursor: pointer;
   /* 타입 클릭 가능함을 표시 */
 }
@@ -128,7 +129,10 @@
   border-radius: 15px;
   cursor: pointer;
   font-size: 0.8em;
-  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+  transition:
+    background-color 0.2s,
+    color 0.2s,
+    border-color 0.2s;
   white-space: nowrap;
 }
 
@@ -149,10 +153,10 @@
   text-align: left;
 
   > :not(:first-child)::before {
-  content: "·";
-  display: inline-block;
-  width: 8px;
-}
+    content: "·";
+    display: inline-block;
+    width: 8px;
+  }
 }
 
 /* 기존 타입별 배경색 (변경 없음) */

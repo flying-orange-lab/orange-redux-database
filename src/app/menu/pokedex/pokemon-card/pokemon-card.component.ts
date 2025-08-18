@@ -25,7 +25,7 @@ export class PokemonCardComponent implements OnInit, OnDestroy, OnChanges {
   private pokemonImageService = inject(PokemonImageService);
 
   @Input() pokemon: any;
-  @Input() useSprite: boolean = false;
+  @Input() useSprite = false;
   currentPokemonStats: number[] = [0, 0, 0, 0, 0, 0, 0];
   hasGender = false;
   isFront = true;
@@ -63,7 +63,7 @@ export class PokemonCardComponent implements OnInit, OnDestroy, OnChanges {
   }
 
   get currentStats() {
-    let stats = this.pokemon.stats;
+    const stats = this.pokemon.stats;
     if (!stats && this.pokemon.form) {
       return this.pokemon.form[this.currentFormIndex].stats;
     }
