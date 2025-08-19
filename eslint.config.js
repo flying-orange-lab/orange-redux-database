@@ -34,8 +34,13 @@ module.exports = tseslint.config(
   },
   {
     files: ["**/*.data.ts"],
+    extends: [
+      eslint.configs.recommended,
+      ...tseslint.configs.recommended,
+      ...tseslint.configs.stylistic,
+      ...angular.configs.tsRecommended,
+    ],
     rules: {
-      quotes: ["error", "double"],
       "quote-props": ["error", "always"],
     },
   },
