@@ -33,11 +33,11 @@ module.exports = tseslint.config(
     },
   },
   {
-    files: ["*.data.ts"],
+    files: ["**/*.data.ts"],
     rules: {
       quotes: ["error", "double"],
-      "quote-props": ["error", "always"]
-    }
+      "quote-props": ["error", "always"],
+    },
   },
   {
     files: ["**/*.html"],
@@ -46,5 +46,5 @@ module.exports = tseslint.config(
       ...angular.configs.templateAccessibility,
     ],
     rules: {},
-  }
+  },
 );
