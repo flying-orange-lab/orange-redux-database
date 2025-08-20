@@ -1,19 +1,21 @@
 <div class="stats-container">
   <div class="stat-list">
-    <div
-      class="stat-row"
-      *ngFor="let stat of pokemonStats; let i = index"
-      [class]="'stat-row-' + i"
-    >
-      <div class="stat-name">{{ statLabels[i] }}</div>
-      <div class="stat-value">{{ stat }}</div>
-      <div class="stat-bar-container" *ngIf="i < 6">
-        <div
-          class="stat-bar"
-          [style.background]="statColors[i]"
-          [style.width]="(100 * stat) / maxStatValue + '%'"
-        ></div>
+    @for (stat of pokemonStats; track stat; let i = $index) {
+      <div class="stat-row" [class]="'stat-row-' + i">
+        <div class="stat-name">{{ statLabels[i] }}</div>
+        <div class="stat-value">
+          {{ stat }}
+        </div>
+        @if (i < 6) {
+          <div class="stat-bar-container">
+            <div
+              class="stat-bar"
+              [style.background]="statColors[i]"
+              [style.width]="(100 * stat) / maxStatValue + '%'"
+            ></div>
+          </div>
+        }
       </div>
-    </div>
+    }
   </div>
 </div>

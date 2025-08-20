@@ -7,6 +7,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '이상해씨',
     'imageUrl': '1.png',
     'types': ['grass', 'poison'],
+    'abilities': ['두꺼운지방', '엽록소', '심록'],
+    'stats': [45, 49, 49, 65, 65, 45, 318],
   },
   {
     'id': 2,
@@ -14,6 +16,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '이상해풀',
     'imageUrl': '2.png',
     'types': ['grass', 'poison'],
+    'abilities': ['두꺼운지방', '엽록소', '심록'],
+    'stats': [60, 62, 63, 80, 80, 60, 405],
   },
   {
     'id': 3,
@@ -21,6 +25,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '이상해꽃',
     'imageUrl': '3.png',
     'types': ['grass', 'poison'],
+    'abilities': ['두꺼운지방', '엽록소', '심록'],
+    'stats': [80, 82, 83, 100, 100, 80, 525],
   },
   {
     'id': 4,
@@ -28,6 +34,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '파이리',
     'imageUrl': '4.png',
     'types': ['fire'],
+    'abilities': ['선파워', '단단한발톱', '맹화'],
+    'stats': [39, 52, 43, 60, 50, 65, 309],
   },
   {
     'id': 5,
@@ -35,6 +43,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '리자드',
     'imageUrl': '5.png',
     'types': ['fire', 'dragon'],
+    'abilities': ['선파워', '단단한발톱', '맹화'],
+    'stats': [58, 64, 58, 80, 65, 80, 405],
   },
   {
     'id': 6,
@@ -42,6 +52,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '리자몽',
     'imageUrl': '6.png',
     'types': ['fire', 'dragon'],
+    'abilities': ['선파워', '단단한발톱', '부유'],
+    'stats': [75, 101, 75, 109, 75, 100, 535],
   },
   {
     'id': 7,
@@ -49,6 +61,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '꼬부기',
     'imageUrl': '7.png',
     'types': ['water'],
+    'abilities': ['메가런처', '쓱쓱', '급류'],
+    'stats': [44, 48, 65, 50, 64, 43, 314],
   },
   {
     'id': 8,
@@ -56,6 +70,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '어니부기',
     'imageUrl': '8.png',
     'types': ['water'],
+    'abilities': ['메가런처', '쓱쓱', '급류'],
+    'stats': [59, 63, 80, 65, 80, 58, 405],
   },
   {
     'id': 9,
@@ -63,6 +79,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '거북왕',
     'imageUrl': '9.png',
     'types': ['water'],
+    'abilities': ['메가런처', '쓱쓱', '젖은접시'],
+    'stats': [89, 68, 100, 100, 100, 78, 535],
   },
   {
     'id': 10,
@@ -70,6 +88,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '캐터피',
     'imageUrl': '10.png',
     'types': ['bug'],
+    'abilities': ['인분', '도주', '도주'],
+    'stats': [45, 30, 35, 20, 20, 45, 195],
   },
   {
     'id': 11,
@@ -77,6 +97,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '단데기',
     'imageUrl': '11.png',
     'types': ['bug'],
+    'abilities': ['자연회복', '전투무장', '전투무장'],
+    'stats': [50, 20, 55, 25, 25, 30, 205],
   },
   {
     'id': 12,
@@ -84,6 +106,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '버터플',
     'imageUrl': '12.png',
     'types': ['bug', 'flying'],
+    'abilities': ['복안', '색안경', '색안경'],
+    'stats': [65, 45, 60, 100, 90, 90, 450],
   },
   {
     'id': 13,
@@ -91,6 +115,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '뿔충이',
     'imageUrl': '13.png',
     'types': ['bug', 'poison'],
+    'abilities': ['인분', '도주', '도주'],
+    'stats': [40, 35, 30, 20, 20, 50, 195],
   },
   {
     'id': 14,
@@ -98,6 +124,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '딱충이',
     'imageUrl': '14.png',
     'types': ['bug', 'poison'],
+    'abilities': ['자연회복', '전투무장', '전투무장'],
+    'stats': [45, 25, 50, 25, 25, 35, 205],
   },
   {
     'id': 15,
@@ -105,6 +133,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '독침붕',
     'imageUrl': '15.png',
     'types': ['bug', 'poison'],
+    'abilities': ['적응력', '스나이퍼', '벌레의알림'],
+    'stats': [65, 105, 50, 55, 95, 85, 455],
   },
   {
     'id': 16,
@@ -112,6 +142,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '구구',
     'imageUrl': '16.png',
     'types': ['normal', 'flying'],
+    'abilities': ['날카로운눈', '대운', '날카로운눈'],
+    'stats': [40, 35, 35, 50, 35, 56, 251],
   },
   {
     'id': 17,
@@ -119,6 +151,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '피죤',
     'imageUrl': '17.png',
     'types': ['normal', 'flying'],
+    'abilities': ['날카로운눈', '대운', '날카로운눈'],
+    'stats': [63, 50, 50, 65, 50, 71, 349],
   },
   {
     'id': 18,
@@ -126,6 +160,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '피죤투',
     'imageUrl': '18.png',
     'types': ['normal', 'flying'],
+    'abilities': ['노가드', '대운', '날카로운눈'],
+    'stats': [83, 60, 70, 115, 70, 101, 499],
   },
   {
     'id': 19,
@@ -133,6 +169,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '음뱃',
     'imageUrl': '714.png',
     'types': ['flying', 'dragon'],
+    'abilities': ['고음', '틈새포착', '텔레파시'],
+    'stats': [40, 35, 45, 45, 45, 80, 290],
   },
   {
     'id': 20,
@@ -140,6 +178,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '음번',
     'imageUrl': '715.png',
     'types': ['flying', 'dragon'],
+    'abilities': ['고음', '틈새포착', '텔레파시'],
+    'stats': [85, 65, 80, 102, 80, 123, 535],
+    'evolutionCondition': '음뱃 (레벨 40)',
   },
   {
     'id': 21,
@@ -147,6 +188,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '깨비참',
     'imageUrl': '21.png',
     'types': ['flying'],
+    'abilities': ['날카로운눈', '스나이퍼', '위협'],
+    'stats': [50, 60, 40, 31, 31, 70, 282],
   },
   {
     'id': 22,
@@ -154,6 +197,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '깨비드릴조',
     'imageUrl': '22.png',
     'types': ['flying'],
+    'abilities': ['테크니션', '스나이퍼', '위협'],
+    'stats': [85, 105, 80, 40, 75, 110, 495],
   },
   {
     'id': 23,
@@ -161,6 +206,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '아보',
     'imageUrl': '23.png',
     'types': ['poison'],
+    'abilities': ['위협', '옹골찬턱', '긴장감'],
+    'stats': [35, 60, 44, 40, 54, 55, 288],
   },
   {
     'id': 24,
@@ -168,6 +215,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '아보크',
     'imageUrl': '24.png',
     'types': ['poison', 'dark'],
+    'abilities': ['위협', '옹골찬턱', '긴장감'],
+    'stats': [70, 115, 70, 55, 80, 85, 475],
   },
   {
     'id': 25,
@@ -175,6 +224,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '피카츄',
     'imageUrl': '25.png',
     'types': ['electric'],
+    'abilities': ['정전기', '피뢰침', '축전'],
+    'stats': [40, 65, 30, 65, 40, 100, 340],
   },
   {
     'id': 26,
@@ -182,6 +233,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '라이츄(알로라)',
     'imageUrl': '10100.png',
     'types': ['electric', 'psychic'],
+    'abilities': ['쓱쓱', '부유', '피뢰침'],
+    'stats': [65, 85, 55, 95, 85, 110, 495],
+    'evolutionCondition': '피카츄 (번개의돌)',
   },
   {
     'id': 27,
@@ -189,6 +243,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '모래두지(알로라)',
     'imageUrl': '10101.png',
     'types': ['ice', 'steel'],
+    'abilities': ['모래헤치기', '눈치우기', '단단한발톱'],
+    'stats': [50, 75, 90, 10, 35, 35, 295],
   },
   {
     'id': 28,
@@ -196,6 +252,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '고지(알로라)',
     'imageUrl': '10102.png',
     'types': ['ice', 'steel'],
+    'abilities': ['모래헤치기', '눈치우기', '단단한발톱'],
+    'stats': [75, 110, 120, 25, 75, 65, 470],
+    'evolutionCondition': '모래두지(알로라) (얼음의돌)',
   },
   {
     'id': 29,
@@ -203,6 +262,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '니드런',
     'imageUrl': '29.png',
     'types': ['poison'],
+    'abilities': ['의욕', '독가시', '의욕'],
+    'stats': [55, 47, 52, 40, 40, 41, 275],
   },
   {
     'id': 30,
@@ -210,6 +271,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '니드리나',
     'imageUrl': '30.png',
     'types': ['poison'],
+    'abilities': ['의욕', '독가시', '의욕'],
+    'stats': [70, 62, 67, 55, 55, 56, 365],
   },
   {
     'id': 31,
@@ -217,6 +280,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '니드퀸',
     'imageUrl': '31.png',
     'types': ['poison', 'ground'],
+    'abilities': ['우격다짐', '독가시', '우격다짐'],
+    'stats': [90, 102, 87, 85, 85, 76, 525],
   },
   {
     'id': 32,
@@ -224,6 +289,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '드라꼰',
     'imageUrl': '885.png',
     'types': ['dragon', 'ghost'],
+    'abilities': [''],
+    'stats': [38, 60, 35, 40, 35, 82, 290],
   },
   {
     'id': 33,
@@ -231,6 +298,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '드래런치',
     'imageUrl': '886.png',
     'types': ['dragon', 'ghost'],
+    'abilities': ['클리어바디', '틈새포착', '저주받은바디'],
+    'stats': [68, 80, 50, 60, 50, 82, 390],
+    'evolutionCondition': '드라꼰 (레벨 30)',
   },
   {
     'id': 34,
@@ -238,6 +308,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '드래펄트',
     'imageUrl': '887.png',
     'types': ['dragon', 'ghost'],
+    'abilities': ['클리어바디', '틈새포착', '저주받은바디'],
+    'stats': [88, 120, 75, 100, 75, 142, 600],
+    'evolutionCondition': '드래런치 (레벨 50)',
   },
   {
     'id': 35,
@@ -245,6 +318,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '삐삐',
     'imageUrl': '35.png',
     'types': ['normal', 'fairy'],
+    'abilities': ['천진', '매직가드', '천진'],
+    'stats': [70, 45, 48, 60, 65, 35, 323],
   },
   {
     'id': 36,
@@ -252,6 +327,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '픽시',
     'imageUrl': '36.png',
     'types': ['normal', 'fairy'],
+    'abilities': ['천진', '매직가드', '천진'],
+    'stats': [95, 70, 73, 95, 90, 60, 483],
   },
   {
     'id': 37,
@@ -259,6 +336,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '식스테일',
     'imageUrl': '37.png',
     'types': ['fire'],
+    'abilities': ['가뭄', '타오르는불꽃', '가뭄'],
+    'stats': [38, 41, 40, 50, 65, 65, 299],
   },
   {
     'id': 38,
@@ -266,6 +345,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '나인테일',
     'imageUrl': '38.png',
     'types': ['fire', 'fairy'],
+    'abilities': ['가뭄', '타오르는불꽃', '가뭄'],
+    'stats': [73, 67, 75, 91, 100, 109, 515],
   },
   {
     'id': 39,
@@ -273,6 +354,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '푸린',
     'imageUrl': '39.png',
     'types': ['normal', 'fairy'],
+    'abilities': ['천하장사', '고음', '승기'],
+    'stats': [115, 35, 20, 55, 25, 20, 270],
   },
   {
     'id': 40,
@@ -280,6 +363,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '푸크린',
     'imageUrl': '40.png',
     'types': ['normal', 'fairy'],
+    'abilities': ['천하장사', '고음', '승기'],
+    'stats': [150, 60, 50, 95, 50, 45, 450],
+    'evolutionCondition': '푸린 (달의돌)',
   },
   {
     'id': 41,
@@ -287,6 +373,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '주뱃',
     'imageUrl': '41.png',
     'types': ['poison', 'flying'],
+    'abilities': ['정신력', '통찰', '틈새포착'],
+    'stats': [40, 45, 35, 30, 40, 55, 245],
   },
   {
     'id': 42,
@@ -294,6 +382,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '골뱃',
     'imageUrl': '42.png',
     'types': ['poison', 'flying'],
+    'abilities': ['정신력', '통찰', '틈새포착'],
+    'stats': [75, 80, 70, 65, 75, 90, 455],
   },
   {
     'id': 43,
@@ -301,6 +391,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '뚜벅쵸',
     'imageUrl': '43.png',
     'types': ['grass', 'poison'],
+    'abilities': ['엽록소', '도주', '일찍기상'],
+    'stats': [45, 50, 55, 75, 65, 30, 320],
   },
   {
     'id': 44,
@@ -308,6 +400,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '냄새꼬',
     'imageUrl': '44.png',
     'types': ['grass', 'poison'],
+    'abilities': ['엽록소', '하늘의은총', '포자'],
+    'stats': [60, 65, 70, 85, 75, 40, 395],
   },
   {
     'id': 45,
@@ -315,6 +409,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '라플레시아',
     'imageUrl': '45.png',
     'types': ['grass', 'poison'],
+    'abilities': ['엽록소', '승기', '포자'],
+    'stats': [75, 80, 85, 110, 90, 50, 490],
   },
   {
     'id': 46,
@@ -322,6 +418,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '파라스',
     'imageUrl': '46.png',
     'types': ['bug', 'grass'],
+    'abilities': ['단단한발톱', '무기력', '포자'],
+    'stats': [35, 70, 55, 45, 55, 25, 285],
   },
   {
     'id': 47,
@@ -329,6 +427,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '파라섹트',
     'imageUrl': '47.png',
     'types': ['bug', 'grass'],
+    'abilities': ['단단한발톱', '불가사의부적', '포자'],
+    'stats': [80, 125, 100, 55, 90, 30, 480],
   },
   {
     'id': 48,
@@ -336,6 +436,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '콘팡',
     'imageUrl': '48.png',
     'types': ['bug', 'poison'],
+    'abilities': ['인분', '색안경', '도주'],
+    'stats': [70, 55, 55, 50, 60, 45, 335],
   },
   {
     'id': 49,
@@ -343,6 +445,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '도나리',
     'imageUrl': '49.png',
     'types': ['bug', 'psychic'],
+    'abilities': ['포이즌힐', '색안경', '복안'],
+    'stats': [75, 55, 60, 100, 75, 95, 460],
+    'evolutionCondition': '콘팡 (레벨 24)',
   },
   {
     'id': 50,
@@ -350,6 +455,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '파르빗',
     'imageUrl': '659.png',
     'types': ['normal'],
+    'abilities': ['픽업', '천하장사', '천하장사'],
+    'stats': [38, 36, 38, 32, 32, 57, 233],
   },
   {
     'id': 51,
@@ -357,6 +464,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '파르토',
     'imageUrl': '660.png',
     'types': ['normal', 'ground'],
+    'abilities': ['픽업', '천하장사', '천하장사'],
+    'stats': [85, 56, 77, 50, 77, 78, 423],
+    'evolutionCondition': '파르빗 (레벨 20)',
   },
   {
     'id': 52,
@@ -364,6 +474,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '들눈해',
     'imageUrl': '948.png',
     'types': ['ground', 'grass'],
+    'abilities': ['클리어바디', '틀깨기', '틀깨기'],
+    'stats': [40, 40, 35, 60, 100, 60, 335],
   },
   {
     'id': 53,
@@ -371,6 +483,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '육파리',
     'imageUrl': '53.png',
     'types': ['ground', 'grass'],
+    'abilities': ['클리어바디', '틀깨기', '틀깨기'],
+    'stats': [80, 70, 65, 100, 120, 90, 525],
+    'evolutionCondition': '들눈해 (레벨 30)',
   },
   {
     'id': 54,
@@ -378,6 +493,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '오케이징',
     'imageUrl': '686.png',
     'types': ['dark', 'psychic'],
+    'abilities': ['심술꾸러기', '흡반', '틈새포착'],
+    'stats': [53, 54, 53, 37, 46, 45, 288],
   },
   {
     'id': 55,
@@ -385,6 +502,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '칼라마네로',
     'imageUrl': '687.png',
     'types': ['dark', 'psychic'],
+    'abilities': ['심술꾸러기', '예리함', '틈새포착'],
+    'stats': [86, 92, 88, 68, 75, 73, 482],
+    'evolutionCondition': '오케이징 (레벨 30)',
   },
   {
     'id': 56,
@@ -392,6 +512,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '망키',
     'imageUrl': '56.png',
     'types': ['fighting'],
+    'abilities': ['오기', '분노의경혈', '의기양양'],
+    'stats': [40, 80, 35, 35, 45, 70, 305],
   },
   {
     'id': 57,
@@ -399,6 +521,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '성원숭',
     'imageUrl': '57.png',
     'types': ['fighting'],
+    'abilities': ['오기', '분노의경혈', '의기양양'],
+    'stats': [65, 105, 60, 60, 70, 95, 455],
   },
   {
     'id': 58,
@@ -406,6 +530,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '가디',
     'imageUrl': '58.png',
     'types': ['fire'],
+    'abilities': ['위협', '타오르는불꽃', '정신력'],
+    'stats': [55, 70, 45, 70, 50, 60, 350],
   },
   {
     'id': 59,
@@ -413,6 +539,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '윈디',
     'imageUrl': '59.png',
     'types': ['fire'],
+    'abilities': ['위협', '타오르는불꽃', '정신력'],
+    'stats': [90, 110, 80, 100, 80, 95, 555],
+    'evolutionCondition': '가디 (불꽃의돌)',
   },
   {
     'id': 60,
@@ -420,6 +549,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '발챙이',
     'imageUrl': '60.png',
     'types': ['water'],
+    'abilities': ['저수', '쓱쓱', '습기'],
+    'stats': [40, 50, 40, 40, 40, 90, 300],
   },
   {
     'id': 61,
@@ -427,6 +558,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '슈륙챙이',
     'imageUrl': '61.png',
     'types': ['water'],
+    'abilities': ['저수', '쓱쓱', '습기'],
+    'stats': [65, 65, 65, 50, 50, 90, 385],
   },
   {
     'id': 62,
@@ -434,6 +567,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '강챙이',
     'imageUrl': '62.png',
     'types': ['water', 'fighting'],
+    'abilities': ['저수', '쓱쓱', '습기'],
+    'stats': [90, 115, 95, 60, 90, 70, 520],
   },
   {
     'id': 63,
@@ -441,6 +576,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '캐이시',
     'imageUrl': '63.png',
     'types': ['psychic'],
+    'abilities': ['싱크로', '매직가드', '매직가드'],
+    'stats': [25, 20, 15, 105, 55, 90, 310],
   },
   {
     'id': 64,
@@ -448,6 +585,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '윤겔라',
     'imageUrl': '64.png',
     'types': ['psychic'],
+    'abilities': ['싱크로', '매직가드', '매직가드'],
+    'stats': [40, 35, 30, 120, 70, 105, 400],
   },
   {
     'id': 65,
@@ -455,6 +594,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '후딘',
     'imageUrl': '65.png',
     'types': ['psychic'],
+    'abilities': ['싱크로', '매직가드', '매직가드'],
+    'stats': [55, 50, 45, 135, 95, 120, 500],
+    'evolutionCondition': '윤겔라 (연결의끈)',
   },
   {
     'id': 66,
@@ -462,6 +604,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '치고마',
     'imageUrl': '891.png',
     'types': ['fighting'],
+    'abilities': ['정신력', '노가드', '정신력'],
+    'stats': [60, 90, 60, 53, 50, 82, 395],
   },
   {
     'id': 67,
@@ -469,6 +613,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '우라오스(일격)',
     'imageUrl': '892.png',
     'types': ['fighting', 'dark'],
+    'abilities': ['정신력', '프레셔', '정신력'],
+    'stats': [100, 130, 100, 63, 60, 97, 550],
+    'evolutionCondition': '치고마 (악의족자)',
   },
   {
     'id': 68,
@@ -476,13 +623,18 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '우라오스(연격)',
     'imageUrl': '10191.png',
     'types': ['fighting', 'water'],
+    'abilities': ['정신력', '프레셔', '정신력'],
+    'stats': [100, 130, 100, 63, 60, 97, 550],
+    'evolutionCondition': '치고마 (물의족자)',
   },
   {
     'id': 69,
     'name': 'bellsprout',
     'koreanName': '모다피',
-    'imageUrl': '69.png',
+    'imageUrl': '893.png',
     'types': ['grass', 'poison'],
+    'abilities': ['엽록소', '대운', '먹보'],
+    'stats': [60, 75, 35, 70, 35, 40, 315],
   },
   {
     'id': 70,
@@ -490,6 +642,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '우츠동',
     'imageUrl': '70.png',
     'types': ['grass', 'poison'],
+    'abilities': ['엽록소', '대운', '먹보'],
+    'stats': [75, 90, 50, 85, 50, 55, 405],
   },
   {
     'id': 71,
@@ -497,6 +651,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '우츠보트',
     'imageUrl': '71.png',
     'types': ['grass', 'poison'],
+    'abilities': ['엽록소', '대운', '먹보'],
+    'stats': [90, 120, 75, 100, 75, 70, 530],
   },
   {
     'id': 72,
@@ -504,6 +660,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '왕눈해',
     'imageUrl': '72.png',
     'types': ['water', 'poison'],
+    'abilities': ['클리어바디', '재생력', '젖은접시'],
+    'stats': [40, 40, 35, 50, 100, 70, 335],
   },
   {
     'id': 73,
@@ -511,6 +669,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '독파리',
     'imageUrl': '73.png',
     'types': ['water', 'poison'],
+    'abilities': ['클리어바디', '재생력', '젖은접시'],
+    'stats': [80, 70, 65, 90, 120, 100, 525],
   },
   {
     'id': 74,
@@ -518,6 +678,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '베베솔트',
     'imageUrl': '932.png',
     'types': ['rock'],
+    'abilities': ['정화의바디', '옹골참', '클리어바디'],
+    'stats': [55, 55, 75, 35, 35, 25, 280],
   },
   {
     'id': 75,
@@ -525,6 +687,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '스태솔트',
     'imageUrl': '933.png',
     'types': ['rock'],
+    'abilities': ['정화의바디', '옹골참', '클리어바디'],
+    'stats': [60, 60, 100, 35, 65, 35, 355],
+    'evolutionCondition': '베베솔트 (레벨 24)',
   },
   {
     'id': 76,
@@ -532,6 +697,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '콜로솔트',
     'imageUrl': '934.png',
     'types': ['rock'],
+    'abilities': ['정화의바디', '옹골참', '클리어바디'],
+    'stats': [100, 100, 130, 45, 90, 35, 500],
+    'evolutionCondition': '스태솔트 (레벨 38)',
   },
   {
     'id': 77,
@@ -539,6 +707,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '포니타',
     'imageUrl': '77.png',
     'types': ['fire'],
+    'abilities': ['매직가드', '타오르는불꽃', '불꽃몸'],
+    'stats': [50, 85, 55, 65, 65, 90, 410],
   },
   {
     'id': 78,
@@ -546,6 +716,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '날쌩마',
     'imageUrl': '78.png',
     'types': ['fire', 'fairy'],
+    'abilities': ['매직가드', '타오르는불꽃', '불꽃몸'],
+    'stats': [65, 105, 70, 70, 80, 110, 500],
+    'evolutionCondition': '포니타 (레벨 35)',
   },
   {
     'id': 79,
@@ -553,6 +726,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '야돈',
     'imageUrl': '79.png',
     'types': ['water', 'psychic'],
+    'abilities': ['재생력', '마이페이스', '재생력'],
+    'stats': [90, 65, 65, 40, 40, 15, 315],
   },
   {
     'id': 80,
@@ -560,6 +735,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '야도란',
     'imageUrl': '80.png',
     'types': ['water', 'psychic'],
+    'abilities': ['재생력', '마이페이스', '재생력'],
+    'stats': [95, 85, 110, 100, 80, 30, 500],
+    'evolutionCondition': '야돈(원종) (레벨 33)',
   },
   {
     'id': 81,
@@ -567,6 +745,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '코일',
     'imageUrl': '81.png',
     'types': ['electric', 'steel'],
+    'abilities': ['애널라이즈', '옹골참', '자력'],
+    'stats': [25, 35, 70, 95, 55, 45, 325],
   },
   {
     'id': 82,
@@ -574,6 +754,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '레어코일',
     'imageUrl': '82.png',
     'types': ['electric', 'steel'],
+    'abilities': ['애널라이즈', '옹골참', '자력'],
+    'stats': [50, 60, 95, 120, 80, 70, 475],
   },
   {
     'id': 83,
@@ -581,6 +763,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '창파나이트',
     'imageUrl': '865.png',
     'types': ['fighting'],
+    'abilities': ['예리함', '배짱', '대운'],
+    'stats': [72, 135, 95, 68, 82, 65, 517],
   },
   {
     'id': 84,
@@ -588,6 +772,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '두두',
     'imageUrl': '84.png',
     'types': ['normal', 'flying'],
+    'abilities': ['이판사판', '가속', '분노의경혈'],
+    'stats': [35, 85, 45, 35, 35, 75, 310],
   },
   {
     'id': 85,
@@ -595,6 +781,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '두트리오',
     'imageUrl': '85.png',
     'types': ['fighting', 'flying'],
+    'abilities': ['이판사판', '가속', '분노의경혈'],
+    'stats': [70, 110, 70, 55, 60, 110, 475],
   },
   {
     'id': 86,
@@ -602,6 +790,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '짜랑랑',
     'imageUrl': '753.png',
     'types': ['grass', 'fairy'],
+    'abilities': ['심록', '심술꾸러기', '심술꾸러기'],
+    'stats': [50, 70, 45, 65, 45, 35, 310],
   },
   {
     'id': 87,
@@ -609,6 +799,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '라란티스',
     'imageUrl': '754.png',
     'types': ['grass', 'fairy'],
+    'abilities': ['예리함', '심술꾸러기', '심술꾸러기'],
+    'stats': [70, 105, 100, 80, 100, 65, 520],
+    'evolutionCondition': '짜랑랑 (레벨 28)',
   },
   {
     'id': 88,
@@ -616,6 +809,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '질퍽이',
     'imageUrl': '88.png',
     'types': ['poison'],
+    'abilities': ['재생력', '지구력', '재생력'],
+    'stats': [80, 85, 50, 40, 60, 30, 345],
   },
   {
     'id': 89,
@@ -623,6 +818,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '질뻐기',
     'imageUrl': '89.png',
     'types': ['poison'],
+    'abilities': ['재생력', '지구력', '재생력'],
+    'stats': [105, 105, 85, 65, 100, 50, 510],
+    'evolutionCondition': '질퍽이 (레벨 35)',
   },
   {
     'id': 90,
@@ -630,6 +828,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '셀러',
     'imageUrl': '90.png',
     'types': ['water', 'ice'],
+    'abilities': ['조가비갑옷', '스킬링크', '방진'],
+    'stats': [30, 65, 100, 45, 25, 40, 305],
   },
   {
     'id': 91,
@@ -637,6 +837,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '파르셀',
     'imageUrl': '91.png',
     'types': ['water', 'ice'],
+    'abilities': ['조가비갑옷', '스킬링크', '방진'],
+    'stats': [50, 95, 180, 85, 45, 70, 525],
   },
   {
     'id': 92,
@@ -644,6 +846,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '고오스',
     'imageUrl': '92.png',
     'types': ['ghost', 'poison'],
+    'abilities': ['부유', '저주받은바디', '그림자밟기'],
+    'stats': [30, 35, 30, 100, 35, 80, 310],
   },
   {
     'id': 93,
@@ -651,6 +855,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '고우스트',
     'imageUrl': '93.png',
     'types': ['ghost', 'poison'],
+    'abilities': ['부유', '저주받은바디', '그림자밟기'],
+    'stats': [45, 50, 45, 115, 55, 95, 405],
   },
   {
     'id': 94,
@@ -658,6 +864,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '팬텀',
     'imageUrl': '94.png',
     'types': ['ghost', 'poison'],
+    'abilities': ['부유', '저주받은바디', '그림자밟기'],
+    'stats': [60, 65, 60, 130, 75, 110, 500],
+    'evolutionCondition': '고우스트 (연결의끈)',
   },
   {
     'id': 95,
@@ -665,6 +874,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '나몰빼미',
     'imageUrl': '722.png',
     'types': ['grass', 'flying'],
+    'abilities': ['스나이퍼', '색안경', '심록'],
+    'stats': [68, 55, 55, 40, 50, 52, 320],
   },
   {
     'id': 96,
@@ -672,6 +883,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '빼미스로우',
     'imageUrl': '723.png',
     'types': ['grass', 'flying'],
+    'abilities': ['스나이퍼', '색안경', '심록'],
+    'stats': [78, 75, 75, 50, 70, 72, 420],
+    'evolutionCondition': '나몰빼미 (레벨 17)',
   },
   {
     'id': 97,
@@ -679,6 +893,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '모크나이퍼',
     'imageUrl': '724.png',
     'types': ['grass', 'ghost'],
+    'abilities': ['스나이퍼', '색안경', '심록'],
+    'stats': [78, 107, 75, 70, 100, 105, 535],
+    'evolutionCondition': '빼미스로우 (레벨 24)',
   },
   {
     'id': 98,
@@ -686,6 +903,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '냐오불',
     'imageUrl': '725.png',
     'types': ['fire'],
+    'abilities': ['위협', '오기', '맹화'],
+    'stats': [45, 65, 40, 60, 40, 70, 320],
   },
   {
     'id': 99,
@@ -693,6 +912,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '냐오히트',
     'imageUrl': '726.png',
     'types': ['fire'],
+    'abilities': ['위협', '오기', '맹화'],
+    'stats': [65, 85, 50, 80, 50, 90, 420],
+    'evolutionCondition': '냐오불 (레벨 17)',
   },
   {
     'id': 100,
@@ -700,6 +922,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '어흥염',
     'imageUrl': '727.png',
     'types': ['fire', 'dark'],
+    'abilities': ['위협', '오기', '맹화'],
+    'stats': [100, 115, 90, 80, 90, 60, 535],
+    'evolutionCondition': '냐오히트 (레벨 34)',
   },
   {
     'id': 101,
@@ -707,6 +932,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '누리공',
     'imageUrl': '728.png',
     'types': ['water'],
+    'abilities': ['고음', '촉촉바디', '급류'],
+    'stats': [50, 54, 54, 66, 56, 40, 320],
   },
   {
     'id': 102,
@@ -714,6 +941,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '키요공',
     'imageUrl': '728.png',
     'types': ['water'],
+    'abilities': ['고음', '촉촉바디', '급류'],
+    'stats': [60, 69, 69, 91, 81, 50, 420],
+    'evolutionCondition': '누리공 (레벨 17)',
   },
   {
     'id': 103,
@@ -721,6 +951,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '누리레느',
     'imageUrl': '730.png',
     'types': ['water', 'fairy'],
+    'abilities': ['고음', '정화의바디', '급류'],
+    'stats': [80, 74, 74, 126, 121, 60, 535],
+    'evolutionCondition': '키요공 (레벨 34)',
   },
   {
     'id': 104,
@@ -728,6 +961,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '탕구리',
     'imageUrl': '104.png',
     'types': ['ground'],
+    'abilities': ['모래헤치기', '피뢰침', '돌머리'],
+    'stats': [50, 50, 95, 40, 50, 35, 320],
+    'wildItems': '굵은뼈 5%',
   },
   {
     'id': 105,
@@ -735,6 +971,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '텅구리',
     'imageUrl': '105.png',
     'types': ['ground'],
+    'abilities': ['모래헤치기', '피뢰침', '돌머리'],
+    'stats': [60, 80, 110, 50, 90, 55, 445],
+    'evolutionCondition': '탕구리 (레벨 27)',
   },
   {
     'id': 106,
@@ -742,6 +981,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '완철포',
     'imageUrl': '692.png',
     'types': ['water'],
+    'abilities': ['급류', '급류', '급류'],
+    'stats': [50, 53, 62, 58, 63, 44, 330],
   },
   {
     'id': 107,
@@ -749,6 +990,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '블로스터',
     'imageUrl': '693.png',
     'types': ['water'],
+    'abilities': ['메가런처', '메가런처', '메가런처'],
+    'stats': [81, 73, 88, 130, 89, 59, 520],
+    'evolutionCondition': '완철포 (레벨 28)',
   },
   {
     'id': 108,
@@ -756,6 +1000,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '내루미',
     'imageUrl': '108.png',
     'types': ['normal'],
+    'abilities': ['날씨부정', '먹보', '날씨부정'],
+    'stats': [90, 55, 75, 60, 75, 30, 385],
   },
   {
     'id': 109,
@@ -763,6 +1009,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '또가스',
     'imageUrl': '109.png',
     'types': ['poison'],
+    'abilities': ['부유', '짓궂은마음', '부유'],
+    'stats': [40, 65, 95, 65, 45, 35, 345],
   },
   {
     'id': 110,
@@ -770,6 +1018,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '또도가스',
     'imageUrl': '110.png',
     'types': ['poison'],
+    'abilities': ['부유', '짓궂은마음', '부유'],
+    'stats': [65, 90, 120, 95, 80, 60, 510],
   },
   {
     'id': 111,
@@ -777,6 +1027,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '뿔카노',
     'imageUrl': '111.png',
     'types': ['ground', 'rock'],
+    'abilities': ['피뢰침', '돌머리', '이판사판'],
+    'stats': [80, 85, 95, 30, 30, 25, 345],
   },
   {
     'id': 112,
@@ -784,6 +1036,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '코뿌리',
     'imageUrl': '112.png',
     'types': ['ground', 'rock'],
+    'abilities': ['피뢰침', '돌머리', '이판사판'],
+    'stats': [105, 130, 120, 45, 45, 40, 485],
+    'evolutionCondition': '뿔카노 (레벨 36)',
   },
   {
     'id': 113,
@@ -791,6 +1046,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '럭키',
     'imageUrl': '113.png',
     'types': ['normal'],
+    'abilities': ['자연회복', '하늘의은총', '하늘의은총'],
+    'stats': [250, 5, 5, 35, 105, 50, 450],
   },
   {
     'id': 114,
@@ -798,6 +1055,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '덩쿠리',
     'imageUrl': '114.png',
     'types': ['grass', 'ghost'],
+    'abilities': ['테크니션', '재생력', '엽록소'],
+    'stats': [65, 55, 115, 100, 40, 60, 435],
   },
   {
     'id': 115,
@@ -805,6 +1064,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '캥카',
     'imageUrl': '115.png',
     'types': ['normal'],
+    'abilities': ['단단한발톱', '배짱', '정신력'],
+    'stats': [105, 100, 80, 40, 80, 95, 500],
   },
   {
     'id': 116,
@@ -812,6 +1073,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '쏘드라',
     'imageUrl': '116.png',
     'types': ['water'],
+    'abilities': ['쓱쓱', '스나이퍼', '습기'],
+    'stats': [30, 40, 70, 70, 25, 60, 295],
   },
   {
     'id': 117,
@@ -819,6 +1082,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '시드라',
     'imageUrl': '117.png',
     'types': ['water'],
+    'abilities': ['독가시', '스나이퍼', '습기'],
+    'stats': [55, 65, 95, 95, 45, 85, 440],
   },
   {
     'id': 118,
@@ -826,6 +1091,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '터벅고래',
     'imageUrl': '974.png',
     'types': ['ice'],
+    'abilities': ['우격다짐', '눈숨기', '두꺼운지방'],
+    'stats': [108, 68, 45, 30, 40, 43, 334],
   },
   {
     'id': 119,
@@ -833,6 +1100,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '우락고래',
     'imageUrl': '975.png',
     'types': ['ice'],
+    'abilities': ['우격다짐', '눈치우기', '두꺼운지방'],
+    'stats': [170, 113, 65, 45, 55, 73, 521],
+    'evolutionCondition': '터벅고래 (얼음의돌)',
   },
   {
     'id': 120,
@@ -840,6 +1110,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '별가사리',
     'imageUrl': '120.png',
     'types': ['water'],
+    'abilities': ['재생력', '자연치유', '애널라이즈'],
+    'stats': [30, 45, 55, 70, 55, 85, 340],
   },
   {
     'id': 121,
@@ -847,6 +1119,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '아쿠스타',
     'imageUrl': '121.png',
     'types': ['water', 'psychic'],
+    'abilities': ['재생력', '자연치유', '애널라이즈'],
+    'stats': [60, 75, 85, 105, 85, 115, 525],
   },
   {
     'id': 122,
@@ -854,6 +1128,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '우렁찬꼬리',
     'imageUrl': '985.png',
     'types': ['fairy', 'psychic'],
+    'abilities': ['방음', '고음', '고음'],
+    'stats': [115, 65, 99, 65, 115, 111, 570],
+    'evolutionCondition': '푸린 (부스트에너지S)',
   },
   {
     'id': 123,
@@ -861,6 +1138,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '스라크',
     'imageUrl': '123.png',
     'types': ['bug', 'flying'],
+    'abilities': ['예리함', '테크니션', '벌레의알림'],
+    'stats': [70, 110, 80, 55, 80, 105, 500],
   },
   {
     'id': 124,
@@ -868,6 +1147,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '루주라',
     'imageUrl': '124.png',
     'types': ['ice', 'psychic'],
+    'abilities': ['트레이스', '건조피부', '건조피부'],
+    'stats': [75, 43, 65, 125, 96, 96, 500],
   },
   {
     'id': 125,
@@ -875,6 +1156,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '에레브',
     'imageUrl': '125.png',
     'types': ['electric'],
+    'abilities': ['정전기', '틀깨기', '의기양양'],
+    'stats': [65, 95, 57, 83, 85, 105, 490],
+    'evolutionCondition': '에레키드 (레벨 29)',
   },
   {
     'id': 126,
@@ -882,6 +1166,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '마그마',
     'imageUrl': '126.png',
     'types': ['fire'],
+    'abilities': ['불꽃몸', '틀깨기', '의기양양'],
+    'stats': [65, 95, 57, 100, 85, 93, 495],
+    'evolutionCondition': '마그비 (레벨 29)',
   },
   {
     'id': 127,
@@ -889,6 +1176,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '쁘사이저',
     'imageUrl': '127.png',
     'types': ['bug', 'ground'],
+    'abilities': ['자기과신', '틀깨기', '자기과신'],
+    'stats': [70, 125, 100, 40, 70, 95, 500],
   },
   {
     'id': 128,
@@ -896,6 +1185,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '할비롱',
     'imageUrl': '780.png',
     'types': ['normal', 'dragon'],
+    'abilities': ['열폭주', '날씨부정', '초식'],
+    'stats': [88, 60, 85, 140, 91, 31, 495],
   },
   {
     'id': 129,
@@ -903,6 +1194,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '잉어킹',
     'imageUrl': '129.png',
     'types': ['water'],
+    'abilities': ['쓱쓱', '주눅', '도주'],
+    'stats': [20, 10, 55, 15, 20, 80, 200],
   },
   {
     'id': 130,
@@ -910,6 +1203,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '갸라도스',
     'imageUrl': '130.png',
     'types': ['water', 'dragon'],
+    'abilities': ['위협', '자기과신', '부유'],
+    'stats': [95, 125, 79, 60, 100, 81, 540],
   },
   {
     'id': 131,
@@ -917,6 +1212,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '라프라스',
     'imageUrl': '131.png',
     'types': ['water', 'ice'],
+    'abilities': ['저수', '촉촉바디', '아이스바디'],
+    'stats': [130, 85, 80, 85, 95, 60, 535],
   },
   {
     'id': 132,
@@ -924,6 +1221,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '메타몽',
     'imageUrl': '132.png',
     'types': ['normal'],
+    'abilities': ['괴짜', '-', '-'],
+    'stats': [48, 48, 48, 48, 48, 48, 288],
   },
   {
     'id': 133,
@@ -931,6 +1230,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '이브이',
     'imageUrl': '133.png',
     'types': ['normal'],
+    'abilities': ['적응력', '도주', '픽업'],
+    'stats': [55, 55, 50, 45, 65, 55, 325],
   },
   {
     'id': 134,
@@ -938,6 +1239,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '샤미드',
     'imageUrl': '134.png',
     'types': ['water'],
+    'abilities': ['저수', '촉촉바디', '급류'],
+    'stats': [130, 65, 60, 110, 95, 65, 525],
   },
   {
     'id': 135,
@@ -945,6 +1248,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '쥬피썬더',
     'imageUrl': '135.png',
     'types': ['electric'],
+    'abilities': ['축전', '오기', '전기엔진'],
+    'stats': [65, 110, 65, 60, 95, 130, 525],
   },
   {
     'id': 136,
@@ -952,6 +1257,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '부스터',
     'imageUrl': '136.png',
     'types': ['fire'],
+    'abilities': ['타오르는불꽃', '근성', '맹화'],
+    'stats': [65, 130, 60, 65, 110, 95, 525],
   },
   {
     'id': 137,
@@ -959,6 +1266,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '폴리곤',
     'imageUrl': '137.png',
     'types': ['normal'],
+    'abilities': ['트레이스', '다운로드', '애널라이즈'],
+    'stats': [65, 60, 70, 85, 75, 40, 395],
   },
   {
     'id': 138,
@@ -966,6 +1275,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '암나이트',
     'imageUrl': '138.png',
     'types': ['rock', 'water'],
+    'abilities': ['쓱쓱', '조가비갑옷', '깨어진갑옷'],
+    'stats': [35, 40, 100, 90, 55, 35, 355],
   },
   {
     'id': 139,
@@ -973,6 +1284,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '암스타',
     'imageUrl': '139.png',
     'types': ['rock', 'water'],
+    'abilities': ['쓱쓱', '옹골참', '깨어진갑옷'],
+    'stats': [70, 60, 125, 115, 70, 55, 495],
+    'evolutionCondition': '암나이트 (레벨 30)',
   },
   {
     'id': 140,
@@ -980,6 +1294,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '투구',
     'imageUrl': '140.png',
     'types': ['rock', 'water'],
+    'abilities': ['쓱쓱', '전투무장', '깨어진갑옷'],
+    'stats': [30, 80, 90, 55, 45, 55, 355],
   },
   {
     'id': 141,
@@ -987,6 +1303,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '투구푸스',
     'imageUrl': '141.png',
     'types': ['rock', 'water'],
+    'abilities': ['쓱쓱', '예리함', '깨어진갑옷'],
+    'stats': [60, 115, 105, 65, 70, 80, 495],
+    'evolutionCondition': '투구 (레벨 30)',
   },
   {
     'id': 142,
@@ -994,6 +1313,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '프테라',
     'imageUrl': '142.png',
     'types': ['rock', 'flying'],
+    'abilities': ['돌머리', '단단한발톱', '긴장감'],
+    'stats': [80, 105, 65, 60, 75, 130, 515],
   },
   {
     'id': 143,
@@ -1001,6 +1322,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '잠만보',
     'imageUrl': '143.png',
     'types': ['normal'],
+    'abilities': ['면역', '두꺼운지방', '먹보'],
+    'stats': [160, 110, 65, 65, 110, 30, 540],
   },
   {
     'id': 144,
@@ -1008,6 +1331,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '프리져',
     'imageUrl': '144.png',
     'types': ['ice', 'flying'],
+    'abilities': ['눈숨기', '눈퍼뜨리기', '프레셔'],
+    'stats': [90, 85, 100, 95, 125, 85, 580],
   },
   {
     'id': 145,
@@ -1015,6 +1340,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '썬더',
     'imageUrl': '145.png',
     'types': ['electric', 'flying'],
+    'abilities': ['정전기', '피뢰침', '프레셔'],
+    'stats': [90, 90, 85, 125, 90, 100, 580],
   },
   {
     'id': 146,
@@ -1022,6 +1349,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '파이어',
     'imageUrl': '146.png',
     'types': ['fire', 'flying'],
+    'abilities': ['불꽃몸', '가뭄', '프레셔'],
+    'stats': [90, 100, 90, 125, 85, 90, 580],
   },
   {
     'id': 147,
@@ -1029,6 +1358,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '미뇽',
     'imageUrl': '147.png',
     'types': ['dragon'],
+    'abilities': ['유연', '이상한비늘', '이상한비늘'],
+    'stats': [41, 64, 45, 50, 50, 50, 300],
   },
   {
     'id': 148,
@@ -1036,6 +1367,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '신뇽',
     'imageUrl': '148.png',
     'types': ['dragon'],
+    'abilities': ['유연', '이상한비늘', '이상한비늘'],
+    'stats': [61, 84, 65, 70, 70, 70, 420],
   },
   {
     'id': 149,
@@ -1043,6 +1376,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '망나뇽',
     'imageUrl': '149.png',
     'types': ['dragon', 'flying'],
+    'abilities': ['정신력', '멀티스케일', '멀티스케일'],
+    'stats': [91, 134, 95, 100, 100, 80, 600],
   },
   {
     'id': 150,
@@ -1050,6 +1385,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '뮤츠',
     'imageUrl': '150.png',
     'types': ['psychic'],
+    'abilities': ['프레셔', '긴장감'],
+    'stats': [106, 110, 90, 154, 90, 130, 680],
   },
   {
     'id': 151,
@@ -1057,6 +1394,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '뮤',
     'imageUrl': '151.png',
     'types': ['psychic'],
+    'abilities': ['싱크로', '매직가드', '매직미러'],
+    'stats': [100, 100, 100, 100, 100, 100, 600],
   },
   {
     'id': 152,
@@ -1064,6 +1403,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '치코리타',
     'imageUrl': '152.png',
     'types': ['grass'],
+    'abilities': ['하늘의은총', '리프가드', '심록'],
+    'stats': [45, 49, 65, 49, 65, 45, 318],
   },
   {
     'id': 153,
@@ -1071,6 +1412,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '베이리프',
     'imageUrl': '153.png',
     'types': ['grass', 'fairy'],
+    'abilities': ['하늘의은총', '리프가드', '심록'],
+    'stats': [60, 62, 80, 63, 80, 60, 405],
   },
   {
     'id': 154,
@@ -1078,6 +1421,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '메가니움',
     'imageUrl': '154.png',
     'types': ['grass', 'fairy'],
+    'abilities': ['하늘의은총', '정화의바디', '심록'],
+    'stats': [80, 82, 100, 93, 100, 80, 535],
   },
   {
     'id': 155,
@@ -1085,6 +1430,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '브케인',
     'imageUrl': '155.png',
     'types': ['fire'],
+    'abilities': ['타오르는불꽃', '적응력', '맹화'],
+    'stats': [39, 52, 43, 60, 50, 65, 309],
   },
   {
     'id': 156,
@@ -1092,6 +1439,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '마그케인',
     'imageUrl': '156.png',
     'types': ['fire'],
+    'abilities': ['타오르는불꽃', '적응력', '맹화'],
+    'stats': [58, 64, 58, 80, 65, 80, 405],
   },
   {
     'id': 157,
@@ -1099,6 +1448,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '블레이범',
     'imageUrl': '157.png',
     'types': ['fire'],
+    'abilities': ['타오르는불꽃', '적응력', '맹화'],
+    'stats': [78, 84, 78, 110, 85, 100, 535],
+    'evolutionCondition': '마그케인 (레벨 36)',
   },
   {
     'id': 158,
@@ -1106,6 +1458,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '리아코',
     'imageUrl': '158.png',
     'types': ['water'],
+    'abilities': ['우격다짐', '단단한발톱', '급류'],
+    'stats': [50, 65, 64, 44, 48, 43, 314],
   },
   {
     'id': 159,
@@ -1113,6 +1467,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '엘리게이',
     'imageUrl': '159.png',
     'types': ['water'],
+    'abilities': ['우격다짐', '단단한발톱', '급류'],
+    'stats': [65, 80, 80, 59, 63, 58, 405],
   },
   {
     'id': 160,
@@ -1120,6 +1476,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '장크로다일',
     'imageUrl': '160.png',
     'types': ['water'],
+    'abilities': ['우격다짐', '단단한발톱', '급류'],
+    'stats': [85, 110, 100, 69, 83, 88, 535],
   },
   {
     'id': 161,
@@ -1127,6 +1485,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '꼬리선',
     'imageUrl': '161.png',
     'types': ['normal'],
+    'abilities': ['속보', '의욕', '도주'],
+    'stats': [45, 50, 35, 35, 45, 70, 280],
   },
   {
     'id': 162,
@@ -1134,6 +1494,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '다꼬리',
     'imageUrl': '162.png',
     'types': ['normal'],
+    'abilities': ['적응력', '의욕', '도주'],
+    'stats': [100, 85, 70, 45, 65, 105, 470],
   },
   {
     'id': 163,
@@ -1141,6 +1503,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '초롱순',
     'imageUrl': '969.png',
     'types': ['rock', 'poison'],
+    'abilities': ['부유', '부유', '부유'],
+    'stats': [48, 35, 42, 105, 60, 60, 350],
   },
   {
     'id': 164,
@@ -1148,6 +1512,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '킬라플로르',
     'imageUrl': '970.png',
     'types': ['rock', 'poison'],
+    'abilities': ['부유', '부유', '부유'],
+    'stats': [83, 55, 90, 130, 81, 86, 525],
+    'evolutionCondition': '초롱순 (레벨 35)',
   },
   {
     'id': 165,
@@ -1155,6 +1522,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '나목령',
     'imageUrl': '708.png',
     'types': ['ghost', 'grass'],
+    'abilities': ['자연회복', '수확', '통찰'],
+    'stats': [43, 70, 48, 50, 60, 38, 309],
   },
   {
     'id': 166,
@@ -1162,6 +1531,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '대로트',
     'imageUrl': '709.png',
     'types': ['ghost', 'grass'],
+    'abilities': ['정화의바디', '수확', '통찰'],
+    'stats': [100, 120, 76, 60, 82, 56, 494],
+    'evolutionCondition': '나목령 (연결의끈)',
   },
   {
     'id': 167,
@@ -1169,6 +1541,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '다투곰',
     'imageUrl': '901.png',
     'types': ['ground', 'normal'],
+    'abilities': ['근성', '두꺼운지방', '긴장감'],
+    'stats': [130, 140, 105, 45, 80, 50, 550],
+    'evolutionCondition': '링곰 (피트블럭)',
   },
   {
     'id': 168,
@@ -1176,6 +1551,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '사마자르',
     'imageUrl': '900.png',
     'types': ['bug', 'rock'],
+    'abilities': ['예리함', '테크니션', '우격다짐'],
+    'stats': [70, 135, 95, 45, 70, 85, 500],
+    'evolutionCondition': '스라크 (왕의징표석)',
   },
   {
     'id': 169,
@@ -1183,6 +1561,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '크로뱃',
     'imageUrl': '169.png',
     'types': ['poison', 'flying'],
+    'abilities': ['정신력', '예리함', '틈새포착'],
+    'stats': [85, 95, 80, 65, 80, 130, 535],
   },
   {
     'id': 170,
@@ -1190,6 +1570,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '초라기',
     'imageUrl': '170.png',
     'types': ['water', 'electric'],
+    'abilities': ['축전', '저수', '발광'],
+    'stats': [75, 38, 38, 56, 56, 67, 330],
   },
   {
     'id': 171,
@@ -1197,6 +1579,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '랜턴',
     'imageUrl': '171.png',
     'types': ['water', 'electric'],
+    'abilities': ['축전', '저수', '발광'],
+    'stats': [125, 58, 58, 101, 86, 67, 495],
   },
   {
     'id': 172,
@@ -1204,6 +1588,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '피츄',
     'imageUrl': '172.png',
     'types': ['electric'],
+    'abilities': ['정전기', '피뢰침', '피뢰침'],
+    'stats': [20, 40, 15, 35, 35, 60, 205],
   },
   {
     'id': 173,
@@ -1211,6 +1597,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '삐',
     'imageUrl': '173.png',
     'types': ['normal', 'fairy'],
+    'abilities': ['천진', '매직가드', '천진'],
+    'stats': [50, 25, 28, 45, 55, 15, 218],
   },
   {
     'id': 174,
@@ -1218,6 +1606,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '푸푸린',
     'imageUrl': '174.png',
     'types': ['normal', 'fairy'],
+    'abilities': ['천하장사', '고음', '승기'],
+    'stats': [90, 30, 15, 40, 20, 15, 210],
   },
   {
     'id': 175,
@@ -1225,6 +1615,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '토게피',
     'imageUrl': '175.png',
     'types': ['fairy'],
+    'abilities': ['대운', '하늘의은총', '대운'],
+    'stats': [35, 20, 65, 40, 65, 20, 245],
   },
   {
     'id': 176,
@@ -1232,6 +1624,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '토게틱',
     'imageUrl': '176.png',
     'types': ['fairy', 'flying'],
+    'abilities': ['대운', '하늘의은총', '대운'],
+    'stats': [55, 40, 85, 80, 105, 40, 405],
   },
   {
     'id': 177,
@@ -1239,6 +1633,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '목도리키텔',
     'imageUrl': '694.png',
     'types': ['electric', 'normal'],
+    'abilities': ['건조피부', '선파워', '모래숨기'],
+    'stats': [44, 38, 33, 61, 43, 70, 289],
   },
   {
     'id': 178,
@@ -1246,6 +1642,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '일레도리자드',
     'imageUrl': '695.png',
     'types': ['electric', 'normal'],
+    'abilities': ['건조피부', '선파워', '모래숨기'],
+    'stats': [62, 55, 55, 112, 95, 112, 491],
+    'evolutionCondition': '목도리키텔 (태양의돌)',
   },
   {
     'id': 179,
@@ -1253,6 +1652,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '메리프',
     'imageUrl': '179.png',
     'types': ['electric'],
+    'abilities': ['정전기', '방진', '플러스'],
+    'stats': [55, 40, 45, 65, 45, 35, 285],
   },
   {
     'id': 180,
@@ -1260,6 +1661,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '보송송',
     'imageUrl': '180.png',
     'types': ['electric'],
+    'abilities': ['정전기', '방진', '플러스'],
+    'stats': [75, 55, 60, 85, 60, 45, 380],
   },
   {
     'id': 181,
@@ -1267,6 +1670,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '전룡',
     'imageUrl': '181.png',
     'types': ['electric', 'dragon'],
+    'abilities': ['정전기', '틀깨기', '플러스'],
+    'stats': [95, 70, 90, 120, 90, 60, 525],
   },
   {
     'id': 182,
@@ -1274,6 +1679,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '아르코',
     'imageUrl': '182.png',
     'types': ['grass'],
+    'abilities': ['엽록소', '포이즌힐', '승리의별'],
+    'stats': [75, 90, 95, 90, 100, 50, 500],
   },
   {
     'id': 183,
@@ -1281,6 +1688,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '마릴',
     'imageUrl': '183.png',
     'types': ['water', 'fairy'],
+    'abilities': ['천하장사', '초식', '두꺼운지방'],
+    'stats': [70, 20, 50, 40, 50, 40, 270],
   },
   {
     'id': 184,
@@ -1288,6 +1697,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '마릴리',
     'imageUrl': '184.png',
     'types': ['water', 'fairy'],
+    'abilities': ['천하장사', '초식', '두꺼운지방'],
+    'stats': [100, 50, 80, 80, 80, 50, 440],
+    'evolutionCondition': '마릴 (레벨 21)',
   },
   {
     'id': 185,
@@ -1295,6 +1707,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '마기아나',
     'imageUrl': '801.png',
     'types': ['steel', 'fairy'],
+    'abilities': ['클리어바디', '-', '-'],
+    'stats': [80, 95, 115, 130, 115, 65, 600],
   },
   {
     'id': 186,
@@ -1302,6 +1716,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '왕구리',
     'imageUrl': '186.png',
     'types': ['water', 'normal'],
+    'abilities': ['고음', '잔비', '잔비'],
+    'stats': [90, 75, 75, 90, 100, 70, 500],
+    'evolutionCondition': '수륙챙이 (왕의징표석)',
   },
   {
     'id': 187,
@@ -1309,6 +1726,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '통통코',
     'imageUrl': '187.png',
     'types': ['grass', 'flying'],
+    'abilities': ['짓궂은마음', '엽록소', '틈새포착'],
+    'stats': [35, 45, 40, 45, 55, 50, 270],
   },
   {
     'id': 188,
@@ -1316,6 +1735,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '두코',
     'imageUrl': '188.png',
     'types': ['grass', 'flying'],
+    'abilities': ['짓궂은마음', '엽록소', '틈새포착'],
+    'stats': [55, 55, 50, 55, 65, 80, 360],
   },
   {
     'id': 189,
@@ -1323,6 +1744,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '솜솜코',
     'imageUrl': '189.png',
     'types': ['grass', 'flying'],
+    'abilities': ['짓궂은마음', '엽록소', '틈새포착'],
+    'stats': [75, 75, 70, 75, 95, 110, 500],
   },
   {
     'id': 190,
@@ -1330,6 +1753,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '에이팜',
     'imageUrl': '190.png',
     'types': ['normal'],
+    'abilities': ['스킬링크', '테크니션', '픽업'],
+    'stats': [55, 70, 55, 40, 55, 85, 360],
   },
   {
     'id': 191,
@@ -1337,6 +1762,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '캡싸이',
     'imageUrl': '951.png',
     'types': ['grass'],
+    'abilities': ['엽록소', '불면', '서투름'],
+    'stats': [50, 62, 40, 62, 40, 50, 304],
   },
   {
     'id': 192,
@@ -1344,6 +1771,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '스코빌런',
     'imageUrl': '952.png',
     'types': ['grass', 'fire'],
+    'abilities': ['엽록소', '가뭄', '변덕쟁이'],
+    'stats': [85, 78, 70, 113, 70, 75, 491],
+    'evolutionCondition': '캡싸이 (불꽃의돌)',
   },
   {
     'id': 193,
@@ -1351,6 +1781,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '왕자리',
     'imageUrl': '193.png',
     'types': ['bug', 'flying'],
+    'abilities': ['가속', '복안', '통찰'],
+    'stats': [65, 65, 45, 75, 45, 95, 390],
   },
   {
     'id': 194,
@@ -1358,6 +1790,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '우파',
     'imageUrl': '194.png',
     'types': ['water', 'ground'],
+    'abilities': ['저수', '천진', '습기'],
+    'stats': [55, 55, 55, 25, 25, 15, 230],
   },
   {
     'id': 195,
@@ -1365,6 +1799,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '누오',
     'imageUrl': '195.png',
     'types': ['water', 'ground'],
+    'abilities': ['저수', '천진', '습기'],
+    'stats': [95, 95, 95, 65, 65, 35, 450],
+    'evolutionCondition': '우파(원종) (레벨 20)',
   },
   {
     'id': 196,
@@ -1372,6 +1809,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '에브이',
     'imageUrl': '196.png',
     'types': ['psychic'],
+    'abilities': ['싱크로', '매직미러', '선파워'],
+    'stats': [65, 65, 60, 130, 95, 110, 525],
+    'evolutionCondition': '이브이 (태양의돌)',
   },
   {
     'id': 197,
@@ -1379,6 +1819,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '블래키',
     'imageUrl': '197.png',
     'types': ['dark'],
+    'abilities': ['싱크로', '독수', '정신력'],
+    'stats': [95, 65, 110, 60, 130, 65, 525],
+    'evolutionCondition': '이브이 (달의돌)',
   },
   {
     'id': 198,
@@ -1386,6 +1829,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '니로우',
     'imageUrl': '198.png',
     'types': ['dark', 'flying'],
+    'abilities': ['짖궂은마음', '대운', '짖궂은마음'],
+    'stats': [60, 85, 42, 85, 42, 91, 405],
   },
   {
     'id': 199,
@@ -1393,6 +1838,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '야도킹 (가라르)',
     'imageUrl': '10172.png',
     'types': ['poison', 'psychic'],
+    'abilities': ['재생력', '프레셔', '재생력'],
+    'stats': [95, 75, 80, 110, 110, 30, 500],
+    'evolutionCondition': '야돈(가라르) (왕의징표석)',
   },
   {
     'id': 200,
@@ -1400,6 +1848,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '무우마',
     'imageUrl': '200.png',
     'types': ['ghost'],
+    'abilities': ['부유', '하늘의은총', '하늘의은총'],
+    'stats': [60, 60, 60, 85, 85, 85, 435],
   },
   {
     'id': 201,
@@ -1407,6 +1857,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '안농',
     'imageUrl': '201.png',
     'types': ['psychic'],
+    'abilities': ['부유'],
+    'stats': [28, 132, 28, 132, 28, 78, 426],
   },
   {
     'id': 202,
@@ -1414,6 +1866,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '마자용',
     'imageUrl': '202.png',
     'types': ['psychic'],
+    'abilities': ['그림자밟기', '텔레파시', '텔레파시'],
+    'stats': [190, 33, 58, 33, 58, 33, 405],
   },
   {
     'id': 203,
@@ -1421,6 +1875,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '키키링',
     'imageUrl': '981.png',
     'types': ['normal', 'psychic'],
+    'abilities': ['테크니션', '하늘의은총', '초식'],
+    'stats': [120, 100, 70, 110, 70, 60, 530],
   },
   {
     'id': 204,
@@ -1428,6 +1884,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '꼬시레',
     'imageUrl': '767.png',
     'types': ['bug', 'water'],
+    'abilities': ['도주', '주눅', '도주'],
+    'stats': [25, 35, 40, 20, 30, 80, 230],
   },
   {
     'id': 205,
@@ -1435,6 +1893,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '갑주무사',
     'imageUrl': '768.png',
     'types': ['bug', 'water'],
+    'abilities': ['괴력집게', '전투무장', '괴력집게'],
+    'stats': [75, 125, 140, 60, 90, 40, 530],
+    'evolutionCondition': '꼬시레 (레벨 30)',
   },
   {
     'id': 206,
@@ -1442,6 +1903,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '노고고치',
     'imageUrl': '982.png',
     'types': ['normal'],
+    'abilities': ['하늘의은총', '우격다짐', '도주'],
+    'stats': [125, 100, 80, 85, 75, 55, 520],
   },
   {
     'id': 207,
@@ -1449,6 +1912,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '글라이거',
     'imageUrl': '207.png',
     'types': ['ground', 'flying'],
+    'abilities': ['단단한발톱', '면역', '모래숨기'],
+    'stats': [65, 75, 105, 35, 65, 85, 430],
   },
   {
     'id': 208,
@@ -1456,6 +1921,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '님피아',
     'imageUrl': '700.png',
     'types': ['fairy'],
+    'abilities': ['적응력', '승기', '적응력'],
+    'stats': [95, 65, 65, 110, 130, 60, 525],
   },
   {
     'id': 209,
@@ -1463,6 +1930,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '블루',
     'imageUrl': '209.png',
     'types': ['dark', 'fairy'],
+    'abilities': ['위협', '옹골찬턱', '주눅'],
+    'stats': [60, 80, 50, 40, 40, 30, 300],
   },
   {
     'id': 210,
@@ -1470,6 +1939,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '그랑블루',
     'imageUrl': '210.png',
     'types': ['dark', 'fairy'],
+    'abilities': ['위협', '옹골찬턱', '주눅'],
+    'stats': [90, 135, 80, 60, 60, 45, 470],
   },
   {
     'id': 211,
@@ -1477,6 +1948,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '침바루(히스이)',
     'imageUrl': '10234.png',
     'types': ['dark', 'poison'],
+    'abilities': ['독가시', '쓱쓱', '위협'],
+    'stats': [65, 95, 85, 55, 55, 85, 440],
   },
   {
     'id': 212,
@@ -1484,6 +1957,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '핫삼',
     'imageUrl': '212.png',
     'types': ['bug', 'steel'],
+    'abilities': ['예리함', '테크니션', '라이트메탈'],
+    'stats': [70, 130, 100, 55, 80, 65, 500],
+    'evolutionCondition': '스라크 (금속코트)',
   },
   {
     'id': 213,
@@ -1491,6 +1967,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '날개치는머리',
     'imageUrl': '987.png',
     'types': ['ghost', 'fairy'],
+    'abilities': ['저주받은바디', '통찰', '통찰'],
+    'stats': [55, 55, 55, 135, 135, 135, 570],
+    'evolutionCondition': '무우마 (부스트에너지S)',
   },
   {
     'id': 214,
@@ -1498,6 +1977,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '헤라크로스',
     'imageUrl': '214.png',
     'types': ['bug', 'fighting'],
+    'abilities': ['자기과신', '스킬링크', '근성'],
+    'stats': [80, 125, 75, 40, 95, 85, 500],
   },
   {
     'id': 215,
@@ -1505,6 +1986,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '포푸니',
     'imageUrl': '215.png',
     'types': ['dark', 'ice'],
+    'abilities': ['정신력', '테크니션', '프레셔'],
+    'stats': [55, 95, 55, 35, 75, 115, 430],
   },
   {
     'id': 216,
@@ -1512,6 +1995,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '깜지곰',
     'imageUrl': '216.png',
     'types': ['normal'],
+    'abilities': ['픽업', '속보', '꿀모으기'],
+    'stats': [60, 80, 50, 50, 50, 40, 330],
   },
   {
     'id': 217,
@@ -1519,6 +2004,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '링곰',
     'imageUrl': '217.png',
     'types': ['normal'],
+    'abilities': ['근성', '속보', '긴장감'],
+    'stats': [90, 130, 75, 75, 75, 55, 500],
   },
   {
     'id': 218,
@@ -1526,6 +2013,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '마그마그',
     'imageUrl': '218.png',
     'types': ['fire', 'rock'],
+    'abilities': ['하드록', '단순', '깨어진갑옷'],
+    'stats': [50, 50, 50, 80, 50, 20, 300],
   },
   {
     'id': 219,
@@ -1533,6 +2022,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '마그카르고',
     'imageUrl': '219.png',
     'types': ['fire', 'rock'],
+    'abilities': ['하드록', '단순', '깨어진갑옷'],
+    'stats': [60, 50, 140, 120, 100, 30, 500],
+    'evolutionCondition': '마그마그 (레벨 30)',
   },
   {
     'id': 220,
@@ -1540,6 +2032,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '꾸꾸리',
     'imageUrl': '220.png',
     'types': ['ice', 'ground'],
+    'abilities': ['두꺼운지방', '눈숨기', '둔감'],
+    'stats': [50, 50, 40, 30, 30, 50, 250],
   },
   {
     'id': 221,
@@ -1547,6 +2041,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '메꾸리',
     'imageUrl': '221.png',
     'types': ['ice', 'ground'],
+    'abilities': ['두꺼운지방', '눈숨기', '둔감'],
+    'stats': [100, 100, 80, 60, 60, 50, 450],
   },
   {
     'id': 222,
@@ -1554,6 +2050,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '산호르곤',
     'imageUrl': '864.png',
     'types': ['ghost'],
+    'abilities': ['미라', '매직미러', '매직미러'],
+    'stats': [60, 50, 95, 145, 130, 30, 510],
   },
   {
     'id': 223,
@@ -1561,6 +2059,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '총어',
     'imageUrl': '223.png',
     'types': ['water'],
+    'abilities': ['의욕', '스나이퍼', '변덕쟁이'],
+    'stats': [35, 65, 35, 65, 35, 65, 300],
   },
   {
     'id': 224,
@@ -1568,6 +2068,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '대포무노',
     'imageUrl': '224.png',
     'types': ['water', 'fire'],
+    'abilities': ['애널라이즈', '메가런처', '변덕쟁이'],
+    'stats': [85, 115, 75, 115, 75, 45, 510],
   },
   {
     'id': 225,
@@ -1575,6 +2077,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '무쇠보따리',
     'imageUrl': '991.png',
     'types': ['ice', 'water'],
+    'abilities': ['불면', '마이페이스', '마이페이스'],
+    'stats': [56, 80, 114, 124, 60, 136, 570],
   },
   {
     'id': 226,
@@ -1582,6 +2086,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '데스판',
     'imageUrl': '867.png',
     'types': ['ground', 'ghost'],
+    'abilities': ['미라', '-', '-'],
+    'stats': [68, 105, 145, 50, 105, 30, 503],
+    'evolutionCondition': '데스마스(가라르) (레벨 34)',
   },
   {
     'id': 227,
@@ -1589,6 +2096,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '무장조',
     'imageUrl': '227.png',
     'types': ['steel', 'flying'],
+    'abilities': ['예리함', '옹골참', '깨어진갑옷'],
+    'stats': [75, 90, 140, 40, 70, 70, 485],
   },
   {
     'id': 228,
@@ -1596,6 +2105,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '델빌',
     'imageUrl': '228.png',
     'types': ['dark', 'fire'],
+    'abilities': ['선파워', '위협', '타오르는불꽃'],
+    'stats': [45, 60, 30, 80, 50, 65, 330],
   },
   {
     'id': 229,
@@ -1603,6 +2114,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '헬가',
     'imageUrl': '229.png',
     'types': ['dark', 'fire'],
+    'abilities': ['선파워', '위협', '타오르는불꽃'],
+    'stats': [75, 90, 50, 110, 80, 105, 510],
   },
   {
     'id': 230,
@@ -1610,6 +2123,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '킹드라',
     'imageUrl': '230.png',
     'types': ['water', 'dragon'],
+    'abilities': ['쓱쓱', '스나이퍼', '습기'],
+    'stats': [75, 95, 95, 95, 95, 85, 540],
+    'evolutionCondition': '시드라 (용의비늘)',
   },
   {
     'id': 231,
@@ -1617,6 +2133,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '코코리',
     'imageUrl': '231.png',
     'types': ['ground'],
+    'abilities': ['픽업', '마이페이스', '모래숨기'],
+    'stats': [90, 60, 60, 40, 40, 40, 330],
   },
   {
     'id': 232,
@@ -1624,6 +2142,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '코리갑',
     'imageUrl': '232.png',
     'types': ['ground'],
+    'abilities': ['옹골참', '테크니션', '모래숨기'],
+    'stats': [90, 125, 120, 60, 70, 50, 515],
+    'evolutionCondition': '코코리 (레벨25)',
   },
   {
     'id': 233,
@@ -1631,6 +2152,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '폴리곤2',
     'imageUrl': '233.png',
     'types': ['normal'],
+    'abilities': ['트레이스', '다운로드', '애널라이즈'],
+    'stats': [85, 80, 90, 105, 95, 60, 515],
+    'evolutionCondition': '폴리곤 (업그레이드)',
   },
   {
     'id': 234,
@@ -1638,6 +2162,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '신비록',
     'imageUrl': '899.png',
     'types': ['normal', 'psychic'],
+    'abilities': ['위협', '단순', '단순'],
+    'stats': [103, 105, 72, 105, 75, 65, 525],
   },
   {
     'id': 235,
@@ -1645,6 +2171,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '루브도',
     'imageUrl': '235.png',
     'types': ['normal'],
+    'abilities': ['마이페이스', '테크니션', '변덕쟁이'],
+    'stats': [55, 20, 35, 20, 45, 75, 250],
   },
   {
     'id': 236,
@@ -1652,6 +2180,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '수레기',
     'imageUrl': '690.png',
     'types': ['poison', 'water'],
+    'abilities': ['독가시', '적응력', '적응력'],
+    'stats': [60, 65, 60, 65, 60, 30, 340],
   },
   {
     'id': 237,
@@ -1659,6 +2189,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '드래캄',
     'imageUrl': '691.png',
     'types': ['poison', 'dragon'],
+    'abilities': ['독가시', '적응력', '적응력'],
+    'stats': [75, 75, 90, 105, 130, 45, 520],
+    'evolutionCondition': '수레기 (레벨 40)',
   },
   {
     'id': 238,
@@ -1666,6 +2199,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '뽀뽀라',
     'imageUrl': '238.png',
     'types': ['ice', 'psychic'],
+    'abilities': ['건조피부', '예지몽', '둔감'],
+    'stats': [50, 37, 37, 90, 65, 80, 359],
   },
   {
     'id': 239,
@@ -1673,6 +2208,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '에레키드',
     'imageUrl': '239.png',
     'types': ['electric'],
+    'abilities': ['정전기', '틀깨기', '의기양양'],
+    'stats': [45, 65, 37, 63, 55, 95, 360],
   },
   {
     'id': 240,
@@ -1680,6 +2217,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '마그비',
     'imageUrl': '240.png',
     'types': ['fire'],
+    'abilities': ['정전기', '틀깨기', '의기양양'],
+    'stats': [45, 75, 37, 70, 55, 83, 365],
   },
   {
     'id': 241,
@@ -1687,6 +2226,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '밀탱크',
     'imageUrl': '241.png',
     'types': ['normal'],
+    'abilities': ['우격다짐', '배짱', '초식'],
+    'stats': [95, 100, 105, 40, 70, 105, 515],
   },
   {
     'id': 242,
@@ -1694,6 +2235,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '해피너스',
     'imageUrl': '242.png',
     'types': ['normal'],
+    'abilities': ['자연회복', '하늘의은총', '하늘의은총'],
+    'stats': [255, 10, 10, 75, 135, 55, 540],
   },
   {
     'id': 243,
@@ -1701,6 +2244,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '라이코',
     'imageUrl': '243.png',
     'types': ['electric'],
+    'abilities': ['프레셔', '정신력'],
+    'stats': [90, 85, 75, 115, 100, 115, 580],
   },
   {
     'id': 244,
@@ -1708,6 +2253,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '앤테이',
     'imageUrl': '244.png',
     'types': ['fire'],
+    'abilities': ['프레셔', '정신력'],
+    'stats': [115, 115, 85, 90, 75, 100, 580],
   },
   {
     'id': 245,
@@ -1715,6 +2262,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '스이쿤',
     'imageUrl': '245.png',
     'types': ['water'],
+    'abilities': ['프레셔', '정신력'],
+    'stats': [100, 75, 115, 90, 115, 85, 580],
   },
   {
     'id': 246,
@@ -1722,6 +2271,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '애버라스',
     'imageUrl': '246.png',
     'types': ['rock', 'ground'],
+    'abilities': ['근성', '의욕', '모래숨기'],
+    'stats': [50, 64, 50, 45, 50, 41, 300],
   },
   {
     'id': 247,
@@ -1729,6 +2280,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '데기라스',
     'imageUrl': '247.png',
     'types': ['rock', 'ground'],
+    'abilities': ['자연회복', '전투무장', '자연회복'],
+    'stats': [70, 84, 70, 65, 70, 51, 410],
   },
   {
     'id': 248,
@@ -1736,6 +2289,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '마기라스',
     'imageUrl': '248.png',
     'types': ['rock', 'dark'],
+    'abilities': ['모래날림', '전투무장', '긴장감'],
+    'stats': [100, 134, 110, 95, 100, 61, 600],
+    'evolutionCondition': '데기라스 (레벨 55)',
   },
   {
     'id': 249,
@@ -1743,6 +2299,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '루기아',
     'imageUrl': '249.png',
     'types': ['psychic', 'flying'],
+    'abilities': ['프레셔', '멀티스케일'],
+    'stats': [106, 90, 130, 90, 154, 110, 680],
   },
   {
     'id': 250,
@@ -1750,6 +2308,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '칠색조',
     'imageUrl': '250.png',
     'types': ['fire', 'flying'],
+    'abilities': ['프레셔', '재생력'],
+    'stats': [106, 130, 90, 110, 154, 90, 680],
   },
   {
     'id': 251,
@@ -1757,6 +2317,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '세레비',
     'imageUrl': '251.png',
     'types': ['grass', 'fairy'],
+    'abilities': ['자연회복', '매직미러', '매직가드'],
+    'stats': [100, 100, 100, 100, 100, 100, 600],
   },
   {
     'id': 252,
@@ -1764,6 +2326,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '나무지기',
     'imageUrl': '252.png',
     'types': ['grass'],
+    'abilities': ['심록', '곡예'],
+    'stats': [40, 65, 35, 45, 55, 70, 310],
   },
   {
     'id': 253,
@@ -1771,6 +2335,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '나무돌이',
     'imageUrl': '253.png',
     'types': ['grass'],
+    'abilities': ['곡예', '예리함', '심록'],
+    'stats': [50, 85, 45, 65, 65, 95, 405],
   },
   {
     'id': 254,
@@ -1778,6 +2344,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '나무킹',
     'imageUrl': '254.png',
     'types': ['grass', 'dragon'],
+    'abilities': ['곡예', '예리함', '심록'],
+    'stats': [70, 105, 67, 85, 88, 120, 535],
   },
   {
     'id': 255,
@@ -1785,6 +2353,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '아차모',
     'imageUrl': '255.png',
     'types': ['fire'],
+    'abilities': ['속보', '가속', '맹화'],
+    'stats': [45, 60, 40, 70, 50, 45, 310],
   },
   {
     'id': 256,
@@ -1792,6 +2362,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '영치코',
     'imageUrl': '256.png',
     'types': ['fire', 'fighting'],
+    'abilities': ['속보', '가속', '맹화'],
+    'stats': [60, 85, 60, 85, 60, 55, 405],
   },
   {
     'id': 257,
@@ -1799,6 +2371,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '번치코',
     'imageUrl': '257.png',
     'types': ['fire', 'fighting'],
+    'abilities': ['이판사판', '가속', '맹화'],
+    'stats': [80, 120, 70, 110, 70, 85, 535],
   },
   {
     'id': 258,
@@ -1806,6 +2380,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '물짱이',
     'imageUrl': '258.png',
     'types': ['water'],
+    'abilities': ['수의베일', '쓱쓱', '급류'],
+    'stats': [50, 70, 50, 50, 50, 40, 310],
   },
   {
     'id': 259,
@@ -1813,6 +2389,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '늪짱이',
     'imageUrl': '259.png',
     'types': ['water', 'ground'],
+    'abilities': ['수의베일', '쓱쓱', '급류'],
+    'stats': [70, 85, 70, 60, 70, 50, 405],
   },
   {
     'id': 260,
@@ -1820,6 +2398,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '대짱이',
     'imageUrl': '260.png',
     'types': ['water', 'ground'],
+    'abilities': ['수의베일', '쓱쓱', '급류'],
+    'stats': [100, 110, 90, 85, 90, 60, 535],
   },
   {
     'id': 261,
@@ -1827,6 +2407,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '나오하',
     'imageUrl': '906.png',
     'types': ['grass'],
+    'abilities': ['트레이스', '변환자재', '심록'],
+    'stats': [40, 61, 54, 45, 45, 65, 310],
   },
   {
     'id': 262,
@@ -1834,6 +2416,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '나로테',
     'imageUrl': '907.png',
     'types': ['grass'],
+    'abilities': ['트레이스', '변환자재', '심록'],
+    'stats': [61, 80, 63, 60, 63, 83, 410],
+    'evolutionCondition': '나오하 (레벨 16)',
   },
   {
     'id': 263,
@@ -1841,6 +2426,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '마스카나',
     'imageUrl': '908.png',
     'types': ['grass', 'dark'],
+    'abilities': ['트레이스', '변환자재', '심록'],
+    'stats': [76, 114, 70, 82, 70, 123, 535],
+    'evolutionCondition': '나로테 (레벨 36)',
   },
   {
     'id': 264,
@@ -1848,6 +2436,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '푸호꼬',
     'imageUrl': '653.png',
     'types': ['fire'],
+    'abilities': ['매직가드', '심술꾸러기', '맹화'],
+    'stats': [40, 45, 40, 62, 60, 60, 307],
   },
   {
     'id': 265,
@@ -1855,6 +2445,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '테르나',
     'imageUrl': '654.png',
     'types': ['fire', 'psychic'],
+    'abilities': ['매직가드', '심술꾸러기', '맹화'],
+    'stats': [65, 49, 62, 90, 70, 73, 409],
+    'evolutionCondition': '푸호꼬 (레벨 16)',
   },
   {
     'id': 266,
@@ -1862,6 +2455,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '마폭시',
     'imageUrl': '655.png',
     'types': ['fire', 'psychic'],
+    'abilities': ['매직가드', '매직미러', '맹화'],
+    'stats': [75, 69, 72, 119, 100, 104, 539],
+    'evolutionCondition': '테르나 (레벨 36)',
   },
   {
     'id': 267,
@@ -1869,6 +2465,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '개구마르',
     'imageUrl': '656.png',
     'types': ['water'],
+    'abilities': ['적응력', '변환자재', '급류'],
+    'stats': [50, 40, 40, 70, 40, 70, 310],
   },
   {
     'id': 268,
@@ -1876,6 +2474,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '개굴반장',
     'imageUrl': '657.png',
     'types': ['water'],
+    'abilities': ['적응력', '변환자재', '급류'],
+    'stats': [54, 63, 52, 83, 56, 97, 405],
+    'evolutionCondition': '개구마르 (레벨 16)',
   },
   {
     'id': 269,
@@ -1883,6 +2484,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '개굴닌자',
     'imageUrl': '658.png',
     'types': ['water', 'dark'],
+    'abilities': ['적응력', '변환자재', '급류'],
+    'stats': [72, 98, 67, 105, 71, 122, 535],
+    'evolutionCondition': '개굴반장 (레벨 36)',
   },
   {
     'id': 270,
@@ -1890,6 +2494,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '연꽃몬',
     'imageUrl': '270.png',
     'types': ['water', 'grass'],
+    'abilities': ['쓱쓱', '젖은접시', '마이페이스'],
+    'stats': [40, 30, 30, 40, 50, 30, 220],
   },
   {
     'id': 271,
@@ -1897,6 +2503,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '로토스',
     'imageUrl': '271.png',
     'types': ['water', 'grass'],
+    'abilities': ['쓱쓱', '젖은접시', '마이페이스'],
+    'stats': [60, 50, 50, 60, 70, 50, 340],
   },
   {
     'id': 272,
@@ -1904,6 +2512,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '로파파',
     'imageUrl': '272.png',
     'types': ['water', 'grass'],
+    'abilities': ['쓱쓱', '젖은접시', '마이페이스'],
+    'stats': [80, 80, 70, 95, 100, 70, 495],
   },
   {
     'id': 273,
@@ -1911,6 +2521,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '몸지브림',
     'imageUrl': '856.png',
     'types': ['psychic'],
+    'abilities': ['매직미러', '변덕쟁이', '예지몽'],
+    'stats': [42, 30, 55, 66, 63, 39, 295],
   },
   {
     'id': 274,
@@ -1918,6 +2530,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '손지브림',
     'imageUrl': '857.png',
     'types': ['psychic'],
+    'abilities': ['매직미러', '변덕쟁이', '예지몽'],
+    'stats': [57, 50, 70, 96, 78, 49, 400],
+    'evolutionCondition': '몸지브림 (레벨 32)',
   },
   {
     'id': 275,
@@ -1925,6 +2540,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '브리무음',
     'imageUrl': '858.png',
     'types': ['psychic', 'fairy'],
+    'abilities': ['매직미러', '변덕쟁이', '예지몽'],
+    'stats': [57, 90, 95, 136, 103, 29, 510],
+    'evolutionCondition': '손지브림 (레벨 42)',
   },
   {
     'id': 276,
@@ -1932,6 +2550,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '테일로',
     'imageUrl': '276.png',
     'types': ['normal', 'flying'],
+    'abilities': ['일찍기상', '배짱', '배짱'],
+    'stats': [40, 55, 30, 55, 30, 85, 295],
   },
   {
     'id': 277,
@@ -1939,6 +2559,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '스왈로',
     'imageUrl': '277.png',
     'types': ['normal', 'flying'],
+    'abilities': ['근성', '배짱', '배짱'],
+    'stats': [70, 95, 60, 95, 50, 125, 495],
   },
   {
     'id': 278,
@@ -1946,6 +2568,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '갈모매',
     'imageUrl': '278.png',
     'types': ['water', 'flying'],
+    'abilities': ['촉촉바디', '젖은접시', '날카로운눈'],
+    'stats': [40, 30, 30, 55, 30, 85, 270],
   },
   {
     'id': 279,
@@ -1953,6 +2577,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '패리퍼',
     'imageUrl': '279.png',
     'types': ['water', 'flying'],
+    'abilities': ['잔비', '젖은접시', '날카로운눈'],
+    'stats': [60, 50, 110, 95, 80, 85, 480],
   },
   {
     'id': 280,
@@ -1960,6 +2586,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '랄토스',
     'imageUrl': '280.png',
     'types': ['psychic', 'fairy'],
+    'abilities': ['싱크로', '트레이스', '텔레파시'],
+    'stats': [38, 35, 35, 75, 65, 50, 298],
   },
   {
     'id': 281,
@@ -1967,6 +2595,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '킬리아',
     'imageUrl': '281.png',
     'types': ['psychic', 'fairy'],
+    'abilities': ['싱크로', '트레이스', '텔레파시'],
+    'stats': [48, 45, 45, 95, 85, 60, 378],
   },
   {
     'id': 282,
@@ -1974,6 +2604,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '가디안',
     'imageUrl': '282.png',
     'types': ['psychic', 'fairy'],
+    'abilities': ['싱크로', '트레이스', '텔레파시'],
+    'stats': [68, 65, 65, 125, 115, 80, 518],
+    'evolutionCondition': '킬리아 (레벨 30)',
   },
   {
     'id': 283,
@@ -1981,6 +2614,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '비구술',
     'imageUrl': '283.png',
     'types': ['bug', 'water'],
+    'abilities': ['쓱쓱', '마중물', '젖은접시'],
+    'stats': [40, 30, 30, 55, 55, 65, 275],
   },
   {
     'id': 284,
@@ -1988,6 +2623,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '비나방',
     'imageUrl': '284.png',
     'types': ['bug', 'water'],
+    'abilities': ['위협', '마중물', '젖은접시'],
+    'stats': [70, 60, 55, 100, 100, 100, 485],
   },
   {
     'id': 285,
@@ -1995,6 +2632,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '버섯꼬',
     'imageUrl': '285.png',
     'types': ['grass'],
+    'abilities': ['포자', '포이즌힐', '속보'],
+    'stats': [60, 40, 60, 40, 60, 35, 295],
   },
   {
     'id': 286,
@@ -2002,6 +2641,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '버섯모',
     'imageUrl': '286.png',
     'types': ['grass', 'fighting'],
+    'abilities': ['테크니션', '포이즌힐', '테크니션'],
+    'stats': [60, 130, 80, 60, 60, 70, 460],
   },
   {
     'id': 287,
@@ -2009,6 +2650,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '게을로',
     'imageUrl': '287.png',
     'types': ['normal'],
+    'abilities': ['게으름', '시간벌기', '게으름 [*]'],
+    'stats': [60, 60, 60, 35, 35, 30, 280],
   },
   {
     'id': 288,
@@ -2016,6 +2659,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '발바로',
     'imageUrl': '288.png',
     'types': ['normal'],
+    'abilities': ['의기양양', '우격다짐', '의기양양'],
+    'stats': [80, 80, 80, 55, 55, 90, 440],
   },
   {
     'id': 289,
@@ -2023,6 +2668,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '게을킹',
     'imageUrl': '289.png',
     'types': ['normal'],
+    'abilities': ['게으름', '시간벌기', '게으름 [*]'],
+    'stats': [150, 160, 100, 95, 65, 100, 670],
   },
   {
     'id': 290,
@@ -2030,6 +2677,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '토중몬',
     'imageUrl': '290.png',
     'types': ['bug', 'ground'],
+    'abilities': ['복안', '도주', '도주'],
+    'stats': [31, 45, 90, 30, 30, 40, 266],
   },
   {
     'id': 291,
@@ -2037,6 +2686,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '아이스크',
     'imageUrl': '291.png',
     'types': ['bug', 'flying'],
+    'abilities': ['가속', '예리함', '틈새포착'],
+    'stats': [61, 90, 55, 50, 55, 160, 471],
   },
   {
     'id': 292,
@@ -2044,6 +2695,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '껍질몬',
     'imageUrl': '292.png',
     'types': ['bug', 'ghost'],
+    'abilities': ['불가사의부적'],
+    'stats': [1, 95, 5, 30, 5, 95, 231],
   },
   {
     'id': 293,
@@ -2051,6 +2704,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '소곤룡',
     'imageUrl': '293.png',
     'types': ['normal'],
+    'abilities': ['고음', '배짱', '주눅'],
+    'stats': [64, 51, 23, 51, 23, 28, 240],
   },
   {
     'id': 294,
@@ -2058,6 +2713,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '노공룡',
     'imageUrl': '294.png',
     'types': ['normal'],
+    'abilities': ['고음', '배짱', '주눅'],
+    'stats': [84, 71, 43, 71, 43, 48, 360],
   },
   {
     'id': 295,
@@ -2065,6 +2722,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '폭음룡',
     'imageUrl': '295.png',
     'types': ['normal'],
+    'abilities': ['고음', '배짱', '주눅'],
+    'stats': [104, 85, 73, 115, 73, 78, 528],
   },
   {
     'id': 296,
@@ -2072,6 +2731,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '마크탕',
     'imageUrl': '296.png',
     'types': ['fighting'],
+    'abilities': ['두꺼운지방', '근성', '우격다짐'],
+    'stats': [95, 70, 30, 20, 30, 25, 270],
   },
   {
     'id': 297,
@@ -2079,6 +2740,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '하리뭉',
     'imageUrl': '297.png',
     'types': ['fighting'],
+    'abilities': ['지구력', '근성', '우격다짐'],
+    'stats': [144, 120, 65, 35, 80, 50, 494],
+    'evolutionCondition': '마크탕 (레벨 24)',
   },
   {
     'id': 298,
@@ -2086,6 +2750,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '토오',
     'imageUrl': '980.png',
     'types': ['poison', 'ground'],
+    'abilities': ['천진', '저수', '독가시'],
+    'stats': [130, 85, 60, 55, 100, 20, 450],
+    'evolutionCondition': '우파(팔데아) (레벨 20)',
   },
   {
     'id': 299,
@@ -2093,6 +2760,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '코코파스',
     'imageUrl': '299.png',
     'types': ['rock'],
+    'abilities': ['옹골참', '건조피부', '자력'],
+    'stats': [30, 35, 135, 70, 100, 30, 400],
   },
   {
     'id': 300,
@@ -2100,6 +2769,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '위대한엄니',
     'imageUrl': '984.png',
     'types': ['ground', 'fighting'],
+    'abilities': ['옹골참', '이상한비늘', '이상한비늘'],
+    'stats': [115, 131, 131, 53, 53, 87, 570],
+    'evolutionCondition': '코코리 (부스트에너지S)',
   },
   {
     'id': 301,
@@ -2107,6 +2779,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '무쇠바퀴',
     'imageUrl': '990.png',
     'types': ['ground', 'steel'],
+    'abilities': ['헤비메탈', '곡예', '곡예'],
+    'stats': [90, 112, 120, 72, 70, 106, 570],
+    'evolutionCondition': '코코리 (부스트에너지V)',
   },
   {
     'id': 302,
@@ -2114,6 +2789,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '깜까미',
     'imageUrl': '302.png',
     'types': ['dark', 'ghost'],
+    'abilities': ['짓궂은마음', '매직미러', '날카로운눈'],
+    'stats': [65, 95, 95, 55, 95, 50, 455],
   },
   {
     'id': 303,
@@ -2121,6 +2798,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '입치트',
     'imageUrl': '303.png',
     'types': ['steel', 'fairy'],
+    'abilities': ['천하장사', '위협', '우격다짐'],
+    'stats': [50, 75, 115, 75, 85, 50, 450],
   },
   {
     'id': 304,
@@ -2128,6 +2807,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '가보리',
     'imageUrl': '304.png',
     'types': ['steel', 'rock'],
+    'abilities': ['필터', '돌머리', '옹골참'],
+    'stats': [50, 70, 100, 40, 40, 30, 330],
   },
   {
     'id': 305,
@@ -2135,6 +2816,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '갱도라',
     'imageUrl': '305.png',
     'types': ['steel', 'rock'],
+    'abilities': ['필터', '돌머리', '옹골참'],
+    'stats': [65, 95, 140, 50, 60, 40, 450],
+    'evolutionCondition': '가보리 (레벨 30)',
   },
   {
     'id': 306,
@@ -2142,6 +2826,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '보스로라',
     'imageUrl': '306.png',
     'types': ['steel', 'rock'],
+    'abilities': ['필터', '돌머리', '옹골참'],
+    'stats': [80, 120, 180, 60, 100, 60, 600],
+    'evolutionCondition': '갱도라 (레벨 50)',
   },
   {
     'id': 307,
@@ -2149,6 +2836,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '요가랑',
     'imageUrl': '307.png',
     'types': ['fighting', 'psychic'],
+    'abilities': ['순수한힘', '텔레파시'],
+    'stats': [30, 40, 55, 50, 55, 60, 290],
   },
   {
     'id': 308,
@@ -2156,6 +2845,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '요가램',
     'imageUrl': '308.png',
     'types': ['fighting', 'psychic'],
+    'abilities': ['순수한힘', '텔레파시'],
+    'stats': [70, 70, 80, 60, 80, 90, 450],
+    'evolutionCondition': '요가랑 (레벨 34)',
   },
   {
     'id': 309,
@@ -2163,6 +2855,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '썬더라이',
     'imageUrl': '309.png',
     'types': ['electric'],
+    'abilities': ['위협', '가속', '피뢰침'],
+    'stats': [40, 65, 40, 65, 40, 65, 315],
   },
   {
     'id': 310,
@@ -2170,6 +2864,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '썬더볼트',
     'imageUrl': '310.png',
     'types': ['electric'],
+    'abilities': ['위협', '가속', '피뢰침'],
+    'stats': [70, 105, 65, 105, 65, 105, 515],
   },
   {
     'id': 311,
@@ -2177,6 +2873,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '플러시',
     'imageUrl': '311.png',
     'types': ['electric', 'fairy'],
+    'abilities': ['승리의별', '가속', '피뢰침'],
+    'stats': [70, 50, 50, 85, 85, 125, 465],
   },
   {
     'id': 312,
@@ -2184,6 +2882,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '마이농',
     'imageUrl': '312.png',
     'types': ['electric', 'fairy'],
+    'abilities': ['승리의별', '짓궂은마음', '축전'],
+    'stats': [70, 50, 70, 75, 95, 105, 465],
   },
   {
     'id': 313,
@@ -2191,6 +2891,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '태우지네',
     'imageUrl': '850.png',
     'types': ['fire', 'bug'],
+    'abilities': ['맹화', '타오르는불꽃', '타오르는불꽃'],
+    'stats': [60, 75, 45, 40, 50, 45, 315],
   },
   {
     'id': 314,
@@ -2198,6 +2900,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '다태우지네',
     'imageUrl': '851.png',
     'types': ['fire', 'bug'],
+    'abilities': ['적응력', '타오르는불꽃', '타오르는불꽃'],
+    'stats': [100, 115, 70, 75, 90, 70, 520],
+    'evolutionCondition': '태우지네 (레벨 28)',
   },
   {
     'id': 315,
@@ -2205,6 +2910,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '로젤리아',
     'imageUrl': '315.png',
     'types': ['grass', 'poison'],
+    'abilities': ['자연회복', '독가시', '리프가드'],
+    'stats': [50, 60, 45, 100, 80, 65, 400],
   },
   {
     'id': 316,
@@ -2212,6 +2919,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '부르롱',
     'imageUrl': '965.png',
     'types': ['steel', 'poison'],
+    'abilities': ['모래헤치기', '필터', '필터'],
+    'stats': [45, 70, 63, 30, 45, 47, 300],
   },
   {
     'id': 317,
@@ -2219,6 +2928,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '부르르룸',
     'imageUrl': '966.png',
     'types': ['steel', 'poison'],
+    'abilities': ['모래헤치기', '필터', '필터'],
+    'stats': [80, 123, 90, 50, 67, 90, 500],
+    'evolutionCondition': '부르롱 (레벨 35)',
   },
   {
     'id': 318,
@@ -2226,6 +2938,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '샤프니아',
     'imageUrl': '318.png',
     'types': ['water', 'dark'],
+    'abilities': ['까칠한피부', '가속', '가속'],
+    'stats': [45, 90, 20, 65, 20, 65, 305],
   },
   {
     'id': 319,
@@ -2233,6 +2947,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '샤크니아',
     'imageUrl': '319.png',
     'types': ['water', 'dark'],
+    'abilities': ['옹골찬턱', '가속', '가속'],
+    'stats': [70, 120, 60, 95, 55, 95, 495],
   },
   {
     'id': 320,
@@ -2240,6 +2956,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '고래왕자',
     'imageUrl': '320.png',
     'types': ['water'],
+    'abilities': ['잔비', '수의베일', '프레셔'],
+    'stats': [130, 70, 35, 70, 35, 60, 400],
   },
   {
     'id': 321,
@@ -2247,6 +2965,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '고래왕',
     'imageUrl': '321.png',
     'types': ['water'],
+    'abilities': ['잔비', '수의베일', '프레셔'],
+    'stats': [170, 80, 60, 90, 60, 60, 520],
+    'evolutionCondition': '고래왕자 (레벨 36)',
   },
   {
     'id': 322,
@@ -2254,6 +2975,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '둔타',
     'imageUrl': '322.png',
     'types': ['fire', 'ground'],
+    'abilities': ['우격다짐', '둔감', '마이페이스'],
+    'stats': [60, 60, 40, 65, 45, 35, 305],
   },
   {
     'id': 323,
@@ -2261,6 +2984,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '폭타',
     'imageUrl': '323.png',
     'types': ['fire', 'ground'],
+    'abilities': ['우격다짐', '저수', '분노의경혈'],
+    'stats': [95, 70, 95, 120, 70, 45, 495],
   },
   {
     'id': 324,
@@ -2268,6 +2993,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '코터스',
     'imageUrl': '324.png',
     'types': ['fire'],
+    'abilities': ['가뭄', '하얀연기', '조가비갑옷'],
+    'stats': [70, 85, 140, 85, 70, 20, 470],
   },
   {
     'id': 325,
@@ -2275,6 +3002,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '짜랑꼬',
     'imageUrl': '782.png',
     'types': ['dragon'],
+    'abilities': ['우격다짐', '방음', '방진'],
+    'stats': [45, 55, 65, 45, 45, 45, 300],
   },
   {
     'id': 326,
@@ -2282,6 +3011,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '짜랑고우',
     'imageUrl': '783.png',
     'types': ['dragon', 'fighting'],
+    'abilities': ['우격다짐', '방음', '방진'],
+    'stats': [55, 75, 90, 65, 70, 65, 420],
   },
   {
     'id': 327,
@@ -2289,6 +3020,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '짜랑고우거',
     'imageUrl': '784.png',
     'types': ['dragon', 'fighting'],
+    'abilities': ['우격다짐', '멀티스케일', '이상한비늘'],
+    'stats': [75, 110, 125, 100, 105, 85, 600],
   },
   {
     'id': 328,
@@ -2296,6 +3029,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '톱치',
     'imageUrl': '328.png',
     'types': ['bug', 'ground'],
+    'abilities': ['괴력집게', '우격다짐', '개미지옥'],
+    'stats': [55, 100, 45, 45, 45, 10, 300],
   },
   {
     'id': 329,
@@ -2303,6 +3038,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '비브라바',
     'imageUrl': '329.png',
     'types': ['bug', 'dragon'],
+    'abilities': ['색안경', '고음', '부유'],
+    'stats': [60, 80, 70, 90, 70, 80, 450],
+    'evolutionCondition': '톱치 (레벨 30)',
   },
   {
     'id': 330,
@@ -2310,6 +3048,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '플라이곤',
     'imageUrl': '330.png',
     'types': ['bug', 'dragon'],
+    'abilities': ['색안경', '고음', '부유'],
+    'stats': [90, 115, 85, 125, 85, 100, 600],
+    'evolutionCondition': '비브라바 (레벨 55)',
   },
   {
     'id': 331,
@@ -2317,6 +3058,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '모으령',
     'imageUrl': '999.png',
     'types': ['ghost'],
+    'abilities': ['주눅', '-', '-'],
+    'stats': [45, 30, 70, 75, 70, 10, 300],
   },
   {
     'id': 332,
@@ -2324,6 +3067,10 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '타부자고',
     'imageUrl': '1000.png',
     'types': ['steel', 'ghost'],
+    'abilities': ['매직미러', '-', '-'],
+    'stats': [87, 60, 95, 133, 91, 84, 550],
+    'evolutionCondition': '모으령 (모으령의코인)',
+    'wildItems': '금구슬 50%, 큰금구슬 5%, 혜성조각 1%',
   },
   {
     'id': 333,
@@ -2331,6 +3078,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '파비코',
     'imageUrl': '333.png',
     'types': ['fairy', 'flying'],
+    'abilities': ['고음', '날씨부정', '날씨부정'],
+    'stats': [65, 50, 60, 50, 75, 50, 350],
   },
   {
     'id': 334,
@@ -2338,6 +3087,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '파비코리',
     'imageUrl': '334.png',
     'types': ['dragon', 'fairy'],
+    'abilities': ['고음', '날씨부정', '날씨부정'],
+    'stats': [95, 80, 90, 80, 105, 90, 540],
   },
   {
     'id': 335,
@@ -2345,6 +3096,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '쟝고',
     'imageUrl': '335.png',
     'types': ['normal'],
+    'abilities': ['예리함', '독폭주', '독폭주'],
+    'stats': [75, 115, 60, 60, 60, 110, 480],
   },
   {
     'id': 336,
@@ -2352,6 +3105,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '세비퍼',
     'imageUrl': '336.png',
     'types': ['poison'],
+    'abilities': ['예리함', '멀티스케일', '멀티스케일'],
+    'stats': [80, 125, 70, 60, 70, 75, 480],
   },
   {
     'id': 337,
@@ -2359,6 +3114,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '루나톤',
     'imageUrl': '337.png',
     'types': ['rock', 'psychic'],
+    'abilities': ['부유'],
+    'stats': [90, 55, 75, 115, 90, 70, 495],
   },
   {
     'id': 338,
@@ -2366,6 +3123,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '솔록',
     'imageUrl': '338.png',
     'types': ['rock', 'psychic'],
+    'abilities': ['부유'],
+    'stats': [90, 115, 90, 55, 75, 70, 495],
   },
   {
     'id': 339,
@@ -2373,6 +3132,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '미꾸리',
     'imageUrl': '339.png',
     'types': ['water', 'ground'],
+    'abilities': ['단순', '촉촉바디', '단순'],
+    'stats': [50, 48, 43, 46, 41, 60, 288],
   },
   {
     'id': 340,
@@ -2380,6 +3141,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '메깅',
     'imageUrl': '340.png',
     'types': ['water', 'ground'],
+    'abilities': ['단순', '촉촉바디', '단순'],
+    'stats': [110, 93, 88, 93, 76, 60, 520],
   },
   {
     'id': 341,
@@ -2387,6 +3150,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '가재군',
     'imageUrl': '341.png',
     'types': ['water'],
+    'abilities': ['적응력', '괴력집게', '적응력'],
+    'stats': [43, 80, 65, 35, 50, 35, 308],
   },
   {
     'id': 342,
@@ -2394,6 +3159,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '가재장군',
     'imageUrl': '342.png',
     'types': ['water', 'dark'],
+    'abilities': ['적응력', '괴력집게', '적응력'],
+    'stats': [80, 120, 100, 65, 80, 55, 500],
   },
   {
     'id': 343,
@@ -2401,6 +3168,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '오뚝군',
     'imageUrl': '343.png',
     'types': ['ground', 'psychic'],
+    'abilities': ['부유', '필터', '부유'],
+    'stats': [50, 50, 60, 50, 70, 55, 335],
   },
   {
     'id': 344,
@@ -2408,6 +3177,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '점토도리',
     'imageUrl': '344.png',
     'types': ['ground', 'psychic'],
+    'abilities': ['부유', '필터', '부유'],
+    'stats': [60, 80, 110, 80, 120, 75, 525],
   },
   {
     'id': 345,
@@ -2415,6 +3186,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '릴링',
     'imageUrl': '345.png',
     'types': ['rock', 'grass'],
+    'abilities': ['흡반', '마중물', '마중물'],
+    'stats': [66, 41, 77, 61, 87, 23, 355],
   },
   {
     'id': 346,
@@ -2422,6 +3195,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '릴리요',
     'imageUrl': '346.png',
     'types': ['rock', 'grass'],
+    'abilities': ['흡반', '마중물', '마중물'],
+    'stats': [86, 86, 97, 86, 107, 33, 495],
+    'evolutionCondition': '릴링 (레벨 30)',
   },
   {
     'id': 347,
@@ -2429,6 +3205,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '아노딥스',
     'imageUrl': '347.png',
     'types': ['rock', 'bug'],
+    'abilities': ['스킬링크', '쓱쓱', '쓱쓱'],
+    'stats': [45, 95, 50, 40, 50, 75, 355],
   },
   {
     'id': 348,
@@ -2436,6 +3214,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '아말도',
     'imageUrl': '348.png',
     'types': ['rock', 'bug'],
+    'abilities': ['스킬링크', '쓱쓱', '쓱쓱'],
+    'stats': [75, 125, 100, 70, 80, 45, 495],
+    'evolutionCondition': '아노딥스 (레벨 30)',
   },
   {
     'id': 349,
@@ -2443,6 +3224,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '빈티나',
     'imageUrl': '349.png',
     'types': ['water'],
+    'abilities': ['쓱쓱', '적응력', '쓱쓱'],
+    'stats': [20, 15, 20, 10, 55, 80, 200],
   },
   {
     'id': 350,
@@ -2450,6 +3233,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '밀로틱',
     'imageUrl': '350.png',
     'types': ['water'],
+    'abilities': ['이상한비늘', '승기', '이상한비늘'],
+    'stats': [95, 60, 79, 100, 125, 81, 540],
+    'evolutionCondition': '빈티나 (고운비늘)',
   },
   {
     'id': 351,
@@ -2460,21 +3246,29 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'formName': '노말',
         'imageUrl': '351.png',
         'types': ['normal'],
+        'abilities': ['기분파', '변환자재', '기분파'],
+        'stats': [70, 70, 70, 95, 70, 95, 470],
       },
       {
         'formName': '태양',
         'imageUrl': '10013.png',
         'types': ['fire', 'grass'],
+        'abilities': ['기분파', '변환자재', '기분파'],
+        'stats': [70, 70, 70, 105, 70, 105, 490],
       },
       {
         'formName': '빗방울',
         'imageUrl': '10014.png',
         'types': ['water', 'flying'],
+        'abilities': ['기분파', '변환자재', '기분파'],
+        'stats': [70, 70, 70, 105, 70, 105, 490],
       },
       {
         'formName': '설운',
         'imageUrl': '10015.png',
         'types': ['ice', 'electric'],
+        'abilities': ['기분파', '변환자재', '기분파'],
+        'stats': [70, 70, 70, 105, 70, 105, 490],
       },
     ],
   },
@@ -2484,6 +3278,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '저승갓숭',
     'imageUrl': '979.png',
     'types': ['fighting', 'ghost'],
+    'abilities': ['오기', '철주먹', '의기양양'],
+    'stats': [110, 115, 80, 50, 90, 90, 535],
+    'evolutionCondition': '성원숭 (분노의주먹 습득)',
   },
   {
     'id': 353,
@@ -2491,6 +3288,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '어둠대신',
     'imageUrl': '353.png',
     'types': ['ghost'],
+    'abilities': ['저주받은바디', '짓궂은마음', '저주받은바디'],
+    'stats': [44, 75, 35, 63, 33, 45, 295],
   },
   {
     'id': 354,
@@ -2498,6 +3297,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '다크펫',
     'imageUrl': '354.png',
     'types': ['ghost', 'normal'],
+    'abilities': ['저주받은바디', '짓궂은마음', '저주받은바디'],
+    'stats': [64, 120, 80, 73, 83, 75, 495],
+    'evolutionCondition': '어둠대신 (레벨 32)',
   },
   {
     'id': 355,
@@ -2505,6 +3307,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '해골몽',
     'imageUrl': '355.png',
     'types': ['ghost'],
+    'abilities': ['부유', '저주받은바디', '통찰'],
+    'stats': [20, 40, 90, 30, 90, 25, 295],
   },
   {
     'id': 356,
@@ -2512,6 +3316,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '미라몽',
     'imageUrl': '356.png',
     'types': ['ghost'],
+    'abilities': ['프레셔', '미라', '통찰'],
+    'stats': [40, 70, 130, 60, 130, 25, 455],
+    'evolutionCondition': '해골몽 (레벨 32)',
   },
   {
     'id': 357,
@@ -2519,6 +3326,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '트로피우스',
     'imageUrl': '357.png',
     'types': ['grass', 'flying'],
+    'abilities': ['수확', '매직가드', '엽록소'],
+    'stats': [109, 108, 83, 42, 87, 71, 500],
   },
   {
     'id': 358,
@@ -2526,6 +3335,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '치렁',
     'imageUrl': '358.png',
     'types': ['psychic'],
+    'abilities': ['부유', '클리어바디', '클리어바디'],
+    'stats': [75, 50, 80, 110, 90, 65, 470],
   },
   {
     'id': 359,
@@ -2533,6 +3344,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '앱솔',
     'imageUrl': '359.png',
     'types': ['dark'],
+    'abilities': ['매직미러', '대운', '프레셔'],
+    'stats': [65, 130, 60, 105, 60, 105, 525],
   },
   {
     'id': 360,
@@ -2540,6 +3353,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '무쇠가시',
     'imageUrl': '995.png',
     'types': ['rock', 'electric'],
+    'abilities': ['돌머리', '하드록', '하드록'],
+    'stats': [100, 134, 110, 70, 84, 72, 570],
+    'evolutionCondition': '데기라스 (부스트에너지V)',
   },
   {
     'id': 361,
@@ -2547,6 +3363,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '눈꼬마',
     'imageUrl': '361.png',
     'types': ['ice'],
+    'abilities': ['정신력', '변덕쟁이', '아이스바디'],
+    'stats': [50, 50, 50, 50, 50, 50, 300],
   },
   {
     'id': 362,
@@ -2554,6 +3372,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '얼음귀신',
     'imageUrl': '362.png',
     'types': ['ice'],
+    'abilities': ['엄동설한', '변덕쟁이', '아이스바디'],
+    'stats': [80, 95, 80, 95, 80, 90, 520],
+    'evolutionCondition': '눈꼬마 (얼음의돌)',
   },
   {
     'id': 363,
@@ -2561,6 +3382,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '드니차',
     'imageUrl': '996.png',
     'types': ['dragon', 'ice'],
+    'abilities': ['수의베일', '아이스바디', '아이스바디'],
+    'stats': [65, 75, 45, 35, 45, 55, 320],
   },
   {
     'id': 364,
@@ -2568,6 +3391,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '드니꽁',
     'imageUrl': '997.png',
     'types': ['dragon', 'ice'],
+    'abilities': ['수의베일', '아이스바디', '아이스바디'],
+    'stats': [90, 95, 66, 45, 65, 62, 423],
+    'evolutionCondition': '드니차 (레벨 35)',
   },
   {
     'id': 365,
@@ -2575,6 +3401,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '드닐레이브',
     'imageUrl': '998.png',
     'types': ['dragon', 'ice'],
+    'abilities': ['수의베일', '아이스바디', '아이스바디'],
+    'stats': [115, 145, 92, 75, 86, 87, 600],
+    'evolutionCondition': '드니꽁 (레벨 54)',
   },
   {
     'id': 366,
@@ -2582,6 +3411,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '카르본',
     'imageUrl': '935.png',
     'types': ['fire'],
+    'abilities': ['타오르는불꽃', '불꽃몸', '의기양양'],
+    'stats': [50, 55, 50, 55, 50, 45, 305],
   },
   {
     'id': 367,
@@ -2589,6 +3420,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '카디나르마',
     'imageUrl': '936.png',
     'types': ['fire', 'psychic'],
+    'abilities': ['타오르는불꽃', '깨어진갑옷', '메가런처'],
+    'stats': [85, 60, 100, 125, 80, 75, 525],
+    'evolutionCondition': '카르본 (축복받은갑옷)',
   },
   {
     'id': 368,
@@ -2596,6 +3430,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '파라블레이즈',
     'imageUrl': '937.png',
     'types': ['fire', 'ghost'],
+    'abilities': ['타오르는불꽃', '깨어진갑옷', '예리함'],
+    'stats': [75, 125, 80, 60, 100, 85, 525],
+    'evolutionCondition': '카르본 (저주받은갑옷)',
   },
   {
     'id': 369,
@@ -2603,6 +3440,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '오기지게',
     'imageUrl': '739.png',
     'types': ['fighting'],
+    'abilities': ['오기', '철주먹', '분노의경혈'],
+    'stats': [47, 82, 57, 42, 47, 63, 338],
   },
   {
     'id': 370,
@@ -2610,6 +3449,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '모단단게',
     'imageUrl': '740.png',
     'types': ['fighting', 'ice'],
+    'abilities': ['오기', '철주먹', '분노의경혈'],
+    'stats': [107, 132, 87, 62, 77, 43, 508],
+    'evolutionCondition': '오기지게 (얼음의돌)',
   },
   {
     'id': 371,
@@ -2617,6 +3459,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '아공이',
     'imageUrl': '371.png',
     'types': ['dragon'],
+    'abilities': ['돌머리', '우격다짐', '우격다짐'],
+    'stats': [45, 75, 60, 40, 30, 50, 300],
   },
   {
     'id': 372,
@@ -2624,6 +3468,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '쉘곤',
     'imageUrl': '372.png',
     'types': ['dragon'],
+    'abilities': ['돌머리', '방진', '방진'],
+    'stats': [65, 95, 100, 60, 50, 50, 420],
   },
   {
     'id': 373,
@@ -2631,6 +3477,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '보만다',
     'imageUrl': '373.png',
     'types': ['dragon', 'flying'],
+    'abilities': ['위협', '자기과신', '자기과신'],
+    'stats': [95, 135, 80, 110, 80, 100, 600],
+    'evolutionCondition': '쉘곤 (레벨 50)',
   },
   {
     'id': 374,
@@ -2638,6 +3487,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '메탕',
     'imageUrl': '374.png',
     'types': ['steel', 'psychic'],
+    'abilities': ['클리어바디', '돌머리', '라이트메탈'],
+    'stats': [40, 55, 80, 35, 60, 30, 300],
   },
   {
     'id': 375,
@@ -2645,6 +3496,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '메탕구',
     'imageUrl': '375.png',
     'types': ['steel', 'psychic'],
+    'abilities': ['클리어바디', '철주먹', '라이트메탈'],
+    'stats': [60, 75, 100, 55, 80, 50, 420],
   },
   {
     'id': 376,
@@ -2652,6 +3505,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '메타그로스',
     'imageUrl': '376.png',
     'types': ['steel', 'psychic'],
+    'abilities': ['클리어바디', '철주먹', '라이트메탈'],
+    'stats': [80, 135, 130, 95, 90, 70, 600],
   },
   {
     'id': 377,
@@ -2659,6 +3514,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '레지락',
     'imageUrl': '377.png',
     'types': ['rock'],
+    'abilities': ['하드록', '옹골참', '클리어바디'],
+    'stats': [80, 100, 200, 50, 100, 50, 580],
   },
   {
     'id': 378,
@@ -2666,6 +3523,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '레지아이스',
     'imageUrl': '378.png',
     'types': ['ice'],
+    'abilities': ['필터', '아이스바디', '클리어바디'],
+    'stats': [80, 50, 100, 100, 200, 50, 580],
   },
   {
     'id': 379,
@@ -2673,6 +3532,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '레지스틸',
     'imageUrl': '379.png',
     'types': ['steel'],
+    'abilities': ['내열', '클리어바디', '라이트메탈'],
+    'stats': [80, 75, 150, 75, 150, 50, 580],
   },
   {
     'id': 380,
@@ -2680,6 +3541,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '라티아스',
     'imageUrl': '380.png',
     'types': ['dragon', 'psychic'],
+    'abilities': ['부유'],
+    'stats': [80, 80, 90, 110, 130, 110, 600],
   },
   {
     'id': 381,
@@ -2687,6 +3550,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '라티오스',
     'imageUrl': '381.png',
     'types': ['dragon', 'psychic'],
+    'abilities': ['부유'],
+    'stats': [80, 90, 80, 130, 110, 110, 600],
   },
   {
     'id': 382,
@@ -2694,6 +3559,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '가이오가',
     'imageUrl': '382.png',
     'types': ['water'],
+    'abilities': ['잔비'],
+    'stats': [100, 100, 90, 150, 140, 90, 670],
   },
   {
     'id': 383,
@@ -2701,6 +3568,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '그란돈',
     'imageUrl': '383.png',
     'types': ['ground'],
+    'abilities': ['가뭄'],
+    'stats': [100, 150, 140, 100, 90, 90, 670],
   },
   {
     'id': 384,
@@ -2708,6 +3577,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '레쿠쟈',
     'imageUrl': '384.png',
     'types': ['dragon', 'flying'],
+    'abilities': ['에어록'],
+    'stats': [105, 150, 90, 150, 90, 95, 680],
   },
   {
     'id': 385,
@@ -2715,6 +3586,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '지라치',
     'imageUrl': '385.png',
     'types': ['steel', 'psychic'],
+    'abilities': ['하늘의은총', '매직가드', '매직미러'],
+    'stats': [100, 100, 100, 100, 100, 100, 600],
   },
   {
     'id': 386,
@@ -2725,21 +3598,29 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'formName': '노말',
         'imageUrl': '386.png',
         'types': ['psychic'],
+        'abilities': ['변덕쟁이', '프레셔'],
+        'stats': [50, 150, 50, 150, 50, 150, 600],
       },
       {
         'formName': '어택',
         'imageUrl': '10001.png',
         'types': ['psychic'],
+        'abilities': ['다운로드', '프레셔'],
+        'stats': [50, 180, 20, 180, 20, 150, 600],
       },
       {
         'formName': '디펜스',
         'imageUrl': '10002.png',
         'types': ['psychic'],
+        'abilities': ['재생력', '프레셔'],
+        'stats': [50, 70, 160, 70, 160, 90, 600],
       },
       {
         'formName': '스피드',
         'imageUrl': '10003.png',
         'types': ['psychic'],
+        'abilities': ['정신력', '프레셔'],
+        'stats': [50, 95, 90, 95, 90, 180, 600],
       },
     ],
   },
@@ -2749,6 +3630,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '모부기',
     'imageUrl': '387.png',
     'types': ['grass'],
+    'abilities': ['돌머리', '조가비갑옷', '심록'],
+    'stats': [55, 68, 64, 45, 55, 31, 318],
   },
   {
     'id': 388,
@@ -2756,6 +3639,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '수풀부기',
     'imageUrl': '388.png',
     'types': ['grass'],
+    'abilities': ['돌머리', '조가비갑옷', '심록'],
+    'stats': [75, 89, 85, 55, 65, 36, 405],
   },
   {
     'id': 389,
@@ -2763,6 +3648,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '토대부기',
     'imageUrl': '389.png',
     'types': ['grass', 'ground'],
+    'abilities': ['돌머리', '지구력', '심록'],
+    'stats': [105, 109, 110, 65, 85, 61, 535],
   },
   {
     'id': 390,
@@ -2770,6 +3657,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '불꽃숭이',
     'imageUrl': '390.png',
     'types': ['fire'],
+    'abilities': ['노가드', '테크니션', '맹화'],
+    'stats': [44, 58, 44, 58, 44, 61, 309],
   },
   {
     'id': 391,
@@ -2777,6 +3666,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '파이숭이',
     'imageUrl': '391.png',
     'types': ['fire', 'fighting'],
+    'abilities': ['노가드', '테크니션', '맹화'],
+    'stats': [64, 78, 52, 78, 52, 81, 405],
   },
   {
     'id': 392,
@@ -2784,6 +3675,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '초염몽',
     'imageUrl': '392.png',
     'types': ['fire', 'fighting'],
+    'abilities': ['노가드', '테크니션', '맹화'],
+    'stats': [76, 104, 71, 104, 71, 109, 535],
   },
   {
     'id': 393,
@@ -2791,6 +3684,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '팽도리',
     'imageUrl': '393.png',
     'types': ['water'],
+    'abilities': ['승기', '노가드', '급류'],
+    'stats': [53, 51, 53, 61, 56, 40, 314],
   },
   {
     'id': 394,
@@ -2798,6 +3693,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '팽태자',
     'imageUrl': '394.png',
     'types': ['water'],
+    'abilities': ['승기', '노가드', '급류'],
+    'stats': [64, 66, 68, 81, 76, 50, 405],
   },
   {
     'id': 395,
@@ -2805,6 +3702,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '엠페르트',
     'imageUrl': '395.png',
     'types': ['water', 'steel'],
+    'abilities': ['승기', '노가드', '단단한발톱'],
+    'stats': [84, 86, 88, 111, 91, 75, 535],
   },
   {
     'id': 396,
@@ -2812,6 +3711,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '찌르꼬',
     'imageUrl': '396.png',
     'types': ['normal', 'flying'],
+    'abilities': ['이판사판', '날카로운눈', '이판사판'],
+    'stats': [40, 55, 30, 30, 30, 60, 245],
   },
   {
     'id': 397,
@@ -2819,6 +3720,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '찌르버드',
     'imageUrl': '397.png',
     'types': ['normal', 'flying'],
+    'abilities': ['이판사판', '위협', '이판사판'],
+    'stats': [55, 75, 50, 40, 40, 80, 340],
   },
   {
     'id': 398,
@@ -2826,6 +3729,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '찌르호크',
     'imageUrl': '398.png',
     'types': ['normal', 'flying'],
+    'abilities': ['이판사판', '위협', '이판사판'],
+    'stats': [95, 120, 70, 50, 60, 100, 495],
   },
   {
     'id': 399,
@@ -2833,6 +3738,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '비버니',
     'imageUrl': '399.png',
     'types': ['normal'],
+    'abilities': ['단순', '천진', '변덕쟁이'],
+    'stats': [59, 45, 40, 35, 40, 31, 250],
   },
   {
     'id': 400,
@@ -2840,6 +3747,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '비버통',
     'imageUrl': '400.png',
     'types': ['normal', 'water'],
+    'abilities': ['단순', '천진', '변덕쟁이'],
+    'stats': [99, 95, 70, 55, 70, 71, 460],
   },
   {
     'id': 401,
@@ -2847,6 +3756,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '콩알뚜기',
     'imageUrl': '919.png',
     'types': ['bug'],
+    'abilities': ['벌레의알림', '색안경', '벌레의알림'],
+    'stats': [43, 46, 40, 21, 30, 60, 240],
   },
   {
     'id': 402,
@@ -2854,6 +3765,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '엑스레그',
     'imageUrl': '920.png',
     'types': ['bug', 'dark'],
+    'abilities': ['벌레의알림', '색안경', '벌레의알림'],
+    'stats': [71, 118, 78, 42, 55, 106, 470],
+    'evolutionCondition': '콩알뚜기 (레벨 24)',
   },
   {
     'id': 403,
@@ -2861,6 +3775,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '꼬링크',
     'imageUrl': '403.png',
     'types': ['electric'],
+    'abilities': ['옹골찬턱', '위협', '근성'],
+    'stats': [45, 65, 34, 40, 34, 45, 263],
   },
   {
     'id': 404,
@@ -2868,6 +3784,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '럭시오',
     'imageUrl': '404.png',
     'types': ['electric'],
+    'abilities': ['옹골찬턱', '위협', '근성'],
+    'stats': [60, 85, 49, 60, 49, 60, 363],
   },
   {
     'id': 405,
@@ -2875,6 +3793,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '렌트라',
     'imageUrl': '405.png',
     'types': ['electric', 'dark'],
+    'abilities': ['옹골찬턱', '위협', '근성'],
+    'stats': [80, 120, 79, 95, 79, 70, 523],
   },
   {
     'id': 406,
@@ -2882,6 +3802,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '윈디(히스이)',
     'imageUrl': '10230.png',
     'types': ['fire', 'rock'],
+    'abilities': ['위협', '돌머리', '타오르는불꽃'],
+    'stats': [95, 115, 80, 95, 80, 90, 555],
+    'evolutionCondition': '가디(히스이) (불꽃의돌)',
   },
   {
     'id': 407,
@@ -2889,6 +3812,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '로즈레이드',
     'imageUrl': '407.png',
     'types': ['grass', 'poison'],
+    'abilities': ['하늘의은총', '독가시', '테크니션'],
+    'stats': [60, 70, 65, 125, 105, 90, 515],
   },
   {
     'id': 408,
@@ -2896,6 +3821,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '티고라스',
     'imageUrl': '696.png',
     'types': ['rock', 'dragon'],
+    'abilities': ['옹골찬턱', '옹골참', '옹골참'],
+    'stats': [58, 89, 77, 45, 45, 48, 362],
   },
   {
     'id': 409,
@@ -2903,6 +3830,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '견고라스',
     'imageUrl': '697.png',
     'types': ['rock', 'dragon'],
+    'abilities': ['옹골찬턱', '돌머리', '돌머리'],
+    'stats': [82, 125, 109, 55, 69, 81, 521],
+    'evolutionCondition': '티고라스 (레벨 39)',
   },
   {
     'id': 410,
@@ -2910,6 +3840,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '아마루스',
     'imageUrl': '698.png',
     'types': ['rock', 'ice'],
+    'abilities': ['적응력', '눈퍼뜨리기', '눈퍼뜨리기'],
+    'stats': [77, 59, 50, 67, 63, 46, 362],
   },
   {
     'id': 411,
@@ -2917,6 +3849,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '아마루르가',
     'imageUrl': '699.png',
     'types': ['rock', 'ice'],
+    'abilities': ['적응력', '눈퍼뜨리기', '눈퍼뜨리기'],
+    'stats': [100, 55, 100, 100, 106, 60, 521],
+    'evolutionCondition': '아마루스 (레벨 39)',
   },
   {
     'id': 412,
@@ -2924,6 +3859,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '암멍이',
     'imageUrl': '744.png',
     'types': ['rock'],
+    'abilities': ['날카로운눈', '의기양양', '불굴의마음'],
+    'stats': [45, 65, 40, 30, 40, 60, 280],
   },
   {
     'id': 413,
@@ -2934,16 +3871,27 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'formName': '한낮',
         'imageUrl': '745.png',
         'types': ['rock', 'dark'],
+        'abilities': ['모래헤치기', '옹골찬턱', '불굴의마음'],
+        'stats': [75, 115, 70, 45, 70, 112, 487],
+        'evolutionCondition': '암멍이(푸른눈)가 풀숲에서 배틀 후 레벨 25 달성',
       },
       {
         'formName': '한밤중',
         'imageUrl': '10126.png',
         'types': ['rock', 'ghost'],
+        'abilities': ['하드록', '노가드', '불굴의마음'],
+        'stats': [100, 110, 80, 45, 80, 72, 487],
+        'evolutionCondition':
+          '암멍이(붉은눈)가 동굴/사막에서 배틀 후 레벨 25 달성',
       },
       {
         'formName': '황혼',
         'imageUrl': '10152.png',
         'types': ['rock', 'fighting'],
+        'abilities': ['모래숨기', '단단한발톱', '불굴의마음'],
+        'stats': [75, 117, 70, 45, 70, 110, 487],
+        'evolutionCondition':
+          '암멍이(초록눈)가 건물 내부에서 배틀 후 레벨 25 달성',
       },
     ],
   },
@@ -2953,6 +3901,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '장침바루',
     'imageUrl': '904.png',
     'types': ['dark', 'poison'],
+    'abilities': ['스킬링크', '쓱쓱', '위협'],
+    'stats': [85, 120, 110, 65, 70, 85, 535],
+    'evolutionCondition': '침바루(히스이) (독침천발 획득)',
   },
   {
     'id': 415,
@@ -2960,6 +3911,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '메롱꿍',
     'imageUrl': '859.png',
     'types': ['dark', 'fairy'],
+    'abilities': ['짓궂은마음', '변덕쟁이', '통찰'],
+    'stats': [50, 50, 35, 55, 45, 60, 295],
   },
   {
     'id': 416,
@@ -2967,6 +3920,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '쏘겨모',
     'imageUrl': '860.png',
     'types': ['dark', 'fairy'],
+    'abilities': ['짓궂은마음', '변덕쟁이', '통찰'],
+    'stats': [70, 65, 50, 75, 60, 80, 400],
+    'evolutionCondition': '메롱꿍 (레벨 32)',
   },
   {
     'id': 417,
@@ -2974,6 +3930,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '오롱털',
     'imageUrl': '861.png',
     'types': ['dark', 'fairy'],
+    'abilities': ['짓궂은마음', '변덕쟁이', '통찰'],
+    'stats': [95, 120, 65, 95, 75, 60, 510],
+    'evolutionCondition': '쏘겨모 (레벨 42)',
   },
   {
     'id': 418,
@@ -2981,6 +3940,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '찌로꼬치',
     'imageUrl': '846.png',
     'types': ['water'],
+    'abilities': ['쓱쓱', '틈새포착', '쓱쓱'],
+    'stats': [41, 63, 40, 40, 30, 66, 280],
   },
   {
     'id': 419,
@@ -2988,6 +3949,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '꼬치조',
     'imageUrl': '847.png',
     'types': ['water'],
+    'abilities': ['쓱쓱', '틈새포착', '쓱쓱'],
+    'stats': [61, 123, 60, 60, 50, 136, 490],
+    'evolutionCondition': '찌로꼬치 (레벨 26)',
   },
   {
     'id': 420,
@@ -2995,6 +3959,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '체리버',
     'imageUrl': '420.png',
     'types': ['grass'],
+    'abilities': ['엽록소'],
+    'stats': [55, 50, 45, 62, 53, 40, 305],
   },
   {
     'id': 421,
@@ -3002,6 +3968,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '체리꼬',
     'imageUrl': '421.png',
     'types': ['grass'],
+    'abilities': ['플라워기프트'],
+    'stats': [70, 97, 85, 105, 83, 90, 530],
   },
   {
     'id': 422,
@@ -3009,6 +3977,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '일레즌',
     'imageUrl': '848.png',
     'types': ['electric', 'poison'],
+    'abilities': ['주눅', '정전기', '서투름'],
+    'stats': [40, 38, 35, 54, 35, 40, 242],
   },
   {
     'id': 423,
@@ -3019,11 +3989,17 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'formName': '하이폼',
         'imageUrl': '849.png',
         'types': ['electric', 'poison'],
+        'abilities': ['고음', '이판사판', '테크니션'],
+        'stats': [82, 106, 70, 116, 70, 84, 528],
+        'evolutionCondition': '일레즌 (레벨 29)',
       },
       {
         'formName': '로우폼',
         'imageUrl': '10184.png',
         'types': ['electric', 'poison'],
+        'abilities': ['고음', '이판사판', '테크니션'],
+        'stats': [82, 106, 70, 116, 70, 84, 528],
+        'evolutionCondition': '일레즌 (레벨 29)',
       },
     ],
   },
@@ -3033,6 +4009,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '겟핸보숭',
     'imageUrl': '424.png',
     'types': ['normal'],
+    'abilities': ['스킬링크', '테크니션', '픽업'],
+    'stats': [75, 105, 66, 68, 66, 115, 495],
   },
   {
     'id': 425,
@@ -3040,6 +4018,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '흔들풍손',
     'imageUrl': '425.png',
     'types': ['ghost', 'flying'],
+    'abilities': ['열폭주', '곡예', '유폭'],
+    'stats': [90, 50, 44, 60, 44, 70, 358],
   },
   {
     'id': 426,
@@ -3047,6 +4027,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '둥실라이드',
     'imageUrl': '426.png',
     'types': ['ghost', 'flying'],
+    'abilities': ['열폭주', '곡예', '유폭'],
+    'stats': [150, 80, 54, 90, 54, 80, 508],
   },
   {
     'id': 427,
@@ -3054,6 +4036,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '이어롤',
     'imageUrl': '427.png',
     'types': ['normal'],
+    'abilities': ['도주', '유연', '서투름'],
+    'stats': [55, 66, 44, 44, 56, 85, 350],
   },
   {
     'id': 428,
@@ -3061,6 +4045,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '이어롭',
     'imageUrl': '428.png',
     'types': ['normal', 'fighting'],
+    'abilities': ['배짱', '유연', '서투름'],
+    'stats': [65, 106, 84, 54, 96, 105, 510],
   },
   {
     'id': 429,
@@ -3068,6 +4054,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '무우마직',
     'imageUrl': '429.png',
     'types': ['ghost', 'dark'],
+    'abilities': ['부유', '하늘의은총', '하늘의은총'],
+    'stats': [70, 70, 70, 105, 105, 105, 525],
+    'evolutionCondition': '무우마 (어둠의돌)',
   },
   {
     'id': 430,
@@ -3075,6 +4064,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '돈크로우',
     'imageUrl': '430.png',
     'types': ['dark', 'flying'],
+    'abilities': ['자기과신', '대운', '자기과신'],
+    'stats': [100, 125, 52, 125, 52, 81, 535],
   },
   {
     'id': 431,
@@ -3082,6 +4073,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '꽁어름',
     'imageUrl': '712.png',
     'types': ['ice'],
+    'abilities': ['마이페이스', '옹골참', '아이스바디'],
+    'stats': [55, 69, 85, 32, 35, 28, 304],
   },
   {
     'id': 432,
@@ -3089,6 +4082,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '크레베이스',
     'imageUrl': '713.png',
     'types': ['ice', 'steel'],
+    'abilities': ['멀티스케일', '옹골참', '아이스바디'],
+    'stats': [95, 117, 184, 40, 64, 28, 528],
+    'evolutionCondition': '꽁어름 (레벨 37)',
   },
   {
     'id': 433,
@@ -3096,6 +4092,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '멜리시',
     'imageUrl': '703.png',
     'types': ['rock', 'fairy'],
+    'abilities': ['단순', '옹골참', '옹골참'],
+    'stats': [75, 25, 150, 50, 150, 50, 500],
   },
   {
     'id': 434,
@@ -3103,6 +4101,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '모래꿍',
     'imageUrl': '769.png',
     'types': ['ghost', 'ground'],
+    'abilities': ['저수', '모래숨기', '모래숨기'],
+    'stats': [55, 55, 80, 70, 45, 15, 320],
   },
   {
     'id': 435,
@@ -3110,6 +4110,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '모래성이당',
     'imageUrl': '771.png',
     'types': ['ghost', 'ground'],
+    'abilities': ['저수', '모래날림', '모래날림'],
+    'stats': [85, 75, 115, 110, 80, 35, 500],
+    'evolutionCondition': '모래꿍 (레벨 37)',
   },
   {
     'id': 436,
@@ -3117,6 +4120,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '동미러',
     'imageUrl': '436.png',
     'types': ['steel', 'psychic'],
+    'abilities': ['부유', '내열', '헤비메탈'],
+    'stats': [57, 24, 86, 24, 86, 23, 300],
   },
   {
     'id': 437,
@@ -3124,6 +4129,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '동탁군',
     'imageUrl': '437.png',
     'types': ['steel', 'psychic'],
+    'abilities': ['부유', '내열', '헤비메탈'],
+    'stats': [72, 89, 116, 79, 116, 33, 505],
   },
   {
     'id': 438,
@@ -3131,6 +4138,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '모크나이퍼(히스이)',
     'imageUrl': '10244.png',
     'types': ['grass', 'fighting'],
+    'abilities': ['스나이퍼', '배짱', '심록'],
+    'stats': [88, 112, 80, 65, 95, 95, 535],
+    'evolutionCondition': '빼미스로우 (히스이의각성 습득)',
   },
   {
     'id': 439,
@@ -3138,6 +4148,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '블레이범(히스이)',
     'imageUrl': '10233.png',
     'types': ['fire', 'ghost'],
+    'abilities': ['타오르는불꽃', '하늘의은총', '맹화'],
+    'stats': [83, 69, 73, 120, 100, 90, 535],
+    'evolutionCondition': '마그케인 (히스이의각성 습득)',
   },
   {
     'id': 440,
@@ -3145,6 +4158,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '대검귀(히스이)',
     'imageUrl': '10236.png',
     'types': ['water', 'dark'],
+    'abilities': ['예리함', '깨어진갑옷', '급류'],
+    'stats': [90, 110, 80, 95, 70, 90, 535],
+    'evolutionCondition': '쌍검자비 (히스이의각성 습득)',
   },
   {
     'id': 441,
@@ -3152,6 +4168,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '페라페',
     'imageUrl': '441.png',
     'types': ['normal', 'flying'],
+    'abilities': ['방음', '고음', '부풀린가슴'],
+    'stats': [75, 65, 55, 100, 55, 100, 450],
   },
   {
     'id': 442,
@@ -3159,6 +4177,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '화강돌',
     'imageUrl': '442.png',
     'types': ['ghost', 'dark'],
+    'abilities': ['프레셔', '위협', '틈새포착'],
+    'stats': [50, 92, 108, 92, 108, 35, 485],
   },
   {
     'id': 443,
@@ -3166,6 +4186,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '딥상어동',
     'imageUrl': '443.png',
     'types': ['dragon', 'ground'],
+    'abilities': ['모래숨기', '까칠한피부', '까칠한피부'],
+    'stats': [58, 70, 45, 40, 45, 42, 300],
   },
   {
     'id': 444,
@@ -3173,6 +4195,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '한바이트',
     'imageUrl': '444.png',
     'types': ['dragon', 'ground'],
+    'abilities': ['모래숨기', '까칠한피부', '까칠한피부'],
+    'stats': [68, 90, 65, 50, 55, 82, 410],
   },
   {
     'id': 445,
@@ -3180,6 +4204,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '한카리아스',
     'imageUrl': '445.png',
     'types': ['dragon', 'ground'],
+    'abilities': ['모래숨기', '까칠한피부', '까칠한피부'],
+    'stats': [108, 130, 95, 80, 85, 102, 600],
   },
   {
     'id': 446,
@@ -3187,6 +4213,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '볼케니온',
     'imageUrl': '721.png',
     'types': ['fire', 'water'],
+    'abilities': ['저수', '-', '-'],
+    'stats': [80, 110, 120, 140, 100, 50, 600],
   },
   {
     'id': 447,
@@ -3194,6 +4222,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '리오르',
     'imageUrl': '447.png',
     'types': ['fighting'],
+    'abilities': ['짖궂은마음', '불굴의마음', '정신력'],
+    'stats': [40, 70, 40, 35, 40, 60, 285],
   },
   {
     'id': 448,
@@ -3201,6 +4231,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '루카리오',
     'imageUrl': '448.png',
     'types': ['fighting', 'steel'],
+    'abilities': ['메가런처', '적응력', '정신력'],
+    'stats': [70, 110, 70, 115, 70, 90, 525],
+    'evolutionCondition': '리오르 (레벨 26)',
   },
   {
     'id': 449,
@@ -3208,6 +4241,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '히포포타스',
     'imageUrl': '449.png',
     'types': ['ground'],
+    'abilities': ['모래날림', '모래의힘', '모래의힘'],
+    'stats': [68, 72, 78, 38, 42, 32, 330],
   },
   {
     'id': 450,
@@ -3215,6 +4250,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '하마돈',
     'imageUrl': '450.png',
     'types': ['ground'],
+    'abilities': ['모래날림', '모래의힘', '모래의힘'],
+    'stats': [108, 112, 118, 68, 72, 47, 525],
   },
   {
     'id': 451,
@@ -3222,6 +4259,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '스콜피',
     'imageUrl': '451.png',
     'types': ['poison', 'bug'],
+    'abilities': ['전투무장', '스나이퍼', '날카로운눈'],
+    'stats': [40, 50, 90, 30, 55, 65, 330],
   },
   {
     'id': 452,
@@ -3229,6 +4268,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '드래피온',
     'imageUrl': '452.png',
     'types': ['poison', 'dark'],
+    'abilities': ['단단한발톱', '스나이퍼', '날카로운눈'],
+    'stats': [70, 90, 110, 70, 85, 95, 520],
+    'evolutionCondition': '스콜피 (레벨 39)',
   },
   {
     'id': 453,
@@ -3236,6 +4278,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '삐딱구리',
     'imageUrl': '453.png',
     'types': ['poison', 'fighting'],
+    'abilities': ['테크니션', '건조피부', '독수'],
+    'stats': [48, 61, 40, 61, 40, 50, 300],
   },
   {
     'id': 454,
@@ -3243,6 +4287,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '독개굴',
     'imageUrl': '454.png',
     'types': ['poison', 'fighting'],
+    'abilities': ['테크니션', '건조피부', '독수'],
+    'stats': [83, 116, 70, 81, 70, 100, 520],
+    'evolutionCondition': '삐딱구리 (레벨 33)',
   },
   {
     'id': 455,
@@ -3250,6 +4297,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '포푸니크',
     'imageUrl': '903.png',
     'types': ['fighting', 'poison'],
+    'abilities': ['독수', '곡예', '프레셔'],
+    'stats': [80, 130, 60, 40, 80, 120, 510],
+    'evolutionCondition': '포푸니(히스이) 예리한발톱',
   },
   {
     'id': 456,
@@ -3257,6 +4307,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '형광어',
     'imageUrl': '456.png',
     'types': ['water', 'fairy'],
+    'abilities': ['쓱쓱', '마중물', '수의베일'],
+    'stats': [50, 50, 60, 70, 60, 80, 370],
   },
   {
     'id': 457,
@@ -3264,6 +4316,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '네오라이트',
     'imageUrl': '457.png',
     'types': ['water', 'fairy'],
+    'abilities': ['쓱쓱', '마중물', '수의베일'],
+    'stats': [70, 70, 75, 105, 85, 110, 515],
   },
   {
     'id': 458,
@@ -3271,6 +4325,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '무쇠손',
     'imageUrl': '992.png',
     'types': ['fighting', 'electric'],
+    'abilities': ['내열', '철주먹', '철주먹'],
+    'stats': [154, 140, 108, 50, 68, 50, 570],
+    'evolutionCondition': '마크탕 (부스트에너지V)',
   },
   {
     'id': 459,
@@ -3278,6 +4335,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '눈쓰개',
     'imageUrl': '459.png',
     'types': ['grass', 'ice'],
+    'abilities': ['눈퍼뜨리기', '방음', '방음'],
+    'stats': [60, 62, 50, 62, 60, 40, 334],
   },
   {
     'id': 460,
@@ -3285,6 +4344,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '눈설왕',
     'imageUrl': '460.png',
     'types': ['grass', 'ice'],
+    'abilities': ['눈퍼뜨리기', '방음', '방음'],
+    'stats': [90, 102, 85, 102, 85, 60, 524],
+    'evolutionCondition': '눈쓰개 (레벨 38)',
   },
   {
     'id': 461,
@@ -3292,6 +4354,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '포푸니라',
     'imageUrl': '461.png',
     'types': ['dark', 'ice'],
+    'abilities': ['정신력', '테크니션', '프레셔'],
+    'stats': [70, 120, 65, 45, 85, 125, 510],
+    'evolutionCondition': '포푸니(원종) 예리한발톱',
   },
   {
     'id': 462,
@@ -3299,6 +4364,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '자포코일',
     'imageUrl': '462.png',
     'types': ['electric', 'steel'],
+    'abilities': ['애널라이즈', '옹골참', '자력'],
+    'stats': [70, 70, 115, 130, 90, 60, 535],
+    'evolutionCondition': '레어코일 (전기돌동굴에서 레벨업, 천둥의돌)',
   },
   {
     'id': 463,
@@ -3306,6 +4374,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '내룸벨트',
     'imageUrl': '463.png',
     'types': ['normal'],
+    'abilities': ['날씨부정', '적응력', '날씨부정'],
+    'stats': [105, 105, 95, 95, 95, 40, 535],
   },
   {
     'id': 464,
@@ -3313,6 +4383,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '거대코뿌리',
     'imageUrl': '464.png',
     'types': ['ground', 'rock'],
+    'abilities': ['피뢰침', '하드록', '이판사판'],
+    'stats': [115, 140, 130, 55, 55, 40, 535],
+    'evolutionCondition': '코뿌리 (프로텍터)',
   },
   {
     'id': 465,
@@ -3320,6 +4393,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '덩쿠림보',
     'imageUrl': '465.png',
     'types': ['grass', 'ghost'],
+    'abilities': ['테크니션', '재생력', '엽록소'],
+    'stats': [100, 105, 110, 125, 60, 40, 540],
   },
   {
     'id': 466,
@@ -3327,6 +4402,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '에레키블',
     'imageUrl': '466.png',
     'types': ['electric', 'fighting'],
+    'abilities': ['전기엔진', '테라볼티지', '의기양양'],
+    'stats': [75, 125, 75, 75, 85, 105, 540],
+    'evolutionCondition': '에레브 (에레키부스터)',
   },
   {
     'id': 467,
@@ -3334,6 +4412,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '마그마번',
     'imageUrl': '467.png',
     'types': ['fire'],
+    'abilities': ['타오르는불꽃', '터보블레이즈', '의기양양'],
+    'stats': [75, 75, 80, 130, 90, 90, 540],
+    'evolutionCondition': '마그마 (마그마부스터)',
   },
   {
     'id': 468,
@@ -3341,6 +4422,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '토게키스',
     'imageUrl': '468.png',
     'types': ['fairy', 'flying'],
+    'abilities': ['대운', '하늘의은총', '대운'],
+    'stats': [85, 50, 95, 120, 115, 80, 545],
   },
   {
     'id': 469,
@@ -3348,6 +4431,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '메가자리',
     'imageUrl': '469.png',
     'types': ['bug', 'flying'],
+    'abilities': ['가속', '고음', '색안경'],
+    'stats': [86, 76, 86, 116, 56, 95, 515],
   },
   {
     'id': 470,
@@ -3355,6 +4440,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '리피아',
     'imageUrl': '470.png',
     'types': ['grass'],
+    'abilities': ['대운', '엽록소', '심록'],
+    'stats': [65, 130, 110, 60, 65, 95, 525],
+    'evolutionCondition': '이브이 (리프의돌)',
   },
   {
     'id': 471,
@@ -3362,6 +4450,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '글레이시아',
     'imageUrl': '471.png',
     'types': ['ice'],
+    'abilities': ['눈치우기', '하늘의은총', '눈숨기'],
+    'stats': [65, 60, 110, 130, 95, 65, 525],
+    'evolutionCondition': '이브이 (얼음의돌)',
   },
   {
     'id': 472,
@@ -3369,6 +4460,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '글라이온',
     'imageUrl': '472.png',
     'types': ['ground', 'flying'],
+    'abilities': ['단단한발톱', '포이즌힐', '모래숨기'],
+    'stats': [75, 95, 125, 45, 75, 95, 510],
+    'evolutionCondition': '글라이거 (예리한이빨)',
   },
   {
     'id': 473,
@@ -3376,6 +4470,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '맘모꾸리',
     'imageUrl': '473.png',
     'types': ['ice', 'ground'],
+    'abilities': ['두꺼운지방', '눈숨기', '둔감'],
+    'stats': [110, 130, 80, 70, 60, 80, 530],
   },
   {
     'id': 474,
@@ -3383,6 +4479,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '폴리곤Z',
     'imageUrl': '474.png',
     'types': ['normal'],
+    'abilities': ['적응력', '다운로드', '애널라이즈'],
+    'stats': [85, 80, 70, 135, 75, 90, 535],
+    'evolutionCondition': '폴리곤2 (괴상한패치)',
   },
   {
     'id': 475,
@@ -3390,6 +4489,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '엘레이드',
     'imageUrl': '475.png',
     'types': ['psychic', 'fighting'],
+    'abilities': ['예리함', '트레이스', '텔레파시'],
+    'stats': [68, 125, 65, 65, 110, 85, 518],
+    'evolutionCondition': '킬리아 (각성의돌)',
   },
   {
     'id': 476,
@@ -3397,6 +4499,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '대코파스',
     'imageUrl': '476.png',
     'types': ['rock', 'electric'],
+    'abilities': ['옹골참', '건조피부', '자력'],
+    'stats': [70, 45, 145, 95, 150, 30, 535],
+    'evolutionCondition': '코코파스 (전기돌동굴에서 레벨업, 천둥의돌)',
   },
   {
     'id': 477,
@@ -3404,6 +4509,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '야느와르몽',
     'imageUrl': '477.png',
     'types': ['ghost'],
+    'abilities': ['철주먹', '저주받은바디', '프레셔'],
+    'stats': [45, 100, 135, 65, 135, 45, 525],
+    'evolutionCondition': '미라몽 (영계의천)',
   },
   {
     'id': 478,
@@ -3411,6 +4519,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '눈여아',
     'imageUrl': '478.png',
     'types': ['ice', 'ghost'],
+    'abilities': ['눈숨기', '저주받은바디', '아이스바디'],
+    'stats': [75, 75, 75, 110, 75, 110, 520],
+    'evolutionCondition': '눈꼬마 (각성의돌)',
   },
   {
     'id': 479,
@@ -3421,31 +4532,43 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'formName': '일반',
         'imageUrl': '479.png',
         'types': ['electric', 'ghost'],
+        'abilities': ['부유'],
+        'stats': [50, 50, 77, 100, 77, 121, 475],
       },
       {
         'formName': '히트',
         'imageUrl': '10008.png',
         'types': ['electric', 'fire'],
+        'abilities': ['부유', '부유', '전기엔진'],
+        'stats': [50, 65, 107, 105, 107, 86, 520],
       },
       {
         'formName': '워시',
         'imageUrl': '10009.png',
         'types': ['electric', 'water'],
+        'abilities': ['부유', '부유', '전기엔진'],
+        'stats': [50, 65, 107, 105, 107, 86, 520],
       },
       {
         'formName': '프로스트',
         'imageUrl': '10010.png',
         'types': ['electric', 'ice'],
+        'abilities': ['부유', '부유', '전기엔진'],
+        'stats': [50, 65, 107, 105, 107, 86, 520],
       },
       {
         'formName': '스핀',
         'imageUrl': '10011.png',
         'types': ['electric', 'flying'],
+        'abilities': ['가속', '가속', '전기엔진'],
+        'stats': [50, 65, 107, 105, 107, 86, 520],
       },
       {
         'formName': '커트',
         'imageUrl': '10012.png',
         'types': ['electric', 'grass'],
+        'abilities': ['부유', '부유', '전기엔진'],
+        'stats': [50, 65, 107, 105, 107, 86, 520],
       },
     ],
   },
@@ -3455,6 +4578,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '유크시',
     'imageUrl': '480.png',
     'types': ['psychic', 'fairy'],
+    'abilities': ['부유'],
+    'stats': [75, 75, 130, 75, 130, 95, 580],
   },
   {
     'id': 481,
@@ -3462,6 +4587,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '엠라이트',
     'imageUrl': '481.png',
     'types': ['psychic', 'fairy'],
+    'abilities': ['부유'],
+    'stats': [80, 105, 105, 105, 105, 80, 580],
   },
   {
     'id': 482,
@@ -3469,6 +4596,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '아그놈',
     'imageUrl': '482.png',
     'types': ['psychic', 'fairy'],
+    'abilities': ['부유'],
+    'stats': [75, 125, 70, 125, 70, 115, 580],
   },
   {
     'id': 483,
@@ -3476,6 +4605,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '디아루가',
     'imageUrl': '483.png',
     'types': ['steel', 'dragon'],
+    'abilities': ['프레셔', '지구력', '텔레파시'],
+    'stats': [100, 120, 120, 150, 100, 90, 680],
   },
   {
     'id': 484,
@@ -3483,6 +4614,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '펄기아',
     'imageUrl': '484.png',
     'types': ['water', 'dragon'],
+    'abilities': ['프레셔', '예리함', '텔레파시'],
+    'stats': [90, 120, 100, 150, 120, 100, 680],
   },
   {
     'id': 485,
@@ -3490,6 +4623,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '히드런',
     'imageUrl': '485.png',
     'types': ['fire', 'steel'],
+    'abilities': ['타오르는불꽃', '불꽃몸'],
+    'stats': [91, 90, 106, 130, 106, 77, 600],
   },
   {
     'id': 486,
@@ -3497,6 +4632,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '레지기가스',
     'imageUrl': '486.png',
     'types': ['normal'],
+    'abilities': ['슬로스타트', '무기력', '슬로스타트'],
+    'stats': [110, 160, 110, 80, 110, 100, 670],
   },
   {
     'id': 487,
@@ -3507,11 +4644,13 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'formName': '어나더',
         'imageUrl': '487.png',
         'types': ['ghost', 'dragon'],
+        'stats': [150, 100, 120, 100, 120, 90, 680],
       },
       {
         'formName': '오리진',
         'imageUrl': '10007.png',
         'types': ['ghost', 'dragon'],
+        'stats': [150, 120, 100, 120, 100, 90, 680],
       },
     ],
   },
@@ -3521,6 +4660,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '크레세리아',
     'imageUrl': '488.png',
     'types': ['psychic'],
+    'abilities': ['부유'],
+    'stats': [120, 70, 110, 75, 120, 85, 580],
   },
   {
     'id': 489,
@@ -3528,6 +4669,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '디안시',
     'imageUrl': '719.png',
     'types': ['rock', 'fairy'],
+    'abilities': ['클리어바디', '매직미러', '매직미러'],
+    'stats': [50, 50, 150, 125, 150, 75, 600],
   },
   {
     'id': 490,
@@ -3535,6 +4678,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '마나피',
     'imageUrl': '490.png',
     'types': ['water', 'fairy'],
+    'abilities': ['촉촉바디', '잔비', '촉촉바디'],
+    'stats': [100, 100, 100, 100, 100, 100, 600],
   },
   {
     'id': 491,
@@ -3542,6 +4687,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '다크라이',
     'imageUrl': '491.png',
     'types': ['dark'],
+    'abilities': ['나이트메어'],
+    'stats': [70, 90, 90, 135, 90, 125, 600],
   },
   {
     'id': 492,
@@ -3552,11 +4699,15 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'formName': '랜드',
         'imageUrl': '492.png',
         'types': ['grass'],
+        'abilities': ['자연회복'],
+        'stats': [100, 100, 100, 100, 100, 100, 600],
       },
       {
         'formName': '스카이',
         'imageUrl': '10006.png',
         'types': ['grass', 'flying'],
+        'abilities': ['하늘의은총'],
+        'stats': [100, 103, 75, 120, 75, 127, 600],
       },
     ],
   },
@@ -3566,6 +4717,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '아르세우스',
     'imageUrl': '493.png',
     'types': ['normal'],
+    'abilities': ['멀티타입'],
+    'stats': [120, 120, 120, 120, 120, 120, 720],
   },
   {
     'id': 494,
@@ -3573,6 +4726,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '비크티니',
     'imageUrl': '494.png',
     'types': ['psychic', 'fire'],
+    'abilities': ['승리의별'],
+    'stats': [100, 100, 100, 100, 100, 100, 600],
   },
   {
     'id': 495,
@@ -3580,6 +4735,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '주리비얀',
     'imageUrl': '495.png',
     'types': ['grass'],
+    'abilities': ['심술꾸러기', '단순', '심록'],
+    'stats': [45, 45, 55, 45, 55, 63, 308],
   },
   {
     'id': 496,
@@ -3587,6 +4744,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '샤비',
     'imageUrl': '496.png',
     'types': ['grass', 'dragon'],
+    'abilities': ['심술꾸러기', '단순', '심록'],
+    'stats': [60, 60, 75, 60, 75, 83, 413],
   },
   {
     'id': 497,
@@ -3594,6 +4753,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '샤로다',
     'imageUrl': '497.png',
     'types': ['grass', 'dragon'],
+    'abilities': ['심술꾸러기', '단순', '심록'],
+    'stats': [80, 75, 95, 77, 95, 113, 535],
   },
   {
     'id': 498,
@@ -3601,6 +4762,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '뚜꾸리',
     'imageUrl': '498.png',
     'types': ['fire'],
+    'abilities': ['우격다짐', '이판사판', '맹화'],
+    'stats': [65, 63, 45, 45, 45, 45, 308],
   },
   {
     'id': 499,
@@ -3608,6 +4771,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '차오꿀',
     'imageUrl': '499.png',
     'types': ['fire', 'ground'],
+    'abilities': ['우격다짐', '이판사판', '맹화'],
+    'stats': [90, 93, 55, 70, 55, 55, 418],
   },
   {
     'id': 500,
@@ -3615,6 +4780,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '염무왕',
     'imageUrl': '500.png',
     'types': ['fire', 'ground'],
+    'abilities': ['틀깨기', '이판사판', '맹화'],
+    'stats': [115, 125, 80, 70, 80, 65, 535],
   },
   {
     'id': 501,
@@ -3622,6 +4789,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '수댕이',
     'imageUrl': '501.png',
     'types': ['water'],
+    'abilities': ['예리함', '조가비갑옷', '급류'],
+    'stats': [55, 55, 45, 63, 45, 45, 308],
   },
   {
     'id': 502,
@@ -3629,6 +4798,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '쌍검자비',
     'imageUrl': '502.png',
     'types': ['water'],
+    'abilities': ['예리함', '조가비갑옷', '급류'],
+    'stats': [75, 75, 60, 83, 60, 60, 413],
   },
   {
     'id': 503,
@@ -3636,6 +4807,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '대검귀',
     'imageUrl': '503.png',
     'types': ['water', 'fighting'],
+    'abilities': ['예리함', '깨어진갑옷', '급류'],
+    'stats': [95, 105, 85, 105, 75, 70, 535],
+    'evolutionCondition': '쌍검자비 (레벨 36)',
   },
   {
     'id': 504,
@@ -3643,6 +4817,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '에블리',
     'imageUrl': '742.png',
     'types': ['bug', 'fairy'],
+    'abilities': ['하늘의은총', '인분', '하늘의은총'],
+    'stats': [40, 50, 40, 60, 40, 84, 314],
   },
   {
     'id': 505,
@@ -3650,6 +4826,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '에리본',
     'imageUrl': '743.png',
     'types': ['bug', 'fairy'],
+    'abilities': ['하늘의은총', '인분', '하늘의은총'],
+    'stats': [70, 50, 60, 100, 70, 124, 474],
+    'evolutionCondition': '에블리 (레벨 25)',
   },
   {
     'id': 506,
@@ -3657,6 +4836,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '요테리',
     'imageUrl': '506.png',
     'types': ['normal'],
+    'abilities': ['의기양양', '픽업', '도주'],
+    'stats': [45, 60, 45, 25, 45, 55, 275],
   },
   {
     'id': 507,
@@ -3664,6 +4845,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '하데리어',
     'imageUrl': '507.png',
     'types': ['normal'],
+    'abilities': ['위협', '모래헤치기', '배짱'],
+    'stats': [65, 80, 65, 35, 65, 60, 370],
   },
   {
     'id': 508,
@@ -3671,6 +4854,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '바랜드',
     'imageUrl': '508.png',
     'types': ['normal'],
+    'abilities': ['위협', '모래헤치기', '배짱'],
+    'stats': [100, 110, 90, 45, 90, 85, 520],
   },
   {
     'id': 509,
@@ -3678,6 +4863,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '쌔비냥',
     'imageUrl': '509.png',
     'types': ['dark'],
+    'abilities': ['짓궂은마음', '통찰', '짓궂은마음'],
+    'stats': [45, 50, 40, 50, 40, 80, 305],
   },
   {
     'id': 510,
@@ -3685,6 +4872,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '레파르다스',
     'imageUrl': '510.png',
     'types': ['dark'],
+    'abilities': ['짓궂은마음', '통찰', '짓궂은마음'],
+    'stats': [64, 90, 50, 90, 50, 116, 460],
   },
   {
     'id': 511,
@@ -3692,6 +4881,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '미끄메라',
     'imageUrl': '704.png',
     'types': ['dragon'],
+    'abilities': ['포이즌힐', '마중물', '초식'],
+    'stats': [45, 50, 40, 55, 70, 40, 300],
   },
   {
     'id': 512,
@@ -3699,6 +4890,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '미끄네일',
     'imageUrl': '705.png',
     'types': ['dragon'],
+    'abilities': ['포이즌힐', '마중물', '초식'],
+    'stats': [68, 75, 53, 83, 113, 60, 452],
+    'evolutionCondition': '미끄메라 (레벨 35)',
   },
   {
     'id': 513,
@@ -3706,6 +4900,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '미끄래곤',
     'imageUrl': '706.png',
     'types': ['dragon'],
+    'abilities': ['포이즌힐', '마중물', '초식'],
+    'stats': [90, 100, 80, 110, 140, 80, 600],
+    'evolutionCondition': '미끄네일 (레벨 50)',
   },
   {
     'id': 514,
@@ -3713,6 +4910,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '턱지충이',
     'imageUrl': '736.png',
     'types': ['bug'],
+    'abilities': ['벌레의알림', '옹골찬턱', '벌레의알림'],
+    'stats': [47, 62, 45, 55, 45, 46, 300],
   },
   {
     'id': 515,
@@ -3720,6 +4919,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '전지충이',
     'imageUrl': '737.png',
     'types': ['bug', 'electric'],
+    'abilities': ['축전', '전투무장', '축전'],
+    'stats': [57, 82, 95, 55, 75, 36, 400],
+    'evolutionCondition': '턱지충이 (레벨 20)',
   },
   {
     'id': 516,
@@ -3727,6 +4929,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '투구뿌논',
     'imageUrl': '738.png',
     'types': ['bug', 'electric'],
+    'abilities': ['전기엔진', '부유', '전기엔진'],
+    'stats': [77, 70, 90, 145, 75, 43, 500],
+    'evolutionCondition': '전지충이 (천둥의돌)',
   },
   {
     'id': 517,
@@ -3734,6 +4939,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '두랄루돈',
     'imageUrl': '884.png',
     'types': ['steel', 'dragon'],
+    'abilities': ['열폭주', '매직가드', '라이트메탈'],
+    'stats': [70, 95, 115, 120, 50, 85, 535],
   },
   {
     'id': 518,
@@ -3741,6 +4948,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '브리두라스',
     'imageUrl': '1018.png',
     'types': ['steel', 'dragon'],
+    'abilities': ['지구력', '매직가드', '옹골참'],
+    'stats': [90, 105, 130, 125, 65, 85, 600],
+    'evolutionCondition': '두랄루돈 (복합금속)',
   },
   {
     'id': 519,
@@ -3748,6 +4958,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '화살꼬빈',
     'imageUrl': '661.png',
     'types': ['normal', 'flying'],
+    'abilities': ['이판사판', '불꽃몸', '불꽃몸'],
+    'stats': [50, 36, 30, 55, 50, 43, 264],
   },
   {
     'id': 520,
@@ -3755,6 +4967,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '불화살빈',
     'imageUrl': '662.png',
     'types': ['fire', 'flying'],
+    'abilities': ['이판사판', '불꽃몸', '불꽃몸'],
+    'stats': [62, 73, 55, 56, 52, 84, 382],
   },
   {
     'id': 521,
@@ -3762,6 +4976,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '파이어로',
     'imageUrl': '663.png',
     'types': ['fire', 'flying'],
+    'abilities': ['이판사판', '불꽃몸', '불꽃몸'],
+    'stats': [78, 81, 71, 74, 69, 126, 499],
   },
   {
     'id': 522,
@@ -3769,6 +4985,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '줄뮤마',
     'imageUrl': '522.png',
     'types': ['electric'],
+    'abilities': ['전기엔진', '이판사판', '피뢰침'],
+    'stats': [45, 60, 32, 50, 32, 76, 295],
   },
   {
     'id': 523,
@@ -3776,6 +4994,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '제브라이카',
     'imageUrl': '523.png',
     'types': ['electric'],
+    'abilities': ['전기엔진', '이판사판', '피뢰침'],
+    'stats': [80, 105, 63, 70, 63, 116, 497],
   },
   {
     'id': 524,
@@ -3783,6 +5003,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '단굴',
     'imageUrl': '524.png',
     'types': ['rock'],
+    'abilities': ['선파워', '모래의힘', '옹골참'],
+    'stats': [55, 25, 85, 75, 25, 15, 280],
   },
   {
     'id': 525,
@@ -3790,6 +5012,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '암트르',
     'imageUrl': '525.png',
     'types': ['rock'],
+    'abilities': ['선파워', '모래의힘', '옹골참'],
+    'stats': [70, 50, 105, 105, 40, 20, 390],
   },
   {
     'id': 526,
@@ -3797,6 +5021,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '기가이어스',
     'imageUrl': '526.png',
     'types': ['rock'],
+    'abilities': ['선파워', '모래날림', '옹골참'],
+    'stats': [85, 60, 130, 135, 80, 25, 515],
+    'evolutionCondition': '암트르 (연결의끈)',
   },
   {
     'id': 527,
@@ -3804,6 +5031,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '또르박쥐',
     'imageUrl': '527.png',
     'types': ['psychic', 'flying'],
+    'abilities': ['천진', '단순', '단순'],
+    'stats': [65, 45, 43, 65, 43, 72, 333],
   },
   {
     'id': 528,
@@ -3811,6 +5040,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '맘박쥐',
     'imageUrl': '528.png',
     'types': ['psychic', 'flying'],
+    'abilities': ['천진', '단순', '단순'],
+    'stats': [80, 57, 73, 96, 75, 114, 495],
   },
   {
     'id': 529,
@@ -3818,6 +5049,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '두더류',
     'imageUrl': '529.png',
     'types': ['ground'],
+    'abilities': ['모래헤치기', '틀깨기', '모래의힘'],
+    'stats': [60, 85, 40, 30, 45, 68, 328],
   },
   {
     'id': 530,
@@ -3825,6 +5058,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '몰드류',
     'imageUrl': '530.png',
     'types': ['ground', 'steel'],
+    'abilities': ['모래헤치기', '틀깨기', '모래의힘'],
+    'stats': [110, 135, 60, 50, 65, 88, 508],
   },
   {
     'id': 531,
@@ -3832,6 +5067,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '다부니',
     'imageUrl': '531.png',
     'types': ['normal', 'fairy'],
+    'abilities': ['승기', '재생력', '서투름'],
+    'stats': [103, 50, 86, 85, 86, 50, 460],
   },
   {
     'id': 532,
@@ -3839,6 +5076,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '으랏차',
     'imageUrl': '532.png',
     'types': ['fighting'],
+    'abilities': ['근성', '철주먹', '우격다짐'],
+    'stats': [75, 80, 55, 25, 35, 35, 305],
   },
   {
     'id': 533,
@@ -3846,6 +5085,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '토쇠골',
     'imageUrl': '533.png',
     'types': ['fighting'],
+    'abilities': ['근성', '철주먹', '우격다짐'],
+    'stats': [85, 105, 85, 40, 50, 40, 405],
   },
   {
     'id': 534,
@@ -3853,6 +5094,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '노보청',
     'imageUrl': '534.png',
     'types': ['fighting'],
+    'abilities': ['근성', '철주먹', '우격다짐'],
+    'stats': [105, 140, 95, 55, 65, 45, 505],
   },
   {
     'id': 535,
@@ -3860,6 +5103,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '동챙이',
     'imageUrl': '535.png',
     'types': ['water'],
+    'abilities': ['저수', '촉촉바디', '쓱쓱'],
+    'stats': [50, 50, 40, 50, 40, 64, 294],
   },
   {
     'id': 536,
@@ -3867,6 +5112,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '두까비',
     'imageUrl': '536.png',
     'types': ['water', 'ground'],
+    'abilities': ['저수', '촉촉바디', '쓱쓱'],
+    'stats': [75, 65, 55, 65, 55, 69, 384],
   },
   {
     'id': 537,
@@ -3874,6 +5121,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '두빅굴',
     'imageUrl': '537.png',
     'types': ['water', 'ground'],
+    'abilities': ['저수', '독수', '쓱쓱'],
+    'stats': [105, 95, 75, 95, 75, 74, 519],
   },
   {
     'id': 538,
@@ -3881,6 +5130,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '땅을기는날개',
     'imageUrl': '988.png',
     'types': ['bug', 'fighting'],
+    'abilities': ['천진', '인분', '인분'],
+    'stats': [85, 135, 79, 85, 105, 81, 570],
+    'evolutionCondition': '활화르바 (부스트에너지S)',
   },
   {
     'id': 539,
@@ -3888,6 +5140,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '무쇠독나방',
     'imageUrl': '994.png',
     'types': ['fire', 'poison'],
+    'abilities': ['텔레파시', '유폭', '유폭'],
+    'stats': [80, 70, 60, 140, 110, 110, 570],
+    'evolutionCondition': '활화르바 (부스트에너지V)',
   },
   {
     'id': 540,
@@ -3895,6 +5150,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '두르보',
     'imageUrl': '540.png',
     'types': ['bug', 'grass'],
+    'abilities': ['벌레의알림', '엽록소', '방진'],
+    'stats': [45, 53, 70, 40, 60, 42, 310],
   },
   {
     'id': 541,
@@ -3902,6 +5159,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '두르쿤',
     'imageUrl': '541.png',
     'types': ['bug', 'grass'],
+    'abilities': ['리프가드', '엽록소', '방진'],
+    'stats': [70, 63, 90, 50, 80, 42, 395],
+    'evolutionCondition': '두르보 (레벨 21)',
   },
   {
     'id': 542,
@@ -3909,6 +5169,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '모아머',
     'imageUrl': '542.png',
     'types': ['bug', 'grass'],
+    'abilities': ['예리함', '엽록소', '벌레의알림'],
+    'stats': [75, 103, 80, 70, 80, 92, 500],
   },
   {
     'id': 543,
@@ -3916,6 +5178,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '마디네',
     'imageUrl': '543.png',
     'types': ['bug', 'poison'],
+    'abilities': ['속보', '독가시', '벌레의알림'],
+    'stats': [30, 45, 59, 30, 39, 57, 260],
   },
   {
     'id': 544,
@@ -3923,6 +5187,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '휠구',
     'imageUrl': '544.png',
     'types': ['bug', 'poison'],
+    'abilities': ['가속', '독가시', '벌레의알림'],
+    'stats': [40, 55, 99, 40, 79, 47, 360],
+    'evolutionCondition': '마디네 (레벨 20)',
   },
   {
     'id': 545,
@@ -3930,6 +5197,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '펜드라',
     'imageUrl': '545.png',
     'types': ['bug', 'poison'],
+    'abilities': ['가속', '독가시', '벌레의알림'],
+    'stats': [60, 100, 89, 55, 69, 112, 485],
   },
   {
     'id': 546,
@@ -3937,6 +5206,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '소미안',
     'imageUrl': '546.png',
     'types': ['grass', 'fairy'],
+    'abilities': ['짓궂은마음', '틈새포착', '엽록소'],
+    'stats': [40, 27, 60, 37, 50, 66, 280],
   },
   {
     'id': 547,
@@ -3944,6 +5215,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '엘풍',
     'imageUrl': '547.png',
     'types': ['grass', 'fairy'],
+    'abilities': ['짓궂은마음', '틈새포착', '엽록소'],
+    'stats': [60, 67, 85, 77, 85, 116, 490],
   },
   {
     'id': 548,
@@ -3951,6 +5224,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '치릴리',
     'imageUrl': '548.png',
     'types': ['grass'],
+    'abilities': ['엽록소', '마이페이스', '리프가드'],
+    'stats': [45, 35, 50, 70, 50, 30, 280],
   },
   {
     'id': 549,
@@ -3958,6 +5233,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '드레디어',
     'imageUrl': '549.png',
     'types': ['grass'],
+    'abilities': ['엽록소', '마이페이스', '리프가드'],
+    'stats': [70, 60, 75, 115, 75, 95, 490],
+    'evolutionCondition': '치릴리 (태양의돌)',
   },
   {
     'id': 550,
@@ -3968,11 +5246,15 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'formName': '적색근',
         'imageUrl': '902.png',
         'types': ['water', 'ghost'],
+        'abilities': ['쓱쓱', '적응력', '틀깨기'],
+        'stats': [120, 115, 65, 77, 75, 78, 530],
       },
       {
         'formName': ' 청색근',
         'imageUrl': '10248.png',
         'types': ['water', 'ghost'],
+        'abilities': ['쓱쓱', '적응력', '틀깨기'],
+        'stats': [120, 77, 65, 115, 75, 78, 530],
       },
     ],
   },
@@ -3982,6 +5264,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '깜눈크',
     'imageUrl': '551.png',
     'types': ['ground', 'dark'],
+    'abilities': ['위협', '자기과신', '분노의경혈'],
+    'stats': [50, 72, 35, 35, 35, 65, 292],
   },
   {
     'id': 552,
@@ -3989,6 +5273,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '악비르',
     'imageUrl': '552.png',
     'types': ['ground', 'dark'],
+    'abilities': ['위협', '자기과신', '분노의경혈'],
+    'stats': [85, 92, 60, 45, 60, 74, 416],
+    'evolutionCondition': '깜눈크 (레벨 27)',
   },
   {
     'id': 553,
@@ -3996,6 +5283,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '악비아르',
     'imageUrl': '553.png',
     'types': ['ground', 'dark'],
+    'abilities': ['위협', '자기과신', '분노의경혈'],
+    'stats': [95, 117, 80, 65, 70, 102, 529],
   },
   {
     'id': 554,
@@ -4003,6 +5292,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '달막화',
     'imageUrl': '554.png',
     'types': ['fire'],
+    'abilities': ['의욕', '정신력'],
+    'stats': [70, 90, 45, 15, 45, 50, 315],
   },
   {
     'id': 555,
@@ -4013,11 +5304,15 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'formName': '노말모드',
         'imageUrl': '555.png',
         'types': ['fire'],
+        'abilities': ['우격다짐', '우격다짐', '달마모드'],
+        'stats': [105, 140, 55, 30, 55, 95, 480],
       },
       {
         'formName': '달마모드',
         'imageUrl': '10017.png',
         'types': ['fire', 'psychic'],
+        'abilities': ['우격다짐', '우격다짐', '달마모드'],
+        'stats': [105, 30, 105, 140, 105, 55, 540],
       },
     ],
   },
@@ -4027,6 +5322,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '마라카치',
     'imageUrl': '556.png',
     'types': ['grass'],
+    'abilities': ['까칠한피부', '테크니션', '엽록소'],
+    'stats': [90, 108, 92, 68, 72, 70, 500],
   },
   {
     'id': 557,
@@ -4034,6 +5331,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '돌살이',
     'imageUrl': '557.png',
     'types': ['bug', 'rock'],
+    'abilities': ['옹골참', '조가비갑옷', '깨어진갑옷'],
+    'stats': [50, 65, 85, 35, 35, 55, 325],
   },
   {
     'id': 558,
@@ -4041,6 +5340,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '암팰리스',
     'imageUrl': '558.png',
     'types': ['bug', 'rock'],
+    'abilities': ['옹골참', '지구력', '깨어진갑옷'],
+    'stats': [70, 105, 125, 55, 85, 55, 495],
   },
   {
     'id': 559,
@@ -4048,6 +5349,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '곤율랭',
     'imageUrl': '559.png',
     'types': ['dark', 'fighting'],
+    'abilities': ['위협', '자기과신', '유연'],
+    'stats': [50, 75, 70, 35, 70, 48, 348],
   },
   {
     'id': 560,
@@ -4055,6 +5358,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '곤율거니',
     'imageUrl': '560.png',
     'types': ['dark', 'fighting'],
+    'abilities': ['위협', '자기과신', '유연'],
+    'stats': [65, 90, 115, 45, 115, 58, 488],
+    'evolutionCondition': '곤율랭 (레벨 30)',
   },
   {
     'id': 561,
@@ -4062,6 +5368,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '심보러',
     'imageUrl': '561.png',
     'types': ['psychic', 'flying'],
+    'abilities': ['색안경', '매직가드', '미라클스킨'],
+    'stats': [72, 58, 80, 103, 80, 97, 490],
   },
   {
     'id': 562,
@@ -4069,6 +5377,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '데스마스',
     'imageUrl': '562.png',
     'types': ['ghost'],
+    'abilities': ['미라'],
+    'stats': [38, 30, 85, 55, 65, 30, 303],
   },
   {
     'id': 563,
@@ -4076,6 +5386,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '데스니칸',
     'imageUrl': '563.png',
     'types': ['ghost'],
+    'abilities': ['미라'],
+    'stats': [68, 50, 145, 105, 105, 30, 503],
+    'evolutionCondition': '데스마스(원종) (레벨 34)',
   },
   {
     'id': 564,
@@ -4083,6 +5396,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '프로토가',
     'imageUrl': '564.png',
     'types': ['water', 'rock'],
+    'abilities': ['하드록', '옹골참', '쓱쓱'],
+    'stats': [54, 78, 103, 53, 45, 22, 355],
   },
   {
     'id': 565,
@@ -4090,6 +5405,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '늑골라',
     'imageUrl': '565.png',
     'types': ['water', 'rock'],
+    'abilities': ['하드록', '옹골참', '쓱쓱'],
+    'stats': [74, 108, 133, 73, 75, 62, 525],
   },
   {
     'id': 566,
@@ -4097,6 +5414,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '아켄',
     'imageUrl': '566.png',
     'types': ['rock', 'flying'],
+    'abilities': ['무기력', '서투름', '도주'],
+    'stats': [55, 112, 45, 74, 45, 70, 401],
   },
   {
     'id': 567,
@@ -4104,6 +5423,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '아케오스',
     'imageUrl': '567.png',
     'types': ['rock', 'flying'],
+    'abilities': ['무기력', '서투름', '도주'],
+    'stats': [75, 140, 65, 112, 65, 110, 567],
   },
   {
     'id': 568,
@@ -4111,6 +5432,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '고동치는달',
     'imageUrl': '1005.png',
     'types': ['dragon', 'dark'],
+    'abilities': ['옹골찬턱', '틀깨기', '틀깨기'],
+    'stats': [105, 139, 71, 55, 101, 119, 590],
+    'evolutionCondition': '쉘곤 (부스트에너지S)',
   },
   {
     'id': 569,
@@ -4118,6 +5442,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '무쇠무인',
     'imageUrl': '1006.png',
     'types': ['fairy', 'fighting'],
+    'abilities': ['다운로드', '클리어바디', '클리어바디'],
+    'stats': [74, 130, 90, 120, 60, 116, 590],
+    'evolutionCondition': '킬리아 (부스트에너지V)',
   },
   {
     'id': 570,
@@ -4125,6 +5452,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '조로아(히스이)',
     'imageUrl': '10238.png',
     'types': ['normal', 'ghost'],
+    'abilities': ['일루전', '-', '-'],
+    'stats': [35, 60, 40, 85, 40, 70, 330],
   },
   {
     'id': 571,
@@ -4132,6 +5461,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '조로아크(히스이)',
     'imageUrl': '10239.png',
     'types': ['normal', 'ghost'],
+    'abilities': ['일루전', '-', '-'],
+    'stats': [55, 100, 60, 125, 60, 110, 510],
+    'evolutionCondition': '조로아(히스이) (레벨 30)',
   },
   {
     'id': 572,
@@ -4139,6 +5471,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '치라미',
     'imageUrl': '572.png',
     'types': ['normal'],
+    'abilities': ['스킬링크', '테크니션', '헤롱헤롱바디'],
+    'stats': [55, 50, 40, 40, 40, 75, 300],
   },
   {
     'id': 573,
@@ -4146,6 +5480,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '치라치노',
     'imageUrl': '573.png',
     'types': ['normal'],
+    'abilities': ['스킬링크', '테크니션', '헤롱헤롱바디'],
+    'stats': [80, 100, 60, 65, 60, 115, 480],
   },
   {
     'id': 574,
@@ -4153,6 +5489,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '고디탱',
     'imageUrl': '574.png',
     'types': ['psychic', 'dark'],
+    'abilities': ['승기', '텔레파시', '그림자밟기'],
+    'stats': [50, 20, 50, 55, 65, 50, 290],
   },
   {
     'id': 575,
@@ -4160,6 +5498,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '고디보미',
     'imageUrl': '575.png',
     'types': ['psychic', 'dark'],
+    'abilities': ['승기', '텔레파시', '그림자밟기'],
+    'stats': [65, 25, 70, 75, 85, 70, 390],
+    'evolutionCondition': '고디탱 (레벨 30)',
   },
   {
     'id': 576,
@@ -4167,6 +5508,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '고디모아젤',
     'imageUrl': '576.png',
     'types': ['psychic', 'dark'],
+    'abilities': ['승기', '텔레파시', '그림자밟기'],
+    'stats': [80, 30, 95, 95, 110, 90, 500],
   },
   {
     'id': 577,
@@ -4174,6 +5517,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '유니란',
     'imageUrl': '577.png',
     'types': ['psychic'],
+    'abilities': ['재생력', '매직가드', '방진'],
+    'stats': [55, 20, 40, 105, 50, 20, 290],
   },
   {
     'id': 578,
@@ -4181,6 +5526,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '듀란',
     'imageUrl': '578.png',
     'types': ['psychic'],
+    'abilities': ['재생력', '매직가드', '방진'],
+    'stats': [75, 30, 50, 125, 60, 30, 370],
+    'evolutionCondition': '유니란 (레벨 30)',
   },
   {
     'id': 579,
@@ -4188,6 +5536,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '란쿨루스',
     'imageUrl': '579.png',
     'types': ['psychic'],
+    'abilities': ['재생력', '매직가드', '방진'],
+    'stats': [125, 55, 75, 130, 85, 30, 500],
   },
   {
     'id': 580,
@@ -4195,6 +5545,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '꼬지보리',
     'imageUrl': '580.png',
     'types': ['water', 'flying'],
+    'abilities': ['적응력', '쓱쓱', '촉촉바디'],
+    'stats': [62, 44, 50, 44, 50, 55, 305],
   },
   {
     'id': 581,
@@ -4202,6 +5554,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '스완나',
     'imageUrl': '581.png',
     'types': ['water', 'flying'],
+    'abilities': ['적응력', '쓱쓱', '촉촉바디'],
+    'stats': [82, 63, 65, 109, 83, 98, 500],
   },
   {
     'id': 582,
@@ -4209,6 +5563,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '바닐프티',
     'imageUrl': '582.png',
     'types': ['ice', 'fairy'],
+    'abilities': ['눈숨기', '깨어진갑옷', '아이스바디'],
+    'stats': [36, 50, 50, 65, 60, 44, 305],
   },
   {
     'id': 583,
@@ -4216,6 +5572,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '바닐리치',
     'imageUrl': '583.png',
     'types': ['ice', 'fairy'],
+    'abilities': ['눈숨기', '깨어진갑옷', '아이스바디'],
+    'stats': [51, 65, 65, 80, 75, 59, 395],
+    'evolutionCondition': '바닐프티 (레벨 30)',
   },
   {
     'id': 584,
@@ -4223,6 +5582,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '배바닐라',
     'imageUrl': '584.png',
     'types': ['ice', 'fairy'],
+    'abilities': ['눈퍼뜨리기', '깨어진갑옷', '아이스바디'],
+    'stats': [71, 85, 85, 115, 95, 84, 535],
+    'evolutionCondition': '바닐리치 (레벨 44)',
   },
   {
     'id': 585,
@@ -4230,6 +5592,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '사철록',
     'imageUrl': '585.png',
     'types': ['normal', 'grass'],
+    'abilities': ['하늘의은총', '초식', '엽록소'],
+    'stats': [60, 60, 50, 40, 50, 75, 335],
   },
   {
     'id': 586,
@@ -4237,6 +5601,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '바라철록',
     'imageUrl': '586.png',
     'types': ['normal', 'grass'],
+    'abilities': ['하늘의은총', '초식', '엽록소'],
+    'stats': [90, 110, 70, 60, 70, 95, 495],
   },
   {
     'id': 587,
@@ -4244,6 +5610,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '사나운버섯',
     'imageUrl': '986.png',
     'types': ['grass', 'dark'],
+    'abilities': ['의욕', '포이즌힐', '포이즌힐'],
+    'stats': [111, 127, 99, 79, 99, 55, 570],
+    'evolutionCondition': '깜놀버슬 (부스트에너지S)',
   },
   {
     'id': 588,
@@ -4251,6 +5620,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '딱정곤',
     'imageUrl': '588.png',
     'types': ['bug'],
+    'abilities': ['우격다짐', '벌레의알림', '자연회복'],
+    'stats': [50, 75, 45, 40, 45, 60, 315],
   },
   {
     'id': 589,
@@ -4258,6 +5629,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '슈바르고',
     'imageUrl': '589.png',
     'types': ['bug', 'steel'],
+    'abilities': ['우격다짐', '조가비갑옷', '방진'],
+    'stats': [70, 135, 110, 70, 105, 20, 510],
+    'evolutionCondition': '딱정곤 (연결의끈)',
   },
   {
     'id': 590,
@@ -4265,6 +5639,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '깜놀버슬',
     'imageUrl': '590.png',
     'types': ['grass', 'poison'],
+    'abilities': ['포자', '재생력', '재생력'],
+    'stats': [69, 55, 45, 55, 55, 15, 294],
   },
   {
     'id': 591,
@@ -4272,6 +5648,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '뽀록나',
     'imageUrl': '591.png',
     'types': ['grass', 'poison'],
+    'abilities': ['포자', '재생력', '재생력'],
+    'stats': [124, 95, 70, 95, 80, 30, 494],
+    'evolutionCondition': '깜놀버슬 (레벨 39)',
   },
   {
     'id': 592,
@@ -4279,6 +5658,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '탱그릴',
     'imageUrl': '592.png',
     'types': ['water', 'ghost'],
+    'abilities': ['저수', '저주받은바디', '습기'],
+    'stats': [55, 40, 50, 65, 85, 40, 335],
   },
   {
     'id': 593,
@@ -4286,6 +5667,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '탱탱겔',
     'imageUrl': '593.png',
     'types': ['water', 'ghost'],
+    'abilities': ['저수', '저주받은바디', '습기'],
+    'stats': [100, 60, 70, 85, 105, 60, 480],
   },
   {
     'id': 594,
@@ -4293,6 +5676,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '무쇠머리',
     'imageUrl': '993.png',
     'types': ['dark', 'flying'],
+    'abilities': ['복안', '피뢰침', '피뢰침'],
+    'stats': [94, 80, 86, 122, 80, 108, 570],
+    'evolutionCondition': '디헤드 (부스트에너지V)',
   },
   {
     'id': 595,
@@ -4300,6 +5686,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '파쪼옥',
     'imageUrl': '595.png',
     'types': ['bug', 'electric'],
+    'abilities': ['복안', '긴장감', '벌레의알림'],
+    'stats': [50, 47, 50, 57, 50, 65, 319],
   },
   {
     'id': 596,
@@ -4307,6 +5695,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '전툴라',
     'imageUrl': '596.png',
     'types': ['bug', 'electric'],
+    'abilities': ['복안', '긴장감', '벌레의알림'],
+    'stats': [70, 97, 60, 103, 60, 120, 510],
+    'evolutionCondition': '파쪼옥 (레벨 39)',
   },
   {
     'id': 597,
@@ -4314,6 +5705,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '철시드',
     'imageUrl': '597.png',
     'types': ['grass', 'steel'],
+    'abilities': ['철가시'],
+    'stats': [44, 50, 91, 24, 86, 10, 305],
   },
   {
     'id': 598,
@@ -4321,6 +5714,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '너트령',
     'imageUrl': '598.png',
     'types': ['grass', 'steel'],
+    'abilities': ['철가시', '위험예지'],
+    'stats': [74, 94, 131, 54, 116, 20, 489],
   },
   {
     'id': 599,
@@ -4328,6 +5723,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '기어르',
     'imageUrl': '599.png',
     'types': ['steel'],
+    'abilities': ['부유', '-', '-'],
+    'stats': [40, 55, 70, 45, 60, 30, 300],
   },
   {
     'id': 600,
@@ -4335,6 +5732,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '기기어르',
     'imageUrl': '600.png',
     'types': ['steel'],
+    'abilities': ['부유', '-', '-'],
+    'stats': [60, 80, 95, 70, 85, 50, 440],
+    'evolutionCondition': '기어르 (레벨 30)',
   },
   {
     'id': 601,
@@ -4342,6 +5742,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '기기기어르',
     'imageUrl': '601.png',
     'types': ['steel'],
+    'abilities': ['부유', '-', '-'],
+    'stats': [70, 100, 115, 70, 85, 90, 530],
   },
   {
     'id': 602,
@@ -4349,6 +5751,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '저리어',
     'imageUrl': '602.png',
     'types': ['electric'],
+    'abilities': ['부유'],
+    'stats': [35, 55, 40, 45, 40, 60, 275],
   },
   {
     'id': 603,
@@ -4356,6 +5760,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '저리릴',
     'imageUrl': '603.png',
     'types': ['electric'],
+    'abilities': ['부유'],
+    'stats': [65, 85, 70, 75, 70, 40, 405],
+    'evolutionCondition': '저리어 (레벨 30)',
   },
   {
     'id': 604,
@@ -4363,6 +5770,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '저리더프',
     'imageUrl': '604.png',
     'types': ['electric'],
+    'abilities': ['부유'],
+    'stats': [85, 115, 80, 105, 80, 50, 515],
   },
   {
     'id': 605,
@@ -4370,6 +5779,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '리그레',
     'imageUrl': '605.png',
     'types': ['psychic', 'normal'],
+    'abilities': ['애널라이즈', '싱크로', '애널라이즈'],
+    'stats': [55, 55, 55, 85, 55, 30, 335],
   },
   {
     'id': 606,
@@ -4377,6 +5788,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '벰크',
     'imageUrl': '606.png',
     'types': ['psychic', 'normal'],
+    'abilities': ['애널라이즈', '색안경', '애널라이즈'],
+    'stats': [75, 75, 75, 125, 95, 40, 485],
+    'evolutionCondition': '리그레 (레벨 37)',
   },
   {
     'id': 607,
@@ -4384,6 +5798,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '불켜미',
     'imageUrl': '607.png',
     'types': ['ghost', 'fire'],
+    'abilities': ['타오르는불꽃', '불꽃몸', '틈새포착'],
+    'stats': [50, 30, 55, 65, 55, 20, 275],
   },
   {
     'id': 608,
@@ -4391,6 +5807,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '램프라',
     'imageUrl': '608.png',
     'types': ['ghost', 'fire'],
+    'abilities': ['타오르는불꽃', '불꽃몸', '틈새포착'],
+    'stats': [60, 40, 60, 95, 60, 55, 370],
+    'evolutionCondition': '불켜미 (레벨 28)',
   },
   {
     'id': 609,
@@ -4398,6 +5817,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '샹델라',
     'imageUrl': '609.png',
     'types': ['ghost', 'fire'],
+    'abilities': ['타오르는불꽃', '불꽃몸', '그림자밟기'],
+    'stats': [60, 55, 90, 145, 90, 80, 520],
   },
   {
     'id': 610,
@@ -4405,6 +5826,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '터검니',
     'imageUrl': '610.png',
     'types': ['dragon'],
+    'abilities': ['전투무장', '틀깨기', '긴장감'],
+    'stats': [46, 87, 60, 30, 40, 57, 320],
   },
   {
     'id': 611,
@@ -4412,6 +5835,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '액슨도',
     'imageUrl': '611.png',
     'types': ['dragon'],
+    'abilities': ['전투무장', '틀깨기', '긴장감'],
+    'stats': [66, 117, 70, 40, 50, 67, 410],
+    'evolutionCondition': '터검니 (레벨 28)',
   },
   {
     'id': 612,
@@ -4419,6 +5845,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '액스라이즈',
     'imageUrl': '612.png',
     'types': ['dragon'],
+    'abilities': ['전투무장', '틀깨기', '긴장감'],
+    'stats': [76, 147, 90, 60, 70, 97, 540],
   },
   {
     'id': 613,
@@ -4426,6 +5854,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '코고미',
     'imageUrl': '613.png',
     'types': ['ice'],
+    'abilities': ['쓱쓱', '눈숨기', '주눅'],
+    'stats': [55, 70, 40, 60, 40, 40, 305],
   },
   {
     'id': 614,
@@ -4433,6 +5863,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '툰베어',
     'imageUrl': '614.png',
     'types': ['ice', 'fighting'],
+    'abilities': ['쓱쓱', '눈치우기', '우격다짐'],
+    'stats': [95, 130, 80, 70, 80, 50, 505],
   },
   {
     'id': 615,
@@ -4440,6 +5872,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '프리지오',
     'imageUrl': '615.png',
     'types': ['ice'],
+    'abilities': ['부유', '테크니션', '부유'],
+    'stats': [80, 40, 50, 95, 135, 115, 515],
   },
   {
     'id': 616,
@@ -4447,6 +5881,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '쪼마리',
     'imageUrl': '616.png',
     'types': ['bug'],
+    'abilities': ['방진', '조가비갑옷', '촉촉바디'],
+    'stats': [50, 40, 85, 40, 65, 25, 305],
   },
   {
     'id': 617,
@@ -4454,6 +5890,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '어지리더',
     'imageUrl': '617.png',
     'types': ['bug'],
+    'abilities': ['적응력', '테크니션', '점착'],
+    'stats': [80, 80, 40, 105, 60, 140, 505],
+    'evolutionCondition': '쪼마리 (연결의끈)',
   },
   {
     'id': 618,
@@ -4461,6 +5900,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '모래털가죽',
     'imageUrl': '989.png',
     'types': ['electric', 'ground'],
+    'abilities': ['모래의힘', '선파워', '선파워'],
+    'stats': [85, 81, 97, 121, 85, 101, 570],
+    'evolutionCondition': '레어코일 (부스트에너지S)',
   },
   {
     'id': 619,
@@ -4468,6 +5910,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '비조푸',
     'imageUrl': '619.png',
     'types': ['fighting'],
+    'abilities': ['이판사판', '재생력', '이판사판'],
+    'stats': [45, 85, 50, 55, 50, 65, 350],
   },
   {
     'id': 620,
@@ -4475,6 +5919,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '비조도',
     'imageUrl': '620.png',
     'types': ['fighting'],
+    'abilities': ['이판사판', '재생력', '이판사판'],
+    'stats': [65, 125, 60, 95, 60, 105, 510],
+    'evolutionCondition': '비조푸 (레벨 41)',
   },
   {
     'id': 621,
@@ -4482,6 +5929,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '크리만',
     'imageUrl': '621.png',
     'types': ['dragon'],
+    'abilities': ['까칠한피부', '단단한발톱', '틀깨기'],
+    'stats': [90, 110, 115, 45, 90, 50, 500],
   },
   {
     'id': 622,
@@ -4489,6 +5938,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '골비람',
     'imageUrl': '622.png',
     'types': ['ground', 'ghost'],
+    'abilities': ['철주먹', '노가드', '서투름'],
+    'stats': [59, 74, 50, 35, 50, 35, 303],
   },
   {
     'id': 623,
@@ -4496,6 +5947,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '골루그',
     'imageUrl': '623.png',
     'types': ['ground', 'ghost'],
+    'abilities': ['철주먹', '노가드', '서투름'],
+    'stats': [99, 124, 85, 55, 85, 55, 503],
+    'evolutionCondition': '골비람 (레벨 40)',
   },
   {
     'id': 624,
@@ -4503,6 +5957,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '자망칼',
     'imageUrl': '624.png',
     'types': ['dark', 'steel'],
+    'abilities': ['오기', '예리함', '프레셔'],
+    'stats': [45, 85, 70, 40, 40, 60, 340],
   },
   {
     'id': 625,
@@ -4510,6 +5966,10 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '절각참',
     'imageUrl': '625.png',
     'types': ['dark', 'steel'],
+    'abilities': ['오기', '예리함', '프레셔'],
+    'stats': [65, 125, 100, 60, 70, 70, 490],
+    'evolutionCondition': '자망칼 (레벨 43)',
+    'wildItems': '대장의징표 5%',
   },
   {
     'id': 626,
@@ -4517,6 +5977,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '대도각참',
     'imageUrl': '983.png',
     'types': ['dark', 'steel'],
+    'abilities': ['오기', '예리함', '프레셔'],
+    'stats': [100, 135, 120, 60, 85, 50, 550],
+    'evolutionCondition': '절각참 (대장의징표)',
   },
   {
     'id': 627,
@@ -4524,6 +5987,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '수리둥보',
     'imageUrl': '627.png',
     'types': ['normal', 'flying'],
+    'abilities': ['의욕', '우격다짐', '날카로운눈'],
+    'stats': [70, 83, 50, 37, 50, 60, 350],
   },
   {
     'id': 628,
@@ -4531,6 +5996,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '워글',
     'imageUrl': '628.png',
     'types': ['normal', 'flying'],
+    'abilities': ['오기', '우격다짐', '날카로운눈'],
+    'stats': [100, 123, 75, 57, 75, 80, 510],
+    'evolutionCondition': '수리둥보 (레벨 44)',
   },
   {
     'id': 629,
@@ -4538,6 +6006,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '벌차이',
     'imageUrl': '629.png',
     'types': ['dark', 'flying'],
+    'abilities': ['깨어진갑옷', '하늘의은총', '방진'],
+    'stats': [70, 46, 75, 60, 65, 60, 376],
   },
   {
     'id': 630,
@@ -4545,6 +6015,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '버랜지나',
     'imageUrl': '630.png',
     'types': ['dark', 'flying'],
+    'abilities': ['깨어진갑옷', '하늘의은총', '방진'],
+    'stats': [110, 50, 105, 70, 95, 80, 510],
+    'evolutionCondition': '벌차이 (레벨 44)',
   },
   {
     'id': 631,
@@ -4552,6 +6025,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '드레디어(히스이)',
     'imageUrl': '10237.png',
     'types': ['grass', 'fighting'],
+    'abilities': ['엽록소', '의욕', '리프가드'],
+    'stats': [70, 110, 75, 50, 75, 115, 495],
+    'evolutionCondition': '치릴리 (달의돌)',
   },
   {
     'id': 632,
@@ -4559,6 +6035,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '아이앤트',
     'imageUrl': '632.png',
     'types': ['bug', 'steel'],
+    'abilities': ['내열', '의욕', '깨어진갑옷'],
+    'stats': [58, 109, 112, 48, 48, 109, 484],
   },
   {
     'id': 633,
@@ -4566,6 +6044,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '모노두',
     'imageUrl': '633.png',
     'types': ['dark', 'dragon'],
+    'abilities': ['의욕', '주눅', '주눅'],
+    'stats': [52, 65, 50, 45, 50, 38, 300],
   },
   {
     'id': 634,
@@ -4573,6 +6053,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '디헤드',
     'imageUrl': '634.png',
     'types': ['dark', 'dragon'],
+    'abilities': ['의욕', '주눅', '주눅'],
+    'stats': [72, 85, 70, 65, 70, 58, 420],
+    'evolutionCondition': '모노두 (레벨 38)',
   },
   {
     'id': 635,
@@ -4580,6 +6063,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '삼삼드래',
     'imageUrl': '635.png',
     'types': ['dark', 'dragon'],
+    'abilities': ['부유'],
+    'stats': [92, 105, 90, 125, 90, 98, 600],
+    'evolutionCondition': '디헤드 (레벨 58)',
   },
   {
     'id': 636,
@@ -4587,6 +6073,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '활화르바',
     'imageUrl': '636.png',
     'types': ['bug', 'fire'],
+    'abilities': ['불꽃몸', '벌레의알림', '벌레의알림'],
+    'stats': [55, 85, 55, 50, 55, 60, 360],
   },
   {
     'id': 637,
@@ -4594,6 +6082,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '불카모스',
     'imageUrl': '637.png',
     'types': ['bug', 'fire'],
+    'abilities': ['불꽃몸', '벌레의알림', '벌레의알림'],
+    'stats': [85, 60, 65, 135, 105, 100, 550],
+    'evolutionCondition': '활화르바 (레벨 48)',
   },
   {
     'id': 638,
@@ -4601,6 +6092,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '코바르온',
     'imageUrl': '638.png',
     'types': ['steel', 'fighting'],
+    'abilities': ['예리함', '-', '-'],
+    'stats': [91, 72, 129, 108, 72, 108, 580],
   },
   {
     'id': 639,
@@ -4608,6 +6101,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '테라키온',
     'imageUrl': '639.png',
     'types': ['rock', 'fighting'],
+    'abilities': ['예리함', '-', '-'],
+    'stats': [91, 129, 90, 72, 90, 108, 580],
   },
   {
     'id': 640,
@@ -4615,6 +6110,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '비리디온',
     'imageUrl': '640.png',
     'types': ['grass', 'fighting'],
+    'abilities': ['예리함', '-', '-'],
+    'stats': [91, 90, 72, 90, 129, 108, 580],
   },
   {
     'id': 641,
@@ -4625,11 +6122,15 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'formName': '화신폼',
         'imageUrl': '641.png',
         'types': ['flying'],
+        'abilities': ['짓궂은마음', '오기'],
+        'stats': [79, 115, 70, 125, 80, 111, 580],
       },
       {
         'formName': '영물폼',
         'imageUrl': '10019.png',
         'types': ['flying'],
+        'abilities': ['재생력'],
+        'stats': [79, 100, 80, 110, 90, 121, 580],
       },
     ],
   },
@@ -4642,11 +6143,15 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'formName': '화신폼',
         'imageUrl': '642.png',
         'types': ['electric', 'flying'],
+        'abilities': ['짓궂은마음', '오기'],
+        'stats': [79, 115, 70, 125, 80, 111, 580],
       },
       {
         'formName': '영물폼',
         'imageUrl': '10020.png',
         'types': ['electric', 'flying'],
+        'abilities': ['축전'],
+        'stats': [79, 105, 70, 145, 80, 101, 580],
       },
     ],
   },
@@ -4656,6 +6161,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '레시라무',
     'imageUrl': '643.png',
     'types': ['dragon', 'fire'],
+    'abilities': ['터보블레이즈'],
+    'stats': [100, 120, 100, 150, 120, 90, 680],
   },
   {
     'id': 644,
@@ -4663,6 +6170,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '제크로무',
     'imageUrl': '644.png',
     'types': ['dragon', 'electric'],
+    'abilities': ['테라볼티지'],
+    'stats': [100, 150, 120, 120, 100, 90, 680],
   },
   {
     'id': 645,
@@ -4673,11 +6182,15 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'formName': '화신폼',
         'imageUrl': '645.png',
         'types': ['ground', 'flying'],
+        'abilities': ['모래의힘', '우격다짐'],
+        'stats': [89, 125, 90, 115, 80, 101, 600],
       },
       {
         'formName': '영물폼',
         'imageUrl': '10021.png',
         'types': ['ground', 'flying'],
+        'abilities': ['위협'],
+        'stats': [89, 145, 90, 105, 80, 91, 600],
       },
     ],
   },
@@ -4690,16 +6203,22 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'formName': '일반',
         'imageUrl': '646.png',
         'types': ['dragon', 'ice'],
+        'abilities': ['프레셔'],
+        'stats': [125, 130, 90, 130, 90, 95, 660],
       },
       {
         'formName': '블랙',
         'imageUrl': '10022.png',
         'types': ['dragon', 'ice'],
+        'abilities': ['테라볼티지'],
+        'stats': [125, 170, 100, 120, 90, 95, 700],
       },
       {
         'formName': '화이트',
         'imageUrl': '10023.png',
         'types': ['dragon', 'ice'],
+        'abilities': ['터보블레이즈'],
+        'stats': [125, 120, 90, 170, 100, 95, 700],
       },
     ],
   },
@@ -4709,14 +6228,18 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '케르디오',
     'form': [
       {
-        'formName': '일반',
+        'formName': '평상시 모습',
         'imageUrl': '647.png',
         'types': ['water', 'fighting'],
+        'abilities': ['예리함'],
+        'stats': [91, 72, 90, 129, 90, 108, 580],
       },
       {
-        'formName': '각오',
+        'formName': '각오의 모습',
         'imageUrl': '10024.png',
         'types': ['water', 'fighting'],
+        'abilities': ['예리함'],
+        'stats': [91, 72, 90, 129, 90, 108, 580],
       },
     ],
   },
@@ -4729,11 +6252,15 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'formName': '보이스폼',
         'imageUrl': '648.png',
         'types': ['normal', 'psychic'],
+        'abilities': ['하늘의은총', '고음', '고음'],
+        'stats': [100, 77, 77, 128, 128, 90, 600],
       },
       {
         'formName': '스텝폼',
         'imageUrl': '10018.png',
         'types': ['normal', 'fighting'],
+        'abilities': ['하늘의은총', '자기과신', '자기과신'],
+        'stats': [100, 128, 90, 77, 77, 128, 600],
       },
     ],
   },
@@ -4743,5 +6270,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '게노세크트',
     'imageUrl': '649.png',
     'types': ['bug', 'steel'],
+    'abilities': ['다운로드'],
+    'stats': [71, 120, 95, 120, 95, 99, 600],
   },
 ];

@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-pokemon-stat',
@@ -6,7 +6,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./pokemon-stat.component.less'],
   standalone: false,
 })
-export class PokemonStatComponent {
+export class PokemonStatComponent implements OnInit {
   @Input() pokemonStats?: number[];
   maxStatValue = 255;
   statLabels = ['HP', '공격', '방어', '특공', '특방', '스피드', '총합'];
@@ -19,4 +19,14 @@ export class PokemonStatComponent {
     '#FF5D5D',
     '#6A6A6A',
   ];
+  error = '';
+  ngOnInit() {
+    // 디버그용 코드
+    if (this.pokemonStats) {
+      const sums = this.pokemonStats.reduce((a, c) => a + c, 0);
+      if (sums != this.pokemonStats[this.pokemonStats.length - 1] * 2) {
+        this.error = `다름 ${sums - this.pokemonStats[this.pokemonStats.length - 1]}`;
+      }
+    }
+  }
 }
