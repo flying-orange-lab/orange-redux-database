@@ -289,7 +289,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '드라꼰',
     'imageUrl': '885.png',
     'types': ['dragon', 'ghost'],
-    'abilities': [''],
+    'abilities': ['클리어바디', '틈새포착', '저주받은바디'],
     'stats': [38, 60, 35, 40, 35, 82, 290],
   },
   {
@@ -4644,12 +4644,14 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'formName': '어나더',
         'imageUrl': '487.png',
         'types': ['ghost', 'dragon'],
+        'abilities': ['프레셔', '단단한발톱', '텔레파시'],
         'stats': [150, 100, 120, 100, 120, 90, 680],
       },
       {
         'formName': '오리진',
         'imageUrl': '10007.png',
         'types': ['ghost', 'dragon'],
+        'abilities': ['부유', '단단한발톱', '부유'],
         'stats': [150, 120, 100, 120, 100, 90, 680],
       },
     ],

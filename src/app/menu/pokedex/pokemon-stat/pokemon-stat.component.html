@@ -1,6 +1,6 @@
 <div class="stats-container">
   <div class="stat-list">
-    @for (stat of pokemonStats; track stat; let i = $index) {
+    @for (stat of pokemonStats; track $index; let i = $index) {
       <div class="stat-row" [class]="'stat-row-' + i">
         <div class="stat-name">{{ statLabels[i] }}</div>
         <div class="stat-value">

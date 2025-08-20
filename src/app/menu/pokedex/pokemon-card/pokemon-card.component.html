@@ -23,38 +23,57 @@
       class="pokemon-types-container"
       (click)="goToDefensePage(currentPokemon.types)"
     >
-      <span
-        *ngFor="let type of currentPokemon.types"
-        class="type-badge type-{{ type }}"
-      >
-        {{ displayType(type) }}
-      </span>
+      @for (type of currentPokemon.types; track $index) {
+        <span class="type-badge type-{{ type }}">
+          {{ displayType(type) }}
+        </span>
+      }
     </div>
   </div>
 
-  <div
-    class="pokemon-form-buttons"
-    *ngIf="pokemon.form && pokemon.form.length > 1"
-  >
-    <button
-      *ngFor="let form of pokemon.form; let i = index"
-      class="form-button"
-      [class.active]="i === currentFormIndex"
-      (click)="selectForm(i)"
-    >
-      {{ form.formName }}
-    </button>
-  </div>
+  @if (pokemon.form && pokemon.form.length > 1) {
+    <div class="pokemon-form-buttons">
+      @for (form of pokemon.form; track form; let i = $index) {
+        <button
+          class="form-button"
+          [class.active]="i === currentFormIndex"
+          (click)="selectForm(i)"
+        >
+          {{ form.formName }}
+        </button>
+      }
+    </div>
+  }
 
   <app-pokemon-stat
     *ngIf="currentPokemonStats"
     [pokemonStats]="currentPokemonStats"
   ></app-pokemon-stat>
 
-  <div class="pokemon-card-extra" *ngIf="currentPokemon.evolutionCondition">
-    <div>진화 정보</div>
-    <div>{{ currentPokemon.evolutionCondition }}</div>
+  <div class="pokemon-ability">
+    @if (currentPokemon.abilities) {
+      @for (ability of currentPokemon.abilities; track $index) {
+        <div>{{ ability }}</div>
+      }
+    }
   </div>
+
+  @if (currentPokemon.evolutionCondition) {
+    <div class="pokemon-card-extra">
+      <div class="extra-section extra-evolution">
+        <div>진화 정보</div>
+        <div>{{ currentPokemon.evolutionCondition }}</div>
+      </div>
+    </div>
+  }
+  @if (currentPokemon.wildItems) {
+    <div class="pokemon-card-extra">
+      <div class="extra-section extra-evolution">
+        <div>야생 정보</div>
+        <div>{{ currentPokemon.wildItems }}</div>
+      </div>
+    </div>
+  }
 
   <div class="pokemon-card-extra" *ngIf="currentPokemon.extra">
     <div>추가 서식 정보</div>
