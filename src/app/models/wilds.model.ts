@@ -18,6 +18,7 @@ export interface Encounter {
   minLv: number;
   maxLv: number;
   rate: number;
+  extra?: string;
 }
 
 export interface PokemonLocation {
