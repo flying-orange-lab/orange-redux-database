@@ -39,16 +39,21 @@ export class PokedexComponent implements OnInit {
         if (params['search']) {
           const searchTerm = params['search'] || '';
           this.pokemonSearchInput = searchTerm;
+        } else {
+          this.pokemonSearchInput = '';
         }
 
         if (params['gte']) {
           this.pokemonSearchOffset = parseInt(params['gte']);
+        } else {
+          this.pokemonSearchOffset = 1;
         }
 
         if (params['attr']) {
           this.pokemonSearchAttr = params['attr'];
+        } else {
+          this.pokemonSearchAttr = '';
         }
-
         this.performSearch();
       });
     });
