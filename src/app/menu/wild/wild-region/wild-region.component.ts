@@ -7,22 +7,22 @@ import {
   inject,
 } from '@angular/core';
 import { PokemonService } from 'src/app/services/pokemon.service';
+import { RegionData } from 'src/app/models/wilds.model';
 
 @Component({
   selector: 'app-wild-region',
   templateUrl: './wild-region.component.html',
   styleUrls: ['./wild-region.component.less'],
-  standalone: false,
 })
 export class WildRegionComponent implements OnInit {
   private pokemonService = inject(PokemonService);
 
-  @Input() regionDatas!: any[];
+  @Input() regionDatas!: RegionData[];
   @Input() pokemonCatchStatus!: Record<number, boolean>;
   @Output() pokemonCaught = new EventEmitter<{ id: number; status: boolean }>();
 
   isExpanded = false;
-  selectedRegion: any;
+  selectedRegion?: RegionData;
 
   ngOnInit(): void {
     if (this.regionDatas && this.regionDatas.length > 0) {

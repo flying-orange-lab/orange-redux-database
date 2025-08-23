@@ -8,7 +8,7 @@ import { ItemService } from 'src/app/services/item.service';
   selector: 'app-items',
   templateUrl: './items.component.html',
   styleUrls: ['./items.component.less'],
-  standalone: false,
+  imports: [],
 })
 export class ItemsComponent implements OnInit {
   private route = inject(ActivatedRoute);

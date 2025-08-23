@@ -63,7 +63,7 @@ export class DataHandleService {
         return ITEM_DATA_ANOTHER_RED;
     }
 
-    throw new Error('No service support');
+    return [];
   }
 
   get pokemonDatas() {

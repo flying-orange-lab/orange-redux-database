@@ -8,8 +8,8 @@ describe('WildRegionComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [WildRegionComponent]
-    });
+    imports: [WildRegionComponent]
+});
     fixture = TestBed.createComponent(WildRegionComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

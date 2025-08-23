@@ -41,6 +41,6 @@ export class PokemonCatchService extends Dexie {
   }
 
   async catchPokemon(id: number, status: boolean) {
-    const key = this.pokemonCatch.put({ id: id, isCaught: status });
+    this.pokemonCatch.put({ id: id, isCaught: status });
   }
 }

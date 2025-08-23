@@ -11,7 +11,6 @@ import { PokemonService } from 'src/app/services/pokemon.service';
   selector: 'app-pokemon-location',
   templateUrl: './pokemon-location.component.html',
   styleUrls: ['./pokemon-location.component.less'],
-  standalone: false,
 })
 export class PokemonLocationComponent implements OnChanges {
   private pokemonService = inject(PokemonService);

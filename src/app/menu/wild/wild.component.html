@@ -1,18 +1,20 @@
 <section>
-  <div
-    class="location-section"
-    *ngFor="let locationData of wildData; let i = index"
-    [id]="'location-section-' + i"
-  >
-    <div class="summary" (click)="toggleChild(i)">
-      <h2>{{ locationData.locationName }}</h2>
-    </div>
-
-    <app-wild-region
-      [regionDatas]="locationData.regionDatas"
-      [pokemonCatchStatus]="pokemonCatchStatus"
-      (pokemonCaught)="handlePokemonCaught($event)"
+  @for (locationData of wildData; track locationData; let i = $index) {
+    <div
+      class="location-section"
+      [id]="'location-section-' + i"
+      [class.strike-through]=""
     >
-    </app-wild-region>
-  </div>
+      <div class="summary" (click)="toggleChild(i)">
+        <h2>{{ locationData.locationName }}</h2>
+      </div>
+
+      <app-wild-region
+        [regionDatas]="locationData.regionDatas"
+        [pokemonCatchStatus]="pokemonCatchStatus"
+        (pokemonCaught)="handlePokemonCaught($event)"
+      >
+      </app-wild-region>
+    </div>
+  }
 </section>

@@ -7,7 +7,6 @@ import { PokemonImageService } from 'src/app/services/pokemon-image.service';
   selector: 'app-sprite-card',
   templateUrl: './sprite-card.component.html',
   styleUrls: ['./sprite-card.component.less'],
-  standalone: false,
 })
 export class SpriteCardComponent implements OnInit {
   private dataHandleService = inject(DataHandleService);

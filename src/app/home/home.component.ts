@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
+import { SpriteCardComponent } from './sprite-card/sprite-card.component';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.less'],
-  standalone: false,
+    selector: 'app-home',
+    templateUrl: './home.component.html',
+    styleUrls: ['./home.component.less'],
+    imports: [SpriteCardComponent],
 })
 export class HomeComponent {
   contactFormUrl =

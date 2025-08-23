@@ -1,15 +1,16 @@
 <div class="pokemon-card-container">
   <div class="pokemon-card-content">
     <!-- 성별 표기-->
-    <button
-      class="gender-button"
-      [class.male-active]="!isGenderFemale"
-      [class.female-active]="isGenderFemale"
-      (click)="toggleGender()"
-      *ngIf="hasGender"
-    >
-      {{ isGenderFemale ? "♀" : "♂" }}
-    </button>
+    @if (hasGender) {
+      <button
+        class="gender-button"
+        [class.male-active]="!isGenderFemale"
+        [class.female-active]="isGenderFemale"
+        (click)="toggleGender()"
+      >
+        {{ isGenderFemale ? "♀" : "♂" }}
+      </button>
+    }
     <img
       class="pokemon-image"
       [src]="currentImageUrl"
@@ -45,10 +46,9 @@
     </div>
   }
 
-  <app-pokemon-stat
-    *ngIf="currentPokemonStats"
-    [pokemonStats]="currentPokemonStats"
-  ></app-pokemon-stat>
+  @if (currentPokemonStats) {
+    <app-pokemon-stat [pokemonStats]="currentPokemonStats"></app-pokemon-stat>
+  }
 
   <div class="pokemon-ability">
     @if (currentPokemon.abilities) {
@@ -75,8 +75,10 @@
     </div>
   }
 
-  <div class="pokemon-card-extra" *ngIf="currentPokemon.extra">
-    <div>추가 서식 정보</div>
-    <div>{{ currentPokemon.extra }}</div>
-  </div>
+  @if (currentPokemon.extra) {
+    <div class="pokemon-card-extra">
+      <div>추가 서식 정보</div>
+      <div>{{ currentPokemon.extra }}</div>
+    </div>
+  }
 </div>
