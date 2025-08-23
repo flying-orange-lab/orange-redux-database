@@ -407,7 +407,7 @@ export const ITEM_DATA_ANOTHER_RED: PokeItem[] = [
   },
   {
     'location': '무지개체육관',
-    'itemList': ['[NPC] TM19 기기드레인', '[NPC] 맛있는물'],
+    'itemList': ['[NPC] TM19 기가드레인', '[NPC] 맛있는물'],
   },
   {
     'location': '무지개호텔',
