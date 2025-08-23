@@ -2,12 +2,13 @@
 import { Component, ChangeDetectorRef, OnInit, inject } from '@angular/core';
 import { DataHandleService } from 'src/app/services/data-handle.service';
 import { PokemonImageService } from 'src/app/services/pokemon-image.service';
+import { NgIf } from '@angular/common';
 
 @Component({
-  selector: 'app-sprite-card',
-  templateUrl: './sprite-card.component.html',
-  styleUrls: ['./sprite-card.component.less'],
-  standalone: false,
+    selector: 'app-sprite-card',
+    templateUrl: './sprite-card.component.html',
+    styleUrls: ['./sprite-card.component.less'],
+    imports: [NgIf],
 })
 export class SpriteCardComponent implements OnInit {
   private dataHandleService = inject(DataHandleService);

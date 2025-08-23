@@ -1,16 +1,17 @@
 import { Component, OnInit, inject } from '@angular/core';
-import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
+import { ActivatedRoute, NavigationEnd, Router, RouterOutlet } from '@angular/router';
 import { filter, map, mergeMap } from 'rxjs/operators';
 import { DataHandleService } from './services/data-handle.service';
 import { Title } from '@angular/platform-browser';
+import { HeaderComponent } from './header/header.component';
 
 declare let gtag: Function;
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.less'],
-  standalone: false,
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.less'],
+    imports: [HeaderComponent, RouterOutlet],
 })
 export class AppComponent implements OnInit {
   private router = inject(Router);

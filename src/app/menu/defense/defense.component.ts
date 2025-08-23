@@ -4,12 +4,17 @@ import {
   TYPE_DISPLAY_DATA,
   TYPE_EFFECTIVE_DATA,
 } from 'src/app/datas/type.data';
+import { NgFor, NgClass, NgIf } from '@angular/common';
 
 @Component({
-  selector: 'app-defense',
-  templateUrl: './defense.component.html',
-  styleUrls: ['./defense.component.less'],
-  standalone: false,
+    selector: 'app-defense',
+    templateUrl: './defense.component.html',
+    styleUrls: ['./defense.component.less'],
+    imports: [
+        NgFor,
+        NgClass,
+        NgIf,
+    ],
 })
 export class DefenseComponent implements OnInit {
   private route = inject(ActivatedRoute);

@@ -10,12 +10,13 @@ import { PokemonCatchService } from 'src/app/services/pokemon-catch.service';
 import { DataHandleService } from 'src/app/services/data-handle.service';
 import { ActivatedRoute } from '@angular/router';
 import { WildArea } from 'src/app/models/wilds.model';
+import { NgFor } from '@angular/common';
 
 @Component({
-  selector: 'app-wild',
-  templateUrl: './wild.component.html',
-  styleUrls: ['./wild.component.less'],
-  standalone: false,
+    selector: 'app-wild',
+    templateUrl: './wild.component.html',
+    styleUrls: ['./wild.component.less'],
+    imports: [NgFor, WildRegionComponent],
 })
 export class WildComponent implements OnInit {
   private route = inject(ActivatedRoute);

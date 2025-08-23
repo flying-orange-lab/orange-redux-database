@@ -7,12 +7,17 @@ import {
   inject,
 } from '@angular/core';
 import { PokemonService } from 'src/app/services/pokemon.service';
+import { NgIf, NgFor, NgClass } from '@angular/common';
 
 @Component({
-  selector: 'app-wild-region',
-  templateUrl: './wild-region.component.html',
-  styleUrls: ['./wild-region.component.less'],
-  standalone: false,
+    selector: 'app-wild-region',
+    templateUrl: './wild-region.component.html',
+    styleUrls: ['./wild-region.component.less'],
+    imports: [
+        NgIf,
+        NgFor,
+        NgClass,
+    ],
 })
 export class WildRegionComponent implements OnInit {
   private pokemonService = inject(PokemonService);

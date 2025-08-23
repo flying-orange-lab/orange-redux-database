@@ -3,12 +3,22 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { PokemonService } from '../../services/pokemon.service';
 import { DataHandleService } from 'src/app/services/data-handle.service';
 import { Pokemon } from 'src/app/models/pokemon.model';
+import { FormsModule } from '@angular/forms';
+import { NgIf, NgFor } from '@angular/common';
+import { PokemonCardComponent } from './pokemon-card/pokemon-card.component';
+import { PokemonLocationComponent } from './pokemon-location/pokemon-location.component';
 
 @Component({
-  selector: 'app-pokedex',
-  templateUrl: './pokedex.component.html',
-  styleUrls: ['./pokedex.component.less'],
-  standalone: false,
+    selector: 'app-pokedex',
+    templateUrl: './pokedex.component.html',
+    styleUrls: ['./pokedex.component.less'],
+    imports: [
+        FormsModule,
+        NgIf,
+        NgFor,
+        PokemonCardComponent,
+        PokemonLocationComponent,
+    ],
 })
 export class PokedexComponent implements OnInit {
   private dataHandleService = inject(DataHandleService);

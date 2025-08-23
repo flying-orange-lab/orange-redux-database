@@ -1,11 +1,13 @@
 import { Component, OnInit, inject } from '@angular/core';
 import { DataHandleService } from '../services/data-handle.service';
+import { RouterLink } from '@angular/router';
+import { NgClass } from '@angular/common';
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.less'],
-  standalone: false,
+    selector: 'app-header',
+    templateUrl: './header.component.html',
+    styleUrls: ['./header.component.less'],
+    imports: [RouterLink, NgClass],
 })
 export class HeaderComponent implements OnInit {
   dataHandleService = inject(DataHandleService);

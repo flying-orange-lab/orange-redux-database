@@ -1,10 +1,9 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-pokemon-stat',
-  templateUrl: './pokemon-stat.component.html',
-  styleUrls: ['./pokemon-stat.component.less'],
-  standalone: false,
+    selector: 'app-pokemon-stat',
+    templateUrl: './pokemon-stat.component.html',
+    styleUrls: ['./pokemon-stat.component.less'],
 })
 export class PokemonStatComponent implements OnInit {
   @Input() pokemonStats?: number[];

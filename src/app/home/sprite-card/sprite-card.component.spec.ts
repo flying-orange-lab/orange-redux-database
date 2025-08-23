@@ -8,8 +8,8 @@ describe('SpriteCardComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [SpriteCardComponent]
-    });
+    imports: [SpriteCardComponent]
+});
     fixture = TestBed.createComponent(SpriteCardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
