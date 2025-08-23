@@ -12,17 +12,17 @@ import { ItemService } from 'src/app/services/item.service';
 })
 export class ItemsComponent implements OnInit {
   private route = inject(ActivatedRoute);
-  private itemService = inject(ItemService);
   private dataHandleService = inject(DataHandleService);
+  private itemService = inject(ItemService);
 
   itemDatas: PokeItem[] = [];
   expandedLocation: number | null = null;
   private takenItemsMap = new Map<string, boolean>();
 
   ngOnInit(): void {
+    this.itemService.init();
+
     // 데이터 처리
-    const gameVersion = this.route.snapshot.paramMap.get('gameVersion')!;
-    this.dataHandleService.setGameVersion(gameVersion);
     this.itemDatas = this.dataHandleService.itemDatas;
 
     if (this.itemDatas) {

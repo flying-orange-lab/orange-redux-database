@@ -19,8 +19,8 @@ import { WildArea } from 'src/app/models/wilds.model';
 })
 export class WildComponent implements OnInit {
   private route = inject(ActivatedRoute);
-  private pokemonCatchService = inject(PokemonCatchService);
   private dataHandleService = inject(DataHandleService);
+  private pokemonCatchService = inject(PokemonCatchService);
 
   wildData?: WildArea[];
   pokemonCatchStatus: Record<number, boolean> = {};
@@ -29,6 +29,8 @@ export class WildComponent implements OnInit {
   wildRegionComponents!: QueryList<WildRegionComponent>;
 
   ngOnInit(): void {
+    this.pokemonCatchService.init();
+
     // 데이터 처리
     this.wildData = this.dataHandleService.wildDatas;
 

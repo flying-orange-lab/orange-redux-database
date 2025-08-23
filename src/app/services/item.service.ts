@@ -1,5 +1,6 @@
-import { Injectable } from '@angular/core';
+import { inject, Injectable } from '@angular/core';
 import Dexie from 'dexie';
+import { DataHandleService } from './data-handle.service';
 
 export interface TakenItem {
   locationIndex: number;
@@ -10,13 +11,25 @@ export interface TakenItem {
   providedIn: 'root',
 })
 export class ItemService extends Dexie {
+  private dataHandleService = inject(DataHandleService);
   takenItems!: Dexie.Table<TakenItem, [number, number]>;
 
   constructor() {
     super('ItemDB');
+  }
+
+  async init() {
+    let prefix = '';
+    if (this.dataHandleService.getGameVersion() != 'orange_v3') {
+      prefix = `${this.dataHandleService.getGameVersion()}_`;
+    }
+
     this.version(1).stores({
-      takenItems: '[locationIndex+itemIndex]', // 복합 키 정의
+      [`${prefix}takenItems`]: '[locationIndex+itemIndex]',
     });
+
+    this.takenItems = this.table(`${prefix}takenItems`);
+    await this.open();
   }
 
   /**
