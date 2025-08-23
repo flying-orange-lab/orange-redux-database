@@ -19,15 +19,23 @@ export class PokemonCatchService extends Dexie {
   }
 
   async init() {
-    let prefix = '';
-    if (this.dataHandleService.getGameVersion() != 'orange_v3') {
-      prefix = `${this.dataHandleService.getGameVersion()}_`;
-    }
+    this.version(2)
+      .stores({
+        gotcha: 'id',
+        another_red_gotcha: 'id',
+      })
+      .upgrade(async (tx) => {
+        const storeNames = ['gotcha', 'another_red_gotcha'];
 
-    this.version(1).stores({
-      [`${prefix}gotcha`]: 'id',
-    });
+        for (const storeName of storeNames) {
+          const oldGotchaData = await tx.table(storeName).toArray();
+          for (const row of oldGotchaData) {
+            await tx.table(storeName).put(row);
+          }
+        }
+      });
 
+    const prefix = this.dataHandleService.DBprefix;
     this.pokemonCatch = this.table(`${prefix}gotcha`);
     await this.open();
   }

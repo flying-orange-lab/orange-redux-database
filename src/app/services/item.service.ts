@@ -19,15 +19,23 @@ export class ItemService extends Dexie {
   }
 
   async init() {
-    let prefix = '';
-    if (this.dataHandleService.getGameVersion() != 'orange_v3') {
-      prefix = `${this.dataHandleService.getGameVersion()}_`;
-    }
+    this.version(2)
+      .stores({
+        takenItems: '[locationIndex+itemIndex]',
+        another_red_takenItems: '[locationIndex+itemIndex]',
+      })
+      .upgrade(async (tx) => {
+        const storeNames = ['takenItems', 'another_red_takenItems'];
 
-    this.version(1).stores({
-      [`${prefix}takenItems`]: '[locationIndex+itemIndex]',
-    });
+        for (const storeName of storeNames) {
+          const oldGotchaData = await tx.table(storeName).toArray();
+          for (const row of oldGotchaData) {
+            await tx.table(storeName).put(row);
+          }
+        }
+      });
 
+    const prefix = this.dataHandleService.DBprefix;
     this.takenItems = this.table(`${prefix}takenItems`);
     await this.open();
   }

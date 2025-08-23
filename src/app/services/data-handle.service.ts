@@ -33,6 +33,17 @@ export class DataHandleService {
     return undefined;
   }
 
+  get DBprefix() {
+    switch (this.gameVersionSubject.value) {
+      case 'orange_v3':
+        return '';
+      case 'another_red':
+        return 'another_red_';
+    }
+
+    return '';
+  }
+
   get wildDatas() {
     switch (this.gameVersionSubject.value) {
       case 'orange_v3':
