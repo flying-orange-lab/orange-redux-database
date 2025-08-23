@@ -3,17 +3,12 @@ import { ActivatedRoute } from '@angular/router';
 import { PokeItem } from 'src/app/models/item.model';
 import { DataHandleService } from 'src/app/services/data-handle.service';
 import { ItemService } from 'src/app/services/item.service';
-import { NgIf, NgFor, NgClass } from '@angular/common';
 
 @Component({
-    selector: 'app-items',
-    templateUrl: './items.component.html',
-    styleUrls: ['./items.component.less'],
-    imports: [
-        NgIf,
-        NgFor,
-        NgClass,
-    ],
+  selector: 'app-items',
+  templateUrl: './items.component.html',
+  styleUrls: ['./items.component.less'],
+  imports: [],
 })
 export class ItemsComponent implements OnInit {
   private route = inject(ActivatedRoute);

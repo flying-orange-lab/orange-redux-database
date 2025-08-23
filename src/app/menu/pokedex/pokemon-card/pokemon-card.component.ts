@@ -11,14 +11,13 @@ import { Router } from '@angular/router';
 import { DataHandleService } from 'src/app/services/data-handle.service';
 import { PokemonImageService } from 'src/app/services/pokemon-image.service';
 import { PokemonService } from 'src/app/services/pokemon.service';
-import { NgIf } from '@angular/common';
 import { PokemonStatComponent } from '../pokemon-stat/pokemon-stat.component';
 
 @Component({
-    selector: 'app-pokemon-card',
-    templateUrl: './pokemon-card.component.html',
-    styleUrls: ['./pokemon-card.component.less'],
-    imports: [NgIf, PokemonStatComponent],
+  selector: 'app-pokemon-card',
+  templateUrl: './pokemon-card.component.html',
+  styleUrls: ['./pokemon-card.component.less'],
+  imports: [PokemonStatComponent],
 })
 export class PokemonCardComponent implements OnInit, OnDestroy, OnChanges {
   private router = inject(Router);

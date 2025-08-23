@@ -1,15 +1,16 @@
 <section class="type-selection-section">
   <h2>방어 상성 선택</h2>
   <div class="type-buttons-grid" id="typeButtonsContainer">
-    <button
-      *ngFor="let typeKey of selectLabel"
-      class="type-button"
-      [class.selected]="isSelected(typeKey)"
-      [ngClass]="'type-' + typeKey"
-      (click)="selectType(typeKey)"
-    >
-      {{ typeData[typeKey] }}
-    </button>
+    @for (typeKey of selectLabel; track typeKey) {
+      <button
+        class="type-button"
+        [class.selected]="isSelected(typeKey)"
+        [ngClass]="'type-' + typeKey"
+        (click)="selectType(typeKey)"
+      >
+        {{ typeData[typeKey] }}
+      </button>
+    }
   </div>
   <button
     class="clear-button"
@@ -22,22 +23,22 @@
 
 <section class="result-section">
   <h2>방어 상성 결과</h2>
-  <ng-container *ngFor="let label of resultLabel">
-    <div class="type-category" *ngIf="calculatedResults[label]?.length">
-      <h3>{{ label }}</h3>
-      <div class="type-grid">
-        <div
-          *ngFor="let item of calculatedResults[label]"
-          class="type-item selected"
-          [ngClass]="'type-' + item.typeKey"
-        >
-          {{ item.type }}
+  @for (label of resultLabel; track label) {
+    @if (calculatedResults[label] && calculatedResults[label].length) {
+      <div class="type-category">
+        <h3>{{ label }}</h3>
+        <div class="type-grid">
+          @for (item of calculatedResults[label]; track $index) {
+            <div class="type-item selected" [ngClass]="'type-' + item.typeKey">
+              {{ item.type }}
+            </div>
+          }
         </div>
       </div>
-    </div>
-  </ng-container>
+    }
+  }
 
-  <p class="empty-message" *ngIf="showInitialMessage">
-    타입을 선택하면 방어 상성이 표시됩니다.
-  </p>
+  @if (showInitialMessage) {
+    <p class="empty-message">타입을 선택하면 방어 상성이 표시됩니다.</p>
+  }
 </section>

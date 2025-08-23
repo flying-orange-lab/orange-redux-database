@@ -6,13 +6,11 @@ import {
   inject,
 } from '@angular/core';
 import { PokemonService } from 'src/app/services/pokemon.service';
-import { NgIf, NgFor } from '@angular/common';
 
 @Component({
-    selector: 'app-pokemon-location',
-    templateUrl: './pokemon-location.component.html',
-    styleUrls: ['./pokemon-location.component.less'],
-    imports: [NgIf, NgFor],
+  selector: 'app-pokemon-location',
+  templateUrl: './pokemon-location.component.html',
+  styleUrls: ['./pokemon-location.component.less'],
 })
 export class PokemonLocationComponent implements OnChanges {
   private pokemonService = inject(PokemonService);

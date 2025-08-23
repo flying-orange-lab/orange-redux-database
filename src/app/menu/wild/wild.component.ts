@@ -10,13 +10,12 @@ import { PokemonCatchService } from 'src/app/services/pokemon-catch.service';
 import { DataHandleService } from 'src/app/services/data-handle.service';
 import { ActivatedRoute } from '@angular/router';
 import { WildArea } from 'src/app/models/wilds.model';
-import { NgFor } from '@angular/common';
 
 @Component({
-    selector: 'app-wild',
-    templateUrl: './wild.component.html',
-    styleUrls: ['./wild.component.less'],
-    imports: [NgFor, WildRegionComponent],
+  selector: 'app-wild',
+  templateUrl: './wild.component.html',
+  styleUrls: ['./wild.component.less'],
+  imports: [WildRegionComponent],
 })
 export class WildComponent implements OnInit {
   private route = inject(ActivatedRoute);
@@ -63,6 +62,31 @@ export class WildComponent implements OnInit {
     await this.pokemonCatchService.catchPokemon(event.id, event.status);
     this.pokemonCatchStatus[event.id] = event.status;
   }
+
+  // 성능 개선 필요
+  // isLocationCatchAll(index: number) {
+  //   if (!this.wildData) {
+  //     return false;
+  //   }
+  //   const elements = document.querySelectorAll(
+  //     `#location-section-${index} td.caught-status-cell`,
+  //   );
+  //   const values = new Set(
+  //     Array.from(elements).map((el) =>
+  //       parseInt((el as HTMLElement).dataset['value']!, 10),
+  //     ),
+  //   );
+  //   console.log('check');
+
+  //   for (const v of values) {
+  //     const flag = this.pokemonCatchStatus[v] === true;
+  //     if (!flag) {
+  //       return false;
+  //     }
+  //   }
+
+  //   return true;
+  // }
 
   scrollToSection(index: number): void {
     const element = document.getElementById(`location-section-${index}`);
