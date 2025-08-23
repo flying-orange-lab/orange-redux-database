@@ -1,5 +1,6 @@
-import { Injectable } from '@angular/core';
+import { inject, Injectable } from '@angular/core';
 import Dexie from 'dexie';
+import { DataHandleService } from './data-handle.service';
 
 export interface TakenItem {
   locationIndex: number;
@@ -10,13 +11,33 @@ export interface TakenItem {
   providedIn: 'root',
 })
 export class ItemService extends Dexie {
+  private dataHandleService = inject(DataHandleService);
   takenItems!: Dexie.Table<TakenItem, [number, number]>;
 
   constructor() {
     super('ItemDB');
-    this.version(1).stores({
-      takenItems: '[locationIndex+itemIndex]', // 복합 키 정의
-    });
+  }
+
+  async init() {
+    this.version(2)
+      .stores({
+        takenItems: '[locationIndex+itemIndex]',
+        another_red_takenItems: '[locationIndex+itemIndex]',
+      })
+      .upgrade(async (tx) => {
+        const storeNames = ['takenItems', 'another_red_takenItems'];
+
+        for (const storeName of storeNames) {
+          const oldGotchaData = await tx.table(storeName).toArray();
+          for (const row of oldGotchaData) {
+            await tx.table(storeName).put(row);
+          }
+        }
+      });
+
+    const prefix = this.dataHandleService.DBprefix;
+    this.takenItems = this.table(`${prefix}takenItems`);
+    await this.open();
   }
 
   /**

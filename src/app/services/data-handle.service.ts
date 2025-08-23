@@ -5,6 +5,7 @@ import { ITEM_DATA_V3 } from '../datas/oranageV3/item.data';
 import { BehaviorSubject } from 'rxjs';
 import { POKEMON_WILDS_ANOTHER_RED } from '../datas/another_red/wilds.data';
 import { POKEMON_DATA_ANOTHER_RED } from '../datas/another_red/pokemon.data';
+import { ITEM_DATA_ANOTHER_RED } from '../datas/another_red/item.data';
 
 @Injectable({
   providedIn: 'root',
@@ -32,6 +33,17 @@ export class DataHandleService {
     return undefined;
   }
 
+  get DBprefix() {
+    switch (this.gameVersionSubject.value) {
+      case 'orange_v3':
+        return '';
+      case 'another_red':
+        return 'another_red_';
+    }
+
+    return '';
+  }
+
   get wildDatas() {
     switch (this.gameVersionSubject.value) {
       case 'orange_v3':
@@ -47,6 +59,8 @@ export class DataHandleService {
     switch (this.gameVersionSubject.value) {
       case 'orange_v3':
         return ITEM_DATA_V3;
+      case 'another_red':
+        return ITEM_DATA_ANOTHER_RED;
     }
 
     throw new Error('No service support');

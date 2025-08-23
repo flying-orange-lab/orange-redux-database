@@ -1,5 +1,6 @@
-import { Injectable } from '@angular/core';
+import { inject, Injectable } from '@angular/core';
 import Dexie from 'dexie';
+import { DataHandleService } from './data-handle.service';
 
 interface Catch {
   id: number;
@@ -10,14 +11,33 @@ interface Catch {
   providedIn: 'root',
 })
 export class PokemonCatchService extends Dexie {
-  pokemonCatch: Dexie.Table<Catch, number>;
+  private dataHandleService = inject(DataHandleService);
+  pokemonCatch!: Dexie.Table<Catch, number>;
 
   constructor() {
     super('PokemonCatchDB');
-    this.version(1).stores({
-      gotcha: 'id', // 'id'가 프라이머리 키(primary key)
-    });
-    this.pokemonCatch = this.table('gotcha');
+  }
+
+  async init() {
+    this.version(2)
+      .stores({
+        gotcha: 'id',
+        another_red_gotcha: 'id',
+      })
+      .upgrade(async (tx) => {
+        const storeNames = ['gotcha', 'another_red_gotcha'];
+
+        for (const storeName of storeNames) {
+          const oldGotchaData = await tx.table(storeName).toArray();
+          for (const row of oldGotchaData) {
+            await tx.table(storeName).put(row);
+          }
+        }
+      });
+
+    const prefix = this.dataHandleService.DBprefix;
+    this.pokemonCatch = this.table(`${prefix}gotcha`);
+    await this.open();
   }
 
   async catchPokemon(id: number, status: boolean) {
