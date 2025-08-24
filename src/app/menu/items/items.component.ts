@@ -45,9 +45,18 @@ export class ItemsComponent implements OnInit {
     const filterValue = value.toLowerCase();
     return this.itemDatas
       .map((item, idx) => ({ index: idx, value: item }))
-      .filter((entry) =>
-        entry.value.location.toLowerCase().includes(filterValue),
-      );
+      .filter((entry) => {
+        if (entry.value.location.toLowerCase().includes(filterValue)) {
+          return true;
+        }
+
+        for (const itemName of entry.value.itemList) {
+          if (itemName.toLowerCase().includes(filterValue)) {
+            return true;
+          }
+        }
+        return false;
+      });
   }
 
   async loadAllTakenItems(): Promise<void> {
