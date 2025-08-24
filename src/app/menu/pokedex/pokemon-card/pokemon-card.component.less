@@ -101,12 +101,20 @@
     justify-content: center;
     gap: 4px;
 
-    > div {
-      background-color: #e0e0e0;
+    .ability-name {
+      background-color: white;
       font-size: 0.8em;
       padding: 3px 6px;
-      border-radius: 5px;
+      border-radius: 6px;
       border: 1px #c0c8d0 solid;
+      cursor: pointer;
+    }
+    .ability-name.select {
+      border: 1px solid #007bff;
+      transform: translateY(-4px);
+      transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
     }
   }
 
@@ -114,11 +122,15 @@
     width: 100%;
     border: 1px solid #e0e0e0;
     border-radius: 8px;
-    background-color: #e0e0e0;
+    background-color: white;
     padding: 8px;
     margin-top: 5px;
     white-space: pre-wrap;
     text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
 }
 
