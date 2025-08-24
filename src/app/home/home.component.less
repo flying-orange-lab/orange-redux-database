@@ -14,8 +14,17 @@ section {
 }
 
 .patch-note {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
   font-size: 0.8rem;
   text-align: left;
+
+  .version-box > div:not(:first-child)::before {
+    content: "·";
+    display: inline-block;
+    width: 8px;
+  }
 }
 
 .issue-send {
