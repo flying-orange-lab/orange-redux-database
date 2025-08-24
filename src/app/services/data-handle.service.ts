@@ -7,6 +7,7 @@ import { POKEMON_WILDS_ANOTHER_RED } from '../datas/another_red/wilds.data';
 import { POKEMON_DATA_ANOTHER_RED } from '../datas/another_red/pokemon.data';
 import { ITEM_DATA_ANOTHER_RED } from '../datas/another_red/item.data';
 import { ABILITY_DATA } from '../datas/ability.data';
+import { ABILITY_DATA_V3 } from '../datas/oranageV3/ability.data';
 
 @Injectable({
   providedIn: 'root',
@@ -79,6 +80,10 @@ export class DataHandleService {
   }
 
   get abilityDatas() {
+    switch (this.gameVersionSubject.value) {
+      case 'orange_v3':
+        return ABILITY_DATA_V3;
+    }
     return ABILITY_DATA;
   }
 }

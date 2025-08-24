@@ -589,7 +589,7 @@ export const ABILITY_DATA: PokemonAbility[] = [
     'id': 94,
     'name': '선파워',
     'effect_text':
-      '날씨가 쾌청일 때 특수공격이 1.5배 증가하지만 턴이 끝날때 최대 HP의 1/8만큼이 감소한다.',
+      '날씨가 쾌청일 때 특수공격이 1.5배 증가한다.\n턴이 끝날때 최대 HP의 1/8만큼이 감소한다.',
     'effect_wild_text': '',
   },
   {
