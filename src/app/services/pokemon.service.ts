@@ -101,6 +101,12 @@ export class PokemonService {
     return locations;
   }
 
+  findAbility(abilityName: string) {
+    return this.dataHandleService.abilityDatas.find(
+      (ability) => ability.name == abilityName,
+    );
+  }
+
   engToKorTypeMapper(type: string) {
     return TYPE_DISPLAY_DATA[type];
   }

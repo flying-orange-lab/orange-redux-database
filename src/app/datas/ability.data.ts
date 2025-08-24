@@ -1,5 +1,7 @@
+import { PokemonAbility } from '../models/ability.model';
+
 // 특성 정보
-export const ABILITY_DATA = [
+export const ABILITY_DATA: PokemonAbility[] = [
   {
     'id': 1,
     'name': '악취',
