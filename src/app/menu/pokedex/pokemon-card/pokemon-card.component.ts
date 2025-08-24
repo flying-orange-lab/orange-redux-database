@@ -12,6 +12,7 @@ import { DataHandleService } from 'src/app/services/data-handle.service';
 import { PokemonImageService } from 'src/app/services/pokemon-image.service';
 import { PokemonService } from 'src/app/services/pokemon.service';
 import { PokemonStatComponent } from '../pokemon-stat/pokemon-stat.component';
+import { PokemonAbility } from 'src/app/models/ability.model';
 
 @Component({
   selector: 'app-pokemon-card',
@@ -28,6 +29,7 @@ export class PokemonCardComponent implements OnInit, OnDestroy, OnChanges {
   @Input() pokemon: any;
   @Input() useSprite = false;
   currentPokemonStats: number[] = [0, 0, 0, 0, 0, 0, 0];
+  currentAbility?: PokemonAbility;
   hasGender = false;
   isFront = true;
   isGenderFemale = false;
@@ -95,6 +97,7 @@ export class PokemonCardComponent implements OnInit, OnDestroy, OnChanges {
   selectForm(index: number): void {
     if (this.currentFormIndex !== index) {
       this.currentFormIndex = index;
+      this.currentAbility = undefined;
       this.updatePokemonInfo(); // 폼이 바뀌면 이미지 업데이트
     }
   }
@@ -109,6 +112,14 @@ export class PokemonCardComponent implements OnInit, OnDestroy, OnChanges {
   toggleGender(): void {
     this.isGenderFemale = !this.isGenderFemale;
     this.updatePokemonInfo(); // 성별이 바뀌면 이미지 업데이트
+  }
+
+  clickAbility(AbilityName: string) {
+    if (this.currentAbility?.name == AbilityName) {
+      this.currentAbility = undefined;
+    } else {
+      this.currentAbility = this.pokemonService.findAbility(AbilityName);
+    }
   }
 
   // 포켓몬 정보 업데이트
