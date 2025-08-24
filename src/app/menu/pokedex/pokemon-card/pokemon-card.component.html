@@ -53,14 +53,33 @@
   <div class="pokemon-ability">
     <div class="ability-name-box">
       @if (currentPokemon.abilities) {
-        @for (ability of currentPokemon.abilities; track $index) {
-          <div (click)="clickAbility(ability)">{{ ability }}</div>
+        @for (
+          ability of currentPokemon.abilities;
+          track $index;
+          let i = $index
+        ) {
+          <div
+            class="ability-name"
+            [class.select]="currentAbilityIndex === i"
+            (click)="clickAbility(ability, i)"
+          >
+            {{ ability }}
+          </div>
         }
       }
     </div>
     @if (currentAbility) {
       <div class="ability-description">
-        <div>{{ currentAbility.effect_text }}</div>
+        <div>
+          <b>배틀 효과</b>
+          <div>{{ currentAbility.effect_text }}</div>
+        </div>
+        @if (currentAbility.effect_wild_text) {
+          <div>
+            <b>야생 효과</b>
+            <div>{{ currentAbility.effect_wild_text }}</div>
+          </div>
+        }
       </div>
     }
   </div>

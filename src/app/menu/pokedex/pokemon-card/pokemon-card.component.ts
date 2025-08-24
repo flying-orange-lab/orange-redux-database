@@ -30,6 +30,7 @@ export class PokemonCardComponent implements OnInit, OnDestroy, OnChanges {
   @Input() useSprite = false;
   currentPokemonStats: number[] = [0, 0, 0, 0, 0, 0, 0];
   currentAbility?: PokemonAbility;
+  currentAbilityIndex?: number;
   hasGender = false;
   isFront = true;
   isGenderFemale = false;
@@ -98,6 +99,7 @@ export class PokemonCardComponent implements OnInit, OnDestroy, OnChanges {
     if (this.currentFormIndex !== index) {
       this.currentFormIndex = index;
       this.currentAbility = undefined;
+      this.currentAbilityIndex = undefined;
       this.updatePokemonInfo(); // 폼이 바뀌면 이미지 업데이트
     }
   }
@@ -114,11 +116,16 @@ export class PokemonCardComponent implements OnInit, OnDestroy, OnChanges {
     this.updatePokemonInfo(); // 성별이 바뀌면 이미지 업데이트
   }
 
-  clickAbility(AbilityName: string) {
-    if (this.currentAbility?.name == AbilityName) {
+  clickAbility(AbilityName: string, index: number) {
+    if (
+      this.currentAbility?.name == AbilityName &&
+      this.currentAbilityIndex == index
+    ) {
       this.currentAbility = undefined;
+      this.currentAbilityIndex = undefined;
     } else {
       this.currentAbility = this.pokemonService.findAbility(AbilityName);
+      this.currentAbilityIndex = index;
     }
   }
 
