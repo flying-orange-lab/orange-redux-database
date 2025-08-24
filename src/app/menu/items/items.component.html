@@ -1,46 +1,58 @@
 <section class="item-section">
-  @for (itemData of itemDatas; track $index; let locationIndex = $index) {
-    <div class="location-section">
-      <div class="location-header" (click)="toggleExpand(locationIndex)">
-        <h2
-          [class.strike-through]="
-            isLocationItemTaken(locationIndex, itemData.itemList)
-          "
-        >
-          {{ itemData.location }}
-        </h2>
-      </div>
+  <h2>아이템 검색</h2>
+  <div class="search-controls">
+    <input
+      id="item-search"
+      type="text"
+      placeholder="장소, 아이템을 검색"
+      [formControl]="searchLocation"
+    />
+  </div>
 
-      @if (expandedLocation === locationIndex) {
-        <div>
-          <table>
-            <thead>
-              <tr>
-                <th>아이템 목록</th>
-                <th>상태</th>
-              </tr>
-            </thead>
-            <tbody>
-              @for (
-                item of itemData.itemList;
-                track $index;
-                let itemIndex = $index
-              ) {
-                @let takenVar = isItemTaken(locationIndex, itemIndex);
-                <tr
-                  (click)="toggleItemStatus(locationIndex, itemIndex)"
-                  [class.strike-through]="takenVar"
-                >
-                  <td>{{ item }}</td>
-                  <td>
-                    {{ takenVar ? "●" : "○" }}
-                  </td>
-                </tr>
-              }
-            </tbody>
-          </table>
+  <div class="item-container">
+    @for (itemData of filteredItemDatats$ | async; track itemData.index) {
+      <div class="location-section">
+        <div class="location-header" (click)="toggleExpand(itemData.index)">
+          <h2
+            [class.strike-through]="
+              isLocationItemTaken(itemData.index, itemData.value.itemList)
+            "
+          >
+            {{ itemData.value.location }}
+          </h2>
         </div>
-      }
-    </div>
-  }
+
+        @if (expandedLocation === itemData.index) {
+          <div>
+            <table>
+              <thead>
+                <tr>
+                  <th>아이템 목록</th>
+                  <th>상태</th>
+                </tr>
+              </thead>
+              <tbody>
+                @for (
+                  item of itemData.value.itemList;
+                  track $index;
+                  let itemIndex = $index
+                ) {
+                  @let takenVar = isItemTaken(itemData.index, itemIndex);
+                  <tr
+                    (click)="toggleItemStatus(itemData.index, itemIndex)"
+                    [class.strike-through]="takenVar"
+                  >
+                    <td>{{ item }}</td>
+                    <td>
+                      {{ takenVar ? "●" : "○" }}
+                    </td>
+                  </tr>
+                }
+              </tbody>
+            </table>
+          </div>
+        }
+      </div>
+    }
+  </div>
 </section>

@@ -3,19 +3,24 @@ import { ActivatedRoute } from '@angular/router';
 import { PokeItem } from 'src/app/models/item.model';
 import { DataHandleService } from 'src/app/services/data-handle.service';
 import { ItemService } from 'src/app/services/item.service';
+import { FormControl, ReactiveFormsModule } from '@angular/forms';
+import { map, Observable, startWith } from 'rxjs';
+import { AsyncPipe } from '@angular/common';
 
 @Component({
   selector: 'app-items',
   templateUrl: './items.component.html',
   styleUrls: ['./items.component.less'],
-  imports: [],
+  imports: [ReactiveFormsModule, AsyncPipe],
 })
 export class ItemsComponent implements OnInit {
   private route = inject(ActivatedRoute);
   private dataHandleService = inject(DataHandleService);
   private itemService = inject(ItemService);
 
+  searchLocation = new FormControl('');
   itemDatas: PokeItem[] = [];
+  filteredItemDatats$!: Observable<{ index: number; value: PokeItem }[]>;
   expandedLocation: number | null = null;
   private takenItemsMap = new Map<string, boolean>();
 
@@ -25,10 +30,33 @@ export class ItemsComponent implements OnInit {
     // 데이터 처리
     this.itemDatas = this.dataHandleService.itemDatas;
 
+    this.filteredItemDatats$ = this.searchLocation.valueChanges.pipe(
+      startWith(''),
+      map((value) => this._filter(value || '')),
+    );
+
     if (this.itemDatas) {
       // 포켓몬 포획 정보
       this.loadAllTakenItems();
     }
+  }
+
+  private _filter(value: string) {
+    const filterValue = value.toLowerCase();
+    return this.itemDatas
+      .map((item, idx) => ({ index: idx, value: item }))
+      .filter((entry) => {
+        if (entry.value.location.toLowerCase().includes(filterValue)) {
+          return true;
+        }
+
+        for (const itemName of entry.value.itemList) {
+          if (itemName.toLowerCase().includes(filterValue)) {
+            return true;
+          }
+        }
+        return false;
+      });
   }
 
   async loadAllTakenItems(): Promise<void> {
