@@ -339,10 +339,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 8,
               },
               {
-                'name': '시비꼬 (화이트페더)',
+                'name': '시비꼬',
                 'minLv': 45,
                 'maxLv': 50,
                 'rate': 8,
+                'extra': '화이트페더',
               },
               {
                 'name': '꿀꺽몬',
@@ -474,10 +475,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 6,
               },
               {
-                'name': '모으령 (상자폼)',
+                'name': '모으령',
                 'minLv': 40,
                 'maxLv': 45,
                 'rate': 2,
+                'extra': '상자폼',
               },
             ],
           },
@@ -525,10 +527,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 8,
               },
               {
-                'name': '퍼퓨돈 (수컷)',
+                'name': '퍼퓨돈',
                 'minLv': 40,
                 'maxLv': 45,
                 'rate': 8,
+                'extra': '수컷',
               },
               {
                 'name': '피죤',
@@ -689,16 +692,18 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 10,
               },
               {
-                'name': '배쓰나이 (적색근)',
+                'name': '배쓰나이',
                 'minLv': 25,
                 'maxLv': 30,
                 'rate': 10,
+                'extra': '적색근',
               },
               {
-                'name': '배쓰나이 (청색근)',
+                'name': '배쓰나이',
                 'minLv': 25,
                 'maxLv': 30,
                 'rate': 10,
+                'extra': '청색근',
               },
               {
                 'name': '연꽃몬',
@@ -766,16 +771,18 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 10,
               },
               {
-                'name': '배쓰나이 (적색근)',
+                'name': '배쓰나이',
                 'minLv': 7,
                 'maxLv': 13,
                 'rate': 5,
+                'extra': '적색근',
               },
               {
-                'name': '배쓰나이 (청색근)',
+                'name': '배쓰나이',
                 'minLv': 7,
                 'maxLv': 13,
                 'rate': 5,
+                'extra': '청색근',
               },
             ],
           },
@@ -923,10 +930,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 8,
               },
               {
-                'name': '시비꼬 (옐로페더)',
+                'name': '시비꼬',
                 'minLv': 10,
                 'maxLv': 15,
                 'rate': 8,
+                'extra': '옐로페더',
               },
               {
                 'name': '유토브',
@@ -971,10 +979,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 4,
               },
               {
-                'name': '모으령 (상자폼)',
+                'name': '모으령',
                 'minLv': 10,
                 'maxLv': 15,
                 'rate': 2,
+                'extra': '상자폼',
               },
             ],
           },
@@ -1402,10 +1411,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 6,
               },
               {
-                'name': '스트린더 (하이)',
+                'name': '스트린더',
                 'minLv': 37,
                 'maxLv': 42,
                 'rate': 6,
+                'extra': '하이',
               },
               {
                 'name': '메탕',
@@ -1676,10 +1686,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 20,
               },
               {
-                'name': '시비꼬 (그린페더)',
+                'name': '시비꼬',
                 'minLv': 7,
                 'maxLv': 13,
                 'rate': 20,
+                'extra': '그린페더',
               },
               {
                 'name': '아라리',
@@ -1723,10 +1734,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 20,
               },
               {
-                'name': '시비꼬 (그린페더)',
+                'name': '시비꼬',
                 'minLv': 7,
                 'maxLv': 13,
                 'rate': 20,
+                'extra': '그린페더',
               },
               {
                 'name': '아라리',
@@ -2027,16 +2039,18 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 20,
               },
               {
-                'name': '배쓰나이 (적색근)',
+                'name': '배쓰나이',
                 'minLv': 33,
                 'maxLv': 39,
                 'rate': 10,
+                'extra': '적색근',
               },
               {
-                'name': '배쓰나이 (청색근)',
+                'name': '배쓰나이',
                 'minLv': 33,
                 'maxLv': 39,
                 'rate': 10,
+                'extra': '청색근',
               },
               {
                 'name': '누오',
@@ -2074,16 +2088,18 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 20,
               },
               {
-                'name': '배쓰나이 (적색근)',
+                'name': '배쓰나이',
                 'minLv': 33,
                 'maxLv': 39,
                 'rate': 10,
+                'extra': '적색근',
               },
               {
-                'name': '배쓰나이 (청색근)',
+                'name': '배쓰나이',
                 'minLv': 33,
                 'maxLv': 39,
                 'rate': 10,
+                'extra': '청색근',
               },
               {
                 'name': '누오',
@@ -2287,10 +2303,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 8,
               },
               {
-                'name': '호바귀 (보통 사이즈)',
+                'name': '호바귀',
                 'minLv': 20,
                 'maxLv': 25,
                 'rate': 8,
+                'extra': '보통 사이즈',
               },
               {
                 'name': '앱솔',
@@ -2842,10 +2859,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 8,
               },
               {
-                'name': '에써르 (수컷의 모습)',
+                'name': '에써르',
                 'minLv': 20,
                 'maxLv': 25,
                 'rate': 8,
+                'extra': '수컷의 모습',
               },
               {
                 'name': '마빌크',
@@ -2884,10 +2902,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 6,
               },
               {
-                'name': '모르페코 (배부른 모양)',
+                'name': '모르페코',
                 'minLv': 20,
                 'maxLv': 25,
                 'rate': 6,
+                'extra': '배부른 모양',
               },
               {
                 'name': '어리짱',
@@ -3327,10 +3346,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 6,
               },
               {
-                'name': '냐오닉스 (수컷)',
+                'name': '냐오닉스',
                 'minLv': 30,
                 'maxLv': 36,
                 'rate': 6,
+                'extra': '수컷',
               },
               {
                 'name': '해무기',
@@ -3422,10 +3442,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 6,
               },
               {
-                'name': '약어리 (단독)',
+                'name': '약어리',
                 'minLv': 30,
                 'maxLv': 36,
                 'rate': 6,
+                'extra': '단독',
               },
               {
                 'name': '미뇽',
@@ -3642,10 +3663,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 8,
               },
               {
-                'name': '퍼퓨돈 (수컷)',
+                'name': '퍼퓨돈',
                 'minLv': 55,
                 'maxLv': 60,
                 'rate': 8,
+                'extra': '수컷',
               },
               {
                 'name': '이올브',
@@ -3777,10 +3799,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 8,
               },
               {
-                'name': '도롱마담 (초목도롱)',
+                'name': '도롱마담',
                 'minLv': 40,
                 'maxLv': 45,
                 'rate': 8,
+                'extra': '초목도롱',
               },
               {
                 'name': '세꿀버리',
@@ -3812,10 +3835,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
             'area': '파도타기',
             'encounters': [
               {
-                'name': '배쓰나이 (적색근)',
+                'name': '배쓰나이',
                 'minLv': 40,
                 'maxLv': 45,
                 'rate': 20,
+                'extra': '적색근',
               },
               {
                 'name': '골덕',
@@ -3853,10 +3877,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
             'area': '대단한 낚싯대',
             'encounters': [
               {
-                'name': '배쓰나이 (적색근)',
+                'name': '배쓰나이',
                 'minLv': 40,
                 'maxLv': 45,
                 'rate': 20,
+                'extra': '적색근',
               },
               {
                 'name': '골덕',
@@ -3916,10 +3941,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 15,
               },
               {
-                'name': '불비달마 (노말)',
+                'name': '불비달마',
                 'minLv': 60,
                 'maxLv': 70,
                 'rate': 15,
+                'extra': '노말',
               },
               {
                 'name': '자말라',
@@ -4102,16 +4128,18 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
             'area': '파도타기',
             'encounters': [
               {
-                'name': '배쓰나이 (적색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
+                'extra': '적색근',
               },
               {
-                'name': '배쓰나이 (청색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
+                'extra': '청색근',
               },
               {
                 'name': '가재장군',
@@ -4149,16 +4177,18 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
             'area': '대단한 낚싯대',
             'encounters': [
               {
-                'name': '배쓰나이 (적색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
+                'extra': '적색근',
               },
               {
-                'name': '배쓰나이 (청색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
+                'extra': '청색근',
               },
               {
                 'name': '가재장군',
@@ -4212,10 +4242,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 15,
               },
               {
-                'name': '노고고치 (두 마디 폼)',
+                'name': '노고고치',
                 'minLv': 60,
                 'maxLv': 70,
                 'rate': 15,
+                'extra': '두 마디 폼',
               },
               {
                 'name': '글라이온',
@@ -4345,10 +4376,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 15,
               },
               {
-                'name': '퍼퓨돈 (수컷)',
+                'name': '퍼퓨돈',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
+                'extra': '수컷',
               },
               {
                 'name': '빠모트',
@@ -4696,10 +4728,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 15,
               },
               {
-                'name': '약어리 (단독)',
+                'name': '약어리',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
+                'extra': '단독',
               },
               {
                 'name': '리아코',
@@ -4743,10 +4776,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 15,
               },
               {
-                'name': '약어리 (단독)',
+                'name': '약어리',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
+                'extra': '단독',
               },
               {
                 'name': '리아코',
@@ -4839,16 +4873,18 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 15,
               },
               {
-                'name': '냐오닉스 (수컷)',
+                'name': '냐오닉스',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
+                'extra': '수컷',
               },
               {
-                'name': '모르페코 (배부른 모양)',
+                'name': '모르페코',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
+                'extra': '배부른 모양',
               },
               {
                 'name': '페르시온',
@@ -4978,10 +5014,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
             'area': '풀숲',
             'encounters': [
               {
-                'name': '펌킨인 (보통 사이즈)',
+                'name': '펌킨인',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
+                'extra': '보통 사이즈',
               },
               {
                 'name': '목도리키텔',
@@ -5153,10 +5190,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 15,
               },
               {
-                'name': '파밀리쥐 (네 식구)',
+                'name': '파밀리쥐',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
+                'extra': '네 식구',
               },
               {
                 'name': '치릴리',
@@ -5879,10 +5917,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 15,
               },
               {
-                'name': '따라큐 (둔갑한 모습)',
+                'name': '따라큐',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
+                'extra': '둔갑한 모습',
               },
               {
                 'name': '파치리스',
@@ -5914,16 +5953,18 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
             'area': '파도타기',
             'encounters': [
               {
-                'name': '배쓰나이 (적색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
+                'extra': '적색근',
               },
               {
-                'name': '배쓰나이 (청색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
+                'extra': '청색근',
               },
               {
                 'name': '트리토돈',
@@ -5961,16 +6002,18 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
             'area': '대단한 낚싯대',
             'encounters': [
               {
-                'name': '배쓰나이 (적색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
+                'extra': '적색근',
               },
               {
-                'name': '배쓰나이 (청색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
+                'extra': '청색근',
               },
               {
                 'name': '트리토돈',
@@ -6093,10 +6136,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 15,
               },
               {
-                'name': '에써르 (수컷의 모습)',
+                'name': '에써르',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
+                'extra': '수컷의 모습',
               },
               {
                 'name': '레디안',
@@ -6150,10 +6194,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 10,
               },
               {
-                'name': '배쓰나이 (적색근)',
+                'name': '배쓰나이',
                 'minLv': 7,
                 'maxLv': 13,
                 'rate': 10,
+                'extra': '적색근',
               },
               {
                 'name': '타만타',
@@ -7992,10 +8037,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 6,
               },
               {
-                'name': '따라큐 (둔갑한 모습)',
+                'name': '따라큐',
                 'minLv': 20,
                 'maxLv': 25,
                 'rate': 2,
+                'extra': '둔갑한 모습',
               },
             ],
           },
@@ -8394,10 +8440,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 25,
               },
               {
-                'name': '약어리 (단독)',
+                'name': '약어리',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 25,
+                'extra': '단독',
               },
               {
                 'name': '어써러셔',
@@ -8412,16 +8459,18 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 10,
               },
               {
-                'name': '싸리용 (늘어진)',
+                'name': '싸리용',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 10,
+                'extra': '늘어진',
               },
               {
-                'name': '싸리용 (뻗은)',
+                'name': '싸리용',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 10,
+                'extra': '뻗은',
               },
             ],
           },
@@ -8435,10 +8484,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 25,
               },
               {
-                'name': '약어리 (단독)',
+                'name': '약어리',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 25,
+                'extra': '단독',
               },
               {
                 'name': '어써러셔',
@@ -8453,16 +8503,18 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 10,
               },
               {
-                'name': '싸리용 (늘어진)',
+                'name': '싸리용',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 10,
+                'extra': '늘어진',
               },
               {
-                'name': '싸리용 (뻗은)',
+                'name': '싸리용',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 10,
+                'extra': '뻗은',
               },
             ],
           },
@@ -8480,10 +8532,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
             'area': '파도타기',
             'encounters': [
               {
-                'name': '배쓰나이 (적색근)',
+                'name': '배쓰나이',
                 'minLv': 40,
                 'maxLv': 45,
                 'rate': 20,
+                'extra': '적색근',
               },
               {
                 'name': '골덕',
@@ -8521,10 +8574,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
             'area': '대단한 낚싯대',
             'encounters': [
               {
-                'name': '배쓰나이 (적색근)',
+                'name': '배쓰나이',
                 'minLv': 40,
                 'maxLv': 45,
                 'rate': 20,
+                'extra': '적색근',
               },
               {
                 'name': '골덕',
@@ -9069,10 +9123,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 8,
               },
               {
-                'name': '빙큐보 (아이스페이스)',
+                'name': '빙큐보',
                 'minLv': 22,
                 'maxLv': 28,
                 'rate': 6,
+                'extra': '아이스페이스',
               },
               {
                 'name': '포푸니',
@@ -9572,10 +9627,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 6,
               },
               {
-                'name': '메테노 (유성)',
+                'name': '메테노',
                 'minLv': 5,
                 'maxLv': 9,
                 'rate': 6,
+                'extra': '유성',
               },
               {
                 'name': '이브이',
@@ -9602,28 +9658,32 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 2,
               },
               {
-                'name': '춤추새 (이글이글스타일)',
+                'name': '춤추새',
                 'minLv': 5,
                 'maxLv': 9,
                 'rate': 2,
+                'extra': '이글이글스타일',
               },
               {
-                'name': '춤추새 (파칙파칙스타일)',
+                'name': '춤추새',
                 'minLv': 5,
                 'maxLv': 9,
                 'rate': 2,
+                'extra': '파칙파칙스타일',
               },
               {
-                'name': '춤추새 (훌라훌라스타일)',
+                'name': '춤추새',
                 'minLv': 5,
                 'maxLv': 9,
                 'rate': 2,
+                'extra': '훌라훌라스타일',
               },
               {
-                'name': '춤추새 (하늘하늘스타일)',
+                'name': '춤추새',
                 'minLv': 5,
                 'maxLv': 9,
                 'rate': 2,
+                'extra': '하늘하늘스타일',
               },
             ],
           },
@@ -10057,10 +10117,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 10,
               },
               {
-                'name': '약어리 (단독)',
+                'name': '약어리',
                 'minLv': 28,
                 'maxLv': 32,
                 'rate': 10,
+                'extra': '단독',
               },
               {
                 'name': '빈티나',
@@ -10104,10 +10165,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 10,
               },
               {
-                'name': '약어리 (단독)',
+                'name': '약어리',
                 'minLv': 28,
                 'maxLv': 32,
                 'rate': 10,
+                'extra': '단독',
               },
               {
                 'name': '라프라스',
@@ -10250,10 +10312,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 10,
               },
               {
-                'name': '약어리 (단독)',
+                'name': '약어리',
                 'minLv': 28,
                 'maxLv': 32,
                 'rate': 10,
+                'extra': '단독',
               },
               {
                 'name': '라프라스',
@@ -10297,10 +10360,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 10,
               },
               {
-                'name': '약어리 (단독)',
+                'name': '약어리',
                 'minLv': 28,
                 'maxLv': 32,
                 'rate': 10,
+                'extra': '단독',
               },
               {
                 'name': '라프라스',
@@ -10554,16 +10618,18 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
             'area': '파도타기',
             'encounters': [
               {
-                'name': '배쓰나이 (적색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 25,
+                'extra': '적색근',
               },
               {
-                'name': '배쓰나이 (청색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 25,
+                'extra': '청색근',
               },
               {
                 'name': '잉어킹',
@@ -10583,16 +10649,18 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
             'area': '대단한 낚싯대',
             'encounters': [
               {
-                'name': '배쓰나이 (적색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 25,
+                'extra': '적색근',
               },
               {
-                'name': '배쓰나이 (청색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 25,
+                'extra': '청색근',
               },
               {
                 'name': '잉어킹',
@@ -10628,7 +10696,14 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 15,
               },
               {
-                'name': '야도란 (메가야도란)',
+                'name': '야도란',
+                'minLv': 50,
+                'maxLv': 60,
+                'rate': 15,
+                'extra': '메가야도란',
+              },
+              {
+                'name': '야도킹',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
@@ -10638,9 +10713,10 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
+                'extra': '가라르',
               },
               {
-                'name': '야도킹 (가라르)',
+                'name': '야돈',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
@@ -10650,12 +10726,7 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
-              },
-              {
-                'name': '야돈 (가라르)',
-                'minLv': 50,
-                'maxLv': 60,
-                'rate': 15,
+                'extra': '가라르',
               },
               {
                 'name': '드래런치',
@@ -10675,7 +10746,14 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 15,
               },
               {
-                'name': '야도란 (메가야도란)',
+                'name': '야도란',
+                'minLv': 50,
+                'maxLv': 60,
+                'rate': 15,
+                'extra': '메가야도란',
+              },
+              {
+                'name': '야도킹',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
@@ -10685,9 +10763,10 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
+                'extra': '가라르',
               },
               {
-                'name': '야도킹 (가라르)',
+                'name': '야돈',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
@@ -10697,12 +10776,7 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
-              },
-              {
-                'name': '야돈 (가라르)',
-                'minLv': 50,
-                'maxLv': 60,
-                'rate': 15,
+                'extra': '가라르',
               },
             ],
           },
@@ -10716,7 +10790,14 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 15,
               },
               {
-                'name': '야도란 (메가야도란)',
+                'name': '야도란',
+                'minLv': 50,
+                'maxLv': 60,
+                'rate': 15,
+                'extra': '메가야도란',
+              },
+              {
+                'name': '야도킹',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
@@ -10726,9 +10807,10 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
+                'extra': '가라르',
               },
               {
-                'name': '야도킹 (가라르)',
+                'name': '야돈',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
@@ -10738,12 +10820,7 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
-              },
-              {
-                'name': '야돈 (가라르)',
-                'minLv': 50,
-                'maxLv': 60,
-                'rate': 15,
+                'extra': '가라르',
               },
             ],
           },
@@ -10808,16 +10885,18 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
             'area': '파도타기',
             'encounters': [
               {
-                'name': '배쓰나이 (적색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 25,
+                'extra': '적색근',
               },
               {
-                'name': '배쓰나이 (청색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 25,
+                'extra': '청색근',
               },
               {
                 'name': '잉어킹',
@@ -10837,16 +10916,18 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
             'area': '대단한 낚싯대',
             'encounters': [
               {
-                'name': '배쓰나이 (적색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 25,
+                'extra': '적색근',
               },
               {
-                'name': '배쓰나이 (청색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 25,
+                'extra': '청색근',
               },
               {
                 'name': '잉어킹',
@@ -10923,16 +11004,18 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
             'area': '파도타기',
             'encounters': [
               {
-                'name': '배쓰나이 (적색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 25,
+                'extra': '적색근',
               },
               {
-                'name': '배쓰나이 (청색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 25,
+                'extra': '청색근',
               },
               {
                 'name': '잉어킹',
@@ -10952,16 +11035,18 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
             'area': '대단한 낚싯대',
             'encounters': [
               {
-                'name': '배쓰나이 (적색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 25,
+                'extra': '적색근',
               },
               {
-                'name': '배쓰나이 (청색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 25,
+                'extra': '청색근',
               },
               {
                 'name': '잉어킹',
@@ -11266,16 +11351,18 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
             'area': '파도타기',
             'encounters': [
               {
-                'name': '배쓰나이 (적색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 25,
+                'extra': '적색근',
               },
               {
-                'name': '배쓰나이 (청색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 25,
+                'extra': '청색근',
               },
               {
                 'name': '트리토돈',
@@ -11295,16 +11382,18 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
             'area': '대단한 낚싯대',
             'encounters': [
               {
-                'name': '배쓰나이 (적색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 25,
+                'extra': '적색근',
               },
               {
-                'name': '배쓰나이 (청색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 25,
+                'extra': '청색근',
               },
               {
                 'name': '트리토돈',
@@ -11358,10 +11447,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 15,
               },
               {
-                'name': '루가루암 (한밤중)',
+                'name': '루가루암',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
+                'extra': '한밤중',
               },
               {
                 'name': '롱스톤',
@@ -11381,16 +11471,18 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
             'area': '파도타기',
             'encounters': [
               {
-                'name': '배쓰나이 (적색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 25,
+                'extra': '적색근',
               },
               {
-                'name': '배쓰나이 (청색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 25,
+                'extra': '청색근',
               },
               {
                 'name': '트리토돈',
@@ -11410,16 +11502,18 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
             'area': '대단한 낚싯대',
             'encounters': [
               {
-                'name': '배쓰나이 (적색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 25,
+                'extra': '적색근',
               },
               {
-                'name': '배쓰나이 (청색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 25,
+                'extra': '청색근',
               },
               {
                 'name': '트리토돈',
@@ -11506,16 +11600,18 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
             'area': '파도타기',
             'encounters': [
               {
-                'name': '배쓰나이 (적색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
+                'extra': '적색근',
               },
               {
-                'name': '배쓰나이 (청색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
+                'extra': '청색근',
               },
               {
                 'name': '가재장군',
@@ -11553,16 +11649,18 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
             'area': '대단한 낚싯대',
             'encounters': [
               {
-                'name': '배쓰나이 (적색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
+                'extra': '적색근',
               },
               {
-                'name': '배쓰나이 (청색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 15,
+                'extra': '청색근',
               },
               {
                 'name': '가재장군',
@@ -11805,10 +11903,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 15,
               },
               {
-                'name': '노고고치 (두 마디 폼)',
+                'name': '노고고치',
                 'minLv': 60,
                 'maxLv': 70,
                 'rate': 15,
+                'extra': '두 마디 폼',
               },
               {
                 'name': '글라이온',
@@ -12134,16 +12233,18 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
             'area': '파도타기',
             'encounters': [
               {
-                'name': '배쓰나이 (적색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 20,
+                'extra': '적색근',
               },
               {
-                'name': '배쓰나이 (청색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 20,
+                'extra': '청색근',
               },
               {
                 'name': '골덕',
@@ -12169,16 +12270,18 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
             'area': '대단한 낚싯대',
             'encounters': [
               {
-                'name': '배쓰나이 (적색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 20,
+                'extra': '적색근',
               },
               {
-                'name': '배쓰나이 (청색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 20,
+                'extra': '청색근',
               },
               {
                 'name': '골덕',
@@ -12318,16 +12421,18 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
             'area': '파도타기',
             'encounters': [
               {
-                'name': '배쓰나이 (적색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 25,
+                'extra': '적색근',
               },
               {
-                'name': '배쓰나이 (청색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 25,
+                'extra': '청색근',
               },
               {
                 'name': '잉어킹',
@@ -12347,16 +12452,18 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
             'area': '대단한 낚싯대',
             'encounters': [
               {
-                'name': '배쓰나이 (적색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 25,
+                'extra': '적색근',
               },
               {
-                'name': '배쓰나이 (청색근)',
+                'name': '배쓰나이',
                 'minLv': 50,
                 'maxLv': 60,
                 'rate': 25,
+                'extra': '청색근',
               },
               {
                 'name': '잉어킹',
@@ -12628,10 +12735,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 12,
               },
               {
-                'name': '싸리용 (젖힌)',
+                'name': '싸리용',
                 'minLv': 25,
                 'maxLv': 30,
                 'rate': 12,
+                'extra': '젖힌',
               },
               {
                 'name': '어써러셔',
@@ -12675,10 +12783,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 12,
               },
               {
-                'name': '싸리용 (젖힌)',
+                'name': '싸리용',
                 'minLv': 7,
                 'maxLv': 13,
                 'rate': 12,
+                'extra': '젖힌',
               },
               {
                 'name': '어써러셔',
@@ -12999,10 +13108,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 5,
               },
               {
-                'name': '싸리용 (젖힌)',
+                'name': '싸리용',
                 'minLv': 28,
                 'maxLv': 32,
                 'rate': 5,
+                'extra': '젖힌',
               },
             ],
           },
@@ -13040,10 +13150,11 @@ export const POKEMON_WILDS_ANOTHER_RED: WildArea[] = [
                 'rate': 5,
               },
               {
-                'name': '싸리용 (젖힌)',
+                'name': '싸리용',
                 'minLv': 28,
                 'maxLv': 32,
                 'rate': 5,
+                'extra': '젖힌',
               },
             ],
           },

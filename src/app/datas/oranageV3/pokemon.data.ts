@@ -9,6 +9,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['grass', 'poison'],
     'abilities': ['두꺼운지방', '엽록소', '심록'],
     'stats': [45, 49, 49, 65, 65, 45, 318],
+    'extra': '모란만시티, 체육관 옆 집 NPC 삐에로',
   },
   {
     'id': 2,
@@ -36,6 +37,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['fire'],
     'abilities': ['선파워', '단단한발톱', '맹화'],
     'stats': [39, 52, 43, 60, 50, 65, 309],
+    'extra': '모란만시티, 체육관 옆 집 NPC 삐에로',
   },
   {
     'id': 5,
@@ -63,6 +65,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['water'],
     'abilities': ['메가런처', '쓱쓱', '급류'],
     'stats': [44, 48, 65, 50, 64, 43, 314],
+    'extra': '모란만시티, 체육관 옆 집 NPC 삐에로',
   },
   {
     'id': 8,
@@ -606,6 +609,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['fighting'],
     'abilities': ['정신력', '노가드', '정신력'],
     'stats': [60, 90, 60, 53, 50, 82, 395],
+    'extra':
+      '모란만시티, 선착장 옆 부두 NPC 철구. 배틀 보상으로 알 획득 가능 (일회성)',
   },
   {
     'id': 67,
@@ -792,6 +797,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['grass', 'fairy'],
     'abilities': ['심록', '심술꾸러기', '심술꾸러기'],
     'stats': [50, 70, 45, 65, 45, 35, 310],
+    'extra':
+      '산가지마을, 오른쪽 위 공터 NPC. 스타팅이 뚜꾸리일 때 받을 수 있음',
   },
   {
     'id': 87,
@@ -983,6 +990,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['water'],
     'abilities': ['급류', '급류', '급류'],
     'stats': [50, 53, 62, 58, 63, 44, 330],
+    'extra':
+      '산가지마을, 오른쪽 위 공터 NPC. 스타팅이 주리비얀일 때 받을 수 있음',
   },
   {
     'id': 107,
@@ -1214,6 +1223,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['water', 'ice'],
     'abilities': ['저수', '촉촉바디', '아이스바디'],
     'stats': [130, 85, 80, 85, 95, 60, 535],
+    'extra': '빌리지브리지, 다리 뒤편 수면 위 심볼 인카운트',
   },
   {
     'id': 132,
@@ -1232,6 +1242,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['normal'],
     'abilities': ['적응력', '도주', '픽업'],
     'stats': [55, 55, 50, 45, 65, 55, 325],
+    'extra':
+      '구름시티, 주리의 연구소(메달사무국 3층) NPC 솔이. 챌린지 모드에서는 엔딩 이후',
   },
   {
     'id': 134,
@@ -1333,6 +1345,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['ice', 'flying'],
     'abilities': ['눈숨기', '눈퍼뜨리기', '프레셔'],
     'stats': [90, 85, 100, 95, 125, 85, 580],
+    'extra':
+      '전당등록 이후. 스카이애로브리지의 칠현인 스므라와 대화 필요. 자이언트홀 외부(보배마을 방면 입구 북쪽 끊어진 다리)',
   },
   {
     'id': 145,
@@ -1342,6 +1356,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['electric', 'flying'],
     'abilities': ['정전기', '피뢰침', '프레셔'],
     'stats': [90, 90, 85, 125, 90, 100, 580],
+    'extra':
+      '전당등록 이후. 스카이애로브리지의 칠현인 스므라와 대화 필요. 전기돌동굴 1층 내부',
   },
   {
     'id': 146,
@@ -1351,6 +1367,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['fire', 'flying'],
     'abilities': ['불꽃몸', '가뭄', '프레셔'],
     'stats': [90, 100, 90, 125, 85, 90, 580],
+    'extra':
+      '전당등록 이후. 스카이애로브리지의 칠현인 스므라와 대화 필요. 리버스마운틴 외부 (산 밖으로 가는 길에서 남쪽 출구)',
   },
   {
     'id': 147,
@@ -1387,6 +1405,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['psychic'],
     'abilities': ['프레셔', '긴장감'],
     'stats': [106, 110, 90, 154, 90, 130, 680],
+    'extra':
+      '전당등록 이후. 지하수맥굴의 지하로 내려가는 계단 앞 그린과의 배틀에서 승리 필요. 지하수맥굴 최하층',
   },
   {
     'id': 151,
@@ -1396,6 +1416,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['psychic'],
     'abilities': ['싱크로', '매직가드', '매직미러'],
     'stats': [100, 100, 100, 100, 100, 100, 600],
+    'extra':
+      '전당등록 이후. 챔피언로드의 배지체크게이트에서 N에게 오래된해도 받기 필요. 15번도로의 시프트팩토리에 있는 강연과 대화 필요. 모란만시티 항구의 파일럿 NPC와 대화 필요. 머나먼고도',
   },
   {
     'id': 152,
@@ -1405,6 +1427,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['grass'],
     'abilities': ['하늘의은총', '리프가드', '심록'],
     'stats': [45, 49, 65, 49, 65, 45, 318],
+    'extra': '구름시티, 배틀컴퍼니 맨 위층 NPC 삐에로',
   },
   {
     'id': 153,
@@ -1432,6 +1455,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['fire'],
     'abilities': ['타오르는불꽃', '적응력', '맹화'],
     'stats': [39, 52, 43, 60, 50, 65, 309],
+    'extra': '구름시티, 배틀컴퍼니 맨 위층 NPC 삐에로',
   },
   {
     'id': 156,
@@ -1460,6 +1484,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['water'],
     'abilities': ['우격다짐', '단단한발톱', '급류'],
     'stats': [50, 65, 64, 44, 48, 43, 314],
+    'extra': '구름시티, 배틀컴퍼니 맨 위층 NPC 삐에로',
   },
   {
     'id': 159,
@@ -1923,6 +1948,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['fairy'],
     'abilities': ['적응력', '승기', '적응력'],
     'stats': [95, 65, 65, 110, 130, 60, 525],
+    'extra': '4번도로, 민가 NPC 짧은 치마에게 이브이와 교환 가능(6U, 온순)',
   },
   {
     'id': 209,
@@ -2079,6 +2105,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['ice', 'water'],
     'abilities': ['불면', '마이페이스', '마이페이스'],
     'stats': [56, 80, 114, 124, 60, 136, 570],
+    'extra': '6번 도로, 계절연구소. 맨 뒤쪽 연구원과의 대화를 통해 획득',
   },
   {
     'id': 226,
@@ -2246,6 +2273,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['electric'],
     'abilities': ['프레셔', '정신력'],
     'stats': [90, 85, 75, 115, 100, 115, 580],
+    'extra': '전당등록 이후. 3번도로에서 유빈과 대화 필요. 전기돌동굴 지하 2층',
   },
   {
     'id': 244,
@@ -2255,6 +2283,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['fire'],
     'abilities': ['프레셔', '정신력'],
     'stats': [115, 115, 85, 90, 75, 100, 580],
+    'extra':
+      '전당등록 이후. 3번도로에서 유빈과 대화 필요. 23번도로 집 뒤 절벽 꼭대기 (은혈 맞은편)',
   },
   {
     'id': 245,
@@ -2264,6 +2294,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['water'],
     'abilities': ['프레셔', '정신력'],
     'stats': [100, 75, 115, 90, 115, 85, 580],
+    'extra':
+      '전당등록 이후. 3번도로에서 유빈과 대화 필요. 13번도로 남서쪽 언덕',
   },
   {
     'id': 246,
@@ -2301,6 +2333,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['psychic', 'flying'],
     'abilities': ['프레셔', '멀티스케일'],
     'stats': [106, 90, 130, 90, 154, 110, 680],
+    'extra':
+      '전당등록 이후. 챔피언로드 목호에게 무지갯빛날개,은빛날개 받기 필요. 마름꽃마을 포켓몬 연구소 주누운박사에게 성스러운분말 받기 필요. 칠보시티의 카페 갤러지에서 규리에게 성스러운분말을 건네주고 크리스탈방울과 해명의방울을 받기 필요. 17번수로 급류 중앙',
   },
   {
     'id': 250,
@@ -2310,6 +2344,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['fire', 'flying'],
     'abilities': ['프레셔', '재생력'],
     'stats': [106, 130, 90, 110, 154, 90, 680],
+    'extra':
+      '전당등록 이후. 챔피언로드 목호에게 무지갯빛날개,은빛날개 받기 필요. 마름꽃마을 포켓몬 연구소 주누운박사에게 성스러운분말 받기 필요. 칠보시티의 카페 갤러지에서 규리에게 성스러운분말을 건네주고 크리스탈방울과 해명의방울을 받기 필요. 부채시티 전망대 정상',
   },
   {
     'id': 251,
@@ -2319,6 +2355,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['grass', 'fairy'],
     'abilities': ['자연회복', '매직미러', '매직가드'],
     'stats': [100, 100, 100, 100, 100, 100, 600],
+    'extra':
+      '전당등록 이후. 성신시티의 주리의 집에서 민화와 대화 필요. C기어 > WIRELESS > 하일링크로 이동',
   },
   {
     'id': 252,
@@ -2328,6 +2366,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['grass'],
     'abilities': ['심록', '곡예'],
     'stats': [40, 65, 35, 45, 55, 70, 310],
+    'extra': '가륜마을, 세 채 중 왼쪽 아래 있는 집 NPC 삐에로',
   },
   {
     'id': 253,
@@ -2355,6 +2394,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['fire'],
     'abilities': ['속보', '가속', '맹화'],
     'stats': [45, 60, 40, 70, 50, 45, 310],
+    'extra': '가륜마을, 세 채 중 왼쪽 아래 있는 집 NPC 삐에로',
   },
   {
     'id': 256,
@@ -2382,6 +2422,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['water'],
     'abilities': ['수의베일', '쓱쓱', '급류'],
     'stats': [50, 70, 50, 50, 50, 40, 310],
+    'extra': '가륜마을, 세 채 중 왼쪽 아래 있는 집 NPC 삐에로',
   },
   {
     'id': 259,
@@ -2893,6 +2934,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['fire', 'bug'],
     'abilities': ['맹화', '타오르는불꽃', '타오르는불꽃'],
     'stats': [60, 75, 45, 40, 50, 45, 315],
+    'extra':
+      '산가지마을, 오른쪽 위 공터 NPC. 스타팅이 수댕이일 때 받을 수 있음',
   },
   {
     'id': 314,
@@ -3004,6 +3047,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['dragon'],
     'abilities': ['우격다짐', '방음', '방진'],
     'stats': [45, 55, 65, 45, 45, 45, 300],
+    'extra':
+      '구름시티, 배틀컴퍼니 꼭대기층. 전체 배틀 승리 보상으로 알 획득 가능 (랜덤)',
   },
   {
     'id': 326,
@@ -3243,7 +3288,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '캐스퐁',
     'form': [
       {
-        'formName': '노말',
+        'formName': '일반',
         'imageUrl': '351.png',
         'types': ['normal'],
         'abilities': ['기분파', '변환자재', '기분파'],
@@ -3384,6 +3429,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['dragon', 'ice'],
     'abilities': ['수의베일', '아이스바디', '아이스바디'],
     'stats': [65, 75, 45, 35, 45, 55, 320],
+    'extra':
+      '구름시티, 배틀컴퍼니 꼭대기층. 전체 배틀 승리 보상으로 알 획득 가능 (랜덤)',
   },
   {
     'id': 364,
@@ -3413,6 +3460,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['fire'],
     'abilities': ['타오르는불꽃', '불꽃몸', '의기양양'],
     'stats': [50, 55, 50, 55, 50, 45, 305],
+    'extra':
+      '기하시티 NPC 빡빡이에게 대도각참과 교환 가능(특공U, 노력, 의기양양)',
   },
   {
     'id': 367,
@@ -3461,6 +3510,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['dragon'],
     'abilities': ['돌머리', '우격다짐', '우격다짐'],
     'stats': [45, 75, 60, 40, 30, 50, 300],
+    'extra':
+      '구름시티, 배틀컴퍼니 꼭대기층. 전체 배틀 승리 보상으로 알 획득 가능 (랜덤)',
   },
   {
     'id': 372,
@@ -3516,6 +3567,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['rock'],
     'abilities': ['하드록', '옹골참', '클리어바디'],
     'stats': [80, 100, 200, 50, 100, 50, 580],
+    'extra':
+      '전당등록 이후. 야콘로드 땅밑유적의 베테랑 트레이너에게 무쇠의 열쇠, 빙산의 열쇠를 받기 필요. 땅밑유적 바위산의 방',
   },
   {
     'id': 378,
@@ -3525,6 +3578,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['ice'],
     'abilities': ['필터', '아이스바디', '클리어바디'],
     'stats': [80, 50, 100, 100, 200, 50, 580],
+    'extra':
+      '전당등록 이후. 야콘로드 땅밑유적의 베테랑 트레이너에게 무쇠의 열쇠, 빙산의 열쇠를 받기 필요. 땅밑유적 쇠철의 방 (하나링크 무쇠의 열쇠 필요)',
   },
   {
     'id': 379,
@@ -3534,6 +3589,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['steel'],
     'abilities': ['내열', '클리어바디', '라이트메탈'],
     'stats': [80, 75, 150, 75, 150, 50, 580],
+    'extra':
+      '전당등록 이후. 야콘로드 땅밑유적의 베테랑 트레이너에게 무쇠의 열쇠, 빙산의 열쇠를 받기 필요. 땅밑유적 빙산의 방 (하나링크 빙산의 열쇠 필요)',
   },
   {
     'id': 380,
@@ -3543,6 +3600,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['dragon', 'psychic'],
     'abilities': ['부유'],
     'stats': [80, 80, 90, 110, 130, 110, 600],
+    'extra':
+      '전당등록 이후. 가륜마을의 북쪽 절벽에서 이벤트 필요. 15번도로 시프트팩토리에서 심볼 인카운터(우측 다리)',
   },
   {
     'id': 381,
@@ -3552,6 +3611,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['dragon', 'psychic'],
     'abilities': ['부유'],
     'stats': [80, 90, 80, 130, 110, 110, 600],
+    'extra':
+      '전당등록 이후. 가륜마을의 북쪽 절벽에서 이벤트 필요. 18번도로에서 심볼 인카운터 (언덕 위 집 남쪽)',
   },
   {
     'id': 382,
@@ -3561,6 +3622,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['water'],
     'abilities': ['잔비'],
     'stats': [100, 100, 90, 150, 140, 90, 670],
+    'extra':
+      '전당등록 이후. 성신시티 체육관의 관장과  배틀에서 승리하고 연둣빛구슬, 주홍구슬, 쪽빛구슬을 받기 필요. 해저유적',
   },
   {
     'id': 383,
@@ -3570,6 +3633,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['ground'],
     'abilities': ['가뭄'],
     'stats': [100, 150, 140, 100, 90, 90, 670],
+    'extra':
+      '전당등록 이후. 성신시티 체육관의 관장과  배틀에서 승리하고 연둣빛구슬, 주홍구슬, 쪽빛구슬을 받기 필요. 리조트데저트 남서쪽',
   },
   {
     'id': 384,
@@ -3579,6 +3644,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['dragon', 'flying'],
     'abilities': ['에어록'],
     'stats': [105, 150, 90, 150, 90, 95, 680],
+    'extra':
+      '전당등록 이후. 성신시티 체육관의 관장과  배틀에서 승리하고 연둣빛구슬, 주홍구슬, 쪽빛구슬을 받기 필요. 타워오브해븐 최상층 (종을 울려야 출현함)',
   },
   {
     'id': 385,
@@ -3588,6 +3655,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['steel', 'psychic'],
     'abilities': ['하늘의은총', '매직가드', '매직미러'],
     'stats': [100, 100, 100, 100, 100, 100, 600],
+    'extra': '전당등록 이후. 꿈터',
   },
   {
     'id': 386,
@@ -3600,6 +3668,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'types': ['psychic'],
         'abilities': ['변덕쟁이', '프레셔'],
         'stats': [50, 150, 50, 150, 50, 150, 600],
+        'extra':
+          '전당등록 이후. 칠보시티 박물관 내부 운석 옆의 NPC와 대화 필요. 자이언트홀 중앙',
       },
       {
         'formName': '어택',
@@ -3632,6 +3702,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['grass'],
     'abilities': ['돌머리', '조가비갑옷', '심록'],
     'stats': [55, 68, 64, 45, 55, 31, 318],
+    'extra': '물풍경시티, 가장 왼쪽 아래 있는 집 NPC 삐에로',
   },
   {
     'id': 388,
@@ -3659,6 +3730,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['fire'],
     'abilities': ['노가드', '테크니션', '맹화'],
     'stats': [44, 58, 44, 58, 44, 61, 309],
+    'extra': '물풍경시티, 가장 왼쪽 아래 있는 집 NPC 삐에로',
   },
   {
     'id': 391,
@@ -3686,6 +3758,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['water'],
     'abilities': ['승기', '노가드', '급류'],
     'stats': [53, 51, 53, 61, 56, 40, 314],
+    'extra':
+      '물풍경시티, 가장 왼쪽 아래 있는 집 NPC 삐에로. 7번도로, 민가 NPC 등산가에게 멜리시와 교환 가능(공V, 고집, 단단한발톱)',
   },
   {
     'id': 394,
@@ -3986,7 +4060,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'koreanName': '스트린더',
     'form': [
       {
-        'formName': '하이폼',
+        'formName': '하이',
         'imageUrl': '849.png',
         'types': ['electric', 'poison'],
         'abilities': ['고음', '이판사판', '테크니션'],
@@ -3994,7 +4068,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'evolutionCondition': '일레즌 (레벨 29)',
       },
       {
-        'formName': '로우폼',
+        'formName': '로우',
         'imageUrl': '10184.png',
         'types': ['electric', 'poison'],
         'abilities': ['고음', '이판사판', '테크니션'],
@@ -4534,6 +4608,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'types': ['electric', 'ghost'],
         'abilities': ['부유'],
         'stats': [50, 50, 77, 100, 77, 121, 475],
+        'extra':
+          '쇼핑몰R9, 창고에서 색이 다른 포켓몬 획득 가능. 챌린지 모드는 은송에게 배틀 승리 필요.',
       },
       {
         'formName': '히트',
@@ -4580,6 +4656,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['psychic', 'fairy'],
     'abilities': ['부유'],
     'stats': [75, 75, 130, 75, 130, 95, 580],
+    'extra':
+      '전당등록 이후. 20번도로의 마음의 공동에서 주박사와 이벤트 필요. 칠보시티 박물관 앞',
   },
   {
     'id': 481,
@@ -4589,6 +4667,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['psychic', 'fairy'],
     'abilities': ['부유'],
     'stats': [80, 105, 105, 105, 105, 80, 580],
+    'extra':
+      '전당등록 이후. 20번도로의 마음의 공동에서 주박사와 이벤트 필요. 타워오브해븐 최상층',
   },
   {
     'id': 482,
@@ -4598,6 +4678,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['psychic', 'fairy'],
     'abilities': ['부유'],
     'stats': [75, 125, 70, 125, 70, 115, 580],
+    'extra':
+      '전당등록 이후. 20번도로의 마음의 공동에서 주박사와 이벤트 필요. 23번도로 (괴력 퍼즐이 있는 곳)',
   },
   {
     'id': 483,
@@ -4607,6 +4689,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['steel', 'dragon'],
     'abilities': ['프레셔', '지구력', '텔레파시'],
     'stats': [100, 120, 120, 150, 100, 90, 680],
+    'extra':
+      '전당등록 이후. 유나이티드 타워에서 리덕스 오리지널 2회차 스토리를 진행 필요. 궐수의동굴 3층',
   },
   {
     'id': 484,
@@ -4616,6 +4700,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['water', 'dragon'],
     'abilities': ['프레셔', '예리함', '텔레파시'],
     'stats': [90, 120, 100, 150, 120, 100, 680],
+    'extra':
+      '전당등록 이후. 유나이티드 타워에서 리덕스 오리지널 2회차 스토리를 진행 필요. 18번도로',
   },
   {
     'id': 485,
@@ -4625,6 +4711,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['fire', 'steel'],
     'abilities': ['타오르는불꽃', '불꽃몸'],
     'stats': [91, 90, 106, 130, 106, 77, 600],
+    'extra':
+      '전당등록 이후. 18번도로에서 화산의돌을 획득 필요. 리버스마운틴 히드런의 방',
   },
   {
     'id': 486,
@@ -4634,6 +4722,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['normal'],
     'abilities': ['슬로스타트', '무기력', '슬로스타트'],
     'stats': [110, 160, 110, 80, 110, 100, 670],
+    'extra':
+      '전당등록 이후. 레지락, 레지아이스, 레지스틸을 지닌 포켓몬에 넣기 필요. 태엽산 (얼음 바위가 있는 방 안쪽)',
   },
   {
     'id': 487,
@@ -4646,6 +4736,9 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'types': ['ghost', 'dragon'],
         'abilities': ['프레셔', '단단한발톱', '텔레파시'],
         'stats': [150, 100, 120, 100, 120, 90, 680],
+
+        'extra':
+          '전당등록 이후. 유나이티드 타워에서 리덕스 오리지널 2회차 스토리를 진행 필요. 유나이티드 타워',
       },
       {
         'formName': '오리진',
@@ -4664,6 +4757,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['psychic'],
     'abilities': ['부유'],
     'stats': [120, 70, 110, 75, 120, 85, 580],
+    'extra':
+      '전당등록 이후. 스트레인저 하우스에서 이벤트를 본 뒤 초승달날개를 획득 필요. 원더브리지',
   },
   {
     'id': 489,
@@ -4682,6 +4777,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['water', 'fairy'],
     'abilities': ['촉촉바디', '잔비', '촉촉바디'],
     'stats': [100, 100, 100, 100, 100, 100, 600],
+    'extra':
+      '전당등록 이후. 3번도로 게이트의 브리더 NPC와 대화하여 마나피의 알 획득',
   },
   {
     'id': 491,
@@ -4691,6 +4788,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['dark'],
     'abilities': ['나이트메어'],
     'stats': [70, 90, 90, 135, 90, 125, 600],
+    'extra':
+      '전당등록 이후. 크레세리아를 지닌 포켓몬 선두에 넣기 필요. 스트레인저 하우스',
   },
   {
     'id': 492,
@@ -4703,6 +4802,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'types': ['grass'],
         'abilities': ['자연회복'],
         'stats': [100, 100, 100, 100, 100, 100, 600],
+        'extra':
+          '전당등록 이후. 바람개비숲에서 체렌 이벤트 필요. 바람개비숲 사색의들판',
       },
       {
         'formName': '스카이',
@@ -4710,6 +4811,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'types': ['grass', 'flying'],
         'abilities': ['하늘의은총'],
         'stats': [100, 103, 75, 120, 75, 127, 600],
+        'extra':
+          '랜드 폼에 성신시티 포켓몬센터의 유채로부터 받은 그라데시아꽃 사용. 리덕스 오류로 치트 코드 필요',
       },
     ],
   },
@@ -4721,6 +4824,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['normal'],
     'abilities': ['멀티타입'],
     'stats': [120, 120, 120, 120, 120, 120, 720],
+    'extra':
+      '전당등록 이후. 유나이티드 타워에서 리덕스 오리지널 2회차 스토리를 진행필요. 자연보호구역 (스토리 진행 이후 재방문)',
   },
   {
     'id': 494,
@@ -4730,6 +4835,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['psychic', 'fire'],
     'abilities': ['승리의별'],
     'stats': [100, 100, 100, 100, 100, 100, 600],
+    'extra':
+      '리버티가든섬 등대 내부. 챌린지모드는 버그배지 획득 이후에는 성신시티까지 진행 필요',
   },
   {
     'id': 495,
@@ -4739,6 +4846,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['grass'],
     'abilities': ['심술꾸러기', '단순', '심록'],
     'stats': [45, 45, 55, 45, 55, 63, 308],
+    'extra': '스타팅 포켓몬으로 획득 가능. 특성 심술꾸러기 고정',
   },
   {
     'id': 496,
@@ -4766,6 +4874,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['fire'],
     'abilities': ['우격다짐', '이판사판', '맹화'],
     'stats': [65, 63, 45, 45, 45, 45, 308],
+    'extra': '스타팅 포켓몬으로 획득 가능. 특성 우격다짐 고정',
   },
   {
     'id': 499,
@@ -4793,6 +4902,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['water'],
     'abilities': ['예리함', '조가비갑옷', '급류'],
     'stats': [55, 55, 45, 63, 45, 45, 308],
+    'extra': '스타팅 포켓몬으로 획득 가능. 특성 예리함 고정',
   },
   {
     'id': 502,
@@ -4885,6 +4995,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['dragon'],
     'abilities': ['포이즌힐', '마중물', '초식'],
     'stats': [45, 50, 40, 55, 70, 40, 300],
+    'extra':
+      '구름시티, 배틀컴퍼니 꼭대기층. 전체 배틀 승리 보상으로 알 획득 가능 (랜덤)',
   },
   {
     'id': 512,
@@ -5252,7 +5364,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'stats': [120, 115, 65, 77, 75, 78, 530],
       },
       {
-        'formName': ' 청색근',
+        'formName': '청색근',
         'imageUrl': '10248.png',
         'types': ['water', 'ghost'],
         'abilities': ['쓱쓱', '적응력', '틀깨기'],
@@ -5456,6 +5568,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['normal', 'ghost'],
     'abilities': ['일루전', '-', '-'],
     'stats': [35, 60, 40, 85, 40, 70, 330],
+    'extra': ' 물풍경시티, 구 플라스마단 은신처. N의 조로아 획득 가능',
   },
   {
     'id': 571,
@@ -6105,6 +6218,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['rock', 'fighting'],
     'abilities': ['예리함', '-', '-'],
     'stats': [91, 129, 90, 72, 90, 108, 580],
+    'extra': '웨이브배지 획득 이후 심볼 인카운트 생성',
   },
   {
     'id': 640,
@@ -6126,6 +6240,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'types': ['flying'],
         'abilities': ['짓궂은마음', '오기'],
         'stats': [79, 115, 70, 125, 80, 111, 580],
+        'extra':
+          '전당등록 이후. 풍요의 사당 이벤트 필요. 설화의 습지초원 북동쪽',
       },
       {
         'formName': '영물폼',
@@ -6133,6 +6249,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'types': ['flying'],
         'abilities': ['재생력'],
         'stats': [79, 100, 80, 110, 90, 121, 580],
+        'extra': '화신폼에 비추는거울 사용 필요. 리덕스 오류로 치트 코드 필요',
       },
     ],
   },
@@ -6147,6 +6264,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'types': ['electric', 'flying'],
         'abilities': ['짓궂은마음', '오기'],
         'stats': [79, 115, 70, 125, 80, 111, 580],
+        'extra': '전당등록 이후. 풍요의 사당 이벤트 필요. 용나선탑 연못 동쪽',
       },
       {
         'formName': '영물폼',
@@ -6154,6 +6272,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'types': ['electric', 'flying'],
         'abilities': ['축전'],
         'stats': [79, 105, 70, 145, 80, 101, 580],
+        'extra': '화신폼에 비추는거울 사용 필요. 리덕스 오류로 치트 코드 필요',
       },
     ],
   },
@@ -6165,6 +6284,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['dragon', 'fire'],
     'abilities': ['터보블레이즈'],
     'stats': [100, 120, 100, 150, 120, 90, 680],
+    'extra':
+      '전당등록 이후. 큐레무를 지닌 포켓몬에 넣기 필요. 쌍용시티 배틀의 저택 내부의 할머니 NPC에게 라이트스톤 받기 필요. 용나선탑 최상층',
   },
   {
     'id': 644,
@@ -6174,6 +6295,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['dragon', 'electric'],
     'abilities': ['테라볼티지'],
     'stats': [100, 150, 120, 120, 100, 90, 680],
+    'extra':
+      '전당등록 이후. N의 성 폐허에서 N과의 배틀에서 승리한 뒤 다크스톤 받기 필요. 용나선탑 최상층',
   },
   {
     'id': 645,
@@ -6186,6 +6309,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'types': ['ground', 'flying'],
         'abilities': ['모래의힘', '우격다짐'],
         'stats': [89, 125, 90, 115, 80, 101, 600],
+        'extra':
+          '전당등록 이후. 토네로스, 볼트로스를 지닌 포켓몬에 넣기 필요. 풍요의 사당 내부 건축물',
       },
       {
         'formName': '영물폼',
@@ -6193,6 +6318,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'types': ['ground', 'flying'],
         'abilities': ['위협'],
         'stats': [89, 145, 90, 105, 80, 91, 600],
+        'extra': '화신폼에 비추는거울 사용 필요. 리덕스 오류로 치트 코드 필요',
       },
     ],
   },
@@ -6207,6 +6333,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'types': ['dragon', 'ice'],
         'abilities': ['프레셔'],
         'stats': [125, 130, 90, 130, 90, 95, 660],
+        'extra': '전당등록 이후. 제크로무 포획 필요. 자이언트홀 최심부',
       },
       {
         'formName': '블랙',
@@ -6235,6 +6362,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'types': ['water', 'fighting'],
         'abilities': ['예리함'],
         'stats': [91, 72, 90, 129, 90, 108, 580],
+        'extra':
+          '전당등록 이후. 설화시티의 다크트리니티에게 승리한 후 비전신약을 획득 필요. 산가지마을 노간주의 집 뒷쪽의 불비달마에게 비전신약을 사용 필요. 맹세의 숲',
       },
       {
         'formName': '각오의 모습',
@@ -6256,6 +6385,8 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'types': ['normal', 'psychic'],
         'abilities': ['하늘의은총', '고음', '고음'],
         'stats': [100, 77, 77, 128, 128, 90, 600],
+        'extra':
+          '전당등록 이후. 넝쿨마을 포켓몬스터 뒤 언덕의 푸른 지붕의 집에서 이벤트. 메로엣타를 지닌 포켓몬의 선두에 넣은 상태로 칠보시티 카페 갤러지를 방문하면 NPC를 통해 메로엣타에게 옛노래를 가르칠 수 있음',
       },
       {
         'formName': '스텝폼',
@@ -6274,5 +6405,6 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['bug', 'steel'],
     'abilities': ['다운로드'],
     'stats': [71, 120, 95, 120, 95, 99, 600],
+    'extra': '전당등록 이후. P2랩',
   },
 ];

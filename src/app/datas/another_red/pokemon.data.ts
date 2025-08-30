@@ -2296,7 +2296,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         'stats': [75, 100, 95, 40, 70, 110, 490],
         'evolutionCondition': '',
         'wildItems': '',
-        'extra': '갈색시티 애호가 클럽에서 교환(폼랜덤)',
+        'extra': '',
       },
       {
         'formName': '팔데아 컴뱃',
@@ -2316,7 +2316,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         'stats': [75, 110, 105, 30, 70, 100, 490],
         'evolutionCondition': '',
         'wildItems': '',
-        'extra': '',
+        'extra': '갈색시티 애호가 클럽에서 교환(폼랜덤)',
       },
       {
         'formName': '팔데아 워터',
@@ -2605,7 +2605,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         'stats': [90, 85, 100, 95, 125, 85, 580],
         'evolutionCondition': '',
         'wildItems': '',
-        'extra': '',
+        'extra': '쌍둥이섬',
       },
       {
         'formName': '가라르',
@@ -2615,7 +2615,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         'stats': [90, 85, 85, 125, 100, 95, 580],
         'evolutionCondition': '',
         'wildItems': '',
-        'extra': '전설의 새를 모두 잡은 후 갈색시티',
+        'extra': '전설의 새를 모두 잡은 후 갈색시티 이벤트',
       },
     ],
   },
@@ -2633,7 +2633,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         'stats': [90, 90, 85, 125, 90, 100, 580],
         'evolutionCondition': '',
         'wildItems': '',
-        'extra': '',
+        'extra': '무인발전소',
       },
       {
         'formName': '가라르',
@@ -2643,7 +2643,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         'stats': [90, 125, 90, 85, 90, 100, 580],
         'evolutionCondition': '',
         'wildItems': '',
-        'extra': '전설의 새를 모두 잡은 후 갈색시티',
+        'extra': '전설의 새를 모두 잡은 후 갈색시티 이벤트',
       },
     ],
   },
@@ -2661,7 +2661,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         'stats': [90, 100, 90, 125, 85, 90, 580],
         'evolutionCondition': '',
         'wildItems': '',
-        'extra': '',
+        'extra': '뜨거운동굴',
       },
       {
         'formName': '가라르',
@@ -2671,7 +2671,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         'stats': [90, 85, 90, 100, 125, 90, 580],
         'evolutionCondition': '',
         'wildItems': '',
-        'extra': '전설의 새를 모두 잡은 후 갈색시티',
+        'extra': '전설의 새를 모두 잡은 후 갈색시티 이벤트',
       },
     ],
   },
@@ -2735,7 +2735,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         'stats': [106, 190, 100, 154, 100, 130, 780],
         'evolutionCondition': '',
         'wildItems': '',
-        'extra': '머나먼고도',
+        'extra': '',
       },
       {
         'formName': '메가뮤츠Y',
@@ -2759,7 +2759,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [100, 100, 100, 100, 100, 100, 600],
     'evolutionCondition': '',
     'wildItems': '',
-    'extra': '',
+    'extra': '머나먼고도',
   },
   {
     'id': 152,
@@ -4129,7 +4129,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [106, 90, 130, 90, 154, 110, 680],
     'evolutionCondition': '',
     'wildItems': '',
-    'extra': '',
+    'extra': '소용돌이섬',
   },
   {
     'id': 250,
@@ -4153,7 +4153,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [100, 100, 100, 100, 100, 100, 600],
     'evolutionCondition': '',
     'wildItems': '',
-    'extra': '',
+    'extra': '너도밤나무숲',
   },
   {
     'id': 252,
@@ -7522,7 +7522,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [75, 75, 130, 75, 130, 95, 580],
     'evolutionCondition': '',
     'wildItems': '',
-    'extra': '',
+    'extra': '소용돌이섬',
   },
   {
     'id': 481,
@@ -7534,7 +7534,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [80, 105, 105, 105, 105, 80, 580],
     'evolutionCondition': '',
     'wildItems': '',
-    'extra': '',
+    'extra': '절구산',
   },
   {
     'id': 482,
@@ -7546,7 +7546,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [75, 125, 70, 125, 70, 115, 580],
     'evolutionCondition': '',
     'wildItems': '',
-    'extra': '',
+    'extra': '깊은바다동굴',
   },
   {
     'id': 483,
@@ -7718,7 +7718,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         'stats': [100, 100, 100, 100, 100, 100, 600],
         'evolutionCondition': '',
         'wildItems': '',
-        'extra': '숨겨진정원',
+        'extra': '숨겨진 정원',
       },
       {
         'formName': '스카이폼',
@@ -8554,7 +8554,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         'stats': [70, 90, 45, 15, 45, 50, 315],
         'evolutionCondition': 'LV. 35',
         'wildItems': '',
-        'extra': '갈색시티 애호가 클럽에서 교환',
+        'extra': '',
       },
       {
         'formName': '가라르',
@@ -8564,7 +8564,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         'stats': [70, 90, 45, 15, 45, 50, 315],
         'evolutionCondition': '얼음의돌',
         'wildItems': '',
-        'extra': '',
+        'extra': '갈색시티 애호가 클럽에서 교환',
       },
     ],
   },
@@ -9827,7 +9827,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         'stats': [89, 125, 90, 115, 80, 101, 600],
         'evolutionCondition': '',
         'wildItems': '',
-        'extra': '',
+        'extra': '절구산',
       },
       {
         'formName': '영물폼',
@@ -9837,7 +9837,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         'stats': [89, 145, 90, 105, 80, 91, 600],
         'evolutionCondition': '',
         'wildItems': '',
-        'extra': '절구산',
+        'extra': '',
       },
     ],
   },
@@ -9945,7 +9945,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [71, 120, 95, 120, 95, 99, 600],
     'evolutionCondition': '',
     'wildItems': '',
-    'extra': '',
+    'extra': '무인발전소',
   },
   {
     'id': 650,
@@ -9957,7 +9957,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [56, 61, 65, 48, 45, 38, 313],
     'evolutionCondition': 'LV. 16',
     'wildItems': '',
-    'extra': '무인발전소',
+    'extra': '',
   },
   {
     'id': 651,
@@ -10067,7 +10067,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         'stats': [72, 145, 67, 153, 71, 132, 640],
         'evolutionCondition': '',
         'wildItems': '',
-        'extra': '',
+        'extra': '2회차 엔딩 보상',
       },
     ],
   },
@@ -11776,7 +11776,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [95, 95, 95, 95, 95, 59, 534],
     'evolutionCondition': '친밀도',
     'wildItems': '',
-    'extra': '5번도로(집)',
+    'extra': '5번도로(집) 이벤트',
   },
   {
     'id': 773,
@@ -11964,7 +11964,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [70, 115, 85, 95, 75, 130, 570],
     'evolutionCondition': '',
     'wildItems': '',
-    'extra': '',
+    'extra': '리틀알로라',
   },
   {
     'id': 786,
@@ -11976,7 +11976,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [70, 85, 75, 130, 115, 95, 570],
     'evolutionCondition': '',
     'wildItems': '',
-    'extra': '',
+    'extra': '리틀알로라',
   },
   {
     'id': 787,
@@ -11988,7 +11988,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [70, 130, 115, 85, 95, 75, 570],
     'evolutionCondition': '',
     'wildItems': '',
-    'extra': '',
+    'extra': '리틀알로라',
   },
   {
     'id': 788,
@@ -12000,7 +12000,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [70, 75, 115, 95, 130, 85, 570],
     'evolutionCondition': '',
     'wildItems': '',
-    'extra': '',
+    'extra': '리틀알로라',
   },
   {
     'id': 789,
@@ -12036,7 +12036,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [137, 137, 107, 113, 89, 97, 680],
     'evolutionCondition': '',
     'wildItems': '',
-    'extra': '',
+    'extra': '울트라스페이스',
   },
   {
     'id': 792,
@@ -12048,7 +12048,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [137, 113, 89, 137, 107, 97, 680],
     'evolutionCondition': '',
     'wildItems': '',
-    'extra': '',
+    'extra': '울트라스페이스',
   },
   {
     'id': 793,
@@ -12148,7 +12148,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         'stats': [97, 107, 101, 127, 89, 79, 600],
         'evolutionCondition': '',
         'wildItems': '',
-        'extra': '',
+        'extra': '울트라스페이스',
       },
       {
         'formName': '황혼의 갈기',
@@ -12196,7 +12196,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         'stats': [80, 95, 115, 130, 115, 65, 600],
         'evolutionCondition': '',
         'wildItems': '',
-        'extra': '',
+        'extra': '무인발전소',
       },
       {
         'formName': '500년 전의 색',
@@ -12280,7 +12280,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [88, 112, 75, 102, 80, 143, 600],
     'evolutionCondition': '',
     'wildItems': '',
-    'extra': '',
+    'extra': '숨겨진 정원',
   },
   {
     'id': 808,
@@ -12292,7 +12292,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [46, 65, 65, 55, 35, 34, 300],
     'evolutionCondition': 'LV. 45',
     'wildItems': '',
-    'extra': '회색시티 박물관',
+    'extra': '회색시티 박물관 이벤트',
   },
   {
     'id': 809,
@@ -13689,7 +13689,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [60, 90, 60, 53, 50, 72, 385],
     'evolutionCondition': '물의 족자(연격), 악의 족자(일격)',
     'wildItems': '',
-    'extra': '마스타드와 배틀 후, 포켓몬할아버지',
+    'extra': '마스타드와 배틀 후, 포켓몬할아버지 이벤트',
   },
   {
     'id': 892,
@@ -13901,7 +13901,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         'stats': [113, 70, 120, 135, 65, 52, 555],
         'evolutionCondition': '',
         'wildItems': '',
-        'extra': '',
+        'extra': '은빛산 올라가는 길',
       },
     ],
   },
@@ -13971,7 +13971,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         'stats': [74, 115, 70, 135, 80, 106, 580],
         'evolutionCondition': '',
         'wildItems': '',
-        'extra': '숨겨진정원',
+        'extra': '숨겨진 정원',
       },
       {
         'formName': '영물폼',
@@ -15350,7 +15350,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [100, 135, 115, 85, 100, 135, 670],
     'evolutionCondition': '',
     'wildItems': '',
-    'extra': '',
+    'extra': '존재하지 않는 과거',
   },
   {
     'id': 1008,
@@ -15362,7 +15362,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [100, 85, 100, 135, 115, 135, 670],
     'evolutionCondition': '',
     'wildItems': '',
-    'extra': '',
+    'extra': '존재할 수 없는 미래',
   },
   {
     'id': 1009,
@@ -15374,7 +15374,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [99, 83, 91, 125, 83, 109, 590],
     'evolutionCondition': '',
     'wildItems': '',
-    'extra': '',
+    'extra': '존재하지 않는 과거',
   },
   {
     'id': 1010,
@@ -15386,7 +15386,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [90, 130, 88, 70, 108, 104, 590],
     'evolutionCondition': '',
     'wildItems': '',
-    'extra': '',
+    'extra': '존재할 수 없는 미래',
   },
   {
     'id': 1011,
@@ -15434,7 +15434,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [88, 128, 115, 58, 86, 80, 555],
     'evolutionCondition': '',
     'wildItems': '',
-    'extra': '',
+    'extra': '너도밤나무숲',
   },
   {
     'id': 1015,
@@ -15446,7 +15446,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [88, 75, 66, 130, 90, 106, 555],
     'evolutionCondition': '',
     'wildItems': '',
-    'extra': '',
+    'extra': '너도밤나무숲',
   },
   {
     'id': 1016,
@@ -15458,7 +15458,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [88, 91, 82, 70, 125, 99, 555],
     'evolutionCondition': '',
     'wildItems': '',
-    'extra': '',
+    'extra': '너도밤나무숲',
   },
   {
     'id': 1017,
@@ -15474,7 +15474,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         'stats': [80, 120, 84, 60, 96, 110, 550],
         'evolutionCondition': '',
         'wildItems': '',
-        'extra': '',
+        'extra': '가면을 얻은 후 연두시티 민가 NPC',
       },
       {
         'formName': '우물의가면',
@@ -15542,7 +15542,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [105, 115, 121, 65, 93, 91, 590],
     'evolutionCondition': '',
     'wildItems': '',
-    'extra': '',
+    'extra': '존재하지 않는 과거',
   },
   {
     'id': 1021,
@@ -15554,7 +15554,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [125, 73, 91, 137, 89, 75, 590],
     'evolutionCondition': '',
     'wildItems': '',
-    'extra': '',
+    'extra': '존재하지 않는 과거',
   },
   {
     'id': 1022,
@@ -15566,7 +15566,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [90, 120, 80, 68, 108, 124, 590],
     'evolutionCondition': '',
     'wildItems': '',
-    'extra': '',
+    'extra': '존재할 수 없는 미래',
   },
   {
     'id': 1023,
@@ -15578,7 +15578,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [90, 72, 100, 122, 108, 98, 590],
     'evolutionCondition': '',
     'wildItems': '',
-    'extra': '',
+    'extra': '존재할 수 없는 미래',
   },
   {
     'id': 1024,
@@ -15594,7 +15594,7 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
         'stats': [90, 65, 85, 65, 85, 60, 450],
         'evolutionCondition': '',
         'wildItems': '',
-        'extra': '',
+        'extra': '울트라스페이스',
       },
       {
         'formName': '테라스탈폼',
@@ -15628,6 +15628,6 @@ export const POKEMON_DATA_ANOTHER_RED: Pokemon[] = [
     'stats': [88, 88, 160, 88, 88, 88, 600],
     'evolutionCondition': '',
     'wildItems': '',
-    'extra': '',
+    'extra': '너도밤나무숲',
   },
 ];
