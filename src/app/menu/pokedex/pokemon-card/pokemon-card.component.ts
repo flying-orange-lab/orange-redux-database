@@ -13,12 +13,14 @@ import { PokemonImageService } from 'src/app/services/pokemon-image.service';
 import { PokemonService } from 'src/app/services/pokemon.service';
 import { PokemonStatComponent } from '../pokemon-stat/pokemon-stat.component';
 import { PokemonAbility } from 'src/app/models/ability.model';
+import { PokemonLocationComponent } from '../pokemon-location/pokemon-location.component';
+import { Pokemon } from 'src/app/models/pokemon.model';
 
 @Component({
   selector: 'app-pokemon-card',
   templateUrl: './pokemon-card.component.html',
   styleUrls: ['./pokemon-card.component.less'],
-  imports: [PokemonStatComponent],
+  imports: [PokemonStatComponent, PokemonLocationComponent],
 })
 export class PokemonCardComponent implements OnInit, OnDestroy, OnChanges {
   private router = inject(Router);
@@ -26,7 +28,7 @@ export class PokemonCardComponent implements OnInit, OnDestroy, OnChanges {
   private pokemonService = inject(PokemonService);
   private pokemonImageService = inject(PokemonImageService);
 
-  @Input() pokemon: any;
+  @Input() pokemon!: Pokemon;
   @Input() useSprite = false;
   currentPokemonStats: number[] = [0, 0, 0, 0, 0, 0, 0];
   currentAbility?: PokemonAbility;
@@ -58,20 +60,24 @@ export class PokemonCardComponent implements OnInit, OnDestroy, OnChanges {
     return this.pokemon.form?.[this.currentFormIndex] || this.pokemon;
   }
 
+  get evolutionConditionArray() {
+    return this.currentPokemon.evolutionCondition
+      .split(',')
+      .map((item: string) => item.trim());
+  }
+
+  get pokemonExtraText() {
+    return this.currentPokemon.extra
+      .split('.')
+      .map((item: string) => item.trim());
+  }
+
   get currentImageAltPath() {
     let altPath = this.pokemon.imageUrl;
     if (!altPath && this.pokemon.form) {
       altPath = this.pokemon.form[this.currentFormIndex].imageUrl;
     }
     return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${altPath}`;
-  }
-
-  get currentStats() {
-    const stats = this.pokemon.stats;
-    if (!stats && this.pokemon.form) {
-      return this.pokemon.form[this.currentFormIndex].stats;
-    }
-    return stats;
   }
 
   get currentKeyname() {
@@ -131,7 +137,7 @@ export class PokemonCardComponent implements OnInit, OnDestroy, OnChanges {
 
   // 포켓몬 정보 업데이트
   async updatePokemonInfo() {
-    this.currentPokemonStats = this.currentStats;
+    this.currentPokemonStats = this.currentPokemon.stats || [];
     await this.updateImageUrl();
   }
 

@@ -30,25 +30,28 @@
         </span>
       }
     </div>
+
+    @if (currentPokemonStats) {
+      <app-pokemon-stat
+        style="width: 100%; margin-top: 15px"
+        [pokemonStats]="currentPokemonStats"
+      ></app-pokemon-stat>
+    }
+    @if (currentAbility) {
+      <div class="ability-description">
+        <div>
+          <b>배틀 효과</b>
+          <div>{{ currentAbility.effect_text }}</div>
+        </div>
+        @if (currentAbility.effect_wild_text) {
+          <div>
+            <b>야생 효과</b>
+            <div>{{ currentAbility.effect_wild_text }}</div>
+          </div>
+        }
+      </div>
+    }
   </div>
-
-  @if (pokemon.form && pokemon.form.length > 1) {
-    <div class="pokemon-form-buttons">
-      @for (form of pokemon.form; track form; let i = $index) {
-        <button
-          class="form-button"
-          [class.active]="i === currentFormIndex"
-          (click)="selectForm(i)"
-        >
-          {{ form.formName }}
-        </button>
-      }
-    </div>
-  }
-
-  @if (currentPokemonStats) {
-    <app-pokemon-stat [pokemonStats]="currentPokemonStats"></app-pokemon-stat>
-  }
 
   <div class="pokemon-ability">
     <div class="ability-name-box">
@@ -68,34 +71,36 @@
         }
       }
     </div>
-    @if (currentAbility) {
-      <div class="ability-description">
-        <div>
-          <b>배틀 효과</b>
-          <div>{{ currentAbility.effect_text }}</div>
-        </div>
-        @if (currentAbility.effect_wild_text) {
-          <div>
-            <b>야생 효과</b>
-            <div>{{ currentAbility.effect_wild_text }}</div>
-          </div>
-        }
-      </div>
-    }
   </div>
+
+  @if (pokemon.form && pokemon.form.length > 1) {
+    <div class="pokemon-form-buttons">
+      @for (form of pokemon.form; track form; let i = $index) {
+        <button
+          class="form-button"
+          [class.active]="i === currentFormIndex"
+          (click)="selectForm(i)"
+        >
+          {{ form.formName }}
+        </button>
+      }
+    </div>
+  }
 
   @if (currentPokemon.evolutionCondition) {
     <div class="pokemon-card-extra">
       <div class="extra-section extra-evolution">
-        <div>진화 정보</div>
-        <div>{{ currentPokemon.evolutionCondition }}</div>
+        <strong>진화 정보</strong>
+        @for (condition of evolutionConditionArray; track $index) {
+          <div>{{ condition }}</div>
+        }
       </div>
     </div>
   }
   @if (currentPokemon.wildItems) {
     <div class="pokemon-card-extra">
       <div class="extra-section extra-evolution">
-        <div>야생 정보</div>
+        <strong>야생 정보</strong>
         <div>{{ currentPokemon.wildItems }}</div>
       </div>
     </div>
@@ -103,8 +108,20 @@
 
   @if (currentPokemon.extra) {
     <div class="pokemon-card-extra">
-      <div>추가 서식 정보</div>
-      <div>{{ currentPokemon.extra }}</div>
+      <div class="extra-section">
+        <strong>추가 서식 정보</strong>
+        @for (extraText of pokemonExtraText; track $index) {
+          <div>{{ extraText }}</div>
+        }
+      </div>
     </div>
   }
+  <div class="pokemon-card-extra">
+    <app-pokemon-location
+      [pokemonName]="pokemon.koreanName"
+      [pokemonExtra]="
+        currentPokemon.formName ? currentPokemon.formName : undefined
+      "
+    ></app-pokemon-location>
+  </div>
 </div>

@@ -5,13 +5,12 @@ import { DataHandleService } from 'src/app/services/data-handle.service';
 import { Pokemon } from 'src/app/models/pokemon.model';
 import { FormsModule } from '@angular/forms';
 import { PokemonCardComponent } from './pokemon-card/pokemon-card.component';
-import { PokemonLocationComponent } from './pokemon-location/pokemon-location.component';
 
 @Component({
   selector: 'app-pokedex',
   templateUrl: './pokedex.component.html',
   styleUrls: ['./pokedex.component.less'],
-  imports: [FormsModule, PokemonCardComponent, PokemonLocationComponent],
+  imports: [FormsModule, PokemonCardComponent],
 })
 export class PokedexComponent implements OnInit {
   private dataHandleService = inject(DataHandleService);
@@ -101,13 +100,51 @@ export class PokedexComponent implements OnInit {
     });
   }
 
+  private attrCheck(
+    pokemon: Pokemon,
+    attrName: 'evolutionCondition' | 'wildItems' | 'extra',
+  ) {
+    if (pokemon.form) {
+      for (const formData of pokemon.form) {
+        console.log(formData);
+        if (!formData[attrName]) {
+          return false;
+        }
+      }
+    } else if (!pokemon[attrName]) {
+      return false;
+    }
+
+    return true;
+  }
+
   performSearch(): void {
     const lowerCaseSearchTerm = this.pokemonSearchInput.toLowerCase().trim();
 
     // 이름 또는 한국어 이름으로 필터링합니다.
     const filtered = this.allPokemon.filter((pokemon) => {
-      if (this.pokemonSearchAttr && !pokemon.form) {
-        return false;
+      if (this.pokemonSearchAttr) {
+        if (this.pokemonSearchAttr === 'form' && !pokemon.form) {
+          return false;
+        }
+        if (
+          this.pokemonSearchAttr === 'evol' &&
+          !this.attrCheck(pokemon, 'evolutionCondition')
+        ) {
+          return false;
+        }
+        if (
+          this.pokemonSearchAttr === 'wild' &&
+          !this.attrCheck(pokemon, 'wildItems')
+        ) {
+          return false;
+        }
+        if (
+          this.pokemonSearchAttr === 'extra' &&
+          !this.attrCheck(pokemon, 'extra')
+        ) {
+          return false;
+        }
       }
 
       if (lowerCaseSearchTerm.length > 0) {
