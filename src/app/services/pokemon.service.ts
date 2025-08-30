@@ -51,7 +51,7 @@ export class PokemonService {
     );
   }
 
-  findPokemonLocations(pokemonName: string) {
+  findPokemonLocations(pokemonName: string, extra?: string) {
     const locations: PokemonLocation[] = [];
 
     const lowerCasePokemonName = pokemonName.toLowerCase();
@@ -77,22 +77,31 @@ export class PokemonService {
         for (const encounter of allEncounters) {
           const baseName = this.getBaseName(encounter.name);
 
-          if (baseName.toLowerCase() === lowerCasePokemonName) {
-            const locationKey = `${locationName}|${locationStatus}|${encounter.area}`;
-
-            if (!uniqueLocations.has(locationKey)) {
-              uniqueLocations.add(locationKey);
-
-              const isDefaultCondition = Object.keys(regionData).length === 1;
-              locations.push({
-                region: locationName,
-                condition: isDefaultCondition ? '' : locationStatus,
-                area: encounter.area,
-                minLv: encounter.minLv,
-                maxLv: encounter.maxLv,
-                rate: encounter.rate,
-              });
+          if (baseName.toLowerCase() !== lowerCasePokemonName) {
+            continue;
+          }
+          if (extra && extra !== '일반') {
+            console.log(extra, encounter.extra);
+            console.log(encounter.extra !== extra);
+            if (encounter.extra !== extra) {
+              continue;
             }
+          }
+
+          const locationKey = `${locationName}|${locationStatus}|${encounter.area}`;
+
+          if (!uniqueLocations.has(locationKey)) {
+            uniqueLocations.add(locationKey);
+
+            const isDefaultCondition = Object.keys(regionData).length === 1;
+            locations.push({
+              region: locationName,
+              condition: isDefaultCondition ? '' : locationStatus,
+              area: encounter.area,
+              minLv: encounter.minLv,
+              maxLv: encounter.maxLv,
+              rate: encounter.rate,
+            });
           }
         }
       }

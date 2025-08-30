@@ -79,40 +79,6 @@ main.pokedex-page {
   }
 }
 
-/* ---------------------------------------------------- */
-/* 카드 전체를 감싸는 DIV (pokedex.js에서 `card` 변수가 됨) */
-.pokemon-card-wrapper {
-  background-color: #f8f8f8;
-  border: 1px solid #e0e0e0;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-  transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease;
-  height: 100%; /* 그리드 아이템의 높이 꽉 채우기 */
-  display: flex;
-  flex-direction: column; /* 내부 요소를 세로로 정렬 */
-  overflow: hidden; /* 자식 요소의 튀어나오는 부분 방지 */
-  position: relative; /* 내부 요소 위치 지정을 위해 */
-  justify-content: start;
-  padding: 16px;
-}
-
-.pokemon-card-wrapper > *:not(:last-child)::after {
-  content: "";
-  display: block;
-  width: 100%; /* 세로 점선이면 width */
-  height: 1px;
-  margin: 15px 0;
-  border-top: 1px dashed #e0e0e0;
-}
-
-/* 호버 효과는 wrapper에 적용 */
-.pokemon-card-wrapper:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
-
 .hidden {
   display: none;
 }

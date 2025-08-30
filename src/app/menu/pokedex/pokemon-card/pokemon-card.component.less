@@ -2,6 +2,26 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
+  background-color: #f8f8f8;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+  height: 100%; /* 그리드 아이템의 높이 꽉 채우기 */
+  display: flex;
+  flex-direction: column; /* 내부 요소를 세로로 정렬 */
+  overflow: hidden; /* 자식 요소의 튀어나오는 부분 방지 */
+  position: relative; /* 내부 요소 위치 지정을 위해 */
+  justify-content: start;
+  padding: 16px;
+}
+
+/* 호버 효과는 wrapper에 적용 */
+.pokemon-card-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* 이미지와 기본 정보만 포함하는 컨테이너 */
@@ -117,20 +137,30 @@
         box-shadow 0.2s ease;
     }
   }
+}
 
-  .ability-description {
-    width: 100%;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    background-color: white;
-    padding: 8px;
-    margin-top: 5px;
-    white-space: pre-wrap;
-    text-align: left;
+.ability-description {
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: white;
+  padding: 8px;
+  margin-top: 5px;
+  white-space: pre-wrap;
+  text-align: left;
 
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  position: absolute;
+  bottom: 0;
+
+  b {
+    font-size: 0.9em;
+  }
+  div {
+    font-size: 0.9em;
   }
 }
 
@@ -198,6 +228,10 @@
     content: "·";
     display: inline-block;
     width: 8px;
+  }
+
+  strong {
+    color: #007bff;
   }
 }
 
