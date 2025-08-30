@@ -9089,6 +9089,14 @@ export const POKEMON_WILDS_V3: WildArea[] = [
                 'minLv': 50,
                 'maxLv': 52,
                 'rate': 20,
+                'extra': '하이',
+              },
+              {
+                'name': '스트린더',
+                'minLv': 50,
+                'maxLv': 52,
+                'rate': 20,
+                'extra': '로우',
               },
               {
                 'name': '다태우지네',
