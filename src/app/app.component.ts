@@ -1,17 +1,23 @@
-import { Component, OnInit, inject } from '@angular/core';
-import { ActivatedRoute, NavigationEnd, Router, RouterOutlet } from '@angular/router';
+import { Component, HostListener, OnInit, inject, signal } from '@angular/core';
+import {
+  ActivatedRoute,
+  NavigationEnd,
+  Router,
+  RouterOutlet,
+} from '@angular/router';
 import { filter, map, mergeMap } from 'rxjs/operators';
 import { DataHandleService } from './services/data-handle.service';
 import { Title } from '@angular/platform-browser';
 import { HeaderComponent } from './header/header.component';
+import { FloatingButtonComponent } from './floating-button/floating-button.component';
 
 declare let gtag: Function;
 
 @Component({
-    selector: 'app-root',
-    templateUrl: './app.component.html',
-    styleUrls: ['./app.component.less'],
-    imports: [HeaderComponent, RouterOutlet],
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.less'],
+  imports: [HeaderComponent, FloatingButtonComponent, RouterOutlet],
 })
 export class AppComponent implements OnInit {
   private router = inject(Router);
@@ -20,6 +26,9 @@ export class AppComponent implements OnInit {
   private dataHandleService = inject(DataHandleService);
 
   title = 'datasheet';
+
+  isHeaderHidden = signal(false);
+  private previousScroll = signal(0);
 
   constructor() {
     this.router.events.subscribe((event) => {
@@ -73,5 +82,18 @@ export class AppComponent implements OnInit {
     if (dataTitle) {
       this.title = `${dataTitle} | ${this.title}`;
     }
+  }
+
+  @HostListener('window:scroll')
+  onWindowScroll(): void {
+    const currentScroll = window.scrollY;
+
+    if (currentScroll > this.previousScroll() && currentScroll > 100) {
+      this.isHeaderHidden.set(true);
+    } else if (currentScroll < this.previousScroll()) {
+      this.isHeaderHidden.set(false);
+    }
+
+    this.previousScroll.set(currentScroll);
   }
 }
