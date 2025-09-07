@@ -6,16 +6,16 @@
   >
     {{ getTitle() }}
   </h1>
-  <div
-    class="hamburger-button"
-    (click)="toggleMenu()"
-    [ngClass]="{ active: isMenuOpen }"
-  >
+  <div class="hamburger-button" (click)="toggleMenu()">
     <span class="line"></span>
     <span class="line"></span>
     <span class="line"></span>
   </div>
 </header>
+
+@if (isMenuOpen) {
+  <div class="overlay" (click)="closeMenu()"></div>
+}
 
 <nav class="nav-menu" [ngClass]="{ active: isMenuOpen }">
   <ul>
