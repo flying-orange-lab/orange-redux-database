@@ -232,7 +232,7 @@ export const ITEM_DATA_ANOTHER_RED: PokeItem[] = [
   },
   {
     'location': '검은먹시티',
-    'itemList': ['[NPC] 비행Z', '[NPC] 구애스카프'],
+    'itemList': ['[NPC] 비행Z (카일리와 배틀 후)', '[NPC] 구애스카프'],
   },
   {
     'location': '검은먹체육관',
@@ -248,7 +248,7 @@ export const ITEM_DATA_ANOTHER_RED: PokeItem[] = [
   },
   {
     'location': '금빛백화점 옥상',
-    'itemList': ['[NPC] 풀Z'],
+    'itemList': ['[NPC] 풀Z (마오와 배틀 후)'],
   },
   {
     'location': '금빛수로',
@@ -312,7 +312,7 @@ export const ITEM_DATA_ANOTHER_RED: PokeItem[] = [
       '주먹플레이트',
       '[NPC] Z링',
       '[NPC] 페어리Z',
-      '[NPC] 노말Z',
+      '[NPC] 노말Z (일리마와 배틀 후)',
       '[NPC] 회색강정',
     ],
   },
@@ -377,7 +377,7 @@ export const ITEM_DATA_ANOTHER_RED: PokeItem[] = [
     'location': '무궁시티',
     'itemList': [
       '정령플레이트',
-      '[NPC] 바위Z',
+      '[NPC] 바위Z (라이치와 배틀 후)',
       '[NPC] 경험사탕XL',
       '[NPC] 행복의알',
       '[NPC] 금색병뚜껑',
@@ -443,7 +443,13 @@ export const ITEM_DATA_ANOTHER_RED: PokeItem[] = [
   },
   {
     'location': '분노의호수',
-    'itemList': ['용의플레이트', '네트볼', '회복약', '특성패치', '[NPC] 물Z'],
+    'itemList': [
+      '용의플레이트',
+      '네트볼',
+      '회복약',
+      '특성패치',
+      '[NPC] 물Z (수련과 배틀 후)',
+    ],
   },
   {
     'location': '블루시티',
@@ -535,7 +541,7 @@ export const ITEM_DATA_ANOTHER_RED: PokeItem[] = [
   },
   {
     'location': '신도유적',
-    'itemList': ['[NPC] HM05 폭포오르기', '[NPC] 악Z'],
+    'itemList': ['[NPC] HM05 폭포오르기', '[NPC] 악Z (이벤트)'],
   },
   {
     'location': '실프 주식회사',
@@ -563,7 +569,7 @@ export const ITEM_DATA_ANOTHER_RED: PokeItem[] = [
   },
   {
     'location': '야돈의우물',
-    'itemList': ['[NPC] 격투Z'],
+    'itemList': ['[NPC] 격투Z (할라와 배틀 후)'],
   },
   {
     'location': '야돈의우물 지하',
@@ -581,7 +587,7 @@ export const ITEM_DATA_ANOTHER_RED: PokeItem[] = [
       '강철플레이트',
       '사포닌',
       '만병통치제',
-      '[NPC] 고스트Z',
+      '[NPC] 고스트Z (아세로라와 배틀 후)',
     ],
   },
   {
@@ -627,7 +633,7 @@ export const ITEM_DATA_ANOTHER_RED: PokeItem[] = [
   },
   {
     'location': '예술극장',
-    'itemList': ['[NPC] 불꽃Z'],
+    'itemList': ['[NPC] 불꽃Z (키아웨와 배틀 후)'],
   },
   {
     'location': '용의굴',
@@ -635,7 +641,10 @@ export const ITEM_DATA_ANOTHER_RED: PokeItem[] = [
   },
   {
     'location': '유적연구소',
-    'itemList': ['[NPC] 레전드플레이트', '[NPC] 강철Z'],
+    'itemList': [
+      '[NPC] 레전드플레이트 (연구소장)',
+      '[NPC] 강철Z (멀레인과 배틀 후)',
+    ],
   },
   {
     'location': '인주시티',
@@ -713,7 +722,7 @@ export const ITEM_DATA_ANOTHER_RED: PokeItem[] = [
   },
   {
     'location': '트레이너스쿨',
-    'itemList': ['[NPC] 전기Z'],
+    'itemList': ['[NPC] 전기Z (마마네와 배틀 후)'],
   },
   {
     'location': '폐 건설장',
