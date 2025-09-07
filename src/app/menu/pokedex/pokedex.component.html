@@ -32,11 +32,13 @@
         [class.disabled]="pokemonSearchOffset === 0"
       >
         <button style="width: 100%" (click)="onPageButtonClick(false)">
-          <
+          <i class="fas fa-angle-left"></i>
         </button>
       </li>
       <li class="pagination-item next">
-        <button style="width: 100%" (click)="onPageButtonClick(true)">></button>
+        <button style="width: 100%" (click)="onPageButtonClick(true)">
+          <i class="fas fa-angle-right"></i>
+        </button>
       </li>
     </ul>
   </nav>
