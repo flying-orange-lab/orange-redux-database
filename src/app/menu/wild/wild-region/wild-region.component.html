@@ -59,6 +59,9 @@
               </td>
               <td (click)="onCatchPokemon(encounter.name, true)">
                 {{ encounter.name }}
+                @if (encounter.extra) {
+                  ({{ encounter.extra }})
+                }
               </td>
               <td>{{ encounter.minLv }}</td>
               <td>{{ encounter.maxLv }}</td>

@@ -1,20 +1,36 @@
-<section>
-  @for (locationData of wildData; track locationData; let i = $index) {
-    <div
-      class="location-section"
-      [id]="'location-section-' + i"
-      [class.strike-through]=""
-    >
-      <div class="summary" (click)="toggleChild(i)">
-        <h2>{{ locationData.locationName }}</h2>
-      </div>
-
-      <app-wild-region
-        [regionDatas]="locationData.regionDatas"
-        [pokemonCatchStatus]="pokemonCatchStatus"
-        (pokemonCaught)="handlePokemonCaught($event)"
+<section class="wild-section">
+  <h2>야생 포켓몬 정보 검색</h2>
+  <div class="search-controls">
+    <input
+      id="item-search"
+      type="text"
+      placeholder="장소, 포켓몬을 검색"
+      [formControl]="searchContext"
+    />
+  </div>
+  <div class="wild-container">
+    @for (
+      locationData of filteredWildData$ | async;
+      track locationData.index;
+      let i = $index
+    ) {
+      <div
+        class="location-section"
+        [id]="'location-section-' + locationData.index"
+        [class.strike-through]=""
       >
-      </app-wild-region>
-    </div>
-  }
+        <div class="summary" (click)="toggleChild(i)">
+          <h2>{{ locationData.value.locationName }}</h2>
+        </div>
+
+        <app-wild-region
+          style="scroll-margin-top: 80px"
+          [regionDatas]="locationData.value.regionDatas"
+          [pokemonCatchStatus]="pokemonCatchStatus"
+          (pokemonCaught)="handlePokemonCaught($event)"
+        >
+        </app-wild-region>
+      </div>
+    }
+  </div>
 </section>
