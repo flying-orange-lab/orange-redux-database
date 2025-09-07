@@ -6,7 +6,11 @@
   >
     {{ getTitle() }}
   </h1>
-  <div class="hamburger-button" (click)="toggleMenu()">
+  <div
+    class="hamburger-button"
+    (click)="toggleMenu()"
+    [class.active]="isMenuOpen"
+  >
     <span class="line"></span>
     <span class="line"></span>
     <span class="line"></span>
@@ -17,7 +21,7 @@
   <div class="overlay" (click)="closeMenu()"></div>
 }
 
-<nav class="nav-menu" [ngClass]="{ active: isMenuOpen }">
+<nav class="nav-menu" [class.active]="isMenuOpen">
   <ul>
     <li>
       <a [routerLink]="['/', gameVersion, 'pokedex']" (click)="toggleMenu()"
