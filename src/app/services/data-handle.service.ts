@@ -8,6 +8,8 @@ import { POKEMON_DATA_ANOTHER_RED } from '../datas/another_red/pokemon.data';
 import { ITEM_DATA_ANOTHER_RED } from '../datas/another_red/item.data';
 import { ABILITY_DATA } from '../datas/ability.data';
 import { ABILITY_DATA_V3 } from '../datas/oranageV3/ability.data';
+import { MART_DATA_V3 } from '../datas/oranageV3/mart.data';
+import { MART_DATA_ANOTHER_RED } from '../datas/another_red/mart.data';
 
 @Injectable({
   providedIn: 'root',
@@ -85,5 +87,15 @@ export class DataHandleService {
         return ABILITY_DATA_V3;
     }
     return ABILITY_DATA;
+  }
+
+  get martDatas() {
+    switch (this.gameVersionSubject.value) {
+      case 'orange_v3':
+        return MART_DATA_V3;
+      case 'another_red':
+        return MART_DATA_ANOTHER_RED;
+    }
+    return [];
   }
 }

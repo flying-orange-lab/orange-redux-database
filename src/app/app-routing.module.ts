@@ -5,6 +5,7 @@ import { PokedexComponent } from './menu/pokedex/pokedex.component';
 import { DefenseComponent } from './menu/defense/defense.component';
 import { WildComponent } from './menu/wild/wild.component';
 import { ItemsComponent } from './menu/items/items.component';
+import { MartComponent } from './menu/mart/mart.component';
 
 const routes: Routes = [
   { path: ':gameVersion', component: HomeComponent, data: { title: '홈' } },
@@ -27,6 +28,11 @@ const routes: Routes = [
     path: ':gameVersion/item',
     component: ItemsComponent,
     data: { title: '아이템' },
+  },
+  {
+    path: ':gameVersion/mart',
+    component: MartComponent,
+    data: { title: '프렌들리숍' },
   },
 ];
 
