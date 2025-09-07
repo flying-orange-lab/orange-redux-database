@@ -4,29 +4,38 @@ import {
   ViewChildren,
   OnInit,
   inject,
+  ElementRef,
 } from '@angular/core';
 import { WildRegionComponent } from './wild-region/wild-region.component';
 import { PokemonCatchService } from 'src/app/services/pokemon-catch.service';
 import { DataHandleService } from 'src/app/services/data-handle.service';
 import { ActivatedRoute } from '@angular/router';
 import { WildArea } from 'src/app/models/wilds.model';
+import { FormControl, ReactiveFormsModule } from '@angular/forms';
+import { map, Observable, startWith } from 'rxjs';
+import { AsyncPipe } from '@angular/common';
 
 @Component({
   selector: 'app-wild',
   templateUrl: './wild.component.html',
   styleUrls: ['./wild.component.less'],
-  imports: [WildRegionComponent],
+  imports: [ReactiveFormsModule, AsyncPipe, WildRegionComponent],
 })
 export class WildComponent implements OnInit {
   private route = inject(ActivatedRoute);
   private dataHandleService = inject(DataHandleService);
   private pokemonCatchService = inject(PokemonCatchService);
 
-  wildData?: WildArea[];
+  searchContext = new FormControl('');
+  wildData: WildArea[] = [];
+  filteredWildData$!: Observable<{ index: number; value: WildArea }[]>;
   pokemonCatchStatus: Record<number, boolean> = {};
 
   @ViewChildren(WildRegionComponent)
   wildRegionComponents!: QueryList<WildRegionComponent>;
+
+  @ViewChildren(WildRegionComponent, { read: ElementRef })
+  private wildRegionRef!: QueryList<ElementRef>;
 
   ngOnInit(): void {
     this.pokemonCatchService.init();
@@ -34,17 +43,38 @@ export class WildComponent implements OnInit {
     // 데이터 처리
     this.wildData = this.dataHandleService.wildDatas;
 
+    this.filteredWildData$ = this.searchContext.valueChanges.pipe(
+      startWith(''),
+      map((value) => this._filter(value || '')),
+    );
+
     // 모든 포켓몬의 포획 상태를 한 번에 불러옴
-    this.loadAllPokemonCatchStatus();
+    if (this.wildData) {
+      this.loadAllPokemonCatchStatus();
+    }
   }
 
-  toggleChild(index: number): void {
-    // QueryList는 배열처럼 인덱스로 접근 가능합니다.
-    const component = this.wildRegionComponents.get(index);
-    if (component) {
-      component.toggleExpanded();
-    }
-    this.scrollToSection(index);
+  private _filter(value: string) {
+    const filterValue = value.toLowerCase();
+    return this.wildData
+      .map((item, idx) => ({ index: idx, value: item }))
+      .filter((entry) => {
+        if (entry.value.locationName.toLowerCase().includes(filterValue)) {
+          return true;
+        }
+
+        for (const regionData of entry.value.regionDatas) {
+          for (const areaData of regionData.areaDatas) {
+            for (const encounter of areaData.encounters) {
+              if (encounter.name.toLowerCase().includes(filterValue)) {
+                return true;
+              }
+            }
+          }
+        }
+
+        return false;
+      });
   }
 
   async loadAllPokemonCatchStatus(): Promise<void> {
@@ -55,6 +85,15 @@ export class WildComponent implements OnInit {
     });
   }
 
+  toggleChild(index: number): void {
+    // QueryList는 배열처럼 인덱스로 접근 가능합니다.
+    const component = this.wildRegionComponents.get(index);
+    if (component) {
+      component.toggleExpanded();
+      this.scrollToSection(index);
+    }
+  }
+
   async handlePokemonCaught(event: {
     id: number;
     status: boolean;
@@ -63,35 +102,13 @@ export class WildComponent implements OnInit {
     this.pokemonCatchStatus[event.id] = event.status;
   }
 
-  // 성능 개선 필요
-  // isLocationCatchAll(index: number) {
-  //   if (!this.wildData) {
-  //     return false;
-  //   }
-  //   const elements = document.querySelectorAll(
-  //     `#location-section-${index} td.caught-status-cell`,
-  //   );
-  //   const values = new Set(
-  //     Array.from(elements).map((el) =>
-  //       parseInt((el as HTMLElement).dataset['value']!, 10),
-  //     ),
-  //   );
-  //   console.log('check');
-
-  //   for (const v of values) {
-  //     const flag = this.pokemonCatchStatus[v] === true;
-  //     if (!flag) {
-  //       return false;
-  //     }
-  //   }
-
-  //   return true;
-  // }
-
   scrollToSection(index: number): void {
-    const element = document.getElementById(`location-section-${index}`);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    const component = this.wildRegionRef.get(index);
+    if (component) {
+      component.nativeElement.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
     }
   }
 }
