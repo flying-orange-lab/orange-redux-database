@@ -1,4 +1,8 @@
-<app-header></app-header>
+<app-header
+  class="floating floating-top"
+  [isHeaderHidden]="isHeaderHidden()"
+></app-header>
 <main>
   <router-outlet></router-outlet>
 </main>
+<app-floating-button class="floating floating-bottom"></app-floating-button>
