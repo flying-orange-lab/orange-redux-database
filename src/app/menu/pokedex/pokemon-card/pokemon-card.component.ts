@@ -6,6 +6,8 @@ import {
   OnInit,
   OnDestroy,
   inject,
+  Output,
+  EventEmitter,
 } from '@angular/core';
 import { Router } from '@angular/router';
 import { DataHandleService } from 'src/app/services/data-handle.service';
@@ -30,6 +32,7 @@ export class PokemonCardComponent implements OnInit, OnDestroy, OnChanges {
 
   @Input() pokemon!: Pokemon;
   @Input() useSprite = false;
+  @Output() defenseEvent = new EventEmitter<string[]>();
   currentPokemonStats: number[] = [0, 0, 0, 0, 0, 0, 0];
   currentAbility?: PokemonAbility;
   currentAbilityIndex?: number;
@@ -164,15 +167,9 @@ export class PokemonCardComponent implements OnInit, OnDestroy, OnChanges {
     }
   }
 
-  // 방어 상성 페이지로 이동하는 함수
   goToDefensePage(types: string[]): void {
-    const gameVersion = this.dataHandleService.getGameVersion();
-    this.router.navigate([gameVersion, 'defense'], {
-      queryParams: { type: types },
-    });
+    this.defenseEvent.emit(types);
   }
-
-  // 추가적인 폼, 성별 로직 등은 이 컴포넌트 내부에 구현됩니다.
 
   ngOnDestroy(): void {
     if (this.currentImageUrl) {

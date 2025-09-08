@@ -8,29 +8,25 @@
         [ngClass]="'type-' + typeKey"
         (click)="selectType(typeKey)"
       >
-        {{ typeData[typeKey] }}
+        {{ selectLabelDisplay[typeKey] }}
       </button>
     }
   </div>
-  <button
-    class="clear-button"
-    id="clearSelectionButton"
-    (click)="clearSelection()"
-  >
+  <button class="clear-button" id="clearSelectionButton" (click)="clearType()">
     초기화
   </button>
 </section>
 
 <section class="result-section">
   <h2>방어 상성 결과</h2>
-  @for (label of resultLabel; track label) {
+  @for (label of resultLabelDisplay; track label) {
     @if (calculatedResults[label] && calculatedResults[label].length) {
       <div class="type-category">
         <h3>{{ label }}</h3>
         <div class="type-grid">
-          @for (item of calculatedResults[label]; track $index) {
-            <div class="type-item selected" [ngClass]="'type-' + item.typeKey">
-              {{ item.type }}
+          @for (typeKey of calculatedResults[label]; track $index) {
+            <div class="type-item selected" [ngClass]="'type-' + typeKey">
+              {{ selectLabelDisplay[typeKey] }}
             </div>
           }
         </div>
