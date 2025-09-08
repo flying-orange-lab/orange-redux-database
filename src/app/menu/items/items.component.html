@@ -17,9 +17,10 @@
             [class.strike-through]="
               isLocationItemTaken(itemData.index, itemData.value.itemList)
             "
-          >
-            {{ itemData.value.location }}
-          </h2>
+            [innerHTML]="
+              itemData.value.location | highlight: searchLocation.value
+            "
+          ></h2>
         </div>
 
         @if (expandedLocation === itemData.index) {
@@ -42,7 +43,9 @@
                     (click)="toggleItemStatus(itemData.index, itemIndex)"
                     [class.strike-through]="takenVar"
                   >
-                    <td>{{ item }}</td>
+                    <td
+                      [innerHTML]="item | highlight: searchLocation.value"
+                    ></td>
                     <td>
                       {{ takenVar ? "●" : "○" }}
                     </td>
