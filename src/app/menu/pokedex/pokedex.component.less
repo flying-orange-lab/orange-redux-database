@@ -161,6 +161,9 @@ main.pokedex-page {
   border-left: 1px solid #444;
   transition: right 0.4s ease-in-out;
 
+  display: flex;
+  flex-direction: column;
+
   &.active {
     right: 0;
   }
@@ -197,6 +200,8 @@ main.pokedex-page {
     }
   }
   .defense-box {
+    flex: 1;
+    overflow-y: auto;
     padding: 10px;
   }
 }
