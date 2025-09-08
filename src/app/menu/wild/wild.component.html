@@ -20,11 +20,16 @@
         [class.strike-through]=""
       >
         <div class="summary" (click)="toggleChild(i)">
-          <h2>{{ locationData.value.locationName }}</h2>
+          <h2
+            [innerHTML]="
+              locationData.value.locationName | highlight: searchContext.value
+            "
+          ></h2>
         </div>
 
         <app-wild-region
           style="scroll-margin-top: 80px"
+          [searchContext]="searchContext"
           [regionDatas]="locationData.value.regionDatas"
           [pokemonCatchStatus]="pokemonCatchStatus"
           (pokemonCaught)="handlePokemonCaught($event)"

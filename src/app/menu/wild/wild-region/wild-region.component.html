@@ -57,7 +57,10 @@
                   </svg>
                 }
               </td>
-              <td (click)="onCatchPokemon(encounter.name, true)">
+              <td
+                (click)="onCatchPokemon(encounter.name, true)"
+                [innerHTML]="encounter.name | highlight: searchContext.value"
+              >
                 {{ encounter.name }}
                 @if (encounter.extra) {
                   ({{ encounter.extra }})

@@ -6,12 +6,13 @@ import { ItemService } from 'src/app/services/item.service';
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
 import { map, Observable, startWith } from 'rxjs';
 import { AsyncPipe } from '@angular/common';
+import { HighlightPipe } from 'src/app/shared/highlight.pipe';
 
 @Component({
   selector: 'app-items',
   templateUrl: './items.component.html',
   styleUrls: ['./items.component.less'],
-  imports: [ReactiveFormsModule, AsyncPipe],
+  imports: [ReactiveFormsModule, AsyncPipe, HighlightPipe],
 })
 export class ItemsComponent implements OnInit {
   private route = inject(ActivatedRoute);

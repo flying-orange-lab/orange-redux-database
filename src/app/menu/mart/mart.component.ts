@@ -4,12 +4,13 @@ import { FormControl, ReactiveFormsModule } from '@angular/forms';
 import { map, Observable, startWith } from 'rxjs';
 import { MartItem } from 'src/app/models/mart.model';
 import { DataHandleService } from 'src/app/services/data-handle.service';
+import { HighlightPipe } from 'src/app/shared/highlight.pipe';
 
 @Component({
   selector: 'app-mart',
   templateUrl: './mart.component.html',
   styleUrl: './mart.component.less',
-  imports: [ReactiveFormsModule, AsyncPipe],
+  imports: [ReactiveFormsModule, AsyncPipe, HighlightPipe],
 })
 export class MartComponent implements OnInit {
   private dataHandleService = inject(DataHandleService);
