@@ -8,15 +8,19 @@ import {
 } from '@angular/core';
 import { PokemonService } from 'src/app/services/pokemon.service';
 import { RegionData } from 'src/app/models/wilds.model';
+import { FormControl } from '@angular/forms';
+import { HighlightPipe } from 'src/app/shared/highlight.pipe';
 
 @Component({
   selector: 'app-wild-region',
   templateUrl: './wild-region.component.html',
   styleUrls: ['./wild-region.component.less'],
+  imports: [HighlightPipe],
 })
 export class WildRegionComponent implements OnInit {
   private pokemonService = inject(PokemonService);
 
+  @Input() searchContext!: FormControl;
   @Input() regionDatas!: RegionData[];
   @Input() pokemonCatchStatus!: Record<number, boolean>;
   @Output() pokemonCaught = new EventEmitter<{ id: number; status: boolean }>();

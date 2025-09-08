@@ -14,12 +14,13 @@ import { WildArea } from 'src/app/models/wilds.model';
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
 import { map, Observable, startWith } from 'rxjs';
 import { AsyncPipe } from '@angular/common';
+import { HighlightPipe } from 'src/app/shared/highlight.pipe';
 
 @Component({
   selector: 'app-wild',
   templateUrl: './wild.component.html',
   styleUrls: ['./wild.component.less'],
-  imports: [ReactiveFormsModule, AsyncPipe, WildRegionComponent],
+  imports: [ReactiveFormsModule, AsyncPipe, WildRegionComponent, HighlightPipe],
 })
 export class WildComponent implements OnInit {
   private route = inject(ActivatedRoute);
