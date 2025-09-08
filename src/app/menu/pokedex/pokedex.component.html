@@ -19,12 +19,29 @@
     <div id="searchResults" class="pokemon-grid">
       @for (pokemon of searchResults; track pokemon.id) {
         <div class="pokemon-card-wrapper">
-          <app-pokemon-card [pokemon]="pokemon" [useSprite]="pokemonUseSprite">
+          <app-pokemon-card
+            [pokemon]="pokemon"
+            [useSprite]="pokemonUseSprite"
+            (defenseEvent)="onTypesClick($event)"
+          >
           </app-pokemon-card>
         </div>
       }
     </div>
   </section>
+
+  <div class="defense-container" [class.active]="isDefenseOpen">
+    <div class="header">
+      <div class="header-line" (click)="onTypeClose()">
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </div>
+    <div class="defense-box">
+      <app-defense></app-defense>
+    </div>
+  </div>
+
   <nav class="pagination-container">
     <ul class="pagination-list">
       <li

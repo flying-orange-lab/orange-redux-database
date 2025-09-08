@@ -1,18 +1,21 @@
-import { Component, OnInit, inject } from '@angular/core';
+import { Component, OnInit, ViewChild, inject } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { PokemonService } from '../../services/pokemon.service';
 import { DataHandleService } from 'src/app/services/data-handle.service';
 import { Pokemon } from 'src/app/models/pokemon.model';
 import { FormsModule } from '@angular/forms';
 import { PokemonCardComponent } from './pokemon-card/pokemon-card.component';
+import { DefenseComponent } from '../defense/defense.component';
+import { WindowSizeService } from 'src/app/services/window-size.service';
 
 @Component({
   selector: 'app-pokedex',
   templateUrl: './pokedex.component.html',
   styleUrls: ['./pokedex.component.less'],
-  imports: [FormsModule, PokemonCardComponent],
+  imports: [FormsModule, PokemonCardComponent, DefenseComponent],
 })
 export class PokedexComponent implements OnInit {
+  private windowSizeService = inject(WindowSizeService);
   private dataHandleService = inject(DataHandleService);
   private pokemonService = inject(PokemonService);
   private route = inject(ActivatedRoute);
@@ -24,10 +27,13 @@ export class PokedexComponent implements OnInit {
   pokemonSearchOffset = 1;
   pokemonSearchAttr?: string;
 
+  private allPokemon: Pokemon[] = [];
   searchResults: Pokemon[] = [];
   noResultsMessage = '';
 
-  private allPokemon: Pokemon[] = [];
+  isDefenseOpen = false;
+
+  @ViewChild(DefenseComponent) defenseComponent!: DefenseComponent;
 
   ngOnInit(): void {
     this.pokemonUseSprite =
@@ -98,6 +104,21 @@ export class PokedexComponent implements OnInit {
       queryParams: { gte: number }, // 페이지 번호 쿼리 파라미터 추가
       queryParamsHandling: 'merge', // 기존 파라미터(search) 유지
     });
+  }
+
+  onTypesClick(types: string[]) {
+    if (this.windowSizeService.width > 760) {
+      this.isDefenseOpen = true;
+      this.defenseComponent.initSelectType(types);
+      return;
+    }
+    const gameVersion = this.dataHandleService.getGameVersion();
+    this.router.navigate([gameVersion, 'defense'], {
+      queryParams: { type: types },
+    });
+  }
+  onTypeClose() {
+    this.isDefenseOpen = false;
   }
 
   private attrCheck(
