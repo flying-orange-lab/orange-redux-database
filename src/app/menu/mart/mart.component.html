@@ -1,5 +1,5 @@
 <section class="mart-section">
-  <h2>프렌들리숍 검색</h2>
+  <h2>상점 정보 검색</h2>
   <div class="search-controls">
     <input
       id="item-search"
@@ -30,7 +30,7 @@
                 @for (itemDetail of martData.value.items; track $index) {
                   <tr>
                     <td>{{ itemDetail.name }}</td>
-                    <td>{{ itemDetail.price || "-" }}</td>
+                    <td>{{ itemDetail.price }}</td>
                   </tr>
                 }
               </tbody>
