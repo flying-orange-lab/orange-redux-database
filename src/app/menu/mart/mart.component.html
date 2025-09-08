@@ -1,0 +1,43 @@
+<section class="mart-section">
+  <h2>상점 정보 검색</h2>
+  <div class="search-controls">
+    <input
+      id="item-search"
+      type="text"
+      placeholder="장소, 아이템을 검색"
+      [formControl]="searchContext"
+    />
+  </div>
+
+  <div class="mart-container">
+    @for (martData of filteredMartDatats$ | async; track martData.index) {
+      <div class="location-section">
+        <div class="location-header" (click)="toggleExpand(martData.index)">
+          <h2>
+            {{ martData.value.locationName }}
+          </h2>
+        </div>
+        @if (expandedLocation === martData.index) {
+          <div>
+            <table>
+              <thead>
+                <tr>
+                  <th>아이템 목록</th>
+                  <th>가격</th>
+                </tr>
+              </thead>
+              <tbody>
+                @for (itemDetail of martData.value.items; track $index) {
+                  <tr>
+                    <td>{{ itemDetail.name }}</td>
+                    <td>{{ itemDetail.price }}</td>
+                  </tr>
+                }
+              </tbody>
+            </table>
+          </div>
+        }
+      </div>
+    }
+  </div>
+</section>
