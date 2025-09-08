@@ -13,9 +13,11 @@
     @for (martData of filteredMartDatats$ | async; track martData.index) {
       <div class="location-section">
         <div class="location-header" (click)="toggleExpand(martData.index)">
-          <h2>
-            {{ martData.value.locationName }}
-          </h2>
+          <h2
+            [innerHTML]="
+              martData.value.locationName | highlight: searchContext.value
+            "
+          ></h2>
         </div>
         @if (expandedLocation === martData.index) {
           <div>
@@ -29,7 +31,11 @@
               <tbody>
                 @for (itemDetail of martData.value.items; track $index) {
                   <tr>
-                    <td>{{ itemDetail.name }}</td>
+                    <td
+                      [innerHTML]="
+                        itemDetail.name | highlight: searchContext.value
+                      "
+                    ></td>
                     <td>{{ itemDetail.price }}</td>
                   </tr>
                 }
