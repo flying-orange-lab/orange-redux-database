@@ -8,9 +8,9 @@ export class HighlightPipe implements PipeTransform {
   private sanitizer = inject(DomSanitizer);
 
   transform(value: string, searchContext: string | null): SafeHtml {
+    searchContext = (searchContext || '').trim();
     if (!searchContext) return value;
 
-    // 검색어를 이스케이프 후 RegExp 생성
     const re = new RegExp(`(${searchContext})`, 'gi');
     const replaced = value.replace(re, `<b class="find-context">$1</b>`);
 
