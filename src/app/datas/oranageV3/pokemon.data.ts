@@ -774,7 +774,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['water', 'psychic'],
     'abilities': ['재생력', '마이페이스', '재생력'],
     'stats': [95, 85, 110, 100, 80, 30, 500],
-    'evolutionCondition': '야돈(원종) (레벨 33)',
+    'evolutionCondition': '야돈 (분홍♀) (레벨 33)',
   },
   {
     'id': 81,
