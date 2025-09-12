@@ -12,13 +12,11 @@ export interface TakenItem {
 })
 export class ItemService extends Dexie {
   private dataHandleService = inject(DataHandleService);
+  private _initPromise?: Promise<void>;
   takenItems!: Dexie.Table<TakenItem, [number, number]>;
 
   constructor() {
     super('ItemDB');
-  }
-
-  async init() {
     this.version(2)
       .stores({
         takenItems: '[locationIndex+itemIndex]',
@@ -34,10 +32,17 @@ export class ItemService extends Dexie {
           }
         }
       });
+  }
 
-    const prefix = this.dataHandleService.DBprefix;
-    this.takenItems = this.table(`${prefix}takenItems`);
-    await this.open();
+  async init() {
+    if (!this._initPromise) {
+      this._initPromise = (async () => {
+        const prefix = this.dataHandleService.DBprefix;
+        this.takenItems = this.table(`${prefix}takenItems`);
+        await this.open();
+      })();
+    }
+    return this._initPromise;
   }
 
   /**

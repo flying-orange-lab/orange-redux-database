@@ -12,13 +12,12 @@ interface Catch {
 })
 export class PokemonCatchService extends Dexie {
   private dataHandleService = inject(DataHandleService);
+  private _initPromise?: Promise<void>;
   pokemonCatch!: Dexie.Table<Catch, number>;
 
   constructor() {
     super('PokemonCatchDB');
-  }
 
-  async init() {
     this.version(2)
       .stores({
         gotcha: 'id',
@@ -34,10 +33,17 @@ export class PokemonCatchService extends Dexie {
           }
         }
       });
+  }
 
-    const prefix = this.dataHandleService.DBprefix;
-    this.pokemonCatch = this.table(`${prefix}gotcha`);
-    await this.open();
+  async init() {
+    if (!this._initPromise) {
+      this._initPromise = (async () => {
+        const prefix = this.dataHandleService.DBprefix;
+        this.pokemonCatch = this.table(`${prefix}gotcha`);
+        await this.open();
+      })();
+    }
+    return this._initPromise;
   }
 
   async catchPokemon(id: number, status: boolean) {
