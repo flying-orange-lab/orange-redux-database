@@ -1,40 +1,25 @@
+@import "_base-section.less";
+
 section {
   max-width: 900px;
   margin: 0 auto;
 }
 
 .wild-section {
-  background-color: #fff;
-  padding: 25px 10px 10px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 30px;
-  min-width: 300px;
+  &:extend(.base-section);
 
   h2 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
-    color: #333;
-    text-align: center;
+    &:extend(.base-section-h2);
   }
 
   .search-controls {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 20px;
+    &:extend(.base-section-search-control);
 
     input#item-search {
-      width: 70%;
-      padding: 12px 15px;
-      border: 2px solid #ddd;
-      border-radius: 8px;
-      font-size: 1.1em;
-      outline: none;
-      transition: border-color 0.3s;
+      &:extend(.base-section-search-input);
     }
     input#item-search:focus {
-      border-color: #007bff;
+      &:extend(.base-section-search-input:focus);
     }
   }
 }
@@ -56,14 +41,4 @@ section {
     color: #333;
     margin: 0;
   }
-}
-
-.summary {
-  text-align: center;
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 5px;
-  background-color: #e0f2f7;
-  /* 연한 파란색 배경 */
-  border-radius: 8px;
 }

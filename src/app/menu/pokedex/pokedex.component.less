@@ -1,4 +1,5 @@
-/* --- Pokedex Page Styles --- */
+@import "_base-section.less";
+
 main.pokedex-page {
   max-width: 900px; /* 페이지 최대 너비 설정 */
   margin: 0 auto; /* 중앙 정렬 */
@@ -7,56 +8,38 @@ main.pokedex-page {
 }
 
 .search-section {
-  background-color: #ffffff;
+  &:extend(.base-section);
   padding: 25px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 30px;
-  min-width: 300px;
-}
 
-.search-section h2 {
-  font-size: 1.5em;
-  margin-bottom: 20px;
-  color: #333;
-  text-align: center;
-}
+  h2 {
+    &:extend(.base-section-h2);
+  }
+  .search-controls {
+    &:extend(.base-section-search-control);
 
-.search-controls {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-bottom: 20px;
-}
+    input#pokemon-search {
+      &:extend(.base-section-search-input);
+      max-width: 400px;
+    }
+    input#pokemon-search:focus {
+      &:extend(.base-section-search-input:focus);
+    }
 
-#pokemonSearchInput {
-  width: 70%;
-  max-width: 400px;
-  padding: 12px 15px;
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  font-size: 1.1em;
-  outline: none;
-  transition: border-color 0.3s;
-}
+    #searchButton {
+      padding: 12px 25px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.1em;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
 
-#pokemonSearchInput:focus {
-  border-color: #007bff;
-}
-
-#searchButton {
-  padding: 12px 25px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  font-size: 1.1em;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-#searchButton:hover {
-  background-color: #0056b3;
+    #searchButton:hover {
+      background-color: #0056b3;
+    }
+  }
 }
 
 .pokemon-grid {

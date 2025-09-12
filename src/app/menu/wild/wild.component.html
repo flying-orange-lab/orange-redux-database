@@ -14,12 +14,8 @@
       track locationData.index;
       let i = $index
     ) {
-      <div
-        class="location-section"
-        [id]="'location-section-' + locationData.index"
-        [class.strike-through]=""
-      >
-        <div class="summary" (click)="toggleChild(i)">
+      <div class="location-section">
+        <div class="location-header" (click)="toggleChild(i)">
           <h2
             [innerHTML]="
               locationData.value.locationName | highlight: searchContext.value
