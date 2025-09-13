@@ -3526,6 +3526,133 @@ export const POKEMON_WILDS_V3: WildArea[] = [
     ],
   },
   {
+    'locationName': '16번도로',
+    'regionDatas': [
+      {
+        'locationStatus': '기본',
+        'areaDatas': [
+          {
+            'area': '풀숲',
+            'encounters': [
+              {
+                'name': '유니란',
+                'minLv': 27,
+                'maxLv': 29,
+                'rate': 20,
+              },
+              {
+                'name': '고디탱',
+                'minLv': 27,
+                'maxLv': 29,
+                'rate': 20,
+              },
+              {
+                'name': '어둠대신',
+                'minLv': 27,
+                'maxLv': 29,
+                'rate': 20,
+              },
+              {
+                'name': '태우지네',
+                'minLv': 27,
+                'maxLv': 29,
+                'rate': 10,
+              },
+              {
+                'name': '니드리나',
+                'minLv': 27,
+                'maxLv': 29,
+                'rate': 10,
+              },
+              {
+                'name': '치라미',
+                'minLv': 27,
+                'maxLv': 29,
+                'rate': 9,
+              },
+              {
+                'name': '내루미',
+                'minLv': 27,
+                'maxLv': 29,
+                'rate': 9,
+              },
+              {
+                'name': '모으령',
+                'minLv': 27,
+                'maxLv': 29,
+                'rate': 2,
+              },
+            ],
+          },
+          {
+            'area': '흔들리는 풀숲',
+            'encounters': [
+              {
+                'name': '다부니',
+                'minLv': 27,
+                'maxLv': 30,
+                'rate': 80,
+              },
+              {
+                'name': '내룸벨트',
+                'minLv': 27,
+                'maxLv': 30,
+                'rate': 10,
+              },
+              {
+                'name': '치라치노',
+                'minLv': 27,
+                'maxLv': 30,
+                'rate': 10,
+              },
+            ],
+          },
+          {
+            'area': '색이 진한 풀숲',
+            'encounters': [
+              {
+                'name': '쟝고',
+                'minLv': 27,
+                'maxLv': 30,
+                'rate': 20,
+              },
+              {
+                'name': '세비퍼',
+                'minLv': 27,
+                'maxLv': 30,
+                'rate': 20,
+              },
+              {
+                'name': '딱정곤',
+                'minLv': 27,
+                'maxLv': 30,
+                'rate': 20,
+              },
+              {
+                'name': '쪼마리',
+                'minLv': 27,
+                'maxLv': 30,
+                'rate': 20,
+              },
+              {
+                'name': '앱솔',
+                'minLv': 27,
+                'maxLv': 30,
+                'rate': 10,
+              },
+              {
+                'name': '페라페',
+                'minLv': 27,
+                'maxLv': 30,
+                'rate': 10,
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
     'locationName': '미혹의 숲',
     'regionDatas': [
       {
@@ -8599,7 +8726,7 @@ export const POKEMON_WILDS_V3: WildArea[] = [
                 'rate': 20,
               },
               {
-                'name': '######',
+                'name': '스완나',
                 'minLv': 47,
                 'maxLv': 49,
                 'rate': 10,
@@ -8670,7 +8797,7 @@ export const POKEMON_WILDS_V3: WildArea[] = [
             'area': '파도타기: 수면의 그림자',
             'encounters': [
               {
-                'name': '######',
+                'name': '스완나',
                 'minLv': 42,
                 'maxLv': 48,
                 'rate': 60,
@@ -13028,6 +13155,279 @@ export const POKEMON_WILDS_V3: WildArea[] = [
                 'minLv': 70,
                 'maxLv': 70,
                 'rate': 10,
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    'locationName': '지하유적 (야콘로드 심부)',
+    'regionDatas': [
+      {
+        'locationStatus': '기본',
+        'areaDatas': [
+          {
+            'area': '동굴',
+            'encounters': [
+              {
+                'name': '스태솔트',
+                'minLv': 66,
+                'maxLv': 66,
+                'rate': 20,
+              },
+              {
+                'name': '골뱃',
+                'minLv': 66,
+                'maxLv': 66,
+                'rate': 20,
+              },
+              {
+                'name': '고지(알로라)',
+                'minLv': 67,
+                'maxLv': 67,
+                'rate': 10,
+              },
+              {
+                'name': '갱도라',
+                'minLv': 66,
+                'maxLv': 66,
+                'rate': 10,
+              },
+              {
+                'name': '아이앤트',
+                'minLv': 68,
+                'maxLv': 68,
+                'rate': 10,
+              },
+              {
+                'name': '데스마스',
+                'minLv': 67,
+                'maxLv': 67,
+                'rate': 10,
+              },
+              {
+                'name': '루나톤',
+                'minLv': 68,
+                'maxLv': 68,
+                'rate': 5,
+              },
+              {
+                'name': '솔록',
+                'minLv': 68,
+                'maxLv': 68,
+                'rate': 5,
+              },
+              {
+                'name': '점토도리',
+                'minLv': 67,
+                'maxLv': 67,
+                'rate': 4,
+              },
+              {
+                'name': '미라몽',
+                'minLv': 67,
+                'maxLv': 67,
+                'rate': 4,
+              },
+              {
+                'name': '점토도리',
+                'minLv': 69,
+                'maxLv': 69,
+                'rate': 1,
+              },
+              {
+                'name': '미라몽',
+                'minLv': 69,
+                'maxLv': 69,
+                'rate': 1,
+              },
+            ],
+          },
+          {
+            'area': '모래먼지',
+            'encounters': [
+              {
+                'name': '몰드류',
+                'minLv': 69,
+                'maxLv': 69,
+                'rate': 75,
+              },
+              {
+                'name': '데스니칸',
+                'minLv': 67,
+                'maxLv': 67,
+                'rate': 20,
+              },
+              {
+                'name': '데스판',
+                'minLv': 70,
+                'maxLv': 70,
+                'rate': 5,
+              },
+            ],
+          },
+          {
+            'area': '동굴 (레지 시리즈 방)',
+            'encounters': [
+              {
+                'name': '스태솔트',
+                'minLv': 67,
+                'maxLv': 67,
+                'rate': 20,
+              },
+              {
+                'name': '골뱃',
+                'minLv': 67,
+                'maxLv': 67,
+                'rate': 20,
+              },
+              {
+                'name': '고지(알로라)',
+                'minLv': 68,
+                'maxLv': 68,
+                'rate': 10,
+              },
+              {
+                'name': '갱도라',
+                'minLv': 67,
+                'maxLv': 67,
+                'rate': 10,
+              },
+              {
+                'name': '아이앤트',
+                'minLv': 69,
+                'maxLv': 69,
+                'rate': 10,
+              },
+              {
+                'name': '코코파스',
+                'minLv': 68,
+                'maxLv': 68,
+                'rate': 10,
+              },
+              {
+                'name': '루나톤',
+                'minLv': 70,
+                'maxLv': 70,
+                'rate': 5,
+              },
+              {
+                'name': '솔록',
+                'minLv': 70,
+                'maxLv': 70,
+                'rate': 5,
+              },
+              {
+                'name': '점토도리',
+                'minLv': 68,
+                'maxLv': 68,
+                'rate': 8,
+              },
+              {
+                'name': '점토도리',
+                'minLv': 69,
+                'maxLv': 69,
+                'rate': 1,
+              },
+              {
+                'name': '점토도리',
+                'minLv': 70,
+                'maxLv': 70,
+                'rate': 1,
+              },
+            ],
+          },
+          {
+            'area': '모래먼지',
+            'encounters': [
+              {
+                'name': '몰드류',
+                'minLv': 70,
+                'maxLv': 70,
+                'rate': 75,
+              },
+              {
+                'name': '데스니칸',
+                'minLv': 68,
+                'maxLv': 68,
+                'rate': 20,
+              },
+              {
+                'name': '데스판',
+                'minLv': 70,
+                'maxLv': 70,
+                'rate': 5,
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    'locationName': '원더브리지',
+    'regionDatas': [
+      {
+        'locationStatus': '기본',
+        'areaDatas': [
+          {
+            'area': '날고 있는 포켓몬의 그림자',
+            'encounters': [
+              {
+                'name': '스완나',
+                'minLv': 68,
+                'maxLv': 68,
+                'rate': 40,
+              },
+              {
+                'name': '패리퍼',
+                'minLv': 68,
+                'maxLv': 68,
+                'rate': 10,
+              },
+              {
+                'name': '깨비드릴조',
+                'minLv': 68,
+                'maxLv': 68,
+                'rate': 10,
+              },
+              {
+                'name': '두코',
+                'minLv': 66,
+                'maxLv': 66,
+                'rate': 10,
+              },
+              {
+                'name': '피죤',
+                'minLv': 66,
+                'maxLv': 66,
+                'rate': 10,
+              },
+              {
+                'name': '둥실라이드',
+                'minLv': 67,
+                'maxLv': 67,
+                'rate': 9,
+              },
+              {
+                'name': '페라페',
+                'minLv': 67,
+                'maxLv': 67,
+                'rate': 9,
+              },
+              {
+                'name': '스완나',
+                'minLv': 70,
+                'maxLv': 70,
+                'rate': 1,
+              },
+              {
+                'name': '패리퍼',
+                'minLv': 70,
+                'maxLv': 70,
+                'rate': 1,
               },
             ],
           },
