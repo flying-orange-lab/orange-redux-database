@@ -1,15 +1,21 @@
 @if (pokemonLocations.length > 0) {
-  <div class="pokemon-location">
-    <strong>등장 위치:</strong><br />
+  <div class="extra-title">
+    <strong>등장 위치</strong>
+
+    <div
+      class="extra-floating-button fas fa-search"
+      (click)="clickExtraEvent()"
+    ></div>
+  </div>
+  <div class="extra-section">
     @for (loc of pokemonLocations; track $index) {
       <div class="location-entry">
-        <div class="prefix">·</div>
         <div class="description">
           <div class="location-name">
             {{ getLocationName(loc) }}
           </div>
           <div class="location-area">
-            {{ loc.area }} (Lv. {{ loc.minLv }}~{{ loc.maxLv }})
+            {{ loc.area }} (Lv.{{ loc.minLv }}~{{ loc.maxLv }})
           </div>
         </div>
       </div>

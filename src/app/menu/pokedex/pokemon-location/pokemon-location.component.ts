@@ -5,6 +5,9 @@ import {
   SimpleChanges,
   inject,
 } from '@angular/core';
+import { Router } from '@angular/router';
+import { PokemonLocation } from 'src/app/models/wilds.model';
+import { DataHandleService } from 'src/app/services/data-handle.service';
 import { PokemonService } from 'src/app/services/pokemon.service';
 
 @Component({
@@ -13,12 +16,14 @@ import { PokemonService } from 'src/app/services/pokemon.service';
   styleUrls: ['./pokemon-location.component.less'],
 })
 export class PokemonLocationComponent implements OnChanges {
+  private dataHandleService = inject(DataHandleService);
   private pokemonService = inject(PokemonService);
+  private router = inject(Router);
 
   @Input() pokemonName = '';
   @Input() pokemonExtra? = '';
 
-  pokemonLocations: any[] = [];
+  pokemonLocations: PokemonLocation[] = [];
 
   ngOnChanges(changes: SimpleChanges): void {
     // pokemonName 입력 값이 변경될 때마다 위치 정보를 다시 조회합니다.
@@ -44,5 +49,14 @@ export class PokemonLocationComponent implements OnChanges {
       locationName += ` - ${loc.condition}`;
     }
     return locationName;
+  }
+
+  clickExtraEvent() {
+    const gameVersion = this.dataHandleService.getGameVersion();
+    this.router.navigate([gameVersion, 'wild'], {
+      state: {
+        searchKeyword: this.pokemonName,
+      },
+    });
   }
 }

@@ -38,14 +38,24 @@ export class WildComponent implements OnInit {
   @ViewChildren(WildRegionComponent, { read: ElementRef })
   private wildRegionRef!: QueryList<ElementRef>;
 
+  constructor() {
+    if (history.state.searchKeyword) {
+      this.searchContext.patchValue(history.state.searchKeyword);
+    }
+  }
+
   ngOnInit(): void {
     this.pokemonCatchService.init();
+
+    const initKeyword = history.state.searchKeyword
+      ? history.state.searchKeyword
+      : '';
 
     // 데이터 처리
     this.wildData = this.dataHandleService.wildDatas;
 
     this.filteredWildData$ = this.searchContext.valueChanges.pipe(
-      startWith(''),
+      startWith(initKeyword),
       map((value) => this._filter(value || '')),
     );
 

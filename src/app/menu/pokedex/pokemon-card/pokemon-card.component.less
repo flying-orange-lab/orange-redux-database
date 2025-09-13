@@ -1,3 +1,5 @@
+@import "../_extra-section.less";
+
 .pokemon-card-container {
   display: flex;
   flex-direction: column;
@@ -217,22 +219,6 @@
   color: white;
   border-color: #007bff;
   font-weight: bold;
-}
-
-.pokemon-card-extra {
-  font-size: 0.85em;
-  color: #555;
-  text-align: left;
-
-  .extra-section > :not(:first-child)::before {
-    content: "·";
-    display: inline-block;
-    width: 8px;
-  }
-
-  strong {
-    color: #007bff;
-  }
 }
 
 /* 기존 타입별 배경색 (변경 없음) */
