@@ -1,0 +1,135 @@
+<div class="guide-close-button" (click)="onCloseClick()">
+  <i class="fas fa-times"></i>
+</div>
+
+<div class="pokemon-card-container">
+  <div class="pokemon-card-content">
+    <button
+      class="gender-button male-active"
+      (click)="showPopover($event, 'gender')"
+    >
+      <ng-container [ngTemplateOutlet]="helperIcon"></ng-container>
+
+      {{ "♀" }}
+    </button>
+    <div class="helper-box" style="border: 1px solid #007bff">
+      <ng-container [ngTemplateOutlet]="helperIcon"></ng-container>
+
+      <img
+        class="pokemon-image"
+        [src]="currentImageUrl"
+        (click)="showPopover($event, 'sprite')"
+      />
+    </div>
+    <div class="pokemon-info">
+      <div class="pokemon-name">{{ pokemon.koreanName || pokemon.name }}</div>
+      <div class="pokemon-id">{{ displayId }}</div>
+    </div>
+    <div
+      class="pokemon-types-container helper-box"
+      (click)="showPopover($event, 'typebtn')"
+    >
+      <ng-container [ngTemplateOutlet]="helperIcon"></ng-container>
+
+      <span class="type-badge type-normal"> 노말 </span>
+    </div>
+
+    <app-pokemon-stat
+      style="width: 100%; margin-top: 15px"
+      [pokemonStats]="currentPokemonStats"
+    ></app-pokemon-stat>
+  </div>
+
+  <div class="pokemon-ability">
+    <div
+      class="ability-name-box helper-box"
+      (click)="showPopover($event, 'ability')"
+    >
+      <ng-container [ngTemplateOutlet]="helperIcon"></ng-container>
+
+      <div class="ability-name">매직미러</div>
+      <div class="ability-name">의기양양</div>
+    </div>
+  </div>
+
+  <div
+    class="pokemon-form-buttons helper-box"
+    (click)="showPopover($event, 'form')"
+  >
+    <ng-container [ngTemplateOutlet]="helperIcon"></ng-container>
+
+    <button class="form-button">일반</button>
+    <button class="form-button">어나더폼</button>
+  </div>
+
+  <div
+    class="pokemon-card-extra helper-box"
+    (click)="showPopover($event, 'evol')"
+  >
+    <div class="extra-title">
+      <strong>
+        진화 정보
+        <ng-container [ngTemplateOutlet]="helperIconAfter"></ng-container>
+      </strong>
+    </div>
+    <div class="extra-section extra-evolution">
+      <div>진화 정보 없음</div>
+    </div>
+  </div>
+
+  <div class="pokemon-card-extra" (click)="showPopover($event, 'wilditem')">
+    <div class="extra-title">
+      <strong>
+        야생 정보
+        <ng-container [ngTemplateOutlet]="helperIconAfter"></ng-container>
+      </strong>
+    </div>
+    <div class="extra-section">
+      <div>야생 아이템 정보 없음</div>
+    </div>
+  </div>
+
+  <div class="pokemon-card-extra" (click)="showPopover($event, 'extra')">
+    <div class="extra-title">
+      <strong>
+        추가 서식 정보
+        <ng-container [ngTemplateOutlet]="helperIconAfter"></ng-container>
+      </strong>
+    </div>
+    <div class="extra-section">
+      <div>대타출동 사용 시 등장</div>
+    </div>
+  </div>
+
+  <div class="pokemon-card-extra" (click)="showPopover($event, 'wilddetail')">
+    <ng-container [ngTemplateOutlet]="helperIcon"></ng-container>
+
+    <!--app-pokemon-location-->
+    <div class="extra-title">
+      <strong
+        >등장 위치
+        <ng-container [ngTemplateOutlet]="helperIconAfter"></ng-container>
+      </strong>
+      <div
+        class="extra-floating-button fas fa-search"
+        (click)="showPopover($event, 'wilddetailbtn')"
+      ></div>
+    </div>
+    <div class="extra-section">
+      <div class="location-entry">
+        <div class="description">
+          <div class="location-name">대타출동</div>
+          <div class="location-area">전지역</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-container #popoverContainer></ng-container>
+<ng-template #helperIcon>
+  <div class="helper-button far fa-question-circle"></div>
+</ng-template>
+<ng-template #helperIconAfter>
+  <div class="helper-button-after far fa-question-circle"></div>
+</ng-template>
