@@ -6091,6 +6091,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['ghost', 'fire'],
     'abilities': ['타오르는불꽃', '불꽃몸', '그림자밟기'],
     'stats': [60, 55, 90, 145, 90, 80, 520],
+    'evolutionCondition': '램프라 (어둠의돌 사용)',
   },
   {
     'id': 610,
@@ -6100,7 +6101,6 @@ export const POKEMON_DATA_V3: Pokemon[] = [
     'types': ['dragon'],
     'abilities': ['전투무장', '틀깨기', '긴장감'],
     'stats': [46, 87, 60, 30, 40, 57, 320],
-    'evolutionCondition': '램프라 (어둠의돌 사용)',
   },
   {
     'id': 611,
@@ -6470,7 +6470,7 @@ export const POKEMON_DATA_V3: Pokemon[] = [
         'abilities': ['모래의힘', '우격다짐'],
         'stats': [89, 125, 90, 115, 80, 101, 600],
         'extra':
-          '전당등록 이후. 토네로스, 볼트로스를 지닌 포켓몬에 넣기 필요. 풍요의 사당 내부 건축물',
+          '전당등록 이후. 토네로스, 볼트로스를 지닌 포켓몬에 넣기 필요. 7번도로 민가 내부의 할머니 NPC와 대화 필요. 풍요의 사당 내부 건축물',
       },
       {
         'formName': '영물폼',
