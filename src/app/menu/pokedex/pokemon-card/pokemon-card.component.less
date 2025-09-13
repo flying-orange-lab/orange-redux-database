@@ -122,6 +122,8 @@
     display: flex;
     justify-content: center;
     gap: 4px;
+    width: fit-content;
+    margin: 0 auto;
 
     .ability-name {
       background-color: white;
@@ -192,33 +194,34 @@
   flex-wrap: wrap;
   gap: 5px;
   padding: 0;
-}
+  width: fit-content;
+  margin: 0 auto;
 
-/* 개별 폼 버튼 */
-.form-button {
-  background-color: #f0f0f0;
-  color: #333;
-  border: 1px solid #ccc;
-  padding: 5px 10px;
-  border-radius: 15px;
-  cursor: pointer;
-  font-size: 0.8em;
-  transition:
-    background-color 0.2s,
-    color 0.2s,
-    border-color 0.2s;
-  white-space: nowrap;
-}
+  .form-button {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 0.8em;
+    transition:
+      background-color 0.2s,
+      color 0.2s,
+      border-color 0.2s;
+    white-space: nowrap;
+  }
 
-.form-button:hover {
-  background-color: #e0e0e0;
-}
+  .form-button:hover {
+    background-color: #e0e0e0;
+  }
 
-.form-button.active {
-  background-color: #007bff;
-  color: white;
-  border-color: #007bff;
-  font-weight: bold;
+  .form-button.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+    font-weight: bold;
+  }
 }
 
 /* 기존 타입별 배경색 (변경 없음) */
