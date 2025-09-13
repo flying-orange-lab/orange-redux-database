@@ -7,15 +7,23 @@ import { FormsModule } from '@angular/forms';
 import { PokemonCardComponent } from './pokemon-card/pokemon-card.component';
 import { DefenseComponent } from '../defense/defense.component';
 import { WindowSizeService } from 'src/app/services/window-size.service';
+import { PokedexGuideComponent } from './pokedex-guide/pokedex-guide.component';
+import { HelperService } from 'src/app/services/helper.service';
 
 @Component({
   selector: 'app-pokedex',
   templateUrl: './pokedex.component.html',
   styleUrls: ['./pokedex.component.less'],
-  imports: [FormsModule, PokemonCardComponent, DefenseComponent],
+  imports: [
+    FormsModule,
+    PokemonCardComponent,
+    DefenseComponent,
+    PokedexGuideComponent,
+  ],
 })
 export class PokedexComponent implements OnInit {
   private windowSizeService = inject(WindowSizeService);
+  private helperService = inject(HelperService);
   private dataHandleService = inject(DataHandleService);
   private pokemonService = inject(PokemonService);
   private route = inject(ActivatedRoute);
@@ -32,10 +40,15 @@ export class PokedexComponent implements OnInit {
   noResultsMessage = '';
 
   isDefenseOpen = false;
+  isHelperOpen = false;
 
   @ViewChild(DefenseComponent) defenseComponent!: DefenseComponent;
 
   ngOnInit(): void {
+    this.helperService.helperState$.subscribe((isOpened) => {
+      this.isHelperOpen = isOpened;
+    });
+
     this.pokemonUseSprite =
       this.dataHandleService.getGameVersion() == 'orange_v3';
     // 페이지 로딩 시 모든 포켓몬 데이터 가져옴
